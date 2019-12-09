@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'DINPro-Regular';
+  src: url('../fonts/DINPro-Regular.otf');
+}
+
 html {
-  font-family: sans-serif;
+  font-family: 'DINPro-Regular', 'Ropa Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -63,6 +68,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-family: 'Quattrocento', serif;
 }
 mark {
   background-color: #ff0;
@@ -200,7 +206,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'DINPro-Regular', 'Ropa Sans', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -230,9 +236,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-family: 'Quattrocento', serif;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
