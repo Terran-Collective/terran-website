@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Panel from "../components/panel"
+import Headline from "../components/headline"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
@@ -10,8 +11,12 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Panel justification="right">
-      <div style={{maxWidth: "90%", width: "65%"}}>
-        <h1>A community of care and practice building tools for a regenerative future</h1>
+      <div style={{maxWidth: "90%", width: "60%"}}>
+        <Headline
+          title="A community of care and practice"
+          titleAccent="building tools for a regenerative future"
+          titleAccentColor="#2b80f0"
+          subtitle="What is life?" />
         <p>We are technologists, systems thinkers, entrepreneurs, activists, and artists. We are here to amplify cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons.</p>
         <button>What is Terran?</button>
         <button>What are we doing?</button>
