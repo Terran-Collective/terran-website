@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'DINPro-Bold';
+  src: url('../fonts/DINPro-Bold.otf');
+}
+
+@font-face {
   font-family: 'DINPro-Regular';
   src: url('../fonts/DINPro-Regular.otf');
 }

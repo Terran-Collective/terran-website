@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
+import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
@@ -21,12 +22,14 @@ const IndexPage = () => (
           fontFamily: 'DINPro-Light',
           lineHeight: `36px`,
           margin: `30px 0 50px`,
-          maxWidth: `550px`,
+          width: `100%`,
         }}>We are technologists, systems thinkers, entrepreneurs, activists, and artists. We are here to amplify cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons.</p>
-        <button>What is Terran?</button>
-        <button>What are we doing?</button>
-        <button>Participate</button>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <div style={{textAlign: `center`}}>
+          <Button label="What is Terran?" link="/whatisterran/"/>
+          <Button label="What are we doing?" link="/whatarewedoing/"/>
+          <Button label="Participate" link="/watershed/"/>
+        </div>
+        <div style={{ maxWidth: `300px`, margin: `1.45rem` }}>
           <Image />
         </div>
       </div>
