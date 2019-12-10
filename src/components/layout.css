@@ -3,6 +3,11 @@
   src: url('../fonts/DINPro-Regular.otf');
 }
 
+@font-face {
+  font-family: 'DINPro-Light';
+  src: url('../fonts/DINPro-Light.otf');
+}
+
 html {
   font-family: 'DINPro-Regular', 'Ropa Sans', sans-serif;
   -ms-text-size-adjust: 100%;
