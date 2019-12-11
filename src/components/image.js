@@ -36,6 +36,7 @@ import Img from "gatsby-image"
        return n.node.relativePath.includes(filename);
      });
     if (!image) { return null; }
+    console.log(image);
 
     return <Img alt={alt} sizes={image.node.childImageSharp.sizes} />
 }
