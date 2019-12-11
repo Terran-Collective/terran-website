@@ -30,7 +30,7 @@ const IndexPage = () => (
           <Button label="Participate" link="/watershed/"/>
         </div>
         <div style={{ maxWidth: `300px`, margin: `1.45rem` }}>
-          <Image />
+          <Image filename="biota_sources/seqouia sempervirens.jpg" alt="Seqouia" />
         </div>
       </div>
     </Panel>
