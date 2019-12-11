@@ -4,11 +4,7 @@ import React from "react"
 import logo from "../images/logos/terran_collective_logo_blue.svg"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header>
     <div
       style={{
         display: `flex`,
@@ -16,7 +12,9 @@ const Header = ({ siteTitle }) => (
         alignItems: `center`,
         margin: `0 auto`,
         padding: `20px`,
-        width: `100%`
+        position: `absolute`,
+        width: `100%`,
+        zIndex: `2`,
       }}
     >
       <h1 style={{ margin: 0, height: "35px" }}>

@@ -7,33 +7,45 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import hero from "../images/home/home_hero2x.jpg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Panel justification="right">
-      <div style={{maxWidth: "90%", width: "50%"}}>
-        <Headline
-          title="A community of care and practice"
-          titleAccent="building tools for a regenerative future"
-          titleAccentColor="#2b80f0"
-          subtitle="What is life?" />
-        <p style={{
-          fontFamily: 'DINPro-Light',
-          lineHeight: `36px`,
-          margin: `30px 0 50px`,
-          width: `100%`,
-        }}>We are technologists, systems thinkers, entrepreneurs, activists, and artists. We are here to amplify cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons.</p>
-        <div style={{textAlign: `center`}}>
-          <Button label="What is Terran?" link="/whatisterran/"/>
-          <Button label="What are we doing?" link="/whatarewedoing/"/>
-          <Button label="Participate" link="/watershed/"/>
+    <div style={{
+      background: `url(${hero})`,
+      backgroundPosition: `center right`,
+      backgroundSize: `60%`,
+      backgroundRepeat: `no-repeat`,
+      height: `100vh`,
+      paddingTop: `100px`,
+      paddingLeft: `50px`,
+      width: `100%`,
+    }}>
+      <Panel justification="right">
+        <div style={{maxWidth: "90%", width: "50%"}}>
+          <Headline
+            title="A community of care and practice"
+            titleAccent="building tools for a regenerative future"
+            titleAccentColor="#2b80f0"
+            subtitle="What is life?" />
+          <p style={{
+            fontFamily: 'DINPro-Light',
+            lineHeight: `36px`,
+            margin: `30px 0 50px`,
+            width: `100%`,
+          }}>We are technologists, systems thinkers, entrepreneurs, activists, and artists. We are here to amplify cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons.</p>
+          <div style={{textAlign: `center`}}>
+            <Button label="What is Terran?" link="/whatisterran/"/>
+            <Button label="What are we doing?" link="/whatarewedoing/"/>
+            <Button label="Participate" link="/watershed/"/>
+          </div>
         </div>
-        <div style={{ maxWidth: `300px`, margin: `1.45rem` }}>
-          <Image filename="biota_sources/seqouia sempervirens.jpg" alt="Seqouia" />
-        </div>
-      </div>
-    </Panel>
+      </Panel>
+    </div>
+    <div style={{ maxWidth: `300px`, margin: `1.45rem` }}>
+      <Image filename="biota_sources/seqouia sempervirens.jpg" alt="Seqouia" />
+    </div>
     <Link to="/page-2/">Go to page 2</Link>
     <Link to="/whatarewedoing/">What Are We Doing?</Link>
   </Layout>

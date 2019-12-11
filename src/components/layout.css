@@ -215,6 +215,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  background-color: #fffff9;
   color: hsla(0, 0%, 0%, 0.8);
   font-family: 'DINPro-Regular', 'Ropa Sans', sans-serif;
   font-weight: normal;
