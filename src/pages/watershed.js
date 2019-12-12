@@ -6,6 +6,7 @@ import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
+import SEO from "../components/seo"
 
 const watershed = () => (
   <Layout>

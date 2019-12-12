@@ -35,8 +35,8 @@ const IndexPage = () => (
             width: `100%`,
           }}>We are technologists, systems thinkers, entrepreneurs, activists, and artists. We are here to amplify cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons.</p>
           <div style={{textAlign: `center`}}>
-            <Button label="What is Terran?" link="/whatisterran/"/>
-            <Button label="What are we doing?" link="/whatarewedoing/"/>
+            <Button label="What is Terran?" link="/what-is-terran/"/>
+            <Button label="What are we doing?" link="/what-are-we-doing/"/>
             <Button label="Participate" link="/watershed/"/>
           </div>
         </div>
