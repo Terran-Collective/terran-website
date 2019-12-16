@@ -5,6 +5,7 @@ const Headline = ({ title, titleAccent, titleAccentColor, subtitle, size, justif
   <div
     style={{
       textAlign: justification,
+      marginBottom: `30px`,
     }}
   >
     <h3 style={{

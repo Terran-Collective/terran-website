@@ -30,6 +30,7 @@ const Panel = ({ children, justification, background }) => {
         display: `flex`,
         justifyContent: justification,
         maxWidth: `100%`,
+        margin: `50px`,
         padding: `50px 25px`,
       }}>
         {children}
@@ -39,7 +40,7 @@ const Panel = ({ children, justification, background }) => {
 
 Panel.propTypes = {
   children: PropTypes.node.isRequired,
-  justification: PropTypes.string.isRequired,
+  justification: PropTypes.string,
   background: PropTypes.string
 }
 

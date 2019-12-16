@@ -13,7 +13,7 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
- const Image = ({ filename, alt }) => {
+ const Image = ({ filename, alt, showCaption }) => {
    const data = useStaticQuery(graphql`
        query {
          images: allFile {
@@ -36,9 +36,13 @@ import Img from "gatsby-image"
        return n.node.relativePath.includes(filename);
      });
     if (!image) { return null; }
-    console.log(image);
 
-    return <Img alt={alt} sizes={image.node.childImageSharp.sizes} />
+    return (
+    <figure style={{textAlign: `center`}}>
+      <Img alt={alt} sizes={image.node.childImageSharp.sizes} />
+      <figcaption style={{margin: `0 auto`, opacity: `.4`, fontStyle: `italic`}}>{showCaption ? alt : ``}</figcaption>
+    </figure>
+    )
 }
 
 export default Image
