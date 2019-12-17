@@ -2,6 +2,9 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from "../images/logos/terran_collective_logo_blue.svg"
+import Menu from "./menu"
+import menuToggleHamburger from "../images/icon/menu_hamburger.svg"
+import menuToggleX from "../images/icon/menu_x.svg"
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -28,7 +31,16 @@ const Header = ({ siteTitle }) => (
           <img src={logo} alt="Terran Collective" />
         </Link>
       </h1>
-      <div>|||</div>
+      <div class="menuWrapper">
+        <button class="menuToggle">
+            <img src={menuToggleHamburger} alt="Open menu icon" class="openMenu" />
+            <img src={menuToggleX} alt="Close menu icon"class="closeMenu" />
+        </button>
+        <div class="menuBg"></div>
+        <div class="menuContainer">
+          <Menu/>
+        </div>
+      </div>
     </div>
   </header>
 )

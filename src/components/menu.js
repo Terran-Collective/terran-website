@@ -1,10 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from "../images/logos/terran_collective_logo_blue.svg"
+import logoWhite from "../images/logos/terran_collective_logo_white.svg"
 
 const Menu = ({ siteTitle }) => (
   <div className="menu">
+    <img src={logoWhite} alt="Terran Collective" />
     <ul>
       <li>
         <h3>
