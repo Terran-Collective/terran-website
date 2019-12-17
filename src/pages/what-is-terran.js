@@ -22,84 +22,106 @@ const WhatIsTerranPage = () => (
       paddingLeft: `50px`,
       width: `100%`,
     }}>
-      <Panel>
+      <Panel justification="center">
         <div style={{maxWidth: "90%", width: "50%"}}>
           <div style={{
-            maxWidth: "600px",
-            margin: "0 auto"
+            maxWidth: "800px",
+            margin: "200px auto 0"
           }}>
           <Headline
             title="We are a collective of people with a common vision of a world in balance"
-            subtitle="WHAT IS TERRAN?"/>
-            <p>We are a small band of humans based in the Bay Area navigating towards a way of life in balance with all people and all of nature. Our collective work is to design and practice this way of life as a necessary step to bring about the more beautiful world our hearts know is possible.</p>
+            subtitle="WHAT IS TERRAN?"
+            subtitleColor="#0080f8"
+            justification="center" />
+            <p style={{
+              fontFamily: 'DINPro-Light',
+              lineHeight: `40px`,
+              margin: `30px 0`,
+              width: `100%`,
+            }}>We are a small band of humans based in the Bay Area navigating towards a way of life in balance with all people and all of nature. Our collective work is to design and practice this way of life as a necessary step to bring about the more beautiful world our hearts know is possible.</p>
             <div style={{textAlign: `center`}}>
-              <Button label="Vision & mission" link="#visionandmission"/>
-              <Button label="Core beliefs" link="#corebeliefs"/>
-              <Button label="The people of the collective" link="#team"/>
+              <Button label="Vision & Mission" link="/what-is-terran/#visionandmission" color="#0080f8" />
+              <Button label="Core Beliefs" link="/what-is-terran/#corebeliefs" color="#0080f8" />
+              <Button label="The People of the Collective" link="/what-is-terran/#team" color="#0080f8" />
             </div>
           </div>
         </div>
       </Panel>
     </div>
-    <Panel>
-      <div style={{ maxWidth: `50%`, margin: `0` }}>
-        <Image filename="what_is/what_is_eschscholzia_californica2x.jpg" alt="Eschscholzia Californica" />
+    <Panel justification="space-between" bleed="true">
+      <div style={{ maxWidth: `50%`, width: `500px`, margin: `0`, display: "inline-block" }}>
+        <Image filename="what_is/what_is_eschscholzia_californica2x.jpg" alt="Eschscholzia californica" showCaption="true" />
       </div>
-      <div>
+      <div style={{ maxWidth: `40%`, display: "inline-block", margin: `25px 150px 0 0` }}>
         <Headline
           title="We learn from nature"
-          subtitle="OVERVIEW" />
-          <p>Terran Collective is a living system and we learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
-          <p>Relating in these new and remembered ways provides the laboratory through which we research and experiment with co-creating bioregional collective intelligence. Ultimately, we want to help people coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis.</p>
+          subtitle="OVERVIEW"
+          subtitleColor="#0080f8" />
+          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>Terran Collective is a living system and we learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
+          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>Relating in these new and remembered ways provides the laboratory through which we research and experiment with co-creating bioregional collective intelligence. Ultimately, we want to help people coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis.</p>
+          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>The current economic systems have divided us from each other and the more-than-human community, systematically turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money. Our theory of change is that a regenerative civilization requires bringing trust back to our relationships, disintermediating the market from our personal lives, and embracing community as a radical way to be in solidarity and care for each other.</p>
       </div>
     </Panel>
-    <Panel>
-      <Image filename="what_is/what_is_vaccinium_ovatum_left2x.jpg" alt="Vaccinium ovatum" />
-      <Image filename="what_is/what_is_vaccinium_ovatum_right2x.jpg" alt="Vaccinium ovatum" />
-      <div>
+    <Panel justification="space-between" bleed="true">
+      <div style={{ width: `300px`, margin: `0`, display: "inline-block" }}>
+        <Image filename="what_is/what_is_vaccinium_ovatum_left2x.jpg" alt="Vaccinium ovatum" showCaption="true" />
+      </div>
+      <div style={{ maxWidth: `40%`, width: `550px`, display: "inline-block", margin: `25px` }}>
         <Headline
           title="All Beings Thriving"
-          subtitle="WORKING TOWARDS" />
-        <p><strong>What is thriving?</strong> We hold a vision of a world in which all beings can <strong>thrive</strong>. Not a world free of suffering or lack, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet. </p>
-        <p>We refer to <strong>all beings</strong> because we believe achieving this goal requires a shift away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with. </p>
+          subtitle="WORKING TOWARDS"
+          subtitleColor="#0080f8"
+          justification="center"
+          size="jumbo" />
+        <p style={{opacity: `.7`, lineHeight: `1.5`, marginTop: `50px`, color: `#171615`}}><strong>What is thriving?</strong> We hold a vision of a world in which all beings can <strong>thrive</strong>. Not a world free of suffering or lack, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet. </p>
+        <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We refer to <strong>all beings</strong> because we believe achieving this goal requires a shift away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with. </p>
+      </div>
+      <div style={{ maxWidth: `30%`, width: `300px`, margin: `0`, display: "inline-block" }}>
+        <Image filename="what_is/what_is_vaccinium_ovatum_right2x.jpg" alt="Vaccinium ovatum" />
       </div>
     </Panel>
-    <Panel>
+    <Panel justification="center">
+      <div style={{ maxWidth: `95%`, width: `600px`, margin: `0 0 50px` }}>
           <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus Americanus Californiensis" />
+      </div>
     </Panel>
-    <Panel>
-      <Headline
-        title="We are building tools to reinforce healthy relationships at every level"
-        subtitle="WHOLE & HEALTHY SYSTEMS" />
-
-      <Image filename="what_is/what_is_mission_diagram2x.jpg" alt="Terran Collective's mission"/>
+    <Panel justification="center">
+      <div>
+        <Headline
+          title="We are building tools to reinforce healthy relationships at every level"
+          subtitle="WHOLE & HEALTHY SYSTEMS"
+          justification="center" />
+        <div style={{ maxWidth: `100%`, width: `100%`, margin: `0` }}>
+          <Image filename="what_is/what_is_mission_diagram2x.jpg" alt="Terran Collective's mission"/>
+        </div>
+      </div>
     </Panel>
-    <Panel>
-      <Headline
-        title="Our Core Beliefs"/>
-      <p>We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
-
-      <ul>
-        <li>
-          <Image filename="what_is/what_is_core_12x.jpg" alt="Interbeing" />
-          <h2>Interbeing</h2>
-          <span>Sequoia sempervirens</span>
-          <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know. </p>
-        </li>
-        <li>
-          <Image filename="what_is/what_is" alt="" />
-          <h2>Abundance</h2>
-          <span>Vitis californica</span>
-          <p>There is enough for all, on this incredible Spaceship Earth we call home. We have all the resources needed for all beings to have what they need to thrive on this planet, if only we commit ourselves to that goal. </p>
-        </li>
-        <li>
-          <Image filename="what_is/what_is" alt="" />
-          <h2>Agency</h2>
-          <span>Buteo jamaicensis</span>
-          <p>Despite the many existential crises we face as a species, there is hope! We have the ability to choose our story, to design a new path for ourselves and humanity, and to decide how we want to live together on this planet.</p>
-        </li>
-      </ul>
-
+    <Panel justification="center">
+      <div>
+        <Headline
+          title="Our Core Beliefs"/>
+        <p>We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
+        <ul>
+          <li>
+            <Image filename="what_is/what_is_core_12x.jpg" alt="Interbeing" />
+            <h2>Interbeing</h2>
+            <span>Sequoia sempervirens</span>
+            <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know. </p>
+          </li>
+          <li>
+            <Image filename="what_is/what_is_core_22x.jpg" alt="Abundance" />
+            <h2>Abundance</h2>
+            <span>Vitis californica</span>
+            <p>There is enough for all, on this incredible Spaceship Earth we call home. We have all the resources needed for all beings to have what they need to thrive on this planet, if only we commit ourselves to that goal. </p>
+          </li>
+          <li>
+            <Image filename="what_is/what_is_core_32x.jpg" alt="Agency" />
+            <h2>Agency</h2>
+            <span>Buteo jamaicensis</span>
+            <p>Despite the many existential crises we face as a species, there is hope! We have the ability to choose our story, to design a new path for ourselves and humanity, and to decide how we want to live together on this planet.</p>
+          </li>
+        </ul>
+      </div>
     </Panel>
     <Panel>
       <Image filename="what_is/what_is_vision_diagram2x.jpg" alt="Terran Collective's Vision: All beings thriving with each other and the planet" />
@@ -180,8 +202,6 @@ const WhatIsTerranPage = () => (
           </li>
         </ul>
     </Panel>
-    <Link to="/page-2/">Go to page 2</Link>
-    <Link to="/whatarewedoing/">What Are We Doing?</Link>
   </Layout>
 )
 

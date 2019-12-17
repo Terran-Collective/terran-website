@@ -29,7 +29,7 @@ const IndexPage = () => (
             titleAccentColor="#2b80f0" />
           <p style={{
             fontFamily: 'DINPro-Light',
-            lineHeight: `36px`,
+            lineHeight: `40px`,
             margin: `30px 0 50px`,
             width: `100%`,
           }}>We are technologists, systems thinkers, entrepreneurs, activists, and artists. We are here to amplify cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons.</p>
