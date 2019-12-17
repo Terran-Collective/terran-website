@@ -33,10 +33,10 @@ const IndexPage = () => (
     </div>
     <div>
       <Panel justification="center">
-        <div class="two_columns_left_image">
+        <div class="twoColumnsLeftImage">
           <Image filename="home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" showCaption="true" />
         </div>
-        <div class="two_columns_right_text">
+        <div class="twoColumnsRightText">
           <Headline
             title="Terran Collective is"
             titleAccent="a living system"

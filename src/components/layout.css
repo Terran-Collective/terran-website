@@ -804,14 +804,23 @@ footer {
   width: 100%;
 }
 
-.two_columns_left_image {
+.flexPanel {
+  align-items: center;
+  display: flex;
+  max-width: 100%;
+  margin: 0;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.twoColumnsLeftImage {
    width: 450px;
    max-width: 50%;
    margin: 25px;
    display: inline-block;
 }
 
-.two_columns_right_text {
+.twoColumnsRightText {
   max-width: 40%;
   margin: 25px;
   display: inline-block;
@@ -838,10 +847,31 @@ footer {
 
   .homeHero {
     width: 100%;
+    transform: translateY(0);
+    position: relative;
+    padding-bottom: 50px;
   }
 
   .homeHeroPanel {
     background-size: 100%;
     padding-left: 0;
+    height: 100%;
+  }
+
+  .homeHeroPanel p, .homeHeroPanel h1 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .twoColumnsLeftImage {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .twoColumnsRightText {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 90%;
   }
 }

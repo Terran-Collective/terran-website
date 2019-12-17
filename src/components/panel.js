@@ -24,16 +24,10 @@ const Panel = ({ children, justification, background, bleed }) => {
   }
 
   return (
-    <div
-      style={{
-        alignItems: `center`,
-        background: `url(${background}) center ${bgJustification} no-repeat contain`,
-        display: `flex`,
-        justifyContent: justification,
-        maxWidth: `100%`,
-        margin: bleed ? `0` : `0 50px`,
-        padding: bleed ? `0` : `0 25px`,
-      }}>
+    <div class="flexPanel" style={{
+      background: `url(${background}) center ${bgJustification} no-repeat contain`,
+      justifyContent: justification,
+    }}>
         {children}
     </div>
   )
