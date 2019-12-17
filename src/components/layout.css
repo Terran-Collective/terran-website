@@ -629,6 +629,75 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+footer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.menu {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 100px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.menu a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.menu .acknowledgments a {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu ul h3 {
+  font-size: 20px;
+}
+
+.menu ul ul {
+  display: block;
+  margin-left: 0;
+}
+
+.menu ul li {
+  margin: 30px;
+  width: 230px;
+}
+
+.menu ul li ul li {
+  margin: 15px;
+}
+
+.holonBlueprint {
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: .3;
+}
+
+.acknowledgments {
+  max-width: 1024px;
+  padding: 0 50px;
+  opacity: .3;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
