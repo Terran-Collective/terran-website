@@ -13,8 +13,6 @@ import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
 
-// /logos/terran_collective_logo_blue.svg
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -34,8 +32,7 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
           maxWidth: `100%`,
           padding: `0px`,
-        }}
-      >
+        }}>
         <main>{children}</main>
         <Footer/>
       </div>

@@ -6,7 +6,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const Panel = ({ children, justification, background }) => {
+const Panel = ({ children, justification, background, bleed }) => {
   let bgJustification;
 
   switch (justification) {
@@ -26,12 +26,13 @@ const Panel = ({ children, justification, background }) => {
   return (
     <div
       style={{
+        alignItems: `center`,
         background: `url(${background}) center ${bgJustification} no-repeat contain`,
         display: `flex`,
         justifyContent: justification,
         maxWidth: `100%`,
-        margin: `50px`,
-        padding: `50px 25px`,
+        margin: bleed ? `0` : `0 50px`,
+        padding: bleed ? `0` : `0 25px`,
       }}>
         {children}
     </div>
@@ -41,11 +42,14 @@ const Panel = ({ children, justification, background }) => {
 Panel.propTypes = {
   children: PropTypes.node.isRequired,
   justification: PropTypes.string,
-  background: PropTypes.string
+  background: PropTypes.string,
+  bleed: PropTypes.string,
 }
 
 Panel.defaultProps = {
   background: ``,
+  justification: ``,
+  bleed: ``,
 }
 
 export default Panel

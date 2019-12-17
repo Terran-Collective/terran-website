@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Panel from "../components/panel"
@@ -62,9 +61,71 @@ const IndexPage = () => (
           </div>
         </div>
       </Panel>
+      <Panel justification="space-between" bleed="true">
+        <div style={{ width: `250px`, maxWidth: `25%`, marginRight: `25px`, display: "inline-block" }}>
+          <Image filename="home/home_collinsia_heterophylla_left2x.png" alt="Collinsia heterophylla" />
+        </div>
+        <div style={{ maxWidth: `40%`, margin: `25px`, display: "inline-block" }}>
+          <Headline
+            title="We are building community, human practices and tools for collaboration and coordination"
+            subtitle="What we're doing"
+            justification="center" />
+          <p>Terran Collective builds community and socio-technical tools to coordinate action. We aim to develop cooperative systems of coordination that can outcompete the market/state while nurturing healthy relationships with each other and the planet.</p>
+          <p><strong>Community Weaving:</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, cultural crises we face today.</p>
+          <p><strong>Technology:</strong> We design software that serves human thriving, by supporting community building, collaborative sensemaking, cooperative decision-making and group coordination.</p>
+          <p><strong>Collaborative Ecosystem Mapping:</strong> We are making transparent maps of our communities and using them to deepen relationships and collectively manage our resources.</p>
+          <div style={{textAlign: `center`}}>
+            <Button label="Learn More" link="/what-are-we-doing/"/>
+          </div>
+        </div>
+        <div style={{ width: `250px`, maxWidth: `25%`, marginLeft: `25px`, display: "inline-block" }}>
+          <Image filename="home/home_collinsia_heterophylla_right2x.jpg" alt="Collinsia heterophylla" showCaption="true" />
+        </div>
+      </Panel>
+      <Panel justification="center">
+        <div style={{ maxWidth: `40%`, margin: `25px`, display: "inline-block" }}>
+          <Headline
+            title="Our bioregion is where we practice and experiment"
+            justification="left" />
+          <p>We are building systems and tools for the world, starting in our own backyard. We believe that what we are building needs to be grounded in reality: The economic, ecological and social landscapes that we seek to improve are right outside our door.</p>
+          <div style={{textAlign: `center`}}>
+            <Button label="Why the bioregion?" link="/bioregion/"/>
+          </div>
+        </div>
+        <div style={{ width: `500px`, maxWidth: `50%`, margin: `25px`, display: "inline-block" }}>
+          <Image filename="home/home_sylvagus_bachmani2x.jpg" alt="Sylvagus bachmani" showCaption="true" />
+        </div>
+      </Panel>
+      <Panel justification="space-between" bleed="true">
+        <div style={{ width: `500px`, maxWidth: `50%`, marginRight: `25px`, display: "inline-block" }}>
+          <Image filename="home/home_nemophila_menziesii2x.jpg" alt="Nemophila menziesii" showCaption="true" />
+        </div>
+        <div style={{ maxWidth: `40%`, margin: `0 100px`, display: "inline-block" }}>
+          <Headline
+            title="Community & Resources"
+            justification="left" />
+          <p>Our work is to build community and share resources. As we discover new systems, tools, and practices, we want to share them with the world. Likewise, we want to be in relationship with anyone who is engaged in the type of work we are attempting. Please join the conversation, and check out the resources we've compiled.</p>
+          <div style={{textAlign: `center`}}>
+            <Button label="Our Community" link="/community/"/>
+            <Button label="Library of Resources" link="/resources/"/>
+          </div>
+        </div>
+      </Panel>
+      <Panel justification="space-between" bleed="true">
+        <div style={{ maxWidth: `40%`, margin: `0 125px`, display: "inline-block" }}>
+          <div style={{ width: `200px`, margin: `40px auto`}}>
+            <Image filename="logos/terran_watershed_logo.png" alt="Terran Watershed" />
+          </div>
+          <p style={{lineHeight: `40px`}}>The Watershed is our commons, channeling the flow of resources throughout our ecosystem, and supporting Terran’s nonprofit activities such as community building and providing free coordination tools.</p>
+          <div style={{textAlign: `center`}}>
+            <Button label="Participate" link="/watershed/"/>
+          </div>
+        </div>
+        <div style={{ width: `550px`, maxWidth: `50%`, margin: `0`, display: "inline-block" }}>
+          <Image filename="home/home_zalophus_californianus2x.jpg" alt="Zalophus californianus" showCaption="true" />
+        </div>
+      </Panel>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-    <Link to="/whatarewedoing/">What Are We Doing?</Link>
   </Layout>
 )
 
