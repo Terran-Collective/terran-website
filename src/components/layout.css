@@ -630,6 +630,8 @@ pre tt:after {
   content: "";
 }
 
+/* beginning of custom styles, may all beings thrive as a result of our code */
+
 footer {
   position: relative;
   width: 100%;
@@ -781,7 +783,39 @@ footer {
   opacity: 0;
 }
 
+/* homepage */
 
+.homeHero {
+  max-width: 90%;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.homeHeroPanel {
+  background: url('../images/home/home_hero2x.jpg');
+  background-position: center right;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 100px;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.two_columns_left_image {
+   width: 450px;
+   max-width: 50%;
+   margin: 25px;
+   display: inline-block;
+}
+
+.two_columns_right_text {
+  max-width: 40%;
+  margin: 25px;
+  display: inline-block;
+}
 
 @media only screen and (max-width: 600px) {
   .menu {
@@ -800,5 +834,14 @@ footer {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+
+  .homeHero {
+    width: 100%;
+  }
+
+  .homeHeroPanel {
+    background-size: 100%;
+    padding-left: 0;
   }
 }

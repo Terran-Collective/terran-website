@@ -6,23 +6,13 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import hero from "../images/home/home_hero2x.jpg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{
-      background: `url(${hero})`,
-      backgroundPosition: `center right`,
-      backgroundSize: `60%`,
-      backgroundRepeat: `no-repeat`,
-      height: `100vh`,
-      paddingTop: `100px`,
-      paddingLeft: `50px`,
-      width: `100%`,
-    }}>
+    <div class="homeHeroPanel">
       <Panel>
-        <div style={{maxWidth: "90%", width: "50%"}}>
+        <div class="homeHero">
           <Headline
             title="A community of care and practice"
             titleAccent="building tools for a regenerative future"
@@ -43,10 +33,10 @@ const IndexPage = () => (
     </div>
     <div>
       <Panel justification="center">
-        <div style={{ width: `450px`, maxWidth: `50%`, margin: `25px`, display: "inline-block" }}>
+        <div class="two_columns_left_image">
           <Image filename="home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" showCaption="true" />
         </div>
-        <div style={{ maxWidth: `40%`, margin: `25px`, display: "inline-block" }}>
+        <div class="two_columns_right_text">
           <Headline
             title="Terran Collective is"
             titleAccent="a living system"
