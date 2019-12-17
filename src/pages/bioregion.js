@@ -24,7 +24,7 @@ const bioregion = () => (
         <Image filename="bioregion/bioregion_aphelocoma_californica2x.jpg" alt="Aphelocoma Californica" />
         <span>Aphelocoma californica</span>
       </div>
-      <div className="twoColumnsRightImage">
+      <div className="twoColumnsRightText">
         <Headline
           title="We belong to the land we inhabit"
         />
