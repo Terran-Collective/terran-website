@@ -858,6 +858,12 @@ footer {
   height: 100%;
 }
 
+.singleColumnImage {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 600px) {
   .menu {
     text-align: center;

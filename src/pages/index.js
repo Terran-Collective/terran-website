@@ -1,5 +1,4 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
