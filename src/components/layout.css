@@ -809,21 +809,53 @@ footer {
   display: flex;
   max-width: 100%;
   margin: 0;
+  position: relative;
   flex-wrap: wrap;
   padding: 0;
 }
 
-.twoColumnsLeftImage {
+.twoColumnsLeftImage, .twoColumnsRightImage {
    width: 450px;
    max-width: 50%;
-   margin: 25px;
    display: inline-block;
 }
 
-.twoColumnsRightText {
+.twoColumnsLeftImage {
+  margin: 25px 25px 25px 0;
+}
+
+.twoColumnsRightImage {
+  margin: 25px 0 25px 25px;
+}
+
+.twoColumnsRightText, .twoColumnsLeftText {
   max-width: 40%;
   margin: 25px;
   display: inline-block;
+}
+
+.threeColumnsLeftImage {
+  width: 250px;
+  max-width: 25%;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.threeColumnsCenterText {
+  max-width: 40%;
+  margin: 25px;
+  display: inline-block;
+}
+
+.threeColumnsRightImage {
+  width: 250px;
+  max-width: 25%;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.homeHeroPanel .flexPanel {
+  height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -845,6 +877,10 @@ footer {
     font-size: 100%;
   }
 
+  .flexPanel {
+    display: block;
+  }
+
   .homeHero {
     width: 100%;
     transform: translateY(0);
@@ -863,15 +899,56 @@ footer {
     padding-right: 25px;
   }
 
-  .twoColumnsLeftImage {
+  .twoColumnsLeftImage, .twoColumnsRightImage {
     width: 90%;
     margin: 0 auto;
     max-width: 90%;
   }
 
-  .twoColumnsRightText {
+  .twoColumnsRightText, .twoColumnsLeftText {
     width: 90%;
     margin: 0 auto;
     max-width: 90%;
+  }
+
+  .twoColumnsRightText p, .twoColumnsRightText h1, .twoColumnsRightText h3,  .threeColumnsCenterText h1,   .threeColumnsCenterText h3, .threeColumnsCenterText p, .twoColumnsLeftText h1, .twoColumnsLeftText h3, .twoColumnsLeftText p {
+    padding: 0 15px;
+    text-align: left;
+  }
+
+  .threeColumnsLeftImage {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    z-index: 0;
+  }
+
+  .threeColumnsCenterText {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    z-index: 100;
+  }
+
+  .threeColumnsRightImage {
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    z-index: 0;
+  }
+
+  .threeColumnsRightImage figcaption, .twoColumnsRightImage figcaption {
+    display: none;
   }
 }

@@ -52,10 +52,10 @@ const IndexPage = () => (
         </div>
       </Panel>
       <Panel justification="space-between" bleed="true">
-        <div style={{ width: `250px`, maxWidth: `25%`, marginRight: `25px`, display: "inline-block" }}>
+        <div class="threeColumnsLeftImage">
           <Image filename="home/home_collinsia_heterophylla_left2x.png" alt="Collinsia heterophylla" />
         </div>
-        <div style={{ maxWidth: `40%`, margin: `25px`, display: "inline-block" }}>
+        <div class="threeColumnsCenterText">
           <Headline
             title="We are building community, human practices and tools for collaboration and coordination"
             subtitle="What we're doing"
@@ -68,12 +68,12 @@ const IndexPage = () => (
             <Button label="Learn More" link="/what-are-we-doing/"/>
           </div>
         </div>
-        <div style={{ width: `250px`, maxWidth: `25%`, marginLeft: `25px`, display: "inline-block" }}>
+        <div class="threeColumnsRightImage">
           <Image filename="home/home_collinsia_heterophylla_right2x.jpg" alt="Collinsia heterophylla" showCaption="true" />
         </div>
       </Panel>
       <Panel justification="center">
-        <div style={{ maxWidth: `40%`, margin: `25px`, display: "inline-block" }}>
+        <div class="twoColumnsLeftText">
           <Headline
             title="Our bioregion is where we practice and experiment"
             justification="left" />
@@ -82,15 +82,15 @@ const IndexPage = () => (
             <Button label="Why the bioregion?" link="/bioregion/"/>
           </div>
         </div>
-        <div style={{ width: `500px`, maxWidth: `50%`, margin: `25px`, display: "inline-block" }}>
+        <div class="twoColumnsRightImage">
           <Image filename="home/home_sylvagus_bachmani2x.jpg" alt="Sylvagus bachmani" showCaption="true" />
         </div>
       </Panel>
       <Panel justification="space-between" bleed="true">
-        <div style={{ width: `500px`, maxWidth: `50%`, marginRight: `25px`, display: "inline-block" }}>
+        <div class="twoColumnsLeftImage">
           <Image filename="home/home_nemophila_menziesii2x.jpg" alt="Nemophila menziesii" showCaption="true" />
         </div>
-        <div style={{ maxWidth: `40%`, margin: `0 100px`, display: "inline-block" }}>
+        <div class="twoColumnsRightText">
           <Headline
             title="Community & Resources"
             justification="left" />
@@ -102,7 +102,7 @@ const IndexPage = () => (
         </div>
       </Panel>
       <Panel justification="space-between" bleed="true">
-        <div style={{ maxWidth: `40%`, margin: `0 125px`, display: "inline-block" }}>
+        <div class="twoColumnsLeftText">
           <div style={{ width: `200px`, margin: `40px auto`}}>
             <Image filename="logos/terran_watershed_logo.png" alt="Terran Watershed" />
           </div>
@@ -111,7 +111,7 @@ const IndexPage = () => (
             <Button label="Participate" link="/watershed/"/>
           </div>
         </div>
-        <div style={{ width: `550px`, maxWidth: `50%`, margin: `0`, display: "inline-block" }}>
+        <div class="twoColumnsRightImage">
           <Image filename="home/home_zalophus_californianus2x.jpg" alt="Zalophus californianus" showCaption="true" />
         </div>
       </Panel>
