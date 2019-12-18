@@ -979,6 +979,49 @@ ul.smallWhiteCards {
   text-decoration: none;
 }
 
+.threeColumnsList {
+  max-width: 1024px;
+}
+
+.threeColumnsList ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.threeColumnsList ul li {
+  width: 25%;
+  margin: 1.5%;
+}
+
+.threeColumnsList .scopeImage {
+  width: 100%;
+}
+
+.roadmap {
+  max-width: 1024px;
+}
+
+.timelineGroup {
+  display: flex;
+  align-items: flex-start;
+}
+
+.twoColumnsTimelineLeft, .twoColumnsTimelineRight {
+  width: 45%;
+  margin: 2.5%;
+}
+
+.timelineItem {
+  background: #FFFFFF;
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.06);
+  border-radius: 5px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .menu {
     text-align: center;
@@ -1085,5 +1128,5 @@ ul.smallWhiteCards {
 /* feature pages */
 
 .triad {
-  
+
 }

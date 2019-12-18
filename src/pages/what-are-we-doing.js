@@ -11,7 +11,7 @@ import Layout from "../components/layout"
 const WhatAreWeDoingPage = () => (
   <Layout>
 
-    <Panel>
+    <Panel justification="center">
       <div>
         <Headline
           title="We are building infrastructure for the future we wish to inhabit"
@@ -23,8 +23,8 @@ const WhatAreWeDoingPage = () => (
       </div>
     </Panel>
 
-    <Panel>
-      <div>
+    <Panel justification="center">
+      <div className="twoColumnsLeftText">
         <Headline
           title="Technology for thriving"
           subtitle="SCOPE OF PRACTICE"
@@ -44,18 +44,18 @@ const WhatAreWeDoingPage = () => (
           <p>How can technology bring us closer together, into real, trust-based, local community, and support individual and group thriving, instead of driving us apart, distracting us and being used primarily to steal our attention and sell us things?</p>
         </div>
       </div>
-      <div>
+      <div className="twoColumnsRightImage">
         <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia Formosa" />
         <span>Aquilegia Formosa</span>
       </div>
     </Panel>
 
-    <Panel>
-      <div>
+    <Panel justification="center">
+      <div className="twoColumnsLeftImage">
         <Image filename="what_do/what_do_cyanocitta_stelleri2x.jpg" alt="Aquilegia Formosa" />
         <span>Cyanocitta stelleri</span>
       </div>
-      <div>
+      <div className="twoColumnsRightText">
         <Headline
           title="Cooperative Systems Design"
           subtitle="SCOPE OF PRACTICE"
@@ -83,8 +83,8 @@ const WhatAreWeDoingPage = () => (
       </div>
     </Panel>
 
-    <Panel>
-      <div>
+    <Panel justification="center">
+      <div className="twoColumnsLeftText">
         <Headline
           title="Community Weaving"
           subtitle="SCOPE OF PRACTICE"
@@ -109,21 +109,21 @@ const WhatAreWeDoingPage = () => (
           <p>How to we build bridges to the many diverse communities living in the Bay Area, to ensure that every voice as a seat at the table, and that our work is informed by a diverse and inclusive group of people and ideas?</p>
         </div>
       </div>
-      <div>
+      <div className="twoColumnsRightImage">
         <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia Formosa" />
         <span>Aquilegia Formosa</span>
       </div>
     </Panel>
 
-    <Panel>
-      <div>
+    <Panel justification="center">
+      <div className="roadmap">
         <Headline
           title=""
           subtitle=""
         />
 
-        <div>
-          <div>
+        <div className="timelineGroup">
+          <div className="twoColumnsTimelineLeft">
             <Headline
               title="Gathering resources, mapping the bioregion and building our network of collaborators"
               subtitle="SPRING 2020"
@@ -131,26 +131,26 @@ const WhatAreWeDoingPage = () => (
             <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
             <span>Calypso bulbosa</span>
           </div>
-          <div>
-            <div>
+          <div className="twoColumnsTimelineRight">
+            <div className="timelineItem">
               Fill the Terran Watershed so we are resourced for at least the next year, ideally in an ongoing (monthly contribution) way so we don’t have to keep spending lots of time fundraising.
             </div>
-            <div>
+            <div className="timelineItem">
               Continue growing and deepening the Terran community and network through monthly gatherings and Zoom calls
             </div>
-            <div>
+            <div className="timelineItem">
               Add more team members to the core stewardship team
             </div>
-            <div>
+            <div className="timelineItem">
               Develop and utilize systems for transparent finances
             </div>
-            <div>
+            <div className="timelineItem">
               Identify partners in the bioregion and work to understand their needs and offerings, and how we can best collaborate.
             </div>
-            <div>
+            <div className="timelineItem">
               Nurture development of bioregional Guilds & identify tools needed to help them
             </div>
-            <div>
+            <div className="timelineItem">
               Develop technological Roadmap
               <ul>
                 <li>Core platform - development begins</li>
@@ -161,31 +161,31 @@ const WhatAreWeDoingPage = () => (
           </div>
         </div>
 
-        <div>
-          <div>
-            <div>
+        <div className="timelineGroup">
+          <div className="twoColumnsTimelineLeft">
+            <div className="timelineItem">
               Develop regular meetings, events and gatherings: Terran Camp
             </div>
-            <div>
+            <div className="timelineItem">
               Develop regenerative pricing model for tools and services
             </div>
-            <div>
+            <div className="timelineItem">
               Grow core stewardship team
             </div>
-            <div>
+            <div className="timelineItem">
               Work with partners to run in-person user research
             </div>
-            <div>
+            <div className="timelineItem">
               Start using our technology to map the ecosystem
             </div>
-            <div>
+            <div className="timelineItem">
               Work with guilds to map their landscape
             </div>
-            <div>
+            <div className="timelineItem">
               Release model for collective ownership & governance of our systems & Gather feedback
             </div>
           </div>
-          <div>
+          <div className="twoColumnsTimelineRight">
             <Headline
               title="Grow the team, conduct research, develop technology and nurture our community, implement collective membership agreements"
               subtitle="SUMMER 2020"
@@ -195,8 +195,8 @@ const WhatAreWeDoingPage = () => (
           </div>
         </div>
 
-        <div>
-          <div>
+        <div className="timelineGroup">
+          <div className="twoColumnsTimelineLeft">
             <Headline
               title="Implement the first iteration of our collective ownership, governance and resource sharing systems, grow the ecosystem"
               subtitle="FALL 2020"
@@ -204,35 +204,35 @@ const WhatAreWeDoingPage = () => (
             <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
             <span>Calypso bulbosa</span>
           </div>
-          <div>
-            <div>
+          <div className="twoColumnsTimelineRight">
+            <div className="timelineItem">
               Implement regenerative pricing strategy for Terran tools
             </div>
-            <div>
+            <div className="timelineItem">
               Implement collective ownership & governance system for our tech suite: Creating a technological commons shared by all
             </div>
-            <div>
+            <div className="timelineItem">
               Onboard more bioregional partners
             </div>
-            <div>
+            <div className="timelineItem">
               Work with guilds to collaborate on sharing resources & offerings
             </div>
           </div>
         </div>
 
-        <div>
-          <div>
-            <div>
+        <div className="timelineGroup">
+          <div className="twoColumnsTimelineLeft">
+            <div className="timelineItem">
               Cospiracy
             </div>
-            <div>
+            <div className="timelineItem">
               Work with guilds to build tools that allow them to actively support bioregional communities and organizations as groups
             </div>
-            <div>
+            <div className="timelineItem">
               Begin to release tech stack tools to global audiences, allow people to begin the process of mapping their own bioregion
             </div>
           </div>
-          <div>
+          <div className="twoColumnsTimelineRight">
             <Headline
               title="Develop tools for bioregional meta-organizational collaboration via guilds and start looking for other bioregions to release our tools to"
               subtitle="Winter 2020"
@@ -242,8 +242,8 @@ const WhatAreWeDoingPage = () => (
           </div>
         </div>
 
-        <div>
-          <div>
+        <div className="timelineGroup">
+          <div className="twoColumnsTimelineLeft">
             <Headline
               title="Building tools that create commons, make tools that make it possible for anyone to create a collective, deepening community in the bay"
               subtitle="2021"
@@ -251,38 +251,38 @@ const WhatAreWeDoingPage = () => (
             <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
             <span>Calypso bulbosa</span>
           </div>
-          <div>
-            <div>
+          <div className="twoColumnsTimelineRight">
+            <div className="timelineItem">
               Work with network to coordinate large-scale actions emergent from small-scale collaboration and coordination
             </div>
-            <div>
+            <div className="timelineItem">
               Guilds meeting regularly, tools released for guild governance and management of productive output: Creating a commons of our labors of passion and love
             </div>
-            <div>
+            <div className="timelineItem">
               Develop tools that allow for other collectives to form, map, sense, choose and act
             </div>
-            <div>
+            <div className="timelineItem">
               Implement collective ownership and governance of the collective during an in person congress with online participation: Create a governance & ownership commons shared by all
             </div>
-            <div>
+            <div className="timelineItem">
               Expand to two more large yearly events beyond Terran Camp and Cospiracy
             </div>
           </div>
         </div>
 
-        <div>
-          <div>
-            <div>
+        <div className="timelineGroup">
+          <div className="twoColumnsTimelineLeft">
+            <div className="timelineItem">
               We seek land to steward in the Bay Area to create a regenerative and fire-resilient community that will be a haven for climate refugees
             </div>
-            <div>
+            <div className="timelineItem">
               Begin acquiring land: Create a commons of distributed land projects, shared and stewarded by all. Community centers in various parts of the bioregion, that allow people to collaborate, meet, share space in person. Degraded land -> Reforestation.
             </div>
-            <div>
+            <div className="timelineItem">
               Develop tools for local coordination: Neighborhood, city & county level - work with local stakeholders to identify deepest needs
             </div>
           </div>
-          <div>
+          <div className="twoColumnsTimelineRight">
             <Headline
               title="Find and secure land for collective stewardship and governance, nurture the commons we have created and release tools for local meta-communities"
               subtitle="2022"
