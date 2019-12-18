@@ -7,27 +7,13 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import hero from "../images/what_is/what_is_hero.jpg"
 
 const WhatIsTerranPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <div style={{
-      background: `url(${hero})`,
-      backgroundPosition: `center right`,
-      backgroundSize: `100%`,
-      backgroundRepeat: `no-repeat`,
-      height: `100vh`,
-      paddingTop: `100px`,
-      paddingLeft: `50px`,
-      width: `100%`,
-    }}>
+    <SEO title="What Is Terran - Who We Are" />
+    <div class="whatIsTerranHeroPanel">
       <Panel justification="center">
-        <div style={{maxWidth: "90%", width: "50%"}}>
-          <div style={{
-            maxWidth: "800px",
-            margin: "200px auto 0"
-          }}>
+        <div class="pageHero">
           <Headline
             title="We are a collective of people with a common vision of a world in balance"
             subtitle="WHAT IS TERRAN?"
@@ -44,15 +30,14 @@ const WhatIsTerranPage = () => (
               <Button label="Core Beliefs" link="/what-is-terran/#corebeliefs" color="#0080f8" />
               <Button label="The People of the Collective" link="/what-is-terran/#team" color="#0080f8" />
             </div>
-          </div>
         </div>
       </Panel>
     </div>
     <Panel justification="space-between" bleed="true">
-      <div style={{ maxWidth: `50%`, width: `500px`, margin: `0`, display: "inline-block" }}>
+      <div class="twoColumnsLeftImage">
         <Image filename="what_is/what_is_eschscholzia_californica2x.jpg" alt="Eschscholzia californica" showCaption="true" />
       </div>
-      <div style={{ maxWidth: `40%`, display: "inline-block", margin: `25px 150px 0 0` }}>
+      <div class="twoColumnsRightText">
         <Headline
           title="We learn from nature"
           subtitle="OVERVIEW"
@@ -63,10 +48,10 @@ const WhatIsTerranPage = () => (
       </div>
     </Panel>
     <Panel justification="space-between" bleed="true">
-      <div style={{ width: `300px`, margin: `0`, display: "inline-block" }}>
+      <div class="threeColumnsLeftImage">
         <Image filename="what_is/what_is_vaccinium_ovatum_left2x.jpg" alt="Vaccinium ovatum" showCaption="true" />
       </div>
-      <div style={{ maxWidth: `40%`, width: `550px`, display: "inline-block", margin: `25px` }}>
+      <div class="threeColumnsCenterText">
         <Headline
           title="All Beings Thriving"
           subtitle="WORKING TOWARDS"
@@ -76,7 +61,7 @@ const WhatIsTerranPage = () => (
         <p style={{opacity: `.7`, lineHeight: `1.5`, marginTop: `50px`, color: `#171615`}}><strong>What is thriving?</strong> We hold a vision of a world in which all beings can <strong>thrive</strong>. Not a world free of suffering or lack, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet. </p>
         <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We refer to <strong>all beings</strong> because we believe achieving this goal requires a shift away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with. </p>
       </div>
-      <div style={{ maxWidth: `30%`, width: `300px`, margin: `0`, display: "inline-block" }}>
+      <div class="threeColumnsRightImage">
         <Image filename="what_is/what_is_vaccinium_ovatum_right2x.jpg" alt="Vaccinium ovatum" />
       </div>
     </Panel>
@@ -91,19 +76,23 @@ const WhatIsTerranPage = () => (
           title="We are building tools to reinforce healthy relationships at every level"
           subtitle="WHOLE & HEALTHY SYSTEMS"
           justification="center" />
-        <div style={{ maxWidth: `100%`, width: `100%`, margin: `0` }}>
+        <div style={{ width: `100%`, margin: `0` }}>
           <Image filename="what_is/what_is_mission_diagram2x.jpg" alt="Terran Collective's mission"/>
         </div>
       </div>
     </Panel>
     <Panel justification="center">
-      <div>
-        <Headline
-          title="Our Core Beliefs"/>
-        <p>We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
-        <ul>
+        <div>
+          <Headline
+            title="Our Core Beliefs"
+            justification="center" />
+          <p>We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
+        </div>
+        <ul class="triad">
           <li>
-            <Image filename="what_is/what_is_core_12x.jpg" alt="Interbeing" />
+            <div style={{ width: `176px`}}>
+              <Image filename="what_is/what_is_core_12x.jpg" alt="Interbeing" />
+            </div>
             <h2>Interbeing</h2>
             <span>Sequoia sempervirens</span>
             <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know. </p>
@@ -121,7 +110,6 @@ const WhatIsTerranPage = () => (
             <p>Despite the many existential crises we face as a species, there is hope! We have the ability to choose our story, to design a new path for ourselves and humanity, and to decide how we want to live together on this planet.</p>
           </li>
         </ul>
-      </div>
     </Panel>
     <Panel>
       <Image filename="what_is/what_is_vision_diagram2x.jpg" alt="Terran Collective's Vision: All beings thriving with each other and the planet" />

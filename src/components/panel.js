@@ -6,26 +6,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const Panel = ({ children, justification, background, bleed }) => {
-  let bgJustification;
-
-  switch (justification) {
-    case "right":
-      bgJustification = "left";
-      break;
-    case "left":
-      bgJustification = "right";
-      break;
-    case "center":
-      bgJustification = "center";
-      break;
-    default:
-      bgJustification = "center";
-  }
+const Panel = ({ children, justification, bleed }) => {
 
   return (
     <div class="flexPanel" style={{
-      background: `url(${background}) center ${bgJustification} no-repeat contain`,
       justifyContent: justification,
     }}>
         {children}
@@ -36,12 +20,10 @@ const Panel = ({ children, justification, background, bleed }) => {
 Panel.propTypes = {
   children: PropTypes.node.isRequired,
   justification: PropTypes.string,
-  background: PropTypes.string,
   bleed: PropTypes.string,
 }
 
 Panel.defaultProps = {
-  background: ``,
   justification: ``,
   bleed: ``,
 }

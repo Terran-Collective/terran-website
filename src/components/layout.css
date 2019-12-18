@@ -804,6 +804,24 @@ footer {
   width: 100%;
 }
 
+.pageHero {
+  padding-top: 200px;
+  max-width: 90%;
+  width: 50%;
+}
+
+.whatIsTerranHeroPanel {
+  background: url('../images/what_is/what_is_hero.jpg');
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 100%;
+  padding-top: 100px;
+  padding-left: 50px;
+  width: 100%;
+}
+
 .flexPanel {
   align-items: center;
   display: flex;
@@ -892,9 +910,19 @@ footer {
     padding-bottom: 50px;
   }
 
+  .pageHero {
+    padding-top: 20px;
+    width: 90%;
+  }
+
   .homeHeroPanel {
     background-size: 100%;
     padding-left: 0;
+    height: 100%;
+  }
+
+  .whatIsTerranHeroPanel {
+    background-position: top center;
     height: 100%;
   }
 
@@ -955,4 +983,10 @@ footer {
   .threeColumnsRightImage figcaption, .twoColumnsRightImage figcaption {
     display: none;
   }
+}
+
+/* feature pages */
+
+.triad {
+  
 }
