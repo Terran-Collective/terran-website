@@ -10,18 +10,19 @@ import Layout from "../components/layout"
 
 const WhatAreWeDoingPage = () => (
   <Layout>
-
-    <Panel justification="center">
-      <div>
-        <Headline
-          title="We are building infrastructure for the future we wish to inhabit"
-          subtitle="WHAT ARE WE DOING?"
-        />
-        <p>Terran Collective’s work is creating tools, systems and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to All Beings Thriving?  We want to create free and open-source software, for everyone, to advance the transition to a sacred and regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics. </p>
-        <Button to="#scopeofpractice">Scopes of practice</Button>
-        <Button to="#roadmap">Roadmap</Button>
-      </div>
-    </Panel>
+    <div className="heroPanel whatWeDoHero">
+      <Panel justification="center">
+        <div className="pageHero">
+          <Headline
+            title="We are building infrastructure for the future we wish to inhabit"
+            subtitle="WHAT ARE WE DOING?"
+          />
+          <p>Terran Collective’s work is creating tools, systems and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to All Beings Thriving?  We want to create free and open-source software, for everyone, to advance the transition to a sacred and regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics. </p>
+          <Button to="#scopeofpractice">Scopes of practice</Button>
+          <Button to="#roadmap">Roadmap</Button>
+        </div>
+      </Panel>
+    </div>
 
     <Panel justification="center">
       <div className="twoColumnsLeftText">
@@ -45,15 +46,13 @@ const WhatAreWeDoingPage = () => (
         </div>
       </div>
       <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia Formosa" />
-        <span>Aquilegia Formosa</span>
+        <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
     </Panel>
 
     <Panel justification="center">
       <div className="twoColumnsLeftImage">
-        <Image filename="what_do/what_do_cyanocitta_stelleri2x.jpg" alt="Aquilegia Formosa" />
-        <span>Cyanocitta stelleri</span>
+        <Image filename="what_do/what_do_cyanocitta_stelleri2x.jpg" alt="Cyanocitta stelleri" showCaption="true" />
       </div>
       <div className="twoColumnsRightText">
         <Headline
@@ -110,8 +109,7 @@ const WhatAreWeDoingPage = () => (
         </div>
       </div>
       <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia Formosa" />
-        <span>Aquilegia Formosa</span>
+        <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
     </Panel>
 
@@ -128,8 +126,7 @@ const WhatAreWeDoingPage = () => (
               title="Gathering resources, mapping the bioregion and building our network of collaborators"
               subtitle="SPRING 2020"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
-            <span>Calypso bulbosa</span>
+            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -190,8 +187,7 @@ const WhatAreWeDoingPage = () => (
               title="Grow the team, conduct research, develop technology and nurture our community, implement collective membership agreements"
               subtitle="SUMMER 2020"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
-            <span>Calypso bulbosa</span>
+            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
           </div>
         </div>
 
@@ -201,8 +197,7 @@ const WhatAreWeDoingPage = () => (
               title="Implement the first iteration of our collective ownership, governance and resource sharing systems, grow the ecosystem"
               subtitle="FALL 2020"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
-            <span>Calypso bulbosa</span>
+            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -237,8 +232,7 @@ const WhatAreWeDoingPage = () => (
               title="Develop tools for bioregional meta-organizational collaboration via guilds and start looking for other bioregions to release our tools to"
               subtitle="Winter 2020"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
-            <span>Calypso bulbosa</span>
+            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
           </div>
         </div>
 
@@ -248,8 +242,7 @@ const WhatAreWeDoingPage = () => (
               title="Building tools that create commons, make tools that make it possible for anyone to create a collective, deepening community in the bay"
               subtitle="2021"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
-            <span>Calypso bulbosa</span>
+            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -287,8 +280,7 @@ const WhatAreWeDoingPage = () => (
               title="Find and secure land for collective stewardship and governance, nurture the commons we have created and release tools for local meta-communities"
               subtitle="2022"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" />
-            <span>Calypso bulbosa</span>
+            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
           </div>
         </div>
 

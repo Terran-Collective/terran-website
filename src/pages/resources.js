@@ -1,25 +1,30 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
+import Panel from "../components/panel"
+import Headline from "../components/headline"
+import Button from "../components/button"
+import Image from "../components/image"
 import SEO from "../components/seo"
 
 const resources = () => (
   <Layout>
 
-    <Panel>
-      <div>
-        <Headline
-          title="Books, sources of information and teachers that have helped shape our understanding of the world"
-          subtitle="LIBRARY OF RESOURCES"
-        />
-        <Button to="#peers_and_allies">Peers & allies</Button>
-        <Button to="#books">Books</Button>
-        <Button to="#articles">Articles</Button>
-        <Button to="#podcasts">Podcasts</Button>
-        <Button to="#authors_and_artists">Authors & artists</Button>
-      </div>
-    </Panel>
+    <div className="heroPanel resourcesHero">
+      <Panel justification="center">
+        <div className="pageHero">
+          <Headline
+            title="Books, sources of information and teachers that have helped shape our understanding of the world"
+            subtitle="LIBRARY OF RESOURCES"
+          />
+          <Button to="#peers_and_allies">Peers & allies</Button>
+          <Button to="#books">Books</Button>
+          <Button to="#articles">Articles</Button>
+          <Button to="#podcasts">Podcasts</Button>
+          <Button to="#authors_and_artists">Authors & artists</Button>
+        </div>
+      </Panel>
+    </div>
 
     <Panel>
       <div>
@@ -47,7 +52,6 @@ const resources = () => (
           </li>
         </ul>
         <div>
-          <Button to="/"></Button>
         </div>
       </div>
     </Panel>
@@ -62,7 +66,6 @@ const resources = () => (
         <Button to="/"></Button>
       </div>
       <div>
-        <Image filename="" alt="" />
         <span></span>
       </div>
     </Panel>
@@ -74,12 +77,10 @@ const resources = () => (
           subtitle=""
         />
         <p></p>
-        <Button to="/"></Button>
       </div>
     </Panel>
 
     <Panel>
-        <Image filename="" alt="" />
         <span></span>
     </Panel>
 
@@ -88,4 +89,4 @@ const resources = () => (
 
 )
 
-// export default resources
+export default resources

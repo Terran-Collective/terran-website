@@ -9,25 +9,25 @@ import Image from "../components/image"
 
 const community = () => (
   <Layout>
-
-    <Panel>
-      <div>
-        <Headline
-          title="Collaboration and coordination work better in community"
-          subtitle="WHY DO WE FOCUS ON COMMUNITY?"
-        />
-        <p>Community is at the heart of what we are building. In order to bring about new systems for cooperation and coordination, we need new ways of being in relationship. We see community and relationships as the place to experiment with these new ways of being.</p>
-        <p>You are invited to join our community, to participate in our gatherings and to collaborate in realizing a vision of a better world.</p>
-        <Button to="#joincommunity">Join our community</Button>
-        <Button to="#gatherings">Gather with us</Button>
-        <Button to="#trust">People and Organizations we trust</Button>
-      </div>
-    </Panel>
+    <div className="heroPanel communityHero">
+      <Panel justification="center">
+        <div className="pageHero">
+          <Headline
+            title="Collaboration and coordination work better in community"
+            subtitle="WHY DO WE FOCUS ON COMMUNITY?"
+          />
+          <p>Community is at the heart of what we are building. In order to bring about new systems for cooperation and coordination, we need new ways of being in relationship. We see community and relationships as the place to experiment with these new ways of being.</p>
+          <p>You are invited to join our community, to participate in our gatherings and to collaborate in realizing a vision of a better world.</p>
+          <Button to="#joincommunity">Join our community</Button>
+          <Button to="#gatherings">Gather with us</Button>
+          <Button to="#trust">People and Organizations we trust</Button>
+        </div>
+      </Panel>
+    </div>
 
     <Panel justification="center">
       <div class="twoColumnsLeftImage">
-        <Image filename="community/community_charadrius_vociferus2x.jpg" alt="Charadrius vociferus" />
-        <span>Charadrius vociferus</span>
+        <Image filename="community/community_charadrius_vociferus2x.jpg" alt="Charadrius vociferus" showCaption="true" />
       </div>
       <div class="twoColumnsRightText">
         <Headline
@@ -81,8 +81,7 @@ const community = () => (
     </Panel>
     <Panel>
       <div className="singleColumnImage">
-        <Image filename="community/community_canis_latrans2x.jpg" alt="Canis latrans" />
-        <span>Canis latrans</span>
+        <Image filename="community/community_canis_latrans2x.jpg" alt="Canis latrans" showCaption="true" />
       </div>
     </Panel>
     <Panel>
@@ -291,8 +290,7 @@ const community = () => (
     </Panel>
     <Panel>
       <div className="singleColumnText">
-        <Image filename="community/community_hygrocybe_coccinea2x.jpg" alt="Hygrocybe coccinea" />
-        <span>Hygrocybe coccinea</span>
+        <Image filename="community/community_hygrocybe_coccinea2x.jpg" alt="Hygrocybe coccinea" showCaption="true" />
         <Headline
           title="Land-based communities and farms"
           subtitle="LAND PROJECTS WE TRUST"
@@ -401,8 +399,7 @@ const community = () => (
     </Panel>
     <Panel>
       <div>
-        <Image filename="community/community_megaceryle_alcyon2x.jpg" alt="Megaceryle alcyon" />
-        <span>Megaceryle alcyon</span>
+        <Image filename="community/community_megaceryle_alcyon2x.jpg" alt="Megaceryle alcyon" showCaption="true" />
         <Headline
           title="Bioregional regenerators"
           subtitle="People we trust"

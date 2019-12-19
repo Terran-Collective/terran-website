@@ -10,20 +10,21 @@ import SEO from "../components/seo"
 
 const watershed = () => (
   <Layout>
-
-    <Panel>
-      <div>
-        <Image filename="logos/terran_watershed_logo.png" alt="Terran Watershed" />
-        <Headline
-          title="A foundation for thriving bioregions"
-        />
-        <p>The tools we make and the experiments we perform are for the benefit of all. The Watershed is the primary container where we receive and steward resources in support of our efforts to bring about systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
-        <p>We have structured our organization in a way that represents our values, creating a diversity of options for how we can fill our wells, and to allow supporters and partners to contribute resources to our mission. Currently we manage a for-profit entity called the Terran Collective LLC, which mostly does mostly contract software development work with aligned partners like DAOstack as our primary source of income. Moving forward we want to move our work more and more into the gift, and this is where the Terran Watershed comes in as the source of life that will allow us to more fully pursue our purpose and share our gifts with the world. </p>
-        <Button to="#participate">We want your participation</Button>
-        <Button to="#resourceuse">How will resources be used?</Button>
-        <Button to="#supportus">Support us</Button>
-      </div>
-    </Panel>
+    <div className="heroPanel watershedHero">
+      <Panel justification="center">
+        <div className="pageHero">
+          <Image filename="logos/terran_watershed_logo.png" alt="Terran Watershed" />
+          <Headline
+            title="A foundation for thriving bioregions"
+          />
+          <p>The tools we make and the experiments we perform are for the benefit of all. The Watershed is the primary container where we receive and steward resources in support of our efforts to bring about systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
+          <p>We have structured our organization in a way that represents our values, creating a diversity of options for how we can fill our wells, and to allow supporters and partners to contribute resources to our mission. Currently we manage a for-profit entity called the Terran Collective LLC, which mostly does mostly contract software development work with aligned partners like DAOstack as our primary source of income. Moving forward we want to move our work more and more into the gift, and this is where the Terran Watershed comes in as the source of life that will allow us to more fully pursue our purpose and share our gifts with the world. </p>
+          <Button to="#participate">We want your participation</Button>
+          <Button to="#resourceuse">How will resources be used?</Button>
+          <Button to="#supportus">Support us</Button>
+        </div>
+      </Panel>
+    </div>
 
     <Panel>
       <div>

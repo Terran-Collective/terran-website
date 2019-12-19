@@ -809,8 +809,31 @@ footer {
   width: 50%;
 }
 
-.whatIsTerranHeroPanel {
+.whatIsTerranHero {
   background: url('../images/what_is/what_is_hero.jpg');
+}
+
+.whatWeDoHero {
+  background: url('../images/what_do/what_do_hero2x.jpg');
+}
+
+.watershedHero {
+  background: url('../images/watershed/watershed_hero.jpg');
+}
+
+.communityHero {
+  background: url('../images/community/community_hero.jpg');
+}
+
+.bioregionHero {
+  background: url('../images/bioregion/bioregion_hero.jpg');
+}
+
+.resourcesHero {
+  background: url('../images/resources/resources_hero.jpg');
+}
+
+.heroPanel {
   background-position: top center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1061,7 +1084,7 @@ ul.smallWhiteCards {
     height: 100%;
   }
 
-  .whatIsTerranHeroPanel {
+  .heroPanel {
     background-position: top center;
     height: 100%;
   }

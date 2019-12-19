@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 const WhatIsTerranPage = () => (
   <Layout>
     <SEO title="What Is Terran - Who We Are" />
-    <div class="whatIsTerranHeroPanel">
+    <div class="heroPanel whatIsTerranHero">
       <Panel justification="center">
         <div class="pageHero">
           <Headline

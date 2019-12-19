@@ -9,8 +9,9 @@ import SEO from "../components/seo"
 
 const bioregion = () => (
   <Layout>
-    <Panel>
-      <div>
+    <div className="heroPanel bioregionHero">
+    <Panel justification="center">
+      <div className="pageHero">
         <Headline
           title="Bioregions are the emergent boundaries expressed by nature"
           subtitle="Why focus on a bioregion?"
@@ -18,6 +19,7 @@ const bioregion = () => (
         <p>We embrace the frame of the bioregion: that we are inhabitants of a more-than-human community in partnership with the landscape we live on. We are inspired by the indigenous communities who throughout time identified themselves by their local mountain, the nearest river, and the animals and plants they count as kin. We bow in gratitude to the visionaries of the bioregionalism movement, including Peter Berg and Gary Snyder, who named these ideas and shaped language to convey ancient values in a way that modern minds can understand. </p>
       </div>
     </Panel>
+    </div>
 
     <Panel justification="center">
       <div className="twoColumnsLeftImage">
