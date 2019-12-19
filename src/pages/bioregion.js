@@ -6,19 +6,21 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import rubusSpectabilis from "../images/bioregion/bioregion_rubus_spectabilis.jpg"
 
 const bioregion = () => (
   <Layout>
     <div className="heroPanel bioregionHero">
-    <Panel justification="center">
-      <div className="pageHero">
-        <Headline
-          title="Bioregions are the emergent boundaries expressed by nature"
-          subtitle="Why focus on a bioregion?"
-        />
-        <p>We embrace the frame of the bioregion: that we are inhabitants of a more-than-human community in partnership with the landscape we live on. We are inspired by the indigenous communities who throughout time identified themselves by their local mountain, the nearest river, and the animals and plants they count as kin. We bow in gratitude to the visionaries of the bioregionalism movement, including Peter Berg and Gary Snyder, who named these ideas and shaped language to convey ancient values in a way that modern minds can understand. </p>
-      </div>
-    </Panel>
+      <Panel justification="center">
+        <div className="pageHero">
+          <Headline
+            title="Bioregions are the emergent boundaries expressed by nature"
+            subtitle="Why focus on a bioregion?"
+          />
+          <p>We embrace the frame of the bioregion: that we are inhabitants of a more-than-human community in partnership with the landscape we live on. We are inspired by the indigenous communities who throughout time identified themselves by their local mountain, the nearest river, and the animals and plants they count as kin. We bow in gratitude to the visionaries of the bioregionalism movement, including Peter Berg and Gary Snyder, who named these ideas and shaped language to convey ancient values in a way that modern minds can understand. </p>
+        </div>
+      </Panel>
+      <div className="heroPanelBg"></div>
     </div>
 
     <Panel justification="center">
@@ -55,23 +57,19 @@ const bioregion = () => (
         <span>Felis concolor</span>
       </div>
     </Panel>
-
-    <Panel justification="space-between" bleed="true">
-      <div className="threeColumnsLeftImage">
-        <Image filename="bioregion/bioregion_rubus_spectabilis_left2x.jpg" alt="Rubus spectabilis" />
-      </div>
-      <div className="threeColumnsCenterText">
-        <Headline
-          title="We live on native land"
-        />
-        <p>The place we call “The Bioregion”, the place most of us call home, is the ancestral home of many peoples. The Ramaytush Ohlone, Amah Mutsun, Bay Miwok, Coast Miwok, Delta Yokuts, Patwin and Wappo people are some of the names of the people of this land. All of those people were displaced by colonization which devastated culture & language, broke families, and interrupted unknown thousands of years of thriving in the bay. The people of this land achieved a type of harmony with the environment that is currently beyond our own capabilities. Under their care, the bioregion thrived, the water flowed as it wished, the creatures roamed as they pleased, redwoods stood tall, and the salmon ran free. The Association of Ramaytush Ohlone people and Amah Mutsun Tribal band are just two of many active communities today committed to land stewardship and honoring truth in history.</p>
-        <p>As we work to bring our modern technology, culture, economies and infrastructure into right relationship with the land, remember that the people of this land are separated from their homes and their sacred places are occupied by outsiders. Whatever solutions we imagine must account for this deep injustice and be developed under the leadership of and in partnership with original peoples.</p>
-      </div>
-      <div className="threeColumnsRightImage">
-        <Image filename="bioregion/bioregion_rubus_spectabilis_right2x.jpg" alt="Rubus spectabilis" />
-      </div>
-    </Panel>
-
+    <div className="threeColumns nativeLand">
+      <Panel justification="space-between" bleed="true">
+        <img className="rubusSpectabilis leftImage" src={rubusSpectabilis} alt="Rubus spectabilis" />
+        <div className="threeColumnsCenterText">
+          <Headline
+            title="We live on native land"
+          />
+          <p>The place we call “The Bioregion”, the place most of us call home, is the ancestral home of many peoples. The Ramaytush Ohlone, Amah Mutsun, Bay Miwok, Coast Miwok, Delta Yokuts, Patwin and Wappo people are some of the names of the people of this land. All of those people were displaced by colonization which devastated culture & language, broke families, and interrupted unknown thousands of years of thriving in the bay. The people of this land achieved a type of harmony with the environment that is currently beyond our own capabilities. Under their care, the bioregion thrived, the water flowed as it wished, the creatures roamed as they pleased, redwoods stood tall, and the salmon ran free. The Association of Ramaytush Ohlone people and Amah Mutsun Tribal band are just two of many active communities today committed to land stewardship and honoring truth in history.</p>
+          <p>As we work to bring our modern technology, culture, economies and infrastructure into right relationship with the land, remember that the people of this land are separated from their homes and their sacred places are occupied by outsiders. Whatever solutions we imagine must account for this deep injustice and be developed under the leadership of and in partnership with original peoples.</p>
+        </div>
+        <img className="rubusSpectabilis rightImage" src={rubusSpectabilis} alt="Rubus spectabilis" />
+      </Panel>
+    </div>
   </Layout>
 
 )

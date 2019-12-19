@@ -22,6 +22,7 @@ const WhatAreWeDoingPage = () => (
           <Button to="#roadmap">Roadmap</Button>
         </div>
       </Panel>
+      <div className="heroPanelBg"></div>
     </div>
 
     <Panel justification="center">

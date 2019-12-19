@@ -32,6 +32,7 @@ const WhatIsTerranPage = () => (
             </div>
         </div>
       </Panel>
+      <div className="heroPanelBg"></div>
     </div>
     <Panel justification="space-between" bleed="true">
       <div class="twoColumnsLeftImage">

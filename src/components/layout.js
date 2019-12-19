@@ -33,7 +33,11 @@ const Layout = ({ children }) => {
           maxWidth: `100%`,
           padding: `0px`,
         }}>
-        <main>{children}</main>
+        <main>
+          <div className="wrapper">
+            {children}
+          </div>
+        </main>
         <Footer/>
       </div>
     </>

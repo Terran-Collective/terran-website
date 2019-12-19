@@ -24,6 +24,7 @@ const resources = () => (
           <Button to="#authors_and_artists">Authors & artists</Button>
         </div>
       </Panel>
+      <div className="heroPanelBg"></div>
     </div>
 
     <Panel>

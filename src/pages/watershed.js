@@ -24,6 +24,7 @@ const watershed = () => (
           <Button to="#supportus">Support us</Button>
         </div>
       </Panel>
+      <div className="heroPanelBg"></div>
     </div>
 
     <Panel>
