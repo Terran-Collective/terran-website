@@ -40,7 +40,7 @@ import Img from "gatsby-image"
     return (
     <figure style={{textAlign: `center`}}>
       <Img alt={alt} sizes={image.node.childImageSharp.sizes} />
-      <figcaption style={{margin: `0 auto`, opacity: `.4`, fontStyle: `italic`}}>{showCaption ? alt : ``}</figcaption>
+      <figcaption style={{margin: `0 auto`, opacity: `.5`, fontStyle: `italic`, fontSize: `16px`}}>{showCaption ? alt : ``}</figcaption>
     </figure>
     )
 }

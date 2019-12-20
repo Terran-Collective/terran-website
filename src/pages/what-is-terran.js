@@ -72,42 +72,43 @@ const WhatIsTerranPage = () => (
       </div>
     </Panel>
     <Panel justification="center">
-      <div>
+      <div className="core_beliefs">
         <Headline
           title="We are building tools to reinforce healthy relationships at every level"
           subtitle="WHOLE & HEALTHY SYSTEMS"
           justification="center" />
-        <div style={{ width: `100%`, margin: `0` }}>
+        <div style={{ width: `100%`, height: `auto`, margin: `25px auto` }}>
           <Image filename="what_is/what_is_mission_diagram2x.jpg" alt="Terran Collective's mission"/>
         </div>
       </div>
     </Panel>
     <Panel justification="center">
-        <div>
+        <div style={{marginTop: `25px`}}>
           <Headline
             title="Our Core Beliefs"
             justification="center" />
-          <p>We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
+          <p className="core_beliefs">We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
         </div>
         <ul class="triad">
           <li>
-            <div style={{ width: `176px`}}>
-              <Image filename="what_is/what_is_core_12x.jpg" alt="Interbeing" />
+            <div>
+              <Image filename="what_is/what_is_core_12x.jpg" alt="Sequoia sempervirens" showCaption="true"  />
             </div>
             <h2>Interbeing</h2>
-            <span>Sequoia sempervirens</span>
             <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know. </p>
           </li>
           <li>
-            <Image filename="what_is/what_is_core_22x.jpg" alt="Abundance" />
+            <div>
+              <Image filename="what_is/what_is_core_22x.jpg" alt="Vitis californica" showCaption="true" />
+            </div>
             <h2>Abundance</h2>
-            <span>Vitis californica</span>
             <p>There is enough for all, on this incredible Spaceship Earth we call home. We have all the resources needed for all beings to have what they need to thrive on this planet, if only we commit ourselves to that goal. </p>
           </li>
           <li>
-            <Image filename="what_is/what_is_core_32x.jpg" alt="Agency" />
+            <div>
+              <Image filename="what_is/what_is_core_32x.jpg" alt="Buteo jamaicensis" showCaption="true" />
+            </div>
             <h2>Agency</h2>
-            <span>Buteo jamaicensis</span>
             <p>Despite the many existential crises we face as a species, there is hope! We have the ability to choose our story, to design a new path for ourselves and humanity, and to decide how we want to live together on this planet.</p>
           </li>
         </ul>

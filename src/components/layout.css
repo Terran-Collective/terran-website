@@ -1237,5 +1237,41 @@ ul.smallWhiteCards {
 /* feature pages */
 
 .triad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
 
+.triad li {
+  line-height: 30px;
+  padding: 10px 40px;
+  text-align: center;
+  width: 30%;
+}
+
+.triad div {
+  width: 176px;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+
+.triad p {
+  opacity: .75;
+}
+
+.core_beliefs {
+  margin: 25px auto;
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+  .triad li {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .core_beliefs {
+    width: 100%;
+  }
 }
