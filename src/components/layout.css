@@ -1265,6 +1265,12 @@ ul.smallWhiteCards {
   width: 40%;
 }
 
+.terran_feature_image {
+  text-align: center;
+  margin: 25px auto;
+  width: 95%;
+}
+
 .team {
   text-align: center;
 }
@@ -1277,8 +1283,8 @@ ul.smallWhiteCards {
 }
 
 .team_members li {
-  margin: 25px;
-  width: 350px;
+  margin: 25px 40px;
+  width: 40%;
 }
 
 .team_members p {
@@ -1287,7 +1293,7 @@ ul.smallWhiteCards {
 }
 
 .team_photo {
-  margin: 15px auto;
+  margin: 15px auto 40px;
   width: 365px;
 }
 
@@ -1295,7 +1301,7 @@ ul.smallWhiteCards {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 15px 0;
+  margin: 25px 0;
 }
 
 .team_details h2 {
@@ -1308,7 +1314,8 @@ ul.smallWhiteCards {
     width: 100%;
   }
 
-  .what-is-terran, .team, .team_photo {
+  .what-is-terran, .team, .team_photo, .team_members li {
+    padding: 15px;
     width: 100%;
   }
 }

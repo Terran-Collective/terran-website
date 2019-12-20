@@ -77,9 +77,11 @@ const WhatIsTerranPage = () => (
           title="We are building tools to reinforce healthy relationships at every level"
           subtitle="WHOLE & HEALTHY SYSTEMS"
           justification="center" />
-        <div style={{ width: `100%`, height: `auto`, margin: `25px auto` }}>
-          <Image filename="what_is/what_is_mission_diagram2x.jpg" alt="Terran Collective's mission"/>
-        </div>
+      </div>
+    </Panel>
+    <Panel justification="center">
+      <div className="terran_feature_image">
+        <Image filename="what_is/what_is_mission_diagram2x.jpg" alt="Terran Collective's mission"/>
       </div>
     </Panel>
     <Panel justification="center">
@@ -114,7 +116,7 @@ const WhatIsTerranPage = () => (
         </ul>
     </Panel>
     <Panel justification="center">
-      <div style={{width: `100%`, margin: `25px auto`}}>
+      <div className="terran_feature_image">
         <Image filename="what_is/what_is_vision_diagram2x.jpg" alt="Terran Collective's Vision: All beings thriving with each other and the planet" />
       </div>
     </Panel>
@@ -176,7 +178,7 @@ const WhatIsTerranPage = () => (
         <ul className="team_members">
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_kelly_erhart2x.jpg" alt="Kelly Erhart" />
+              <Image filename="what_is/what_is_kelly_erhart2x.png" alt="Kelly Erhart" />
             </div>
             <div className="team_details">
               <h2>Kelly Erhart</h2>
@@ -186,7 +188,7 @@ const WhatIsTerranPage = () => (
           </li>
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_clare_politano2x.jpg" alt="Clare Politano" />
+              <Image filename="what_is/what_is_clare_politano2x.png" alt="Clare Politano" />
             </div>
             <div className="team_details">
               <h2>Clare Politano</h2>
@@ -196,7 +198,7 @@ const WhatIsTerranPage = () => (
           </li>
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_tibet_sprague2x.jpg" alt="Tibet Sprague" />
+              <Image filename="what_is/what_is_tibet_sprague2x.png" alt="Tibet Sprague" />
             </div>
             <div className="team_details">
               <h2>Tibet Sprague</h2>
@@ -206,7 +208,7 @@ const WhatIsTerranPage = () => (
           </li>
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_neha_sharma2x.jpg" alt="Neha Sharma" />
+              <Image filename="what_is/what_is_neha_sharma2x.png" alt="Neha Sharma" />
             </div>
             <div className="team_details">
               <h2>Neha Sharma</h2>
@@ -216,7 +218,7 @@ const WhatIsTerranPage = () => (
           </li>
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_aaron_brodeur2x.jpg" alt="Aaron Brodeur" />
+              <Image filename="what_is/what_is_aaron_brodeur2x.png" alt="Aaron Brodeur" />
             </div>
             <div className="team_details">
               <h2>Aaron Brodeur</h2>
