@@ -1260,9 +1260,46 @@ ul.smallWhiteCards {
   opacity: .75;
 }
 
-.core_beliefs {
+.what-is-terran, .team {
   margin: 25px auto;
   width: 40%;
+}
+
+.team {
+  text-align: center;
+}
+
+.team_members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.team_members li {
+  margin: 25px;
+  width: 350px;
+}
+
+.team_members p {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.team_photo {
+  margin: 15px auto;
+  width: 365px;
+}
+
+.team_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.team_details h2 {
+  margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1271,7 +1308,7 @@ ul.smallWhiteCards {
     width: 100%;
   }
 
-  .core_beliefs {
+  .what-is-terran, .team, .team_photo {
     width: 100%;
   }
 }

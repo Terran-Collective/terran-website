@@ -72,7 +72,7 @@ const WhatIsTerranPage = () => (
       </div>
     </Panel>
     <Panel justification="center">
-      <div className="core_beliefs">
+      <div className="what-is-terran">
         <Headline
           title="We are building tools to reinforce healthy relationships at every level"
           subtitle="WHOLE & HEALTHY SYSTEMS"
@@ -87,7 +87,7 @@ const WhatIsTerranPage = () => (
           <Headline
             title="Our Core Beliefs"
             justification="center" />
-          <p className="core_beliefs">We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
+          <p className="what-is-terran">We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
         </div>
         <ul class="triad">
           <li>
@@ -113,17 +113,24 @@ const WhatIsTerranPage = () => (
           </li>
         </ul>
     </Panel>
-    <Panel>
-      <Image filename="what_is/what_is_vision_diagram2x.jpg" alt="Terran Collective's Vision: All beings thriving with each other and the planet" />
+    <Panel justification="center">
+      <div style={{width: `100%`, margin: `25px auto`}}>
+        <Image filename="what_is/what_is_vision_diagram2x.jpg" alt="Terran Collective's Vision: All beings thriving with each other and the planet" />
+      </div>
     </Panel>
-    <Panel>
-      <Headline
-        title="How we relate" />
-      <p>We practice and experiment with community technologies and individual/group techniques that foster healing, trust and collaboration.</p>
-      <ul>
+    <Panel justification="center">
+      <div style={{marginTop: `25px`}}>
+        <Headline
+          title="How we relate"
+          justification="center" />
+        <p className="what-is-terran">We practice and experiment with community technologies and individual/group techniques that foster healing, trust and collaboration.</p>
+      </div>
+      <ul class="triad">
         <li>
-          <Image filename="what_is/what_is_scope_12x.png" alt="Community of Care" />
-          <h2>Community of care</h2>
+          <div>
+            <Image filename="what_is/what_is_scope_12x.png" alt="Nick and Mom" />
+          </div>
+          <h2>Community of Care</h2>
           <p>We support each person as a whole human being.</p>
           <p>We consistently show up for each other in times of need.</p>
           <p>We learn and practice tools for individual and collective healing and wellbeing.</p>
@@ -131,7 +138,9 @@ const WhatIsTerranPage = () => (
           <p>We mediate conflict and practice alternative, restorative justice together.</p>
         </li>
         <li>
-          <Image filename="what_is/what_is_scope_22x.png" alt="" />
+          <div>
+            <Image filename="what_is/what_is_scope_22x.png" alt="Kara and Gabi" />
+          </div>
           <h2>Our Community of Practice</h2>
           <p>We collaborate on projects together.</p>
           <p>We empower and support each other in pursuing our purpose.</p>
@@ -142,8 +151,10 @@ const WhatIsTerranPage = () => (
           <p>We practice collective governance and ownership, and the land has a seat at the table.</p>
         </li>
         <li>
-          <Image filename="what_is/what_is_scope_32x.png" alt="" />
-          <h2>Re-Creating the Commons</h2>
+          <div>
+            <Image filename="what_is/what_is_scope_32x.png" alt="group at Cospiracy" />
+          </div>
+          <h2>Re-Building the Commons</h2>
           <p>We share resources, starting simply with things we already have like spaces, tools, books, and technology subscriptions.</p>
           <p>A few of us already practice financial solidarity, and soon we will begin to pool money for group purchasing decisions, such as a coworking space, and group insurance.</p>
           <p>We plan to expand our experiments in financial solidarity by creating a loan pool, insurance pool, and basic income for our community.</p>
@@ -152,42 +163,65 @@ const WhatIsTerranPage = () => (
         </li>
       </ul>
     </Panel>
-    <Panel>
-      <Headline
-        title="Our core stewardship team"
-        subtitle="WE ARE GIVING FROM THE HEART" />
-        <p>We are a small group of people, with a limited set of perspectives. We are building a foundation to grow on, and are trying to find the others. If you are interested in helping steward the collective, please reach out to anyone on the team and connect.</p>
-        <p>We are still in the process of formalizing how stewardship works in the collective, but invite all to come and participate.</p>
-
-        <ul>
+    <Panel justification="center">
+        <div className="team">
+          <Headline
+            title="Our core stewardship team"
+            subtitle="WE ARE GIVING FROM THE HEART"
+            subtitleColor="#0080f8"
+            justification="center" />
+          <p>We are a small group of people, with a limited set of perspectives. We are building a foundation to grow on, and are trying to find the others. If you are interested in helping steward the collective, please reach out to anyone on the team and connect.</p>
+          <p>We are still in the process of formalizing how stewardship works in the collective, but invite all to come and participate.</p>
+        </div>
+        <ul className="team_members">
           <li>
-            <Image filename="what_is/what_is_kelly_erhart2x.jpg" alt="Kelly Erhart" />
-            <h2>Kelly Erhart</h2>
-            <span>kelly@terran.io</span>
+            <div className="team_photo">
+              <Image filename="what_is/what_is_kelly_erhart2x.jpg" alt="Kelly Erhart" />
+            </div>
+            <div className="team_details">
+              <h2>Kelly Erhart</h2>
+              <span>kelly@terran.io</span>
+            </div>
             <p>Kelly’s passion for innovation and environmental stewardship has led her to devote herself to focus on areas where she sees the largest imminent threats to our planet. She is committed to reframing complex issues into solutions that foster emergence and facilitate growth for impactful technologies. She has cultivated a multidisciplinary background, with a focus in systems thinking - with experience in international event production, disaster relief project management, and commercialization of sustainable technologies and carbon capture methods. She is currently Co Founder & COO of Ecozoic Resources, a waterless biofiltration toilet company and Co Founder of Project Vesta, a project to sequester carbon dioxide by accelerating the weathering of olivine.</p>
           </li>
           <li>
-            <Image filename="what_is/what_is_clare_politano2x.jpg" alt="Clare Politano" />
-            <h2>Clare Politano</h2>
-            <span>clare@terran.io</span>
+            <div className="team_photo">
+              <Image filename="what_is/what_is_clare_politano2x.jpg" alt="Clare Politano" />
+            </div>
+            <div className="team_details">
+              <h2>Clare Politano</h2>
+              <span>clare@terran.io</span>
+            </div>
             <p>Clare is an eco-social entrepreneur and movement artist whose mission is channeling resources to healing. She has worked in architecture, refugee resettlement, yoga, nutrition, and regenerative agriculture contributing her skills in design, communications, and software engineering. She is creating a future where humans remember our destiny as responsible stewards of the Earth, living in reciprocal partnership with the land and the more-than-human community.</p>
           </li>
           <li>
-            <Image filename="what_is/what_is_tibet_sprague2x.jpg" alt="Tibet Sprague" />
-            <h2>Tibet Sprague</h2>
-            <span>tibet@terran.io</span>
+            <div className="team_photo">
+              <Image filename="what_is/what_is_tibet_sprague2x.jpg" alt="Tibet Sprague" />
+            </div>
+            <div className="team_details">
+              <h2>Tibet Sprague</h2>
+              <span>tibet@terran.io</span>
+            </div>
             <p>Tibet is a communitarian since birth, a technologist for good, and a passionate evangelist of the more beautiful world our hearts know is possible. An entrepreneur since college he founded and/or lead the software teams for five startups. For seven years he helped grow the residential solar industry at One Block off the Grid, guiding the company through two acquisitions as VP of Engineering. After watching the corporate industrial complex destroy everything they had built he co-founded the Terran Collective to figure out how humans can cooperate fully at every level with each other and the earth. While building the foundations of Terran, Tibet has also worked closely with DAOstack, building the decentralized governance dApp Alchemy, and has co-created an international Community Weavers Guild. Tibet is devoting his life to be of service to his bioregion, and to working for a world where all beings can thrive!</p>
           </li>
           <li>
-            <Image filename="what_is/what_is_neha_sharma2x.jpg" alt="Neha Sharma" />
-            <h2>Neha Sharma</h2>
-            <span>neha@terran.io</span>
+            <div className="team_photo">
+              <Image filename="what_is/what_is_neha_sharma2x.jpg" alt="Neha Sharma" />
+            </div>
+            <div className="team_details">
+              <h2>Neha Sharma</h2>
+              <span>neha@terran.io</span>
+            </div>
             <p>Neha is committed to tapping into collective insight & foresight in order to restore & regenerate our relationship with the planet. She primarily does this through strategy work and impactful partnerships. Currently, her time goes towards energy efficiency & intelligence in the built environment, exercise facilitation for group alignment, and bridge building between disparate networks & nodes. She involves herself in many side projects and shticks to ensure that her soul is always activated. Inquiries of this season include: What will allow beings to cooperate harmoniously across scales? In conversations about building the future, how do we ensure all voices and stakeholders are represented?</p>
           </li>
           <li>
-            <Image filename="what_is/what_is_aaron_brodeur2x.jpg" alt="Aaron Brodeur" />
-            <h2>Aaron Brodeur</h2>
-            <span>aaron@terran.io</span>
+            <div className="team_photo">
+              <Image filename="what_is/what_is_aaron_brodeur2x.jpg" alt="Aaron Brodeur" />
+            </div>
+            <div className="team_details">
+              <h2>Aaron Brodeur</h2>
+              <span>aaron@terran.io</span>
+            </div>
             <p>Aaron is a systems designer, artist, musician, builder and entrepreneur. His work in technology building social apps, sales systems, satellite solar design tools, distributed governance tools, nationwide activism platforms and product designs have touched millions. He is dedicated to designing systems and tools for thriving in an uncertain future.</p>
           </li>
         </ul>
