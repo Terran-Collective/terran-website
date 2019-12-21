@@ -12,7 +12,7 @@ const Menu = ({ siteTitle }) => (
           <Link to="/what-is-terran/">What is Terran Collective?</Link>
         </h3>
         <ul>
-          <li><Link to="/what-is-terran/#mission">Vision & Mission</Link></li>
+          <li><Link to="/what-is-terran/#mission">Vision &amp; Mission</Link></li>
           <li><Link to="/what-is-terran/#core-beliefs">Core Beliefs</Link></li>
           <li><Link to="/what-is-terran/#team">Core Stewardship Team</Link></li>
         </ul>
@@ -62,8 +62,8 @@ const Menu = ({ siteTitle }) => (
           <Link to="/resources/">Library of Resources</Link>
         </h3>
         <ul>
-          <li><Link to="/resources/#peers-and-allies">Peers & Allies</Link></li>
-          <li><Link to="/resources/#books">Books & Articles</Link></li>
+          <li><Link to="/resources/#peers-and-allies">Peers &amp; Allies</Link></li>
+          <li><Link to="/resources/#books">Books &amp; Articles</Link></li>
           <li><Link to="/resources/#authors-artists-teachers">Authors, artists and teachers</Link></li>
         </ul>
       </li>

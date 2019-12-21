@@ -17,11 +17,11 @@ const resources = () => (
             title="Books, sources of information and teachers that have helped shape our understanding of the world"
             subtitle="LIBRARY OF RESOURCES"
           />
-          <Button link="/resources/#peers-and-allies" label="Peers & allies" />
+          <Button link="/resources/#peers-and-allies" label="Peers &amp; allies" />
           <Button link="/resources/#books" label="Books" />
           <Button link="/resources/#articles" label="Articles" />
           <Button link="/resources/#podcasts" label="Podcasts" />
-          <Button link="/resources/#authors-artists-teachers" label="Authors & artists" />
+          <Button link="/resources/#authors-artists-teachers" label="Authors &amp; artists" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -31,7 +31,7 @@ const resources = () => (
       <div className="resourceHeadline">
         <a name="peers-and-allies"></a>
         <Headline
-          title="Peers & Allies"
+          title="Peers &amp; Allies"
         />
         <p>Communities of practice we see working on similar issues</p>
       </div>
@@ -474,7 +474,7 @@ const resources = () => (
           <li>
             <a href="https://medium.com/@bonnittaroy">
             <h3>Bonnitta Roy</h3>
-            <span>Author, teacher, insight guide & trainer</span>
+            <span>Author, teacher, insight guide &amp; trainer</span>
             </a>
           </li>
           <li>

@@ -61,7 +61,7 @@ const WhatAreWeDoingPage = () => (
           title="Cooperative Systems Design"
           subtitle="SCOPE OF PRACTICE"
         />
-        <p>We are architects, systems & process thinkers, permaculturists and experienced leaders. We are using our abilities to design and experiment with new ways of working together, sharing resources, group decision making and how to steward commons. We are focusing on bioregional systems that will allow people anywhere in the world to actively participate in the stewardship of the land around them.</p>
+        <p>We are architects, systems &amp; process thinkers, permaculturists and experienced leaders. We are using our abilities to design and experiment with new ways of working together, sharing resources, group decision making and how to steward commons. We are focusing on bioregional systems that will allow people anywhere in the world to actively participate in the stewardship of the land around them.</p>
         <div>
           <h3>Current Focus</h3>
             <ul>
@@ -151,7 +151,7 @@ const WhatAreWeDoingPage = () => (
               Identify partners in the bioregion and work to understand their needs and offerings, and how we can best collaborate.
             </div>
             <div className="timelineItem">
-              Nurture development of bioregional Guilds & identify tools needed to help them
+              Nurture development of bioregional Guilds &amp; identify tools needed to help them
             </div>
             <div className="timelineItem">
               Develop technological Roadmap
@@ -216,13 +216,13 @@ const WhatAreWeDoingPage = () => (
               Implement regenerative pricing strategy for Terran tools
             </div>
             <div className="timelineItem">
-              Implement collective ownership & governance system for our tech suite: Creating a technological commons shared by all
+              Implement collective ownership &amp; governance system for our tech suite: Creating a technological commons shared by all
             </div>
             <div className="timelineItem">
               Onboard more bioregional partners
             </div>
             <div className="timelineItem">
-              Work with guilds to collaborate on sharing resources & offerings
+              Work with guilds to collaborate on sharing resources &amp; offerings
             </div>
           </div>
         </div>
@@ -273,7 +273,7 @@ const WhatAreWeDoingPage = () => (
               Develop tools that allow for other collectives to form, map, sense, choose and act
             </div>
             <div className="timelineItem">
-              Implement collective ownership and governance of the collective during an in person congress with online participation: Create a governance & ownership commons shared by all
+              Implement collective ownership and governance of the collective during an in person congress with online participation: Create a governance &amp; ownership commons shared by all
             </div>
             <div className="timelineItem">
               Expand to two more large yearly events beyond Terran Camp and Cospiracy
@@ -293,7 +293,7 @@ const WhatAreWeDoingPage = () => (
               Begin acquiring land: Create a commons of distributed land projects, shared and stewarded by all. Community centers in various parts of the bioregion, that allow people to collaborate, meet, share space in person. Degraded land -> Reforestation.
             </div>
             <div className="timelineItem">
-              Develop tools for local coordination: Neighborhood, city & county level - work with local stakeholders to identify deepest needs
+              Develop tools for local coordination: Neighborhood, city &amp; county level - work with local stakeholders to identify deepest needs
             </div>
           </div>
           <div className="twoColumnsTimelineRight">

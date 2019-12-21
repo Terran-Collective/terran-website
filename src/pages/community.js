@@ -367,7 +367,7 @@ const community = () => (
             <div>
               <a href="https://www.place.community/">
                 <h3>PLACE for sustainable living</h3>
-                <span>A volunteer-run community hub that fosters regenerative living practices through People Linking Art, Community & Ecology</span>
+                <span>A volunteer-run community hub that fosters regenerative living practices through People Linking Art, Community &amp Ecology</span>
               </a>
             </div>
           </li>

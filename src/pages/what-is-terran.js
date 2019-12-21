@@ -156,7 +156,7 @@ const WhatIsTerranPage = () => (
           <p>We empower and support each other in pursuing our purpose.</p>
           <p>We mentor and share knowledge with each other.</p>
           <p>We participate in workshops and trainings, and share what we learn with each other.</p>
-          <p>We organize reading & study groups.</p>
+          <p>We organize reading &amp; study groups.</p>
           <p>We share work opportunities and make helpful connections.</p>
           <p>We practice collective governance and ownership, and the land has a seat at the table.</p>
         </li>
@@ -193,7 +193,7 @@ const WhatIsTerranPage = () => (
               <h2>Kelly Erhart</h2>
               <span><a href="mailto:kelly@terran.io">kelly@terran.io</a></span>
             </div>
-            <p>Kelly’s passion for innovation and environmental stewardship has led her to devote herself to focus on areas where she sees the largest imminent threats to our planet. She is committed to reframing complex issues into solutions that foster emergence and facilitate growth for impactful technologies. She has cultivated a multidisciplinary background, with a focus in systems thinking - with experience in international event production, disaster relief project management, and commercialization of sustainable technologies and carbon capture methods. She is currently Co Founder & COO of Ecozoic Resources, a waterless biofiltration toilet company and Co Founder of Project Vesta, a project to sequester carbon dioxide by accelerating the weathering of olivine.</p>
+            <p>Kelly’s passion for innovation and environmental stewardship has led her to devote herself to focus on areas where she sees the largest imminent threats to our planet. She is committed to reframing complex issues into solutions that foster emergence and facilitate growth for impactful technologies. She has cultivated a multidisciplinary background, with a focus in systems thinking - with experience in international event production, disaster relief project management, and commercialization of sustainable technologies and carbon capture methods. She is currently Co Founder &amp; COO of Ecozoic Resources, a waterless biofiltration toilet company and Co Founder of Project Vesta, a project to sequester carbon dioxide by accelerating the weathering of olivine.</p>
           </li>
           <li>
             <div className="team_photo">
@@ -223,7 +223,7 @@ const WhatIsTerranPage = () => (
               <h2>Neha Sharma</h2>
               <span><a href="neha@terran.io">neha@terran.io</a></span>
             </div>
-            <p>Neha is committed to tapping into collective insight & foresight in order to restore & regenerate our relationship with the planet. She primarily does this through strategy work and impactful partnerships. Currently, her time goes towards energy efficiency & intelligence in the built environment, exercise facilitation for group alignment, and bridge building between disparate networks & nodes. She involves herself in many side projects and shticks to ensure that her soul is always activated. Inquiries of this season include: What will allow beings to cooperate harmoniously across scales? In conversations about building the future, how do we ensure all voices and stakeholders are represented?</p>
+            <p>Neha is committed to tapping into collective insight &amp; foresight in order to restore &amp; regenerate our relationship with the planet. She primarily does this through strategy work and impactful partnerships. Currently, her time goes towards energy efficiency & intelligence in the built environment, exercise facilitation for group alignment, and bridge building between disparate networks & nodes. She involves herself in many side projects and shticks to ensure that her soul is always activated. Inquiries of this season include: What will allow beings to cooperate harmoniously across scales? In conversations about building the future, how do we ensure all voices and stakeholders are represented?</p>
           </li>
           <li>
             <div className="team_photo">

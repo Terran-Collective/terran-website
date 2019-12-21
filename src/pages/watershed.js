@@ -57,7 +57,7 @@ const watershed = () => (
         <ul>
           <li>
             <img src={resourceUse1} alt="Mapping & Network building"/>
-            <h2>Mapping & Network building</h2>
+            <h2>Mapping &amp; Network building</h2>
             <div>
               <p>In order to transition from an extractive system to a closed-loop, regenerative system, our landscape needs to be mapped and new networks must be built. The rise of ridesharing and homesharing marketplace technologies are a hint of what is possible if we are able to map needs, offers, abilities, untapped resources and knowledge. </p>
               <p>During 2020 we will continue to map the landscape of regenerative projects in the San Francisco Bay Area. With this community as our first audience, our research seeks to uncover ways of surfacing the hidden landscape of the human and natural world, and build networks so that resources, energy and knowledge can flow freely outside of the market.</p>
@@ -75,7 +75,7 @@ const watershed = () => (
             <img src={resourceUse3} alt="Community and Relationships"/>
             <h2>Community and Relationships</h2>
             <div>
-              <p>Our research & technology is intended to create new culture. At the heart of the culture we see as necessary for a thriving world is one where tools and economic systems produce deeper community and healthy relationships.</p>
+              <p>Our research &amp; technology is intended to create new culture. At the heart of the culture we see as necessary for a thriving world is one where tools and economic systems produce deeper community and healthy relationships.</p>
               <p>When communities and relationships are healthy, the current global market system can be disintermediated. In addition to public utilities and protocols, we are searching for social and technological tools that empower and engage people within their communities, relationships and workplaces.</p>
             </div>
           </li>
