@@ -27,14 +27,14 @@ const resources = () => (
       <div className="heroPanelBg"></div>
     </div>
 
-    <Panel>
-      <div>
+    <Panel justification="center">
+      <div className="resourceHeadline">
         <Headline
           title="Peers & Allies"
         />
         <p>Communities of practice we see working on similar issues</p>
       </div>
-      <div>
+      <div className="communitiesList">
         <ul>
           <li>
             <h2>Tamera</h2>
@@ -257,141 +257,172 @@ const resources = () => (
       </div>
     </Panel>
 
-    <Panel>
-      <div>
-        <Headline
-          title=""
-          subtitle=""
-        />
-        <p></p>
-        <Button to="/"></Button>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=a+finer+future+hunter+lovins">
-          <Image filename="resources/books/a_finer_future2x.jpg" alt="A Finer Future by Hunter Lovins"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=becoming+animal+david+abram">
-          <Image filename="resources/books/becoming_animal2x.jpg" alt="Becoming Animal by David Abram"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=emergent+strategy+adrienne+marie+brown">
-          <Image filename="resources/books/emergent_strategy2x.jpg" alt="Emergent Strategy by adrienne marie brown"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=finite+and+infinite+games+james+carse">
-          <Image filename="resources/books/finite_and_infinite_games2x.jpg" alt="Finite and Infinite Games by James P. Carse"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=governing+the+commons+elinor+ostrom">
-          <Image filename="resources/books/governing_the_commons2x.jpg" alt="Governing the Commons by Elinor Ostrom"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=ishmael+daniel+quinn">
-          <Image filename="resources/books/ishmael2x.jpg" alt="Ishmael by Daniel Quinn"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=reinventing+organizations+frederic+laloux">
-          <Image filename="resources/books/reinventing_organizations2x.jpg" alt="Reinventing Organizations by Frederic Laloux"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=sacred+economics+charles+eisenstein">
-          <Image filename="resources/books/sacred_economics2x.jpg" alt="Sacred Economics by Charles Eisenstein"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=fifth+sacred+thing+starhawk">
-          <Image filename="resources/books/the_fifth_sacred_thing2x.jpg" alt="The Fifth Sacred Thing by Starhawk"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=practice+of+the+wild+gary+snyder">
-          <Image filename="resources/books/the_practice_of_the_wild2x.jpg" alt="The Practice of the Wild by Gary Snyder"/>
-        </a>
-      </div>
-      <div>
-        <a href="https://duckduckgo.com/?q=tao+of+democracy+tom+atlee">
-          <Image filename="resources/books/the_tao_of_democracy2x.jpg" alt="The Tao of Democracy by Tom Atlee"/>
-        </a>
-      </div>
-    </Panel>
-
-    <Panel>
-      <div>
-        <Headline
-          title="Articles and Posts"
-        />
-        <p>Share with us what you’re reading on Facebook or on Slack. Here are some important digital-form writings that we think you would benefit from reading.</p>
-      </div>
-
-      <ul className="smallWhiteCards">
-        <li>
-          <div>
-            <a href="https://civilizationemerging.com/new-economics-series-part-i/">
-              <h3>New Economics Series: Part I</h3>
-              <span>by Daniel Schmachtenberger</span>
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">
-              <h3>Meditations on Moloch</h3>
-              <span>by Scott Alexander</span>
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="https://medium.com/agile-sensemaking/sensemaking-in-organizations-pt-1-e79c4aaf63ca">
-              <h3>Sensemaking in Organizations Pt. 1</h3>
-              <span>by Bonnitta Roy</span>
-            </a>
-          </div>
-        </li>
-      </ul>
-    </Panel>
-
-    <Panel>
-      <div>
-        <Headline
-          title="Podcasts"
-        />
-      </div>
-      <div className="podcasts">
-        <a href="https://forthewild.world/listen">
-          <Image filename="resources/podcasts/Bitmap2x.jpg" alt="For the Wild"/>
-        </a>
-        <a href="https://www.whatisemerging.com/emergepodcast">
-          <Image filename="resources/podcasts/emerge2x.jpg" alt="Emerge"/>
-        </a>
-        <a href="https://futurethinkers.org/">
-          <Image filename="resources/podcasts/future_thinkers2x.jpg" alt="Future Thinkers"/>
-        </a>
-        <a href="https://www.endoftheworldshow.org/">
-          <Image filename="resources/podcasts/how_to_survive_the_end_of_the_world2x.jpg" alt="How to Survive the End of the World"/>
-        </a>
-        <a href="https://www.lifteconomy.com/podcast">
-          <Image filename="resources/podcasts/next_economy_now2x.jpg" alt="Next Economy Now"/>
-        </a>
-        <a href="https://www.jimruttshow.com/">
-          <Image filename="resources/podcasts/the_jim_rutt_show2x.jpg" alt="The Jim Rutt Show"/>
-        </a>
+    <Panel justification="center">
+      <div className="books">
+        <div className="resourceHeadline">
+          <Headline
+            title="Reading list"
+          />
+          <p>This is an incomplete list of some of the books we’ve read that are important to our work. If you know of books that we should read in order to do our best work, please send your recommandations to <a href="info@terran.io">info@terran.io</a></p>
+        </div>
+        <div class="library">
+        <div>
+          <a href="https://duckduckgo.com/?q=a+finer+future+hunter+lovins">
+            <Image filename="resources/books/a_finer_future2x.jpg" alt="A Finer Future by Hunter Lovins"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=becoming+animal+david+abram">
+            <Image filename="resources/books/becoming_animal2x.jpg" alt="Becoming Animal by David Abram"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=emergent+strategy+adrienne+marie+brown">
+            <Image filename="resources/books/emergent_strategy2x.jpg" alt="Emergent Strategy by adrienne marie brown"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=finite+and+infinite+games+james+carse">
+            <Image filename="resources/books/finite_and_infinite_games2x.jpg" alt="Finite and Infinite Games by James P. Carse"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=governing+the+commons+elinor+ostrom">
+            <Image filename="resources/books/governing_the_commons2x.jpg" alt="Governing the Commons by Elinor Ostrom"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=ishmael+daniel+quinn">
+            <Image filename="resources/books/ishmael2x.jpg" alt="Ishmael by Daniel Quinn"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=reinventing+organizations+frederic+laloux">
+            <Image filename="resources/books/reinventing_organizations2x.jpg" alt="Reinventing Organizations by Frederic Laloux"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=sacred+economics+charles+eisenstein">
+            <Image filename="resources/books/sacred_economics2x.jpg" alt="Sacred Economics by Charles Eisenstein"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=fifth+sacred+thing+starhawk">
+            <Image filename="resources/books/the_fifth_sacred_thing2x.jpg" alt="The Fifth Sacred Thing by Starhawk"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=practice+of+the+wild+gary+snyder">
+            <Image filename="resources/books/the_practice_of_the_wild2x.jpg" alt="The Practice of the Wild by Gary Snyder"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://duckduckgo.com/?q=tao+of+democracy+tom+atlee">
+            <Image filename="resources/books/the_tao_of_democracy2x.jpg" alt="The Tao of Democracy by Tom Atlee"/>
+          </a>
+        </div>
+        </div>
       </div>
     </Panel>
 
-    <Panel>
-      <div className="our_teachers">
+    <Panel justification="center">
+      <div className="articles">
+        <div className="resourceHeadline">
+          <Headline
+            title="Articles and Posts"
+          />
+          <p>Share with us what you’re reading on Facebook or on Slack. Here are some important digital-form writings that we think you would benefit from reading.</p>
+        </div>
+
+        <ul className="smallWhiteCards">
+          <li>
+            <div>
+              <a href="https://civilizationemerging.com/new-economics-series-part-i/">
+                <h3>New Economics Series: Part I</h3>
+                <span>by Daniel Schmachtenberger</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">
+                <h3>Meditations on Moloch</h3>
+                <span>by Scott Alexander</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://medium.com/agile-sensemaking/sensemaking-in-organizations-pt-1-e79c4aaf63ca">
+                <h3>Sensemaking in Organizations Pt. 1</h3>
+                <span>by Bonnitta Roy</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://handbook.enspiral.com/">
+                <h3>Enspiral Handbook</h3>
+                <span>Enspiral</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://medium.com/@salmonnation/salmon-nation-a-place-and-an-idea-1f18e4776362">
+                <h3>Salmon Nation: People. Place. An Invitation</h3>
+                <span>Salmon Nation</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://www.tni.org/files/profiles-downloads/disco_manifesto_v.1.pdf">
+                <h3>If I Only Had a Heart: A DisCO Manifesto</h3>
+                <span>DISCO.coop</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </Panel>
+
+    <Panel justification="center">
+      <div className="podcastsContainer">
+        <div className="resourceHeadline">
+          <Headline
+            title="Podcasts"
+          />
+        </div>
+        <div className="podcasts">
+          <a href="https://forthewild.world/listen">
+            <Image filename="resources/podcasts/Bitmap2x.jpg" alt="For the Wild"/>
+          </a>
+          <a href="https://www.whatisemerging.com/emergepodcast">
+            <Image filename="resources/podcasts/emerge2x.jpg" alt="Emerge"/>
+          </a>
+          <a href="https://futurethinkers.org/">
+            <Image filename="resources/podcasts/future_thinkers2x.jpg" alt="Future Thinkers"/>
+          </a>
+          <a href="https://www.endoftheworldshow.org/">
+            <Image filename="resources/podcasts/how_to_survive_the_end_of_the_world2x.jpg" alt="How to Survive the End of the World"/>
+          </a>
+          <a href="https://www.lifteconomy.com/podcast">
+            <Image filename="resources/podcasts/next_economy_now2x.jpg" alt="Next Economy Now"/>
+          </a>
+          <a href="https://www.jimruttshow.com/">
+            <Image filename="resources/podcasts/the_jim_rutt_show2x.jpg" alt="The Jim Rutt Show"/>
+          </a>
+        </div>
+      </div>
+    </Panel>
+
+    <Panel justification="center">
+      <div className="ourTeachers resourceHeadline">
         <Headline
           title="Authors, Leaders, Artists and Teachers"
         />
+        <p>These are people whose work has in some way informed our collective understanding of the world.</p>
         <ul>
           <li>
             <a href="https://charleseisenstein.org/">

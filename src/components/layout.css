@@ -1048,6 +1048,11 @@ ul.smallWhiteCards {
   box-shadow: 0 10px 15px 0 rgba(0,0,0,0.06);
   border-radius: 5px;
   margin: 0 10px 20px 10px;
+  transition: all .25s ease;
+}
+
+.smallWhiteCards li:hover {
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.3);
 }
 
 .smallWhiteCards span {
@@ -1108,9 +1113,151 @@ ul.smallWhiteCards {
   margin-bottom: 25px;
 }
 
+.resourceHeadline h1, .resourceHeadline p {
+  text-align: center;
+}
 
+.communities ul {
+  margin: 0;
+  list-style: none;
+}
+
+.communitiesList ul li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.communitiesList ul li:nth-child(odd) {
+  background-color: rgba(250, 250, 244, 1.000);
+}
+
+.communitiesList ul li h2 {
+  width: 20%;
+  text-align: right;
+  margin: 0;
+  min-width: 20%;
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+.communitiesList div p {
+  font-size: 12px;
+  margin: 0;
+  line-height: 18px;
+}
+
+.communitiesList a {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(37, 37, 35, 1.000);
+  border: 1px solid rgba(214, 214, 209, 1.000);
+  height: 30px;
+  line-height: 30px;
+  border-radius: 30px;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.library, .podcasts {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.articles h3 {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 15px 10px 0 10px;
+}
+
+.articles .smallWhiteCards {
+  justify-content: center;
+  padding-top: 0;
+}
+
+.articles .smallWhiteCards span {
+  padding-top: 5px;
+  opacity: .5;
+}
+
+.library div {
+  height: 265px;
+  width: 180px;
+  margin: 10px;
+}
+
+.podcastsContainer, .ourTeachers, .articles, .books, .communitiesList {
+  max-width: 1024px;
+  padding-bottom: 150px;
+}
+
+.podcasts a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.ourTeachers ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ourTeachers a {
+  text-decoration: none;
+  color: rgba(22, 21, 20, 1.000);
+  display: block;
+  padding: 15px;
+  transition: all .25s ease;
+}
+
+.ourTeachers a:hover {
+  color: rgba(43, 128, 240, 1.000);
+}
+
+.ourTeachers a span {
+  font-size: 12px;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+.ourTeachers a h3 {
+  margin-bottom: 5px;
+  text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
+
+  .communitiesList ul li {
+    display: block;
+  }
+
+  .communitiesList ul li h2 {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .communitiesList ul li div {
+    text-align: center;
+  }
+
+  .communitiesList a {
+    margin-top: 15px;
+    margin-left: 0;
+  }
 
   h1 {
     font-size: 30px;
