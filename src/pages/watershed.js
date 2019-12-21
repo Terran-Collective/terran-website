@@ -7,50 +7,56 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import watershedLogo from "../images/logos/terran_watershed_logo_2x.png"
+import resourceUse1 from "../images/watershed/watershed_resource_use_1.png"
+import resourceUse2 from "../images/watershed/watershed_resource_use_2.png"
+import resourceUse3 from "../images/watershed/watershed_resource_use_3.png"
+import resourceUse4 from "../images/watershed/watershed_resource_use_4.png"
+
+
 
 const watershed = () => (
   <Layout>
     <div className="heroPanel watershedHero">
       <Panel justification="center">
         <div className="pageHero">
-          <Image filename="logos/terran_watershed_logo.png" alt="Terran Watershed" />
+          <img src={watershedLogo} alt="Terran Watershed" />
           <Headline
             title="A foundation for thriving bioregions"
           />
           <p>The tools we make and the experiments we perform are for the benefit of all. The Watershed is the primary container where we receive and steward resources in support of our efforts to bring about systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
-          <p>We have structured our organization in a way that represents our values, creating a diversity of options for how we can fill our wells, and to allow supporters and partners to contribute resources to our mission. Currently we manage a for-profit entity called the Terran Collective LLC, which mostly does mostly contract software development work with aligned partners like DAOstack as our primary source of income. Moving forward we want to move our work more and more into the gift, and this is where the Terran Watershed comes in as the source of life that will allow us to more fully pursue our purpose and share our gifts with the world. </p>
-          <Button to="#participate">We want your participation</Button>
-          <Button to="#resourceuse">How will resources be used?</Button>
-          <Button to="#supportus">Support us</Button>
+          <Button link="/watershed/#goals" label="2020 Resource Goals" />
+          <Button link="/watershed/#stewardship" label="How will resources be used?" />
+          <Button link="/watershed/#supportus" label="Support us" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
     </div>
 
-    <Panel>
-      <div>
-        <Image filename="watershed/watershed_seqouia_sempervirens.jpg" alt="Seqouia sempervirens" />
-        <span>Seqouia sempervirens</span>
+    <Panel justification="center">
+      <div className="twoColumnsLeftImage">
+        <Image filename="watershed/watershed_seqouia_sempervirens.jpg" alt="Seqouia sempervirens" showCaption="true"/>
       </div>
-      <div>
+      <div className="twoColumnsRightText">
         <Headline
           title="We need your help to fill the watershed"
         />
+        <p>We have structured our organization in a way that represents our values, creating a diversity of options for how we can fill our wells, and to allow supporters and partners to contribute resources to our mission. Currently we manage a for-profit entity called the Terran Collective LLC, which mostly does mostly contract software development work with aligned partners like DAOstack as our primary source of income. Moving forward we want to move our work more and more into the gift, and this is where the Terran Watershed comes in as the source of life that will allow us to more fully pursue our purpose and share our gifts with the world. </p>
         <p>Terran Watershed is a non-profit 501c3, fiscally sponsored by our friends and allies at Empowerment Works. We are asking for contributions to our Watershed in form of tax deductible donations.  </p>
         <p>Over the past three years we have built a software platform for matching needs and offers, hosted many community events, mapped important relationship and energy landscapes within our bioregion and researched and developed systems for distributed collective governance and ownership. We have been able to do this without funding, and are looking to evolve into the next level of our stewardship of this work.</p>
         <p>Our work of software development, community building, supporting fellow players in regeneration work, organizing action days, and sharing tools is in the form of a gift. In order to bestow this gift, your donations will provide resources for the Core team to thrive and do their life’s work. Your donations into The Watershed allow for a continuation of our research, development, education, community building, service and tools. </p>
       </div>
     </Panel>
 
-    <Panel>
-      <div>
-
+    <Panel justification="center">
+      <div className="resourceUse">
+        <a name="stewardship"></a>
         <Headline
           title="How will resources in the watershed be used?"
         />
         <ul>
           <li>
-            <Image filename="watershed/watershed_resource_use_1.png" alt=""/>
+            <img src={resourceUse1} alt="Mapping & Network building"/>
             <h2>Mapping & Network building</h2>
             <div>
               <p>In order to transition from an extractive system to a closed-loop, regenerative system, our landscape needs to be mapped and new networks must be built. The rise of ridesharing and homesharing marketplace technologies are a hint of what is possible if we are able to map needs, offers, abilities, untapped resources and knowledge. </p>
@@ -58,7 +64,7 @@ const watershed = () => (
             </div>
           </li>
           <li>
-            <Image filename="watershed/watershed_resource_use_2.png" alt=""/>
+            <img src={resourceUse2} alt="Tools and technology"/>
             <h2>Tools and technology</h2>
             <div>
               <p>Our research and the knowledge generated by countless others throughout the world will directly inform our creation of tools and technology that will foster new commons, strengthen communities and nurture healthy individuals, disintermediating human economic activity and human relationships with the land.</p>
@@ -66,7 +72,7 @@ const watershed = () => (
             </div>
           </li>
           <li>
-            <Image filename="watershed/watershed_resource_use_3.png" alt=""/>
+            <img src={resourceUse3} alt="Community and Relationships"/>
             <h2>Community and Relationships</h2>
             <div>
               <p>Our research & technology is intended to create new culture. At the heart of the culture we see as necessary for a thriving world is one where tools and economic systems produce deeper community and healthy relationships.</p>
@@ -74,7 +80,7 @@ const watershed = () => (
             </div>
           </li>
           <li>
-            <Image filename="watershed/watershed_resource_use_4.png" alt=""/>
+            <img src={resourceUse4} alt="Governance and Ownership"/>
             <h2>Governance and Ownership</h2>
             <div>
               <p>With new maps, tools, and a culture that has learned how to rely on community and relationships, a new cooperative landscape is opened. Cooperating within this landscape will only be possible with new systems for collective ownership, decision-making and governance.</p>
@@ -82,47 +88,51 @@ const watershed = () => (
             </div>
           </li>
         </ul>
-        <div>
-          <Button to="/what-we-do/">More abbout what we do</Button>
+        <div className="centerText">
+          <Button link="/what-we-do/" label="More about what we do" />
         </div>
       </div>
     </Panel>
 
-    <Panel>
-      <div>
+    <Panel justification="center">
+      <div className="twoColumnsLeftText">
         <Headline
           title="We are seeking divestors"
         />
         <p>Divestors are people who understand the need to transfer resources from the extractive economy to the regenerative economy as quickly as possible. Transforming fixed fiat wealth into cascading ecosystem/bioregional/living abundance. So currency may become a current for good. 🌊</p>
         <p>Investment looks for returns for the investor, usually within a time-horizon that causes investors to think in very short terms. Our plan for economic and ecologic thriving is long-term: We are developing systems, tools and communities that work for the seven generations yet to come. When you divest into this collective, you are seeking returns for your grandchildren and the bioregional communities within which they will thrive.</p>
       </div>
-      <div>
-        <Image filename="watershed/watershed_meleagris_gallopavo2x.jpg" alt="Meleagris Gallopavo" />
+      <div className="twoColumnsRightImage">
+        <Image filename="watershed/watershed_meleagris_gallopavo2x.jpg" alt="Meleagris Gallopavo" showCaption="true" />
         <span>Meleagris Gallopavo</span>
       </div>
     </Panel>
 
-    <Panel>
-      <div>
+    <Panel justification="center">
+      <a name="goals"></a>
+      <div className="resourceGoals singleColumnText">
         <Headline
           title="$500,000"
           subtitle="Our 2020 resource goals"
         />
         <p>We practice full transparency in finances and invite you to take a look at a draft of our operating budget.</p>
-        <Button to="/budget">Our 2020 Budget</Button>
+        <div className="centerText">
+        <Button link="/budget" label="Our 2020 Budget Goals" />
+        </div>
         <p>For the last three years we have contributed our extra time and energy, and have supported each other financially to work on this vision. We are committed to building a way of life that realizes the hopes in our hearts, and we see this as a lifetime project. Any resources we receive, any help we receive, will help us to accomplish our goals sooner, and be able to share our research, tools and systems with the world more rapidly</p>
         <p>We are doing this work for the people and the Earth, not to enrich the wealthy. We don’t expect traditional investment structures such as venture capital to understand the value of this work, so we are asking you, our community, to join with us in creating a better world.Please consider giving a monthly donation of time or money. We believe that the community patronage model could be an example of how we can fund the transformative work that is required at this time. We are also of course happy to accept larger one time donations  to give us a big rocket boost as we leap into this work whole heartedly. </p>
         <p>We are asking you to trust us and join us in this radical experiment, to see if we can give ourselves over completely to be of service to our bioregion and the world. Now is the time for to put our energy and resources into radical experimentation and change. The world is calling for a transition from the extractive economy into the regenerative economy, so we can liberate our communities, ecosystems, and align with our true value systems. And stop us from destroying ourselves and the planet. Help us begin right now, right here, with us.</p>
-
-        <Button to="#donate">Become a divestor</Button>
+        <div className="centerText">
+          <Button link="#donate" label="Become a divestor" />
+        </div>
       </div>
     </Panel>
 
     <Panel>
-        <Image filename="watershed/watershed_sylvilagus_bachmani2x.jpg" alt="Sylvilagus bachmani" />
-        <span>Sylvilagus bachmani</span>
+      <div className="singleColumnImage">
+        <Image filename="watershed/watershed_sylvilagus_bachmani2x.jpg" alt="Sylvilagus bachmani" showCaption="true"/>
+      </div>
     </Panel>
-
 
   </Layout>
 

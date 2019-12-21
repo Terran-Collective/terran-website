@@ -842,6 +842,10 @@ footer {
   background: url('../images/resources/resources_hero.jpg');
 }
 
+.watershedHero .pageHero img {
+  width: 120px;
+}
+
 .heroPanel {
   background-position: top center;
   background-size: 100%;
@@ -851,6 +855,10 @@ footer {
   min-height: 100%;
   position: relative;
   width: 100%;
+}
+
+.heroPanel.watershedHero {
+  max-height: auto;
 }
 
 .heroPanel .pageHero {
@@ -896,6 +904,10 @@ footer {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
+}
+
+.centerText {
+  text-align: center;
 }
 
 .twoColumnsLeftImage, .twoColumnsRightImage {
@@ -954,6 +966,28 @@ footer {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
+}
+
+.resourceUse {
+  max-width: 1024px;
+}
+
+.resourceUse ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resourceUse ul li {
+  width: 45%;
+  margin: 0 2.5%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.resourceUse h1 {
+  text-align: center;
 }
 
 .gatherings {
@@ -1034,6 +1068,16 @@ footer {
   text-align: center;
   margin: 0 auto !important;
   display: block;
+}
+
+.resourceGoals h1 {
+  font-size: 64px !important;
+  margin-top: 30px !important;
+  padding-bottom: 150px;
+}
+
+.resourceGoals .centerText {
+  padding: 30px 0;
 }
 
 ul.smallWhiteCards {
@@ -1369,6 +1413,14 @@ ul.team_members {
 }
 
 @media only screen and (max-width: 600px) {
+
+
+  .resourceUse ul li {
+    width: 95%;
+    margin: 0 2.5%;
+    text-align: center;
+    padding-bottom: 50px;
+  }
 
   .twoColumnsTimelineLeft h3, .twoColumnsTimelineLeft h1 {
     text-align: center !important;
