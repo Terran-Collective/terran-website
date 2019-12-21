@@ -5,15 +5,18 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import ScrollAnimation from 'react-animate-on-scroll'
 
 const Panel = ({ children, justification, bleed }) => {
 
   return (
-    <div class="flexPanel" style={{
-      justifyContent: justification,
-    }}>
-        {children}
-    </div>
+    <ScrollAnimation animateIn="fadeIn">
+      <div class="flexPanel" style={{
+        justifyContent: justification,
+      }}>
+          {children}
+      </div>
+    </ScrollAnimation>
   )
 }
 
