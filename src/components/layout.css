@@ -811,6 +811,7 @@ footer {
 .pageHero {
   max-width: 90%;
   width: 50%;
+  text-align: center;
 }
 
 .pageHero h1, .pageHero h3 {
@@ -1103,6 +1104,36 @@ ul.smallWhiteCards {
 .timelineGroup {
   display: flex;
   align-items: flex-start;
+  position: relative;
+}
+
+.roadmap .timelineGroup:nth-child(odd) {
+  flex-wrap: wrap-reverse;
+}
+.roadmap .timelineGroup:nth-child(even) {
+  flex-wrap: wrap;
+}
+
+.timeline {
+  width: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #F3F3F3 0%, #FFFFF9 96%);
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  top: 20px;
+  height: 120%;
+}
+
+.timelinePin {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 5px solid rgba(243, 243, 243, 1.000);
+  position: absolute;
+  left: -12px;
+  top: 0;
+  background-color: rgba(255, 255, 249, 1.000);
 }
 
 .twoColumnsTimelineLeft, .twoColumnsTimelineRight {
@@ -1339,6 +1370,25 @@ ul.team_members {
 }
 
 @media only screen and (max-width: 600px) {
+
+  .twoColumnsTimelineLeft, .twoColumnsTimelineRight {
+    width: 100%;
+    margin: 2.5%;
+  }
+
+  .timelineGroup {
+    padding-bottom: 100px;
+  }
+
+  .timelineGroup figure {
+    display: none;
+  }
+
+
+  .timeline {
+    display: none;
+  }
+
   .triad li, .team_members li {
     padding: 15px;
     margin: 0;

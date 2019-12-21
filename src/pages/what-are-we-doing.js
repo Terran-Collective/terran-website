@@ -18,8 +18,8 @@ const WhatAreWeDoingPage = () => (
             subtitle="WHAT ARE WE DOING?"
           />
           <p>Terran Collective’s work is creating tools, systems and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to All Beings Thriving?  We want to create free and open-source software, for everyone, to advance the transition to a sacred and regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics. </p>
-          <Button to="#scopeofpractice">Scopes of practice</Button>
-          <Button to="#roadmap">Roadmap</Button>
+          <Button to="/what-are-we-doing/#scope-of-practice" label="Scopes of practice" />
+          <Button to="/what-are-we-doing/#roadmap" label="Roadmap" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -27,6 +27,7 @@ const WhatAreWeDoingPage = () => (
 
     <Panel justification="center">
       <div className="twoColumnsLeftText">
+      <a name="scope-of-practice"></a>
         <Headline
           title="Technology for thriving"
           subtitle="SCOPE OF PRACTICE"
@@ -53,7 +54,7 @@ const WhatAreWeDoingPage = () => (
 
     <Panel justification="center">
       <div className="twoColumnsLeftImage">
-        <Image filename="what_do/what_do_cyanocitta_stelleri2x.jpg" alt="Cyanocitta stelleri" showCaption="true" />
+        <Image filename="what_do/what_do_calypte_anna2x.jpg" alt="Calypte anna" showCaption="true" />
       </div>
       <div className="twoColumnsRightText">
         <Headline
@@ -110,18 +111,22 @@ const WhatAreWeDoingPage = () => (
         </div>
       </div>
       <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
+        <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
     </Panel>
 
     <Panel justification="center">
       <div className="roadmap">
+        <a name="roadmap"></a>
         <Headline
           title=""
           subtitle=""
         />
 
         <div className="timelineGroup">
+          <div className="timeline">
+            <div className="timelinePin"></div>
+          </div>
           <div className="twoColumnsTimelineLeft">
             <Headline
               title="Gathering resources, mapping the bioregion and building our network of collaborators"
@@ -160,6 +165,9 @@ const WhatAreWeDoingPage = () => (
         </div>
 
         <div className="timelineGroup">
+          <div className="timeline">
+            <div className="timelinePin"></div>
+          </div>
           <div className="twoColumnsTimelineLeft">
             <div className="timelineItem">
               Develop regular meetings, events and gatherings: Terran Camp
@@ -193,6 +201,9 @@ const WhatAreWeDoingPage = () => (
         </div>
 
         <div className="timelineGroup">
+          <div className="timeline">
+            <div className="timelinePin"></div>
+          </div>
           <div className="twoColumnsTimelineLeft">
             <Headline
               title="Implement the first iteration of our collective ownership, governance and resource sharing systems, grow the ecosystem"
@@ -217,6 +228,9 @@ const WhatAreWeDoingPage = () => (
         </div>
 
         <div className="timelineGroup">
+          <div className="timeline">
+            <div className="timelinePin"></div>
+          </div>
           <div className="twoColumnsTimelineLeft">
             <div className="timelineItem">
               Cospiracy
@@ -238,6 +252,9 @@ const WhatAreWeDoingPage = () => (
         </div>
 
         <div className="timelineGroup">
+          <div className="timeline">
+            <div className="timelinePin"></div>
+          </div>
           <div className="twoColumnsTimelineLeft">
             <Headline
               title="Building tools that create commons, make tools that make it possible for anyone to create a collective, deepening community in the bay"
@@ -265,6 +282,9 @@ const WhatAreWeDoingPage = () => (
         </div>
 
         <div className="timelineGroup">
+          <div className="timeline">
+            <div className="timelinePin"></div>
+          </div>
           <div className="twoColumnsTimelineLeft">
             <div className="timelineItem">
               We seek land to steward in the Bay Area to create a regenerative and fire-resilient community that will be a haven for climate refugees
