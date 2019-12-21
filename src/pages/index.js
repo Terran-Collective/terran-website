@@ -5,6 +5,7 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import collinsiaHeterophylla from "../images/home/home_collinsia_heterophylla.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -50,27 +51,25 @@ const IndexPage = () => (
           </div>
         </div>
       </Panel>
-      <Panel justification="space-between" bleed="true">
-        <div class="threeColumnsLeftImage">
-          <Image filename="home/home_collinsia_heterophylla_left2x.png" alt="Collinsia heterophylla" />
-        </div>
-        <div class="threeColumnsCenterText">
-          <Headline
-            title="We are building community, human practices and tools for collaboration and coordination"
-            subtitle="What we're doing"
-            justification="center" />
-          <p>Terran Collective builds community and socio-technical tools to coordinate action. We aim to develop cooperative systems of coordination that can outcompete the market/state while nurturing healthy relationships with each other and the planet.</p>
-          <p><strong>Community Weaving:</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, cultural crises we face today.</p>
-          <p><strong>Technology:</strong> We design software that serves human thriving, by supporting community building, collaborative sensemaking, cooperative decision-making and group coordination.</p>
-          <p><strong>Collaborative Ecosystem Mapping:</strong> We are making transparent maps of our communities and using them to deepen relationships and collectively manage our resources.</p>
-          <div style={{textAlign: `center`}}>
-            <Button label="Learn More" link="/what-are-we-doing/"/>
+      <div className="threeColumns whatWereDoing">
+        <Panel justification="space-between" bleed="true">
+          <img className="collinsiaHeterophylla leftImage" src={collinsiaHeterophylla} alt="Collinsia heterophylla" />
+          <div class="threeColumnsCenterText">
+            <Headline
+              title="We are building community, human practices and tools for collaboration and coordination"
+              subtitle="What we're doing"
+              justification="center" />
+            <p>Terran Collective builds community and socio-technical tools to coordinate action. We aim to develop cooperative systems of coordination that can outcompete the market/state while nurturing healthy relationships with each other and the planet.</p>
+            <p><strong>Community Weaving:</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, cultural crises we face today.</p>
+            <p><strong>Technology:</strong> We design software that serves human thriving, by supporting community building, collaborative sensemaking, cooperative decision-making and group coordination.</p>
+            <p><strong>Collaborative Ecosystem Mapping:</strong> We are making transparent maps of our communities and using them to deepen relationships and collectively manage our resources.</p>
+            <div style={{textAlign: `center`}}>
+              <Button label="Learn More" link="/what-are-we-doing/"/>
+            </div>
           </div>
-        </div>
-        <div class="threeColumnsRightImage">
-          <Image filename="home/home_collinsia_heterophylla_right2x.jpg" alt="Collinsia heterophylla" showCaption="true" />
-        </div>
-      </Panel>
+          <img className="collinsiaHeterophylla rightImage" src={collinsiaHeterophylla} alt="Collinsia heterophylla" />
+        </Panel>
+      </div>
       <Panel justification="center">
         <div class="twoColumnsLeftText">
           <Headline
@@ -85,9 +84,9 @@ const IndexPage = () => (
           <Image filename="home/home_sylvagus_bachmani2x.jpg" alt="Sylvagus bachmani" showCaption="true" />
         </div>
       </Panel>
-      <Panel justification="space-between" bleed="true">
+      <Panel justification="center">
         <div class="twoColumnsLeftImage">
-          <Image filename="home/home_nemophila_menziesii2x.jpg" alt="Nemophila menziesii" showCaption="true" />
+          <Image filename="home/home_nemophila_menziesii.jpg" alt="Nemophila menziesii" showCaption="true" />
         </div>
         <div class="twoColumnsRightText">
           <Headline
@@ -100,8 +99,8 @@ const IndexPage = () => (
           </div>
         </div>
       </Panel>
-      <Panel justification="space-between" bleed="true">
-        <div class="twoColumnsLeftText">
+      <Panel justification="center">
+        <div class="twoColumnsLeftText watershed">
           <div style={{ width: `200px`, margin: `40px auto`}}>
             <Image filename="logos/terran_watershed_logo.png" alt="Terran Watershed" />
           </div>
@@ -110,8 +109,8 @@ const IndexPage = () => (
             <Button label="Participate" link="/watershed/"/>
           </div>
         </div>
-        <div class="twoColumnsRightImage">
-          <Image filename="home/home_zalophus_californianus2x.jpg" alt="Zalophus californianus" showCaption="true" />
+        <div class="twoColumnsRightImage watershed">
+          <Image filename="home/home_zalophus_californianus.jpg" alt="Zalophus californianus" showCaption="true" />
         </div>
       </Panel>
     </div>

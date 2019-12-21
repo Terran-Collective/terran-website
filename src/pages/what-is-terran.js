@@ -1,12 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import missionDiagram from "../images/what_is/what_is_mission_diagram.svg"
+import visionDiagram from "../images/what_is/what_is_vision_diagram.svg"
+import whatIsScope1 from "../images/what_is/what_is_scope_12x.png"
+import whatIsScope2 from "../images/what_is/what_is_scope_22x.png"
+import whatIsScope3 from "../images/what_is/what_is_scope_32x.png"
+import whatIsCore1 from "../images/what_is/what_is_core_12x.jpg"
+import whatIsCore2 from "../images/what_is/what_is_core_22x.jpg"
+import whatIsCore3 from "../images/what_is/what_is_core_32x.jpg"
+
 
 const WhatIsTerranPage = () => (
   <Layout>
@@ -26,17 +34,17 @@ const WhatIsTerranPage = () => (
               width: `100%`,
             }}>We are a small band of humans based in the Bay Area navigating towards a way of life in balance with all people and all of nature. Our collective work is to design and practice this way of life as a necessary step to bring about the more beautiful world our hearts know is possible.</p>
             <div style={{textAlign: `center`}}>
-              <Button label="Vision & Mission" link="/what-is-terran/#visionandmission" color="#0080f8" />
-              <Button label="Core Beliefs" link="/what-is-terran/#corebeliefs" color="#0080f8" />
-              <Button label="The People of the Collective" link="/what-is-terran/#team" color="#0080f8" />
+              <Button label="Vision & Mission" link="/what-is-terran/#mission" color="#0080f8" />
+              <Button label="Core Beliefs" link="/what-is-terran/#core-beliefs" color="#0080f8" />
+              <Button label="Stewards of the Collective" link="/what-is-terran/#team" color="#0080f8" />
             </div>
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
     </div>
-    <Panel justification="space-between" bleed="true">
+    <Panel justification="center">
       <div class="twoColumnsLeftImage">
-        <Image filename="what_is/what_is_eschscholzia_californica2x.jpg" alt="Eschscholzia californica" showCaption="true" />
+        <Image filename="what_is/what_is_eschscholzia_californica.jpg" alt="Eschscholzia californica" showCaption="true" />
       </div>
       <div class="twoColumnsRightText">
         <Headline
@@ -68,24 +76,24 @@ const WhatIsTerranPage = () => (
     </Panel>
     <Panel justification="center">
       <div style={{ maxWidth: `95%`, width: `600px`, margin: `0 0 50px` }}>
-          <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus Americanus Californiensis" />
+          <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus americanus californiensis" showCaption="true" />
       </div>
     </Panel>
     <Panel justification="center">
       <div className="what-is-terran">
+        <a name="mission"></a>
         <Headline
           title="We are building tools to reinforce healthy relationships at every level"
           subtitle="WHOLE & HEALTHY SYSTEMS"
           justification="center" />
       </div>
-    </Panel>
-    <Panel justification="center">
-      <div className="terran_feature_image">
-        <Image filename="what_is/what_is_mission_diagram2x.jpg" alt="Terran Collective's mission"/>
+      <div className="terran_feature_image missionDiagram">
+        <img src={missionDiagram} />
       </div>
     </Panel>
     <Panel justification="center">
         <div style={{marginTop: `25px`}}>
+          <a name="core-beliefs"></a>
           <Headline
             title="Our Core Beliefs"
             justification="center" />
@@ -94,21 +102,21 @@ const WhatIsTerranPage = () => (
         <ul class="triad">
           <li>
             <div>
-              <Image filename="what_is/what_is_core_12x.jpg" alt="Sequoia sempervirens" showCaption="true"  />
+              <img src={whatIsCore1} alt="Sequoia sempervirens" showCaption="true"  />
             </div>
             <h2>Interbeing</h2>
             <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know. </p>
           </li>
           <li>
             <div>
-              <Image filename="what_is/what_is_core_22x.jpg" alt="Vitis californica" showCaption="true" />
+              <img src={whatIsCore2} alt="Vitis californica" showCaption="true" />
             </div>
             <h2>Abundance</h2>
             <p>There is enough for all, on this incredible Spaceship Earth we call home. We have all the resources needed for all beings to have what they need to thrive on this planet, if only we commit ourselves to that goal. </p>
           </li>
           <li>
             <div>
-              <Image filename="what_is/what_is_core_32x.jpg" alt="Buteo jamaicensis" showCaption="true" />
+              <img src={whatIsCore3} alt="Buteo jamaicensis" showCaption="true" />
             </div>
             <h2>Agency</h2>
             <p>Despite the many existential crises we face as a species, there is hope! We have the ability to choose our story, to design a new path for ourselves and humanity, and to decide how we want to live together on this planet.</p>
@@ -116,8 +124,8 @@ const WhatIsTerranPage = () => (
         </ul>
     </Panel>
     <Panel justification="center">
-      <div className="terran_feature_image">
-        <Image filename="what_is/what_is_vision_diagram2x.jpg" alt="Terran Collective's Vision: All beings thriving with each other and the planet" />
+      <div className="terran_feature_image visionDiagram">
+        <img src={visionDiagram}/>
       </div>
     </Panel>
     <Panel justification="center">
@@ -130,7 +138,7 @@ const WhatIsTerranPage = () => (
       <ul class="triad">
         <li>
           <div>
-            <Image filename="what_is/what_is_scope_12x.png" alt="Nick and Mom" />
+            <img src={whatIsScope1} alt="Nick and Mom" />
           </div>
           <h2>Community of Care</h2>
           <p>We support each person as a whole human being.</p>
@@ -141,7 +149,7 @@ const WhatIsTerranPage = () => (
         </li>
         <li>
           <div>
-            <Image filename="what_is/what_is_scope_22x.png" alt="Kara and Gabi" />
+            <img src={whatIsScope2} alt="Kara and Gabi" />
           </div>
           <h2>Our Community of Practice</h2>
           <p>We collaborate on projects together.</p>
@@ -154,7 +162,7 @@ const WhatIsTerranPage = () => (
         </li>
         <li>
           <div>
-            <Image filename="what_is/what_is_scope_32x.png" alt="group at Cospiracy" />
+            <img src={whatIsScope3} alt="group at Cospiracy" />
           </div>
           <h2>Re-Building the Commons</h2>
           <p>We share resources, starting simply with things we already have like spaces, tools, books, and technology subscriptions.</p>
@@ -167,6 +175,7 @@ const WhatIsTerranPage = () => (
     </Panel>
     <Panel justification="center">
         <div className="team">
+          <a name="team"></a>
           <Headline
             title="Our core stewardship team"
             subtitle="WE ARE GIVING FROM THE HEART"
@@ -182,7 +191,7 @@ const WhatIsTerranPage = () => (
             </div>
             <div className="team_details">
               <h2>Kelly Erhart</h2>
-              <span>kelly@terran.io</span>
+              <span><a href="mailto:kelly@terran.io">kelly@terran.io</a></span>
             </div>
             <p>Kelly’s passion for innovation and environmental stewardship has led her to devote herself to focus on areas where she sees the largest imminent threats to our planet. She is committed to reframing complex issues into solutions that foster emergence and facilitate growth for impactful technologies. She has cultivated a multidisciplinary background, with a focus in systems thinking - with experience in international event production, disaster relief project management, and commercialization of sustainable technologies and carbon capture methods. She is currently Co Founder & COO of Ecozoic Resources, a waterless biofiltration toilet company and Co Founder of Project Vesta, a project to sequester carbon dioxide by accelerating the weathering of olivine.</p>
           </li>
@@ -192,7 +201,7 @@ const WhatIsTerranPage = () => (
             </div>
             <div className="team_details">
               <h2>Clare Politano</h2>
-              <span>clare@terran.io</span>
+              <span><a href="mailto:clare@terran.io">clare@terran.io</a></span>
             </div>
             <p>Clare is an eco-social entrepreneur and movement artist whose mission is channeling resources to healing. She has worked in architecture, refugee resettlement, yoga, nutrition, and regenerative agriculture contributing her skills in design, communications, and software engineering. She is creating a future where humans remember our destiny as responsible stewards of the Earth, living in reciprocal partnership with the land and the more-than-human community.</p>
           </li>
@@ -202,7 +211,7 @@ const WhatIsTerranPage = () => (
             </div>
             <div className="team_details">
               <h2>Tibet Sprague</h2>
-              <span>tibet@terran.io</span>
+              <span><a href="mailto:tibet@terran.io">tibet@terran.io</a></span>
             </div>
             <p>Tibet is a communitarian since birth, a technologist for good, and a passionate evangelist of the more beautiful world our hearts know is possible. An entrepreneur since college he founded and/or lead the software teams for five startups. For seven years he helped grow the residential solar industry at One Block off the Grid, guiding the company through two acquisitions as VP of Engineering. After watching the corporate industrial complex destroy everything they had built he co-founded the Terran Collective to figure out how humans can cooperate fully at every level with each other and the earth. While building the foundations of Terran, Tibet has also worked closely with DAOstack, building the decentralized governance dApp Alchemy, and has co-created an international Community Weavers Guild. Tibet is devoting his life to be of service to his bioregion, and to working for a world where all beings can thrive!</p>
           </li>
@@ -212,7 +221,7 @@ const WhatIsTerranPage = () => (
             </div>
             <div className="team_details">
               <h2>Neha Sharma</h2>
-              <span>neha@terran.io</span>
+              <span><a href="neha@terran.io">neha@terran.io</a></span>
             </div>
             <p>Neha is committed to tapping into collective insight & foresight in order to restore & regenerate our relationship with the planet. She primarily does this through strategy work and impactful partnerships. Currently, her time goes towards energy efficiency & intelligence in the built environment, exercise facilitation for group alignment, and bridge building between disparate networks & nodes. She involves herself in many side projects and shticks to ensure that her soul is always activated. Inquiries of this season include: What will allow beings to cooperate harmoniously across scales? In conversations about building the future, how do we ensure all voices and stakeholders are represented?</p>
           </li>
@@ -222,7 +231,7 @@ const WhatIsTerranPage = () => (
             </div>
             <div className="team_details">
               <h2>Aaron Brodeur</h2>
-              <span>aaron@terran.io</span>
+              <span><a href="mailto:aaron@terran.io">aaron@terran.io</a></span>
             </div>
             <p>Aaron is a systems designer, artist, musician, builder and entrepreneur. His work in technology building social apps, sales systems, satellite solar design tools, distributed governance tools, nationwide activism platforms and product designs have touched millions. He is dedicated to designing systems and tools for thriving in an uncertain future.</p>
           </li>

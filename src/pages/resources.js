@@ -422,7 +422,7 @@ const resources = () => (
         <Headline
           title="Authors, Leaders, Artists and Teachers"
         />
-        <p>These are people whose work has in some way informed our collective understanding of the world.</p>
+        <p>These are people whose work has in some way deeply informed our collective understanding of the world.</p>
         <ul>
           <li>
             <a href="https://charleseisenstein.org/">

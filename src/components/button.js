@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Button = ({ label, link, color }) => (
   <Link to={link}>
     <button style={{
-      backgroundColor: `#fffff9`,
+      backgroundColor: `transparent`,
       border: `1px solid ${color}`,
       borderRadius: `21px`,
       color: color,

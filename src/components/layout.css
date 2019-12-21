@@ -631,6 +631,11 @@ pre tt:after {
 
 /* beginning of custom styles, may all beings thrive as a result of our code */
 
+a {
+  color: rgba(37, 37, 35, 1.000);
+  text-decoration: underline;
+}
+
 footer {
   position: relative;
   width: 100%;
@@ -880,10 +885,10 @@ footer {
   align-items: center;
   display: flex;
   max-width: 100%;
+  padding: 0 0 150px 0;
   margin: 0;
   position: relative;
   flex-wrap: wrap;
-  padding: 0;
 }
 
 .threeColumns {
@@ -973,18 +978,18 @@ footer {
   margin: 0 2.5%;
 }
 
-.rubusSpectabilis {
+.rubusSpectabilis, .collinsiaHeterophylla {
     height: 100%;
-    width: max-content;
+    width: auto;
     position: absolute;
     top: 0;
 }
 
-.rubusSpectabilis.leftImage {
+.rubusSpectabilis.leftImage, .collinsiaHeterophylla.leftImage {
   left: -50%;
 }
 
-.rubusSpectabilis.rightImage {
+.rubusSpectabilis.rightImage, .collinsiaHeterophylla.rightImage {
   right: -50%;
 }
 
@@ -1019,7 +1024,7 @@ footer {
   margin: 0 auto;
 }
 
-.nativeLand {
+.nativeLand, .threeColumns.whatWereDoing {
   padding-bottom: 150px;
 }
 
@@ -1237,7 +1242,122 @@ ul.smallWhiteCards {
   text-align: center;
 }
 
+.terran_feature_image.visionDiagram {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.visionDiagram img {
+  width: 100%;
+}
+
+.missionDiagram img {
+  width: 80%;
+}
+/* feature pages */
+
+ul.triad {
+  margin: 0;
+}
+
+.triad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.triad li {
+  line-height: 30px;
+  padding: 10px 40px;
+  text-align: center;
+  width: 30%;
+}
+
+.triad div {
+  width: 176px;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+
+.triad p {
+  line-height: 24px;
+  opacity: .75;
+}
+
+.what-is-terran, .team {
+  margin: 25px auto;
+  width: 40%;
+}
+
+.terran_feature_image {
+  text-align: center;
+  margin: 25px auto 150px;
+  width: 95%;
+}
+
+.team {
+  text-align: center;
+}
+
+.team_members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+ul.team_members {
+  margin: 0;
+}
+
+.team_members li {
+  margin: 25px 40px;
+  width: 40%;
+}
+
+.team_members p {
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.team_photo {
+  margin: 15px auto 40px;
+  width: 365px;
+}
+
+.team_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.team_details h2 {
+  margin: 0;
+}
+
 @media only screen and (max-width: 600px) {
+  .triad li, .team_members li {
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .what-is-terran, .team, .team_photo, .team_members li {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .missionDiagram img {
+    width: 100%;
+  }
+
+  .twoColumnsLeftText.watershed, .twoColumnsRightImage.watershed {
+    width: 100%;
+    max-width: 100%;
+  }
 
   .communitiesList ul li {
     display: block;
@@ -1294,6 +1414,7 @@ ul.smallWhiteCards {
 
   .flexPanel {
     display: block;
+    padding-bottom: 150px;
   }
 
   .homeHero {
@@ -1328,15 +1449,15 @@ ul.smallWhiteCards {
   }
 
   .twoColumnsLeftImage, .twoColumnsRightImage {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .twoColumnsRightText, .twoColumnsLeftText {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .twoColumnsRightText p, .twoColumnsRightText h1, .twoColumnsRightText h3,  .threeColumnsCenterText h1,   .threeColumnsCenterText h3, .threeColumnsCenterText p, .twoColumnsLeftText h1, .twoColumnsLeftText h3, .twoColumnsLeftText p {
@@ -1381,88 +1502,3 @@ ul.smallWhiteCards {
   }
 }
 
-/* feature pages */
-
-.triad {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-}
-
-.triad li {
-  line-height: 30px;
-  padding: 10px 40px;
-  text-align: center;
-  width: 30%;
-}
-
-.triad div {
-  width: 176px;
-  text-align: center;
-  margin: 0 auto 15px;
-}
-
-.triad p {
-  opacity: .75;
-}
-
-.what-is-terran, .team {
-  margin: 25px auto;
-  width: 40%;
-}
-
-.terran_feature_image {
-  text-align: center;
-  margin: 25px auto;
-  width: 95%;
-}
-
-.team {
-  text-align: center;
-}
-
-.team_members {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-}
-
-.team_members li {
-  margin: 25px 40px;
-  width: 40%;
-}
-
-.team_members p {
-  line-height: 24px;
-  font-size: 14px;
-}
-
-.team_photo {
-  margin: 15px auto 40px;
-  width: 365px;
-}
-
-.team_details {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 25px 0;
-}
-
-.team_details h2 {
-  margin: 0;
-}
-
-@media only screen and (max-width: 600px) {
-  .triad li {
-    padding: 15px;
-    width: 100%;
-  }
-
-  .what-is-terran, .team, .team_photo, .team_members li {
-    padding: 15px;
-    width: 100%;
-  }
-}
