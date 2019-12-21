@@ -17,11 +17,11 @@ const resources = () => (
             title="Books, sources of information and teachers that have helped shape our understanding of the world"
             subtitle="LIBRARY OF RESOURCES"
           />
-          <Button to="#peers_and_allies">Peers & allies</Button>
-          <Button to="#books">Books</Button>
-          <Button to="#articles">Articles</Button>
-          <Button to="#podcasts">Podcasts</Button>
-          <Button to="#authors_and_artists">Authors & artists</Button>
+          <Button link="/resources/#peers-and-allies" label="Peers & allies" />
+          <Button link="/resources/#books" label="Books" />
+          <Button link="/resources/#articles" label="Articles" />
+          <Button link="/resources/#podcasts" label="Podcasts" />
+          <Button link="/resources/#authors-artists-teachers" label="Authors & artists" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -29,6 +29,7 @@ const resources = () => (
 
     <Panel justification="center">
       <div className="resourceHeadline">
+        <a name="peers-and-allies"></a>
         <Headline
           title="Peers & Allies"
         />
@@ -259,6 +260,7 @@ const resources = () => (
 
     <Panel justification="center">
       <div className="books">
+        <a name="books"></a>
         <div className="resourceHeadline">
           <Headline
             title="Reading list"
@@ -327,6 +329,7 @@ const resources = () => (
 
     <Panel justification="center">
       <div className="articles">
+        <a name="articles"></a>
         <div className="resourceHeadline">
           <Headline
             title="Articles and Posts"
@@ -389,6 +392,7 @@ const resources = () => (
 
     <Panel justification="center">
       <div className="podcastsContainer">
+        <a name="podcasts"></a>
         <div className="resourceHeadline">
           <Headline
             title="Podcasts"
@@ -419,6 +423,7 @@ const resources = () => (
 
     <Panel justification="center">
       <div className="ourTeachers resourceHeadline">
+        <a name="authors-artists-teachers"></a>
         <Headline
           title="Authors, Leaders, Artists and Teachers"
         />

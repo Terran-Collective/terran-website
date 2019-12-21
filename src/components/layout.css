@@ -1150,7 +1150,7 @@ ul.smallWhiteCards {
   text-align: center;
 }
 
-.communities ul {
+.communitiesList ul {
   margin: 0;
   list-style: none;
 }
@@ -1195,6 +1195,8 @@ ul.smallWhiteCards {
   border-radius: 30px;
   padding: 0 15px;
   overflow: hidden;
+  width: 110px;
+  text-align: center;
 }
 
 .library, .podcasts {
