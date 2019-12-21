@@ -1107,13 +1107,6 @@ ul.smallWhiteCards {
   position: relative;
 }
 
-.roadmap .timelineGroup:nth-child(odd) {
-  flex-wrap: wrap-reverse;
-}
-.roadmap .timelineGroup:nth-child(even) {
-  flex-wrap: wrap;
-}
-
 .timeline {
   width: 5px;
   border-radius: 5px;
@@ -1139,6 +1132,10 @@ ul.smallWhiteCards {
 .twoColumnsTimelineLeft, .twoColumnsTimelineRight {
   width: 45%;
   margin: 2.5%;
+}
+
+.twoColumnsTimelineLeft h3, .twoColumnsTimelineLeft h1 {
+  text-align: right !important;
 }
 
 .timelineItem {
@@ -1371,6 +1368,16 @@ ul.team_members {
 
 @media only screen and (max-width: 600px) {
 
+  .twoColumnsTimelineLeft h3, .twoColumnsTimelineLeft h1 {
+    text-align: center !important;
+  }
+
+  .roadmap .timelineGroup:nth-child(odd) {
+    flex-wrap: wrap-reverse;
+  }
+  .roadmap .timelineGroup:nth-child(even) {
+    flex-wrap: wrap;
+  }
   .twoColumnsTimelineLeft, .twoColumnsTimelineRight {
     width: 100%;
     margin: 2.5%;
