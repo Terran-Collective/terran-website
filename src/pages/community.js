@@ -41,15 +41,15 @@ const community = () => (
         <Headline
           title="Join the conversation"
         />
-        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/">join us on Facbeook</a> and say hello. Join our email list for more in depth updates.</p>
+        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank">join us on Facbeook</a> and say hello. Join our email list for more in depth updates.</p>
         <div className="centerText communityLinks">
-          <a href="https://www.facebook.com/TerranCollective/">
+          <a href="https://www.facebook.com/TerranCollective/" target="_blank">
             <img src={fbImg} alt="Facebook" />
           </a>
-          <a href="https://www.instagram.com/terrancollective/">
+          <a href="https://www.instagram.com/terrancollective/" target="_blank">
             <img src={igImg} alt="Instagram" />
           </a>
-          <a href="http://eepurl.com/cWIga1">
+          <a href="http://eepurl.com/cWIga1" target="_blank">
             <img src={emailImg} alt="email" />
           </a>
         </div>
@@ -66,7 +66,7 @@ const community = () => (
               <p>We meet monthly in person in the Bay Area. The components of our gatherings are:</p>
               <ul>
                 <li>Time to gather around a theme</li>
-                <li>Time to share needs & offers</li>
+                <li>Time to share needs &amp; offers</li>
                 <li>Time to share food and connect</li>
               </ul>
               <p>Our gatherings are open to all. We ask you to come with an open heart and sharp mind.</p>

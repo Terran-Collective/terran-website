@@ -69,10 +69,10 @@ const Menu = ({ siteTitle }) => (
       </li>
     </ul>
     <div className="acknowledgments">
-      <p>Terran Collective is based in <Link to="http://www.ramaytush.com/">Ramaytush Ohlone territory, in Yelamu</Link>, which is called San Francisco</p>
+      <p>Terran Collective is based in <a href="http://www.ramaytush.com/" target="_blank">Ramaytush Ohlone territory, in Yelamu</a>, which is called San Francisco</p>
       <p>The illustrations on this site are public domain drawings of the flora and fauna of <Link to="/bioregion">this bioregion</Link></p>
-      <p>Photography by <Link to="https://www.instagram.com/metapattern/">Carson Linforth-Bowley</Link>, <Link to="http://www.raines.com/">Raines Cohen</Link> and <Link to="https://www.facebook.com/neha.sharma.bookface">Neha Sharma</Link></p>
-      <p>Artwork for <Link to="/watershed/">Watershed</Link> and the map of the bioregion by <Link to="http://www.caseycripe.com/">Casey Cripe</Link></p>
+      <p>Photography by <a href="https://www.instagram.com/metapattern/" target="_blank">Carson Linforth-Bowley</a>, <a href="http://www.raines.com/" target="_blank">Raines Cohen</a> and <a href="https://www.facebook.com/neha.sharma.bookface" target="_blank">Neha Sharma</a></p>
+      <p>Artwork for <Link to="/watershed/">Watershed</Link> and the map of the bioregion by <a href="http://www.caseycripe.com/" target="_blank">Casey Cripe</a></p>
     </div>
   </div>
 )
