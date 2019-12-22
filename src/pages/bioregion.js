@@ -87,7 +87,7 @@ const bioregion = () => (
     </Panel>
     <div className="threeColumns nativeLand">
       <Panel justification="space-between" bleed="true">
-        <img className="rubusSpectabilis leftImage" src={rubusSpectabilis} alt="Rubus spectabilis" showCaption="true" />
+        <img className="rubusSpectabilis leftImage" src={rubusSpectabilis} alt="Rubus spectabilis" />
         <div className="threeColumnsCenterText">
           <Headline
             title="We live on native land"
