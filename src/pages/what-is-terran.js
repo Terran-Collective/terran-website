@@ -50,9 +50,20 @@ const WhatIsTerranPage = () => (
           title="We learn from nature"
           subtitle="OVERVIEW"
           subtitleColor="#0080f8" />
-          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>Terran Collective is a living system and we learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
+          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>Terran Collective is a living system and we learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html">emergent strategy</a>: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
           <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>Relating in these new and remembered ways provides the laboratory through which we research and experiment with co-creating bioregional collective intelligence. Ultimately, we want to help people coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis.</p>
           <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>The current economic systems have divided us from each other and the more-than-human community, systematically turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money. Our theory of change is that a regenerative civilization requires bringing trust back to our relationships, disintermediating the market from our personal lives, and embracing community as a radical way to be in solidarity and care for each other.</p>
+      </div>
+    </Panel>
+    <Panel justification="center">
+      <div class="threeColumnsCenterText">
+
+        <Headline
+          title="Bioregional Collective Intelligence"
+          subtitle="What We Mean"
+          subtitleColor="#0080f8" />
+        <p>Collective Intelligence refers to how groups of people working collaboratively together make better sense of the world and smarter decisions than any one person. We live embedded in many structures for collective intelligence, for example our our governments and economic systems, that are no longer serving the needs of our species or our planet. Terran is designing, developing and practicing new and remembered models of collective intelligence that will allow us to make both smarter and wiser decisions for the whole. We believe that the bioregional scale is important as it is large enough to bring many diverse resources and perspectives to bear, but local enough to allow for in person communication and cooperation towards goals that are aligned by our proximity and shared relationship to this place it’s communities.</p>
+        <p>We also believe it is imperative that we bring all forms of intelligence to the table to make truly wise decisions. This means being inclusive of diverse viewpoints, incorporating not just knowledge and mental intelligence but also integrating the intelligence of our hearts and bodies, our feelings and our intuitions. And the earth must have a seat at the table. The more voices we hear the better our decisions as a planetary whole will be.</p>
       </div>
     </Panel>
     <Panel justification="space-between" bleed="true">
@@ -66,8 +77,9 @@ const WhatIsTerranPage = () => (
           subtitleColor="#0080f8"
           justification="center"
           size="jumbo" />
-        <p style={{opacity: `.7`, lineHeight: `1.5`, marginTop: `50px`, color: `#171615`}}><strong>What is thriving?</strong> We hold a vision of a world in which all beings can <strong>thrive</strong>. Not a world free of suffering or lack, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet. </p>
-        <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We refer to <strong>all beings</strong> because we believe achieving this goal requires a shift away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with. </p>
+        <p>Humanity is on the brink of disaster. If we continue along our current path of extracting resources from the planet to feed infinite growth in service to individual selfishness and greed we are going to destroy the ecosystems that support life on earth and most of humanity will perish. To avoid this total collapse we must unify, aligning around a shared purpose and redesigning our culture to orient towards achieving this goal. We believe this shared purpose comes from recognizing our interdependence with each other and the web of life, and choosing to create a world that works for all, thus enabling the next evolution of life on earth - a healthy planetary organism. This vision can be articulated in many ways: the Great Turning, the More Beautiful World our Hearts Know is Possible, Game B, Omni-Win, All Win… All Beings Thriving is the articulation we like best right now.</p>
+        <p><strong>Why thriving</strong>? Our vision is of a world in which all beings have what they need to thrive. Not a world free of suffering or lack or death, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are used regeneratively and shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet.</p>
+        <p>We use the phrase <strong>all beings</strong> because we believe achieving this goal requires a shift away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with.</p>
       </div>
       <div className="threeColumnsRightImage">
         <Image filename="what_is/what_is_vaccinium_ovatum_right2x.jpg" alt="Vaccinium ovatum" />
@@ -102,14 +114,14 @@ const WhatIsTerranPage = () => (
               <img src={whatIsCore1} alt="Sequoia sempervirens" />
             </div>
             <h2>Interbeing</h2>
-            <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know. </p>
+            <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know.</p>
           </li>
           <li>
             <div>
               <img src={whatIsCore2} alt="Vitis californica" />
             </div>
             <h2>Abundance</h2>
-            <p>There is enough for all, on this incredible Spaceship Earth we call home. We have all the resources needed for all beings to have what they need to thrive on this planet, if only we commit ourselves to that goal. </p>
+            <p>There is enough for all, on this incredible Spaceship Earth we call home. We have all the resources needed for all beings to have what they need to thrive on this planet, if only we commit ourselves to that goal.</p>
           </li>
           <li>
             <div>
@@ -122,6 +134,12 @@ const WhatIsTerranPage = () => (
     </Panel>
     <Panel justification="center">
       <div className="terran_feature_image visionDiagram">
+        <div>
+        <Headline
+          title="Principles, values and Vision"
+        />
+        <p>Terran Collective’s values & principles are a set of living agreements that will evolve over time to accommodate the diversity of voices we welcome into relationship with us. All of our efforts are informed and guided by these values.</p>
+        </div>
         <img src={visionDiagram} alt="vision diagram"/>
       </div>
     </Panel>

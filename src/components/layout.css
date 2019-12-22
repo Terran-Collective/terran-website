@@ -1483,6 +1483,16 @@ ul.team_members {
   text-decoration: none;
 }
 
+.visionDiagram h1 {
+  text-align: center;
+}
+
+.visionDiagram p {
+  max-width: 1024px;
+  margin: 0 auto 100px auto;
+  display: block;
+}
+
 @media only screen and (max-width: 600px) {
 
   .gatherings ul li {
