@@ -189,7 +189,7 @@ const WhatAreWeDoingPage = () => (
               Work with guilds to map their landscape
             </div>
             <div className="timelineItem">
-              Release model for collective ownership & governance of our systems & Gather feedback
+              Release model for collective ownership &amp; governance of our systems &amp; Gather feedback
             </div>
           </div>
           <div className="twoColumnsTimelineRight">

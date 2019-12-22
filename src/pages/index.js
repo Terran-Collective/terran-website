@@ -63,6 +63,8 @@ const IndexPage = () => (
             <p><strong>Community Weaving:</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, cultural crises we face today.</p>
             <p><strong>Technology:</strong> We design software that serves human thriving, by supporting community building, collaborative sensemaking, cooperative decision-making and group coordination.</p>
             <p><strong>Collaborative Ecosystem Mapping:</strong> We are making transparent maps of our communities and using them to deepen relationships and collectively manage our resources.</p>
+            <p><strong>Systems design for cooperative coordination:</strong> Designing, developing and experimenting with decentralized governance structures, gift economics and the creation of modern Guilds.</p>
+            <p><strong>Movement building and culture creation:</strong> Telling new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.</p>
             <div style={{textAlign: `center`}}>
               <Button label="Learn More" link="/what-are-we-doing/"/>
             </div>
