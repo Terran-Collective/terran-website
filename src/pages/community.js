@@ -6,6 +6,7 @@ import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
+import aquilegiaFormosa from "../images/community/community_aquilegia_formosa.jpg"
 
 const community = () => (
   <Layout>
@@ -51,6 +52,7 @@ const community = () => (
 
     <Panel>
       <div className="gatherings">
+        <img src={aquilegiaFormosa} alt="Aquilegia formosa"/>
         <ul>
           <li>
             <h2>Gather in person</h2>

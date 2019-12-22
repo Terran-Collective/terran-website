@@ -1005,8 +1005,19 @@ footer {
   padding: 100px 0;
 }
 
+.gatherings img {
+  position: absolute;
+  height: 100%;
+  z-index: 0;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .gatherings ul {
   width: 100%;
+  position: relative;
+  z-index: 100;
   margin: 0 auto;
   flex-wrap: wrap;
   list-style: none;
