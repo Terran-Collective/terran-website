@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Terran`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Terran Collective`,
+    description: `Amplifying cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons`,
+    author: `@TerranCollectiv`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
