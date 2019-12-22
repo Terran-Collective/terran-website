@@ -32,8 +32,7 @@ const bioregion = () => (
 
     <Panel justification="center">
       <div className="twoColumnsLeftImage">
-        <Image filename="bioregion/bioregion_aphelocoma_californica2x.jpg" alt="Aphelocoma Californica" />
-        <span>Aphelocoma californica</span>
+        <Image filename="bioregion/bioregion_aphelocoma_californica2x.jpg" alt="Aphelocoma Californica" showCaption="true" />
       </div>
       <div className="twoColumnsRightText">
         <Headline
@@ -77,20 +76,18 @@ const bioregion = () => (
         civilization can be.</p>
       </div>
       <div className="twoColumnsRightImage">
-        <Image filename="bioregion/bioregion_nemophila_menziesii2x.jpg" alt="Nemophilia Menziesii" />
-        <span>Nemophilia Menziesii</span>
+        <Image filename="bioregion/bioregion_nemophila_menziesii2x.jpg" alt="Nemophilia Menziesii" showCaption="true" />
       </div>
     </Panel>
 
     <Panel>
       <div className="singleColumnImage">
-        <Image filename="bioregion/bioregion_felis_concolor2x.jpg" alt="Felis concolor" />
-        <span>Felis concolor</span>
+        <Image filename="bioregion/bioregion_felis_concolor2x.jpg" alt="Felis concolor" showCaption="true" />
       </div>
     </Panel>
     <div className="threeColumns nativeLand">
       <Panel justification="space-between" bleed="true">
-        <img className="rubusSpectabilis leftImage" src={rubusSpectabilis} alt="Rubus spectabilis" />
+        <img className="rubusSpectabilis leftImage" src={rubusSpectabilis} alt="Rubus spectabilis" showCaption="true" />
         <div className="threeColumnsCenterText">
           <Headline
             title="We live on native land"

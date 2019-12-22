@@ -291,7 +291,9 @@ const community = () => (
     </Panel>
     <Panel>
       <div className="singleColumnText">
-        <Image filename="community/community_hygrocybe_coccinea2x.jpg" alt="Hygrocybe coccinea" showCaption="true" />
+        <div className="hygrocybeCoccinea">
+          <Image filename="community/community_hygrocybe_coccinea2x.jpg" alt="Hygrocybe coccinea" showCaption="true" />
+        </div>
         <Headline
           title="Land-based communities and farms"
           subtitle="LAND PROJECTS WE TRUST"
@@ -398,16 +400,18 @@ const community = () => (
         </ul>
       </div>
     </Panel>
-    <Panel>
-      <div>
-        <Image filename="community/community_megaceryle_alcyon2x.jpg" alt="Megaceryle alcyon" showCaption="true" />
+    <Panel justification="center">
+      <div className="singleColumnText">
+        <div className="megaceryleAlcyon">
+          <Image filename="community/community_megaceryle_alcyon2x.jpg" alt="Megaceryle alcyon" showCaption="true" />
+        </div>
         <Headline
           title="Bioregional regenerators"
           subtitle="People we trust"
         />
         <p>These are some of our collective friends, acqauintances and colleagues who we respect and see actively working on some aspect of regeneration within the bioregion.</p>
 
-        <ul>
+        <ul className="smallWhiteCards">
           <li>
             <h3>Relationship graph item</h3>
           </li>

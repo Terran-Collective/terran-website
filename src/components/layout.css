@@ -914,6 +914,10 @@ footer {
   text-align: center;
 }
 
+.centerText h1, .centerText h3 {
+  text-align: center;
+}
+
 .twoColumnsLeftImage, .twoColumnsRightImage {
    width: 450px;
    max-width: 50%;
@@ -1074,6 +1078,10 @@ footer {
   display: block;
 }
 
+.singleColumnText p {
+  margin-bottom: 20px !important;
+}
+
 .resourceGoals h1 {
   font-size: 64px !important;
   margin-top: 30px !important;
@@ -1092,6 +1100,7 @@ ul.smallWhiteCards {
 
 .smallWhiteCards {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -1145,8 +1154,23 @@ ul.smallWhiteCards {
   width: 100%;
 }
 
+.hygrocybeCoccinea {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.megaceryleAlcyon {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .roadmap {
   max-width: 1024px;
+}
+
+.roadmap .centerText h1 {
+  margin-bottom: 100px !important;
+  font-size: 48px !important;
 }
 
 .timelineGroup {
@@ -1192,6 +1216,10 @@ ul.smallWhiteCards {
   border-radius: 5px;
   padding: 25px;
   margin-bottom: 25px;
+}
+
+.resourceHeadline {
+  width: 100%;
 }
 
 .resourceHeadline h1, .resourceHeadline p {
@@ -1289,6 +1317,7 @@ ul.smallWhiteCards {
 }
 
 .ourTeachers ul {
+  padding-top: 50px;
   display: flex;
   margin: 0;
   list-style: none;
@@ -1416,8 +1445,18 @@ ul.team_members {
   margin: 0;
 }
 
+.resourceGoalsContainer {
+  width: 100%;
+  max-width: 1024px;
+}
+
 @media only screen and (max-width: 600px) {
 
+
+  .rubusSpectabilis, .collinsiaHeterophylla {
+      height: auto;
+      opacity: .5;
+  }
 
   .resourceUse ul li {
     width: 95%;

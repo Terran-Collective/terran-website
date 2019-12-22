@@ -334,7 +334,7 @@ const resources = () => (
           <Headline
             title="Articles and Posts"
           />
-          <p>Share with us what you’re reading on Facebook or on Slack. Here are some important digital-form writings that we think you would benefit from reading.</p>
+          <p>Share with us what you’re reading on <a href="https://www.facebook.com/TerranCollective/">Facebook</a>. Here are some important digital-form writings that we think you would benefit from reading.</p>
         </div>
 
         <ul className="smallWhiteCards">

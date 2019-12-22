@@ -118,11 +118,12 @@ const WhatAreWeDoingPage = () => (
     <Panel justification="center">
       <div className="roadmap">
         <a name="roadmap"></a>
-        <Headline
-          title=""
-          subtitle=""
-        />
-
+        <div class="centerText">
+          <Headline
+            title="How we want to grow"
+            subtitle="2020-2022"
+          />
+        </div>
         <div className="timelineGroup">
           <div className="timeline">
             <div className="timelinePin"></div>
