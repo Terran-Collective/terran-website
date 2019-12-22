@@ -28,10 +28,10 @@ const community = () => (
     </div>
 
     <Panel justification="center">
-      <div class="twoColumnsLeftImage">
+      <div className="twoColumnsLeftImage">
         <Image filename="community/community_charadrius_vociferus2x.jpg" alt="Charadrius vociferus" showCaption="true" />
       </div>
-      <div class="twoColumnsRightText">
+      <div className="twoColumnsRightText">
         <Headline
           title="Join the conversation"
         />

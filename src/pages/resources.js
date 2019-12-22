@@ -267,7 +267,7 @@ const resources = () => (
           />
           <p>This is an incomplete list of some of the books we’ve read that are important to our work. If you know of books that we should read in order to do our best work, please send your recommandations to <a href="info@terran.io">info@terran.io</a></p>
         </div>
-        <div class="library">
+        <div className="library">
         <div>
           <a href="https://duckduckgo.com/?q=a+finer+future+hunter+lovins">
             <Image filename="resources/books/a_finer_future2x.jpg" alt="A Finer Future by Hunter Lovins"/>

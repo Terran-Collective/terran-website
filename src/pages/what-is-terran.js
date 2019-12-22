@@ -19,9 +19,9 @@ import whatIsCore3 from "../images/what_is/what_is_core_32x.jpg"
 const WhatIsTerranPage = () => (
   <Layout>
     <SEO title="What Is Terran - Who We Are" />
-    <div class="heroPanel whatIsTerranHero">
+    <div className="heroPanel whatIsTerranHero">
       <Panel justification="center">
-        <div class="pageHero">
+        <div className="pageHero">
           <Headline
             title="We are a collective of people with a common vision of a world in balance"
             subtitle="WHAT IS TERRAN?"
@@ -43,10 +43,10 @@ const WhatIsTerranPage = () => (
       <div className="heroPanelBg"></div>
     </div>
     <Panel justification="center">
-      <div class="twoColumnsLeftImage">
+      <div className="twoColumnsLeftImage">
         <Image filename="what_is/what_is_eschscholzia_californica.jpg" alt="Eschscholzia californica" showCaption="true" />
       </div>
-      <div class="twoColumnsRightText">
+      <div className="twoColumnsRightText">
         <Headline
           title="We learn from nature"
           subtitle="OVERVIEW"
@@ -57,10 +57,10 @@ const WhatIsTerranPage = () => (
       </div>
     </Panel>
     <Panel justification="space-between" bleed="true">
-      <div class="threeColumnsLeftImage">
+      <div className="threeColumnsLeftImage">
         <Image filename="what_is/what_is_vaccinium_ovatum_left2x.jpg" alt="Vaccinium ovatum" showCaption="true" />
       </div>
-      <div class="threeColumnsCenterText">
+      <div className="threeColumnsCenterText">
         <Headline
           title="All Beings Thriving"
           subtitle="WORKING TOWARDS"
@@ -70,7 +70,7 @@ const WhatIsTerranPage = () => (
         <p style={{opacity: `.7`, lineHeight: `1.5`, marginTop: `50px`, color: `#171615`}}><strong>What is thriving?</strong> We hold a vision of a world in which all beings can <strong>thrive</strong>. Not a world free of suffering or lack, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet. </p>
         <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We refer to <strong>all beings</strong> because we believe achieving this goal requires a shift away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with. </p>
       </div>
-      <div class="threeColumnsRightImage">
+      <div className="threeColumnsRightImage">
         <Image filename="what_is/what_is_vaccinium_ovatum_right2x.jpg" alt="Vaccinium ovatum" />
       </div>
     </Panel>
@@ -99,24 +99,24 @@ const WhatIsTerranPage = () => (
             justification="center" />
           <p className="what-is-terran">We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
         </div>
-        <ul class="triad">
+        <ul className="triad">
           <li>
             <div>
-              <img src={whatIsCore1} alt="Sequoia sempervirens" showCaption="true"  />
+              <img src={whatIsCore1} alt="Sequoia sempervirens" />
             </div>
             <h2>Interbeing</h2>
             <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know. </p>
           </li>
           <li>
             <div>
-              <img src={whatIsCore2} alt="Vitis californica" showCaption="true" />
+              <img src={whatIsCore2} alt="Vitis californica" />
             </div>
             <h2>Abundance</h2>
             <p>There is enough for all, on this incredible Spaceship Earth we call home. We have all the resources needed for all beings to have what they need to thrive on this planet, if only we commit ourselves to that goal. </p>
           </li>
           <li>
             <div>
-              <img src={whatIsCore3} alt="Buteo jamaicensis" showCaption="true" />
+              <img src={whatIsCore3} alt="Buteo jamaicensis" />
             </div>
             <h2>Agency</h2>
             <p>Despite the many existential crises we face as a species, there is hope! We have the ability to choose our story, to design a new path for ourselves and humanity, and to decide how we want to live together on this planet.</p>
@@ -135,7 +135,7 @@ const WhatIsTerranPage = () => (
           justification="center" />
         <p className="what-is-terran">We practice and experiment with community technologies and individual/group techniques that foster healing, trust and collaboration.</p>
       </div>
-      <ul class="triad">
+      <ul className="triad">
         <li>
           <div>
             <img src={whatIsScope1} alt="Nick and Mom" />

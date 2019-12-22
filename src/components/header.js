@@ -35,13 +35,13 @@ const Header = ({ siteTitle }) => {
             <img src={logo} alt="Terran Collective" />
           </Link>
         </h1>
-        <div class={classnames({ "menuWrapper" : true, "open" : isOpen })}>
-          <button class="menuToggle" onClick={() => setOpen(!isOpen)}>
-              <img src={menuToggleHamburger} alt="Open menu icon" class="openMenu" />
-              <img src={menuToggleX} alt="Close menu icon"class="closeMenu" />
+        <div className={classnames({ "menuWrapper" : true, "open" : isOpen })}>
+          <button className="menuToggle" onClick={() => setOpen(!isOpen)}>
+              <img src={menuToggleHamburger} alt="Open menu icon" className="openMenu" />
+              <img src={menuToggleX} alt="Close menu icon"className="closeMenu" />
           </button>
-          <div class="menuBg"></div>
-          <div class="menuContainer">
+          <div className="menuBg" onClick={() => setOpen(false)}></div>
+          <div className="menuContainer">
             <Menu/>
           </div>
         </div>

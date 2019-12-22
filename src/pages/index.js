@@ -10,9 +10,9 @@ import collinsiaHeterophylla from "../images/home/home_collinsia_heterophylla.jp
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div class="homeHeroPanel">
+    <div className="homeHeroPanel">
       <Panel>
-        <div class="homeHero">
+        <div className="homeHero">
           <Headline
             title="A community of care and practice"
             titleAccent="building tools for a regenerative future"
@@ -33,10 +33,10 @@ const IndexPage = () => (
     </div>
     <div>
       <Panel justification="center">
-        <div class="twoColumnsLeftImage">
+        <div className="twoColumnsLeftImage">
           <Image filename="home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" showCaption="true" />
         </div>
-        <div class="twoColumnsRightText">
+        <div className="twoColumnsRightText">
           <Headline
             title="Terran Collective is"
             titleAccent="a living system"
@@ -54,7 +54,7 @@ const IndexPage = () => (
       <div className="threeColumns whatWereDoing">
         <Panel justification="space-between" bleed="true">
           <img className="collinsiaHeterophylla leftImage" src={collinsiaHeterophylla} alt="Collinsia heterophylla" />
-          <div class="threeColumnsCenterText">
+          <div className="threeColumnsCenterText">
             <Headline
               title="We are building community, human practices and tools for collaboration and coordination"
               subtitle="What we're doing"
@@ -73,7 +73,7 @@ const IndexPage = () => (
         </Panel>
       </div>
       <Panel justification="center">
-        <div class="twoColumnsLeftText">
+        <div className="twoColumnsLeftText">
           <Headline
             title="Our bioregion is where we practice and experiment"
             justification="left" />
@@ -82,15 +82,15 @@ const IndexPage = () => (
             <Button label="Why the bioregion?" link="/bioregion/"/>
           </div>
         </div>
-        <div class="twoColumnsRightImage">
+        <div className="twoColumnsRightImage">
           <Image filename="home/home_sylvagus_bachmani2x.jpg" alt="Sylvagus bachmani" showCaption="true" />
         </div>
       </Panel>
       <Panel justification="center">
-        <div class="twoColumnsLeftImage">
+        <div className="twoColumnsLeftImage">
           <Image filename="home/home_nemophila_menziesii.jpg" alt="Nemophila menziesii" showCaption="true" />
         </div>
-        <div class="twoColumnsRightText">
+        <div className="twoColumnsRightText">
           <Headline
             title="Community & Resources"
             justification="left" />
@@ -102,7 +102,7 @@ const IndexPage = () => (
         </div>
       </Panel>
       <Panel justification="center">
-        <div class="twoColumnsLeftText watershed">
+        <div className="twoColumnsLeftText watershed">
           <div style={{ width: `200px`, margin: `40px auto`}}>
             <Image filename="logos/terran_watershed_logo.png" alt="Terran Watershed" />
           </div>
@@ -111,7 +111,7 @@ const IndexPage = () => (
             <Button label="Participate" link="/watershed/"/>
           </div>
         </div>
-        <div class="twoColumnsRightImage watershed">
+        <div className="twoColumnsRightImage watershed">
           <Image filename="home/home_zalophus_californianus.jpg" alt="Zalophus californianus" showCaption="true" />
         </div>
       </Panel>

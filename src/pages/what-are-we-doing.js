@@ -118,7 +118,7 @@ const WhatAreWeDoingPage = () => (
     <Panel justification="center">
       <div className="roadmap">
         <a name="roadmap"></a>
-        <div class="centerText">
+        <div className="centerText">
           <Headline
             title="How we want to grow"
             subtitle="2020-2022"

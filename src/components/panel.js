@@ -11,7 +11,7 @@ const Panel = ({ children, justification, bleed }) => {
 
   return (
     <ScrollAnimation animateIn="fadeIn">
-      <div class="flexPanel" style={{
+      <div className="flexPanel" style={{
         justifyContent: justification,
       }}>
           {children}
