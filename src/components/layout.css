@@ -1456,13 +1456,44 @@ ul.team_members {
   margin: 0;
 }
 
+.gatherings .centerText {
+  position: relative;
+  padding-top: 50px;
+  z-index: 1000;
+}
+
+.communityLinks a {
+  display: inline-block;
+  margin: 5px;
+}
+
 .resourceGoalsContainer {
   width: 100%;
   max-width: 1024px;
 }
 
+.calendarButton {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  color: rgba(255,255,255,1);
+  background-color: rgba(255, 52, 69, 1.000);
+  border-radius: 20px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
 
+  .gatherings ul li {
+    width: 100%;
+    font-size: 14px;
+    border-radius: 0;
+  }
+
+  .gatherings ul li li {
+    width: auto;
+  }
 
   .rubusSpectabilis, .collinsiaHeterophylla {
       height: auto;

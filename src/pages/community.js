@@ -7,6 +7,9 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import aquilegiaFormosa from "../images/community/community_aquilegia_formosa.jpg"
+import fbImg from "../images/icon/icon_fb.svg"
+import igImg from "../images/icon/icon_ig.svg"
+import emailImg from "../images/icon/icon_email.svg"
 
 const community = () => (
   <Layout>
@@ -35,18 +38,18 @@ const community = () => (
         <Headline
           title="Join the conversation"
         />
-        <p>We’re currently coordinating on Slack. If you’d like to chat with us, please come by and say hello. We keep everyone else updated via email, Facebook and Instagram.</p>
-
-        <Button to="#slack_invite_link">Join us on Slack</Button>
-        <Button to="#fb_invite_link">
-          <Image filename="icon/icon_fb.svg" alt="" />
-        </Button>
-        <Button to="#ig_invite_link">
-          <Image filename="icon/icon_ig.svg" alt="" />
-        </Button>
-        <Button to="#email_invite_link">
-          <Image filename="icon/icon_email.svg" alt="" />
-        </Button>
+        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/">join us on Facbeook</a> and say hello. Join our email list for more in depth updates.</p>
+        <div className="centerText communityLinks">
+          <a href="https://www.facebook.com/TerranCollective/">
+            <img src={fbImg} alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/terrancollective/">
+            <img src={igImg} alt="Instagram" />
+          </a>
+          <a href="http://eepurl.com/cWIga1">
+            <img src={emailImg} alt="email" />
+          </a>
+        </div>
       </div>
     </Panel>
 
@@ -80,6 +83,9 @@ const community = () => (
             </div>
           </li>
         </ul>
+        <div className="centerText">
+          <a className="calendarButton" href="https://calendar.google.com/calendar?cid=dGVycmFuLmlvX3NnczlnZjI5amlrYzE3N3A4cjUzdWFvbzJnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">Add our events calendar</a>
+        </div>
       </div>
     </Panel>
     <Panel>

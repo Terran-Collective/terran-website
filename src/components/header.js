@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => {
           justifyContent: `space-between`,
           alignItems: `center`,
           margin: `0 auto`,
-          padding: `20px`,
+          padding: `27px`,
           position: `absolute`,
           width: `100%`,
           zIndex: `2`,

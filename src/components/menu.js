@@ -5,7 +5,7 @@ import logoWhite from "../images/logos/terran_collective_logo_white.svg"
 
 const Menu = ({ siteTitle }) => (
   <div className="menu">
-    <img src={logoWhite} alt="Terran Collective" />
+    <Link to="/"><img src={logoWhite} alt="Terran Collective" /></Link>
     <ul>
       <li>
         <h3>

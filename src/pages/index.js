@@ -47,7 +47,7 @@ const IndexPage = () => (
           <p>As a <strong>community of care</strong>, we support each other on our paths of personal healing and growth. As <strong>a community of practice</strong>, we help each other find our purpose and share our gifts with the world, while collaborating on projects aligned with our mission. As <strong>a commons</strong>, we collectively govern and share resources.</p>
           <p>Relating in these new and remembered ways provides the laboratory through which we research and experiment with creating bioregional collective intelligence, in service to all beings thriving.</p>
           <div style={{textAlign: `center`}}>
-            <Button label="Learn More" link="/what-is-terran/"/>
+            <Button label="More about what we are" link="/what-is-terran/"/>
           </div>
         </div>
       </Panel>
@@ -66,7 +66,7 @@ const IndexPage = () => (
             <p><strong>Systems design for cooperative coordination:</strong> Designing, developing and experimenting with decentralized governance structures, gift economics and the creation of modern Guilds.</p>
             <p><strong>Movement building and culture creation:</strong> Telling new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.</p>
             <div style={{textAlign: `center`}}>
-              <Button label="Learn More" link="/what-are-we-doing/"/>
+              <Button label="More about what we do" link="/what-are-we-doing/"/>
             </div>
           </div>
           <img className="collinsiaHeterophylla rightImage" src={collinsiaHeterophylla} alt="Collinsia heterophylla" />
