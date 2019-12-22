@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
@@ -76,24 +75,22 @@ const WhatIsTerranPage = () => (
     </Panel>
     <Panel justification="center">
       <div style={{ maxWidth: `95%`, width: `600px`, margin: `0 0 50px` }}>
-          <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus americanus californiensis" showCaption="true" />
+        <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus americanus californiensis" showCaption="true" />
       </div>
     </Panel>
     <Panel justification="center">
-      <div className="what-is-terran">
-        <a name="mission"></a>
+      <div id="mission" className="what-is-terran">
         <Headline
           title="We are building tools to reinforce healthy relationships at every level"
           subtitle="WHOLE & HEALTHY SYSTEMS"
           justification="center" />
       </div>
       <div className="terran_feature_image missionDiagram">
-        <img src={missionDiagram} />
+        <img src={missionDiagram} alt="mission diagram"/>
       </div>
     </Panel>
     <Panel justification="center">
-        <div style={{marginTop: `25px`}}>
-          <a name="core-beliefs"></a>
+        <div id="core-beliefs" style={{marginTop: `25px`}}>
           <Headline
             title="Our Core Beliefs"
             justification="center" />
@@ -125,7 +122,7 @@ const WhatIsTerranPage = () => (
     </Panel>
     <Panel justification="center">
       <div className="terran_feature_image visionDiagram">
-        <img src={visionDiagram}/>
+        <img src={visionDiagram} alt="vision diagram"/>
       </div>
     </Panel>
     <Panel justification="center">
@@ -174,8 +171,7 @@ const WhatIsTerranPage = () => (
       </ul>
     </Panel>
     <Panel justification="center">
-        <div className="team">
-          <a name="team"></a>
+        <div id="team" className="team">
           <Headline
             title="Our core stewardship team"
             subtitle="WE ARE GIVING FROM THE HEART"

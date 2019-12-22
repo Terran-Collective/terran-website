@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
@@ -9,6 +8,7 @@ import SEO from "../components/seo"
 
 const resources = () => (
   <Layout>
+    <SEO title="Resource Library" />
 
     <div className="heroPanel resourcesHero">
       <Panel justification="center">
@@ -28,11 +28,8 @@ const resources = () => (
     </div>
 
     <Panel justification="center">
-      <div className="resourceHeadline">
-        <a name="peers-and-allies"></a>
-        <Headline
-          title="Peers &amp; Allies"
-        />
+      <div id="peers-and-allies" className="resourceHeadline">
+        <Headline title="Peers &amp; Allies" />
         <p>Communities of practice we see working on similar issues</p>
       </div>
       <div className="communitiesList">
@@ -260,8 +257,7 @@ const resources = () => (
 
     <Panel justification="center">
       <div className="books">
-        <a name="books"></a>
-        <div className="resourceHeadline">
+        <div id="books" className="resourceHeadline">
           <Headline
             title="Reading list"
           />
@@ -329,8 +325,7 @@ const resources = () => (
 
     <Panel justification="center">
       <div className="articles">
-        <a name="articles"></a>
-        <div className="resourceHeadline">
+        <div id="articles" className="resourceHeadline">
           <Headline
             title="Articles and Posts"
           />
@@ -392,8 +387,7 @@ const resources = () => (
 
     <Panel justification="center">
       <div className="podcastsContainer">
-        <a name="podcasts"></a>
-        <div className="resourceHeadline">
+        <div id="podcasts" className="resourceHeadline">
           <Headline
             title="Podcasts"
           />
@@ -422,8 +416,7 @@ const resources = () => (
     </Panel>
 
     <Panel justification="center">
-      <div className="ourTeachers resourceHeadline">
-        <a name="authors-artists-teachers"></a>
+      <div id="authors-artists-teachers" className="ourTeachers resourceHeadline">
         <Headline
           title="Authors, Leaders, Artists and Teachers"
         />

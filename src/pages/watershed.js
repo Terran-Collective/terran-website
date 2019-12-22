@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Panel from "../components/panel"
@@ -7,6 +6,7 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
+
 import watershedLogo from "../images/logos/terran_watershed_logo_2x.png"
 import resourceUse1 from "../images/watershed/watershed_resource_use_1.png"
 import resourceUse2 from "../images/watershed/watershed_resource_use_2.png"
@@ -17,6 +17,8 @@ import aesculusCalifornica from "../images/watershed/watershed_aesculus_californ
 
 const watershed = () => (
   <Layout>
+    <SEO title="Terran Watershed" />
+
     <div className="heroPanel watershedHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -49,8 +51,7 @@ const watershed = () => (
     </Panel>
 
     <Panel justification="center">
-      <div className="resourceUse">
-        <a name="stewardship"></a>
+      <div id="stewardship" className="resourceUse">
         <Headline
           title="How will resources in the watershed be used?"
         />
@@ -99,16 +100,15 @@ const watershed = () => (
         <Headline
           title="We are seeking divestors"
         />
-        <p>Divestors are people who understand the need to transfer resources from the extractive economy to the regenerative economy as quickly as possible. Transforming fixed fiat wealth into cascading ecosystem/bioregional/living abundance. So currency may become a current for good. 🌊</p>
+        <p>Divestors are people who understand the need to transfer resources from the extractive economy to the regenerative economy as quickly as possible. Transforming fixed fiat wealth into cascading ecosystem/bioregional/living abundance. So currency may become a current for good. <span role="img" aria-label="ocean wave">🌊</span></p>
         <p>Investment looks for returns for the investor, usually within a time-horizon that causes investors to think in very short terms. Our plan for economic and ecologic thriving is long-term: We are developing systems, tools and communities that work for the seven generations yet to come. When you divest into this collective, you are seeking returns for your grandchildren and the bioregional communities within which they will thrive.</p>
       </div>
       <div className="twoColumnsRightImage">
         <Image filename="watershed/watershed_meleagris_gallopavo2x.jpg" alt="Meleagris Gallopavo" showCaption="true" />
       </div>
     </Panel>
-    <div className="threeColumns">
+    <div id="goals" className="threeColumns">
       <Panel justification="center">
-        <a name="goals"></a>
         <img className="rubusSpectabilis leftImage" src={aesculusCalifornica} alt="Aesculus Californica" />
         <div className="resourceGoals singleColumnText">
           <Headline

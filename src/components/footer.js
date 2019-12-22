@@ -7,7 +7,7 @@ const Footer = ({ siteTitle }) => (
   <footer style={{
           backgroundColor: `rgba(25, 24, 23, 1.000)`,
         }}>
-    <img src={holonBlueprint} className="holonBlueprint"/>
+    <img src={holonBlueprint} className="holonBlueprint" alt="holon background"/>
     <Menu/>
   </footer>
 )

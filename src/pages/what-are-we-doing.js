@@ -1,15 +1,15 @@
 import React from "react"
-// import { Link } from "gatsby"
-
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 
 const WhatAreWeDoingPage = () => (
   <Layout>
+    <SEO title="What are we doing" />
+
     <div className="heroPanel whatWeDoHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -26,8 +26,7 @@ const WhatAreWeDoingPage = () => (
     </div>
 
     <Panel justification="center">
-      <div className="twoColumnsLeftText">
-      <a name="scope-of-practice"></a>
+      <div id="scope-of-practice" className="twoColumnsLeftText">
         <Headline
           title="Technology for thriving"
           subtitle="SCOPE OF PRACTICE"
@@ -116,8 +115,7 @@ const WhatAreWeDoingPage = () => (
     </Panel>
 
     <Panel justification="center">
-      <div className="roadmap">
-        <a name="roadmap"></a>
+      <div id="roadmap" className="roadmap">
         <div className="centerText">
           <Headline
             title="How we want to grow"
