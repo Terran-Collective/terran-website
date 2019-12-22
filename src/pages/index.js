@@ -43,8 +43,8 @@ const IndexPage = () => (
             titleAccentColor="#0ad066"
             subtitle="What is Terran?" />
           <p>Terran Collective is <strong>a community</strong> of people who are committed to the work of healing and transformation necessary for all beings in our bioregion to thrive.</p>
-          <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy to adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
-          <p>As a <strong>community of care</strong>, we support each other on our paths of personal healing and growth. As <strong>a community of practice</strong>, we help each other find our purpose and share our gifts with the world, while collaborating on projects aligned with our mission. As <strong>a commons</strong>, we collectively govern and share resources.</p>
+          <p>As a <strong>community of care</strong>, we support each other on our paths of personal healing and growth. As a <span>community of practice</span>, we help each other find our purpose and share our gifts with the world, while collaborating on projects aligned with our mission. As <strong>a commons</strong>, we collectively govern and share resources.</p>
+          <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
           <p>Relating in these new and remembered ways provides the laboratory through which we research and experiment with creating bioregional collective intelligence, in service to all beings thriving.</p>
           <div style={{textAlign: `center`}}>
             <Button label="More about what we are" link="/what-is-terran/"/>
@@ -59,10 +59,10 @@ const IndexPage = () => (
               title="We are building community, human practices and tools for collaboration and coordination"
               subtitle="What we're doing"
               justification="center" />
-            <p>Terran Collective builds community and socio-technical tools to coordinate action. We aim to develop cooperative systems of coordination that can outcompete the market/state while nurturing healthy relationships with each other and the planet.</p>
-            <p><strong>Community Weaving:</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, cultural crises we face today.</p>
-            <p><strong>Technology:</strong> We design software that serves human thriving, by supporting community building, collaborative sensemaking, cooperative decision-making and group coordination.</p>
-            <p><strong>Collaborative Ecosystem Mapping:</strong> We are making transparent maps of our communities and using them to deepen relationships and collectively manage our resources.</p>
+            <p>Terran Collective builds community and socio-technical tools to coordinate collective action. We aim to develop cooperative systems of coordination that can outcompete the market/state while nurturing healthy relationships with each other and the planet.</p>
+            <p><strong>Community Weaving:</strong> Rebuilding community as the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, cultural crises we face today.</p>
+            <p><strong>Technology:</strong> Designing software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making and group coordination.</p>
+            <p><strong>Collaborative Ecosystem Mapping:</strong> Making transparent maps of our communities and using them to deepen relationships and collectively manage our resources.</p>
             <p><strong>Systems design for cooperative coordination:</strong> Designing, developing and experimenting with decentralized governance structures, gift economics and the creation of modern Guilds.</p>
             <p><strong>Movement building and culture creation:</strong> Telling new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.</p>
             <div style={{textAlign: `center`}}>
@@ -94,7 +94,7 @@ const IndexPage = () => (
           <Headline
             title="Community & Resources"
             justification="left" />
-          <p>Our work is to build community and share resources. As we discover new systems, tools, and practices, we want to share them with the world. Likewise, we want to be in relationship with anyone who is engaged in the type of work we are attempting. Please join the conversation, and check out the resources we've compiled.</p>
+          <p>Our work happens with, by and for community. We are focused locally in the Bay Area, but as we discover new systems, tools, and practices, we want to share them with the world. Likewise, we want to be in relationship with anyone who is engaged in the type of work we are attempting. Please join the conversation, and check out the resources we’ve compiled.</p>
           <div style={{textAlign: `center`}}>
             <Button label="Our Community" link="/community/"/>
             <Button label="Library of Resources" link="/resources/"/>
