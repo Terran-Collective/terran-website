@@ -1434,6 +1434,8 @@ ul.triad {
   line-height: 37px;
   padding: 0 20px;
   text-decoration: none;
+  font-family: 'DINPro-Bold';
+  font-size: 16px;
   font-weight: bold;
 }
 

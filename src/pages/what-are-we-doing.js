@@ -27,6 +27,9 @@ const WhatAreWeDoingPage = () => (
     </div>
 
     <Panel justification="center">
+      <div className="twoColumnsRightImage">
+        <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
+      </div>
       <div className="twoColumnsLeftText">
         <Headline
           title="Community Weaving"
@@ -51,9 +54,6 @@ const WhatAreWeDoingPage = () => (
           <h3>Current Inquiry</h3>
           <p>How to we build bridges to the many diverse communities living in the Bay Area, to ensure that every voice as a seat at the table, and that our work is informed by a diverse and inclusive group of people and ideas?</p>
         </div>
-      </div>
-      <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
     </Panel>
 
