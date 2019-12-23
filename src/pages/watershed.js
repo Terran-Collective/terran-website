@@ -29,7 +29,7 @@ const watershed = () => (
           <p>The tools we make and the experiments we perform are for the benefit of all. The Watershed is the primary container where we receive and steward resources in support of our efforts to bring about systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
           <Button link="/watershed/#goals" label="2020 Resource Goals" />
           <Button link="/watershed/#stewardship" label="How will resources be used?" />
-          <Button link="/watershed/#supportus" label="Support us" />
+          <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" className="button">Support us</a>
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -123,7 +123,7 @@ const watershed = () => (
           <p>We are doing this work for the people and the Earth, not to enrich ourselves or investors. We don’t expect traditional investment structures such as venture capital to understand the value of this work, so we are asking you, our community, to join with us in creating a better world. Please consider giving a monthly donation of time or money. We believe that the community patronage model could be an example of how we can fund the transformative work that is required at this time. We are also of course happy to accept larger one time donations  to give us a big rocket boost as we leap into this work whole-heartedly.</p>
           <p>We are asking you to trust us and join us in this radical experiment, to see if we can give ourselves over completely to be of service to our bioregion and the world. Now is the time for to put our energy and resources into radical experimentation and change. The world is calling for a transition from the extractive economy into the regenerative economy, so we can liberate our communities, ecosystems, and align with our true value systems. And stop us from destroying ourselves and the planet. Help us begin right now, right here, with us.</p>
           <div className="centerText">
-            <Button link="#donate" label="Become a divestor" />
+            <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" className="button">Become a divestor</a>
           </div>
         </div>
         <img className="rubusSpectabilis rightImage" src={aesculusCalifornica} alt="Aesculus Californica" />
