@@ -19,8 +19,8 @@ const WhatAreWeDoingPage = () => (
             subtitle="WHAT ARE WE DOING?"
           />
           <p>Terran Collective’s work is creating tools, systems and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to All Beings Thriving?  We want to create free and open-source software, for everyone, to advance the transition to a sacred and regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
-          <Button to="/what-are-we-doing/#scope-of-practice" label="Scopes of practice" />
-          <Button to="/what-are-we-doing/#roadmap" label="Roadmap" />
+          <Button link="/what-are-we-doing/#scope-of-practice" label="Scopes of practice" />
+          <Button link="/what-are-we-doing/#roadmap" label="Roadmap" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -496,6 +496,13 @@ const WhatAreWeDoingPage = () => (
                 <li>Begin acquiring land: Create a commons of distributed land projects, shared and stewarded by all. Community centers in various parts of the bioregion, that allow people to collaborate, meet, share space in person. Degraded land -> Reforestation. </li>
               </ul>
             </div>
+          </div>
+          <div className="twoColumnsTimelineRight">
+            <Headline
+              title="Find and secure land for collective stewardship and governance, nurture the commons we have created and release tools for local meta-communities"
+              subtitle="2022"
+            />
+            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
           </div>
         </div>
 
