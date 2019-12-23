@@ -1415,6 +1415,18 @@ ul.triad {
   width: 95%;
 }
 
+.button, a.button {
+  background-color: transparent;
+  border: 1px solid rgba(27, 27, 25, 1.000);
+  border-radius: 20px;
+  height: 40px;
+  display: inline-block;
+  line-height: 37px;
+  padding: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .team {
   text-align: center;
 }
