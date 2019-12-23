@@ -137,13 +137,13 @@ const WhatAreWeDoingPage = () => (
         </div>
       </div>
       <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
+        <Image filename="what_do/what_do_meleagris_gallopavo2x.jpg" alt="Meleagris gallopavo" showCaption="true" />
       </div>
     </Panel>
 
     <Panel justification="center">
       <div className="twoColumnsLeftImage">
-        <Image filename="what_do/what_do_calypte_anna2x.jpg" alt="Calypte anna" showCaption="true" />
+        <Image filename="what_do/what_do_castor_canadensis.jpg" alt="Castor canadensis" showCaption="true" />
       </div>
       <div className="twoColumnsRightText">
         <Headline
@@ -185,7 +185,7 @@ const WhatAreWeDoingPage = () => (
               title="Gathering resources, mapping the bioregion and building our network of collaborators"
               subtitle="WINTER 2020"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
+            <Image filename="what_do/what_do_adrea_alba.jpg" alt="Adrea alba" showCaption="true" />
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -305,7 +305,7 @@ const WhatAreWeDoingPage = () => (
               title="Grow the team, conduct research, develop technology and nurture our community, implement collective membership agreements"
               subtitle="SPRING 2020"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
+            <Image filename="what_do/what_do_falco_sparverius.jpg" alt="Falco sparverius" showCaption="true" />
           </div>
         </div>
 
@@ -318,7 +318,7 @@ const WhatAreWeDoingPage = () => (
               title="Implement the first iteration of our collective ownership, governance and resource sharing systems, grow the ecosystem"
               subtitle="SUMMER 2020"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
+            <Image filename="what_do/what_do_lontra_canadensis.jpg" alt="Lontra canadensis" showCaption="true" />
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -404,7 +404,7 @@ const WhatAreWeDoingPage = () => (
               title="Develop tools for bioregional meta-organizational collaboration via guilds and start looking for other bioregions to release our tools to"
               subtitle="FALL 2020"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
+            <Image filename="what_do/what_do_pelicanus_occidentalis.jpg" alt="Pelicanus occidentalis" showCaption="true" />
           </div>
         </div>
 
@@ -417,7 +417,7 @@ const WhatAreWeDoingPage = () => (
               title="Building tools that create commons, make tools that make it possible for anyone to create a collective, deepening community in the bay"
               subtitle="2021"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
+            <Image filename="what_do/what_do_pleurotus_ostreatus.jpg" alt="Pleurotus ostreatus" showCaption="true" />
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -502,7 +502,7 @@ const WhatAreWeDoingPage = () => (
               title="Find and secure land for collective stewardship and governance, nurture the commons we have created and release tools for local meta-communities"
               subtitle="2022"
             />
-            <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Calypso bulbosa" showCaption="true" />
+            <Image filename="what_do/what_do_sciurus_griseus.jpg" alt="Sciurus griseus" showCaption="true" />
           </div>
         </div>
 
