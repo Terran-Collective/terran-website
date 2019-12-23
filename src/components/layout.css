@@ -716,6 +716,7 @@ footer {
   left: 0;
   transition: all .25s ease;
   height: 0;
+  z-index: 100000;
   overflow: visible;
   width: 100%;
 }
@@ -802,6 +803,7 @@ footer {
 }
 
 .homeHeroPanel {
+  position: relative;
   background: url('../images/home/home_hero2x.jpg');
   background-position: center right;
   background-size: 60%;
@@ -810,6 +812,15 @@ footer {
   padding-top: 100px;
   padding-left: 50px;
   width: 100%;
+}
+
+.homeHeroPanel .fadeIn, .heroPanel .fadeIn {
+  position: relative;
+  z-index: 100;
+}
+
+.homeHeroPanel .heroPanelBg, .heroPanelBg {
+  z-index: 0;
 }
 
 .pageHero {
@@ -854,9 +865,8 @@ footer {
   background-position: top center;
   background-size: 100%;
   background-repeat: no-repeat;
-  max-height: 800px;
+  min-height: 800px;
   height: 100vh;
-  min-height: 100%;
   position: relative;
   width: 100%;
 }

@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => {
           padding: `27px`,
           position: `absolute`,
           width: `100%`,
-          zIndex: `2`,
+          zIndex: `100000`,
         }}
       >
         <h1 style={{ margin: 0, height: "35px" }}>

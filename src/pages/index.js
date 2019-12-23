@@ -30,6 +30,7 @@ const IndexPage = () => (
           </div>
         </div>
       </Panel>
+      <div className="heroPanelBg"></div>
     </div>
     <div>
       <Panel justification="center">
