@@ -1042,19 +1042,27 @@ footer {
   margin: 0 2.5%;
 }
 
-.rubusSpectabilis, .collinsiaHeterophylla {
+.rubusSpectabilis, .collinsiaHeterophylla, .leftImage, .rightImage {
     height: 100%;
     width: auto;
     position: absolute;
     top: 0;
 }
 
-.rubusSpectabilis.leftImage, .collinsiaHeterophylla.leftImage {
+.rubusSpectabilis.leftImage, .collinsiaHeterophylla.leftImage, .leftImage {
   left: -50%;
 }
 
-.rubusSpectabilis.rightImage, .collinsiaHeterophylla.rightImage {
+.rubusSpectabilis.rightImage, .collinsiaHeterophylla.rightImage, .rightImage {
   right: -50%;
+}
+
+.rightImage.vacciniumOvatum {
+  right: -60%;
+}
+
+.leftImage.vacciniumOvatum {
+  left: -60%;
 }
 
 .gatherings ul li p {
@@ -1085,6 +1093,7 @@ footer {
 .singleColumnText {
   width: 90%;
   max-width: 1024px;
+  z-index: 100;
   margin: 0 auto;
 }
 
@@ -1529,6 +1538,16 @@ ul.team_members {
   max-width: 1024px;
   margin: 0 auto 100px auto;
   display: block;
+}
+@media only screen and (max-width: 900px) {
+  .leftImage, .rightImage {
+    opacity: 0.5;
+  }
+
+  .twoColumnsRightText, .twoColumnsLeftText, .threeColumnsCenterText, .heroPanel .pageHero {
+    width: 60%;
+    max-width: 60%;
+  }
 }
 
 @media only screen and (max-width: 600px) {

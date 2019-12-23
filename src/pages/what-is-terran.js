@@ -13,6 +13,7 @@ import whatIsScope3 from "../images/what_is/what_is_scope_32x.png"
 import whatIsCore1 from "../images/what_is/what_is_core_12x.jpg"
 import whatIsCore2 from "../images/what_is/what_is_core_22x.jpg"
 import whatIsCore3 from "../images/what_is/what_is_core_32x.jpg"
+import vacciniumOvatum from "../images/what_is/what_is_vaccinium_ovatum.jpg"
 
 
 const WhatIsTerranPage = () => (
@@ -56,7 +57,7 @@ const WhatIsTerranPage = () => (
       </div>
     </Panel>
     <Panel justification="center">
-      <div class="threeColumnsCenterText">
+      <div className="threeColumnsCenterText">
 
         <Headline
           title="Bioregional Collective Intelligence"
@@ -66,25 +67,23 @@ const WhatIsTerranPage = () => (
         <p>We also believe it is imperative that we bring all forms of intelligence to the table to make truly wise decisions. This means being inclusive of diverse viewpoints, incorporating not just knowledge and mental intelligence but also integrating the intelligence of our hearts and bodies, our feelings and our intuitions. And the earth must have a seat at the table. The more voices we hear the better our decisions as a planetary whole will be.</p>
       </div>
     </Panel>
-    <Panel justification="space-between" bleed="true">
-      <div className="threeColumnsLeftImage">
-        <Image filename="what_is/what_is_vaccinium_ovatum_left2x.jpg" alt="Vaccinium ovatum" showCaption="true" />
-      </div>
-      <div className="threeColumnsCenterText">
-        <Headline
-          title="All Beings Thriving"
-          subtitle="WORKING TOWARDS"
-          subtitleColor="#0080f8"
-          justification="center"
-          size="jumbo" />
-        <p>Humanity is on the brink of disaster. If we continue along our current path of extracting resources from the planet to feed infinite growth in service to individual selfishness and greed we are going to destroy the ecosystems that support life on earth and most of humanity will perish. To avoid this total collapse we must unify, aligning around a shared purpose and redesigning our culture to orient towards achieving this goal. We believe this shared purpose comes from recognizing our interdependence with each other and the web of life, and choosing to create a world that works for all, thus enabling the next evolution of life on earth - a healthy planetary organism. This vision can be articulated in many ways: the Great Turning, the More Beautiful World our Hearts Know is Possible, Game B, Omni-Win, All Win… All Beings Thriving is the articulation we like best right now.</p>
-        <p><strong>Why thriving</strong>? Our vision is of a world in which all beings have what they need to thrive. Not a world free of suffering or lack or death, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are used regeneratively and shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet.</p>
-        <p>We use the phrase <strong>all beings</strong> because we believe achieving this goal requires a shift away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with.</p>
-      </div>
-      <div className="threeColumnsRightImage">
-        <Image filename="what_is/what_is_vaccinium_ovatum_right2x.jpg" alt="Vaccinium ovatum" />
-      </div>
-    </Panel>
+    <div className="threeColumns">
+      <Panel justification="space-between" bleed="true">
+        <img className="leftImage vacciniumOvatum" src={vacciniumOvatum} alt="Vaccinium ovatum"/>
+        <div className="threeColumnsCenterText">
+          <Headline
+            title="All Beings Thriving"
+            subtitle="WORKING TOWARDS"
+            subtitleColor="#0080f8"
+            justification="center"
+            size="jumbo" />
+          <p>Humanity is on the brink of disaster. If we continue along our current path of extracting resources from the planet to feed infinite growth in service to individual selfishness and greed we are going to destroy the ecosystems that support life on earth and most of humanity will perish. To avoid this total collapse we must unify, aligning around a shared purpose and redesigning our culture to orient towards achieving this goal. We believe this shared purpose comes from recognizing our interdependence with each other and the web of life, and choosing to create a world that works for all, thus enabling the next evolution of life on earth - a healthy planetary organism. This vision can be articulated in many ways: the Great Turning, the More Beautiful World our Hearts Know is Possible, Game B, Omni-Win, All Win… All Beings Thriving is the articulation we like best right now.</p>
+          <p><strong>Why thriving</strong>? Our vision is of a world in which all beings have what they need to thrive. Not a world free of suffering or lack or death, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are used regeneratively and shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet.</p>
+          <p>We use the phrase <strong>all beings</strong> because we believe achieving this goal requires a shift away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with.</p>
+        </div>
+        <img className="rightImage" src={vacciniumOvatum} alt="Vaccinium ovatum"/>
+      </Panel>
+    </div>
     <Panel justification="center">
       <div style={{ maxWidth: `95%`, width: `600px`, margin: `0 0 50px` }}>
         <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus americanus californiensis" showCaption="true" />
