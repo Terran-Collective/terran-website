@@ -1456,6 +1456,20 @@ ul.team_members {
   margin: 0;
 }
 
+.timelineItem span {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  opacity: .5;
+  margin-bottom: 10px;
+}
+
+.timelineItem ul {
+  margin: 0;
+  list-style: none;
+  font-size: 14px;
+}
+
 .gatherings .centerText {
   position: relative;
   padding-top: 50px;
