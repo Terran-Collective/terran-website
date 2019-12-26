@@ -41,7 +41,7 @@ const community = () => (
         <Headline
           title="Join the conversation"
         />
-        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank">join us on Facbeook</a> and say hello. Join our email list for more in depth updates.</p>
+        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank">join us on Facebook</a> and say hello. Join our email list for more in depth updates.</p>
         <div className="centerText communityLinks">
           <a href="https://www.facebook.com/TerranCollective/" target="_blank">
             <img src={fbImg} alt="Facebook" />
