@@ -64,7 +64,7 @@ const IndexPage = () => (
             <p><strong>Community Weaving:</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, and cultural crises we face today.</p>
             <p><strong>Technology:</strong> We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making and group coordination.</p>
             <p><strong>Collaborative Ecosystem Mapping:</strong> We believe mapping resource flows our communities can deepen relationships and help us collectively manage these resources. The maps we create will be transparent and publicly available, revealing important information that is often held privately by companies and the state.</p>
-            <p><strong>Systems design for cooperative coordination:</strong> We are designing, developing and experimenting with decentralized governance structures, gift economics and the creation of modern Guilds.</p>
+            <p><strong>Systems design for cooperative coordination:</strong> We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank">gift economics</a> and the creation of modern guilds.</p>
             <p><strong>Movement building and culture creation:</strong> It's time to tell new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.</p>
             <div style={{textAlign: `center`}}>
               <Button label="What We Do" link="/what-are-we-doing/"/>
@@ -78,7 +78,7 @@ const IndexPage = () => (
           <Headline
             title="Our bioregion is where we practice and experiment"
             justification="left" />
-          <p>We are building systems and tools for the world, starting in our own backyard. We believe that what we are building needs to be grounded in reality: The economic, ecological and social landscapes that we seek to improve are right outside our door.</p>
+          <p>A bioregion is a geographical and cultural area defined by the emergent boundaries expressed by nature. This is the scale at which we work; building systems and tools that are grounded in place. The economic, ecological and social landscapes that we seek to improve are those of the land we inhabit, the San Francisco Bay Area bioregion.</p>
           <div style={{textAlign: `center`}}>
             <Button label="Why the bioregion?" link="/bioregion/"/>
           </div>
