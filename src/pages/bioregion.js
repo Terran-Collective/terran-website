@@ -39,7 +39,7 @@ const bioregion = () => (
     <Panel justification="center">
       <div className="twoColumnsLeftText">
         <Headline
-          title="The world we are called to help is right outside our door"
+          title="We stand for what we stand on"
         />
         <p>We believe in place-based organizing because the world we are building depends upon people in each bioregion learning to unite as the people of one landscape and coordinate action to care for the land upon which they all equally depend. A biosphere made up of coherent, collectively-governed bioregions unlocks planetary regeneration.</p>
         <p>We define the Bay Area bioregion broadly, as the 9 county area and the confluence of the watersheds between them. Drawing a strict boundary is less important than understanding the rich cultural, economic, agricultural, and environmental exchange across this influential area. We are members of Cascadia bioregion. We are constituents of the nature-state of Salmon Nation. We are the people of the redwoods, of blackberries, of the redtail hawk, the black-tailed deer, the coyote, the raven. Our invitation is to fall in love with our land. We want to shape our bioregion into a model for the world of what regenerative civilization can be.</p>
