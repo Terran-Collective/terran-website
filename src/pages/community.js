@@ -41,15 +41,15 @@ const community = () => (
         <Headline
           title="Join the conversation"
         />
-        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank">join us on Facebook</a> and say hello. Join our email list for more in depth updates.</p>
+        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank" rel="noopener noreferrer">join us on Facebook</a> and say hello. Join our email list for more in depth updates.</p>
         <div className="centerText communityLinks">
-          <a href="https://www.facebook.com/TerranCollective/" target="_blank">
+          <a href="https://www.facebook.com/TerranCollective/" target="_blank" rel="noopener noreferrer">
             <img src={fbImg} alt="Facebook" />
           </a>
-          <a href="https://www.instagram.com/terrancollective/" target="_blank">
+          <a href="https://www.instagram.com/terrancollective/" target="_blank" rel="noopener noreferrer">
             <img src={igImg} alt="Instagram" />
           </a>
-          <a href="http://eepurl.com/cWIga1" target="_blank">
+          <a href="http://eepurl.com/cWIga1" target="_blank" rel="noopener noreferrer">
             <img src={emailImg} alt="email" />
           </a>
         </div>

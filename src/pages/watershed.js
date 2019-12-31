@@ -117,13 +117,13 @@ const watershed = () => (
           />
           <p>We practice full transparency in finances and invite you to take a look at a draft of our operating budget.</p>
           <div className="centerText">
-            <a className="button" href="https://docs.google.com/spreadsheets/d/1caGcyCFm1hwtIH-ER3saREb1lKMffNTAwcdm2g7lCls/edit#gid=0">Our 2020 Budget Goals</a>
+            <a className="button" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1mR8-mcoVtm0OhIcpRs1e1jP305WNHSMG3K1Uh9Hi81I/">Our 2020 Budget Goals</a>
           </div>
           <p>For the last three years we have contributed our extra time and energy, and have supported each other financially to work on this vision. We are committed to building a way of life that realizes the hopes in our hearts, and we see this as a lifetime project. Any resources we receive, any help we receive, will help us to accomplish our goals sooner, and be able to share our research, tools and systems with the world more rapidly</p>
           <p>We are doing this work for the people and the Earth, not to enrich ourselves or investors. We don’t expect traditional investment structures such as venture capital to understand the value of this work, so we are asking you, our community, to join with us in creating a better world. Please consider giving a monthly donation of time or money. We believe that the community patronage model could be an example of how we can fund the transformative work that is required at this time. We are also of course happy to accept larger one time donations  to give us a big rocket boost as we leap into this work whole-heartedly.</p>
           <p>We are asking you to trust us and join us in this radical experiment, to see if we can give ourselves over completely to be of service to our bioregion and the world. Now is the time for to put our energy and resources into radical experimentation and change. The world is calling for a transition from the extractive economy into the regenerative economy, so we can liberate our communities, ecosystems, and align with our true value systems. And stop us from destroying ourselves and the planet. Help us begin right now, right here, with us.</p>
           <div className="centerText">
-            <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" className="button">Become a divestor</a>
+            <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" target="_blank" rel="noopener noreferrer" className="button">Become a divestor</a>
           </div>
         </div>
         <img className="rubusSpectabilis rightImage" src={aesculusCalifornica} alt="Aesculus Californica" />
