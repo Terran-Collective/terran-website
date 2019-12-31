@@ -62,7 +62,7 @@ const WhatIsTerranPage = () => (
           title="Bioregional Collective Intelligence"
           subtitle="What We Mean"
           subtitleColor="#0080f8" />
-        <p>Collective intelligence refers to how groups of people working collaboratively together make better sense of the world and smarter decisions than any one person. We live embedded in many structures for collective intelligence, for example our our governments and economic systems, that are no longer serving the needs of our species or our planet. Terran is designing and practicing new and remembered models of collective intelligence that will allow us to make both smarter and wiser decisions for the whole. We believe that the bioregional scale is important as it is large enough to bring many diverse resources and perspectives to bear, but local enough to allow for in person communication and cooperation towards goals that are aligned by our proximity and shared relationship to this place it’s communities.</p>
+        <p>Collective intelligence refers to how groups of people working collaboratively together make better sense of the world and smarter decisions than any one person. We live embedded in many structures for collective intelligence, for example our our governments and economic systems, that are no longer serving the needs of our species or our planet. Terran is designing and practicing new and remembered models of collective intelligence that will allow us to make both smarter and wiser decisions for the whole. We fit our vision for collective intelligence to the scale of the bioregion, which is an ecologically-created polity that naturally aligns the interests of the people sharing that landscape. The bioregion is the level at which it is imperative we learn to coordinate action and collectively govern ourselves.</p>
         <p>We also believe it is imperative that we bring all forms of intelligence to the table to make truly wise decisions. This means including diverse viewpoints, incorporating not just knowledge and mental intelligence but also integrating the intelligence of our hearts and bodies, our feelings and our intuitions. And we must listen to the wisdom of the living Earth and the more-than-human community with whom we share the biosphere. The more voices we hear the better our decisions as a planetary whole will be.</p>
       </div>
     </Panel>
@@ -76,29 +76,13 @@ const WhatIsTerranPage = () => (
             subtitleColor="#0080f8"
             justification="center"
             size="jumbo" />
-          <p>Humanity is on the brink of disaster. If we continue along our current path of extracting resources from the planet to feed infinite growth in service to individual selfishness and greed we are going to destroy the ecosystems that support life on earth and most of humanity will perish. To avoid this total collapse we must unify, aligning around a shared purpose and redesigning our culture to orient towards achieving this goal. We believe this shared purpose comes from recognizing our interdependence with each other and the web of life, and choosing to create a world that works for all, thus enabling the next evolution of life on earth - a healthy planetary organism. This vision can be articulated in many ways: the Great Turning, the More Beautiful World our Hearts Know is Possible, Game B, Omni-Win, All Win… All Beings Thriving is the articulation we like best right now.</p>
+          <p>Humanity is on the brink of disaster. If we continue along our current path of extracting resources from the planet to feed infinite economic growth, we will destroy the ecosystems that support life on earth and most of humanity will perish. To avoid this total collapse we must unify around a shared purpose: Recognizing our interdependence with the web of life and creating a world that works for all. This vision can be articulated in many ways: the Great Turning, the More Beautiful World our Hearts Know is Possible, Game B, Omni-Win, All Win… <strong>All Beings Thriving</strong> is the articulation we like best right now.</p>
           <p><strong>Why thriving?</strong> Our vision is of a world in which all beings have what they need to thrive. Not a world free of suffering or lack or death, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are used regeneratively and shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet.</p>
           <p>We use the phrase <strong>all beings</strong> because we believe achieving this goal requires a shift towards interdependence and away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with.</p>
         </div>
         <img className="rightImage" src={vacciniumOvatum} alt="Vaccinium ovatum"/>
       </Panel>
     </div>
-    <Panel justification="center">
-      <div style={{ maxWidth: `95%`, width: `600px`, margin: `0 0 50px` }}>
-        <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus americanus californiensis" showCaption="true" />
-      </div>
-    </Panel>
-    <Panel justification="center">
-      <div id="mission" className="what-is-terran">
-        <Headline
-          title="We are building tools to reinforce healthy relationships at every level"
-          subtitle="WHOLE & HEALTHY SYSTEMS"
-          justification="center" />
-      </div>
-      <div className="terran_feature_image missionDiagram">
-        <img src={missionDiagram} alt="mission diagram"/>
-      </div>
-    </Panel>
     <Panel justification="center">
         <div id="core-beliefs" style={{marginTop: `25px`}}>
           <Headline
@@ -142,7 +126,23 @@ const WhatIsTerranPage = () => (
       </div>
     </Panel>
     <Panel justification="center">
-      <div style={{marginTop: `25px`}}>
+      <div style={{ maxWidth: `95%`, width: `600px`, margin: `0` }}>
+        <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus americanus californiensis" showCaption="true" />
+      </div>
+    </Panel>
+    <Panel justification="center">
+      <div id="mission" className="what-is-terran">
+        <Headline
+          title="We are building tools to reinforce healthy relationships at every level"
+          subtitle="WHOLE & HEALTHY SYSTEMS"
+          justification="center" />
+      </div>
+      <div className="terran_feature_image missionDiagram">
+        <img src={missionDiagram} alt="mission diagram"/>
+      </div>
+    </Panel>
+    <Panel justification="center">
+      <div>
         <Headline
           title="How we relate"
           justification="center" />

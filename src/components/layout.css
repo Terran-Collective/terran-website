@@ -1430,7 +1430,7 @@ ul.triad {
 
 .terran_feature_image {
   text-align: center;
-  margin: 25px auto 150px;
+  margin: 25px auto 50px;
   width: 95%;
 }
 
@@ -1764,4 +1764,3 @@ ul.team_members {
     display: none;
   }
 }
-
