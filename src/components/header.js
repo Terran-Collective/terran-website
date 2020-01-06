@@ -36,6 +36,7 @@ const Header = ({ siteTitle }) => {
           </Link>
         </h1>
         <div className={classnames({ "menuWrapper" : true, "open" : isOpen })}>
+          <Link className="headerContribute" to="/watershed/">Contribute</Link>
           <button className="menuToggle" onClick={() => setOpen(!isOpen)}>
               <img src={menuToggleHamburger} alt="Open menu icon" className="openMenu" />
               <img src={menuToggleX} alt="Close menu icon"className="closeMenu" />
