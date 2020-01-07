@@ -723,6 +723,7 @@ footer {
   font-size: 16px;
   border-radius: 25px;
   padding: 0 15px;
+  background-color: rgba(255, 255, 249, 1);
   font-weight: bold;
 }
 
