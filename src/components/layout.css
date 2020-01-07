@@ -1067,19 +1067,19 @@ footer {
 }
 
 .rubusSpectabilis.leftImage, .collinsiaHeterophylla.leftImage, .leftImage {
-  left: -50%;
+  left: -65%;
 }
 
 .rubusSpectabilis.rightImage, .collinsiaHeterophylla.rightImage, .rightImage {
-  right: -50%;
+  right: -65%;
 }
 
 .rightImage.vacciniumOvatum {
-  right: -60%;
+  right: -65%;
 }
 
 .leftImage.vacciniumOvatum {
-  left: -60%;
+  left: -65%;
 }
 
 .gatherings ul li p {

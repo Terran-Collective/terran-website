@@ -32,7 +32,7 @@ const WhatIsTerranPage = () => (
               lineHeight: `40px`,
               margin: `30px 0`,
               width: `100%`,
-            }}>We are a small band of humans based in the Bay Area navigating towards a way of life in balance with all people and all of nature. Our collective work is to design and practice this way of life as a necessary step to bring about <a href="https://charleseisenstein.org/books/the-more-beautiful-world-our-hearts-know-is-possible/" target="_blank">the more beautiful world our hearts know is possible.</a></p>
+            }}>We are a small band of humans based in the Bay Area navigating towards a way of life in balance with all people and all of nature. Our collective work is to design and practice this way of life as a necessary step to bring about <a href="https://charleseisenstein.org/books/the-more-beautiful-world-our-hearts-know-is-possible/" target="_blank" rel="noopener noreferrer">the more beautiful world our hearts know is possible.</a></p>
             <div style={{textAlign: `center`}}>
               <Button label="Vision & Mission" link="/what-is-terran/#mission" color="#0080f8" />
               <Button label="Core Beliefs" link="/what-is-terran/#core-beliefs" color="#0080f8" />
@@ -51,7 +51,7 @@ const WhatIsTerranPage = () => (
           title="We learn from nature"
           subtitle="OVERVIEW"
           subtitleColor="#0080f8" />
-          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html">emergent strategy</a>: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
+          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a>: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
           <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We aim to help people coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis. The current economic systems have divided us from each other and the more-than-human community, systematically turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money. Our theory of change is that a regenerative civilization requires bringing trust back to our relationships, removing the corrosive power of the market from our personal lives, and embracing community as a way to be in solidarity and care for each other.</p>
       </div>
     </Panel>
@@ -103,7 +103,7 @@ const WhatIsTerranPage = () => (
               <img src={whatIsCore2} alt="Vitis californica" />
             </div>
             <h2>There is abundance.</h2>
-            <p>There is enough for all, on this incredible <a href="https://www.bfi.org/" target="_blank">Spaceship Earth</a> we call home. We have all the resources needed for all beings to thrive on this planet, if only we commit ourselves to that goal and reconcile the fact that resources are not currently equitably distributed.</p>
+            <p>There is enough for all, on this incredible <a href="https://www.bfi.org/" target="_blank" rel="noopener noreferrer">Spaceship Earth</a> we call home. We have all the resources needed for all beings to thrive on this planet, if only we commit ourselves to that goal and reconcile the fact that resources are not currently equitably distributed.</p>
           </li>
           <li>
             <div>
