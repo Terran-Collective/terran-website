@@ -15,14 +15,14 @@ const IndexPage = () => (
         <div className="homeHero">
           <Headline
             title="A community of care and practice"
-            titleAccent="working for the greatest good of all beings"
+            titleAccent="building systems and tools for a regenerative future"
             titleAccentColor="#2b80f0" />
           <p style={{
             fontFamily: 'DINPro-Light',
             lineHeight: `40px`,
             margin: `30px 0 50px`,
             width: `100%`,
-          }}>We are technologists, systems thinkers, entrepreneurs, activists, and artists. Our work is to amplify cooperation among people regenerating our communities and our planet. We do this by building systems and tools that foster trust and collaboration, starting in the Bay Area bioregion.</p>
+          }}>We are technologists,  community organizers, entrepreneurs, activists, and artists working for the greatest good of all beings. We amplify cooperation among people working to regenerate our communities and our planet. We do this by building systems and tools that foster trust and collaboration, starting in the Bay Area bioregion.</p>
           <div style={{textAlign: `center`}}>
             <Button label="What is Terran?" link="/what-is-terran/"/>
             <Button label="What are we doing?" link="/what-are-we-doing/"/>
@@ -78,6 +78,7 @@ const IndexPage = () => (
             subtitle="Where do we practice?"
             justification="left" />
           <p>A bioregion is a geographical and cultural area defined by the emergent boundaries expressed by nature. This is the scale at which we work; building systems and tools that are grounded in place. The economic, ecological and social landscapes that we seek to improve are those of the land we inhabit, the San Francisco Bay Area bioregion.</p>
+          <p>In the initial phase of our work, we will identify the variables and components of a thriving bioregion. Once we outline these components, we will create a handbook on bioregional collective intelligence for bioregions all around the planet. By sharing our findings, we hope to activate bioregions around the globe, create a coherent network of place-based collaborators, and actualize a thriving biosphere.</p>
           <div style={{textAlign: `center`}}>
             <Button label="Why the bioregion?" link="/bioregion/"/>
           </div>

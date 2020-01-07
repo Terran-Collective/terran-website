@@ -411,39 +411,40 @@ const community = () => (
         </ul>
       </div>
     </Panel>
-    <Panel justification="center">
-      <div className="singleColumnText">
-        <div className="megaceryleAlcyon">
-          <Image filename="community/community_megaceryle_alcyon2x.jpg" alt="Megaceryle alcyon" showCaption="true" />
-        </div>
-        <Headline
-          title="Bioregional regenerators"
-          subtitle="People we trust"
-        />
-        <p>These are some of our collective friends, acqauintances and colleagues who we respect and see actively working on some aspect of regeneration within the bioregion.</p>
-
-        <ul className="smallWhiteCards">
-          <li>
-            <h3>Relationship graph item</h3>
-          </li>
-          <li>
-            <h3>Relationship graph item</h3>
-          </li>
-          <li>
-            <h3>Relationship graph item</h3>
-          </li>
-          <li>
-            <h3>Relationship graph item</h3>
-          </li>
-          <li>
-            <h3>Relationship graph item</h3>
-          </li>
-          <li>
-            <h3>Relationship graph item</h3>
-          </li>
-        </ul>
-      </div>
-    </Panel>
+    //
+    // <Panel justification="center">
+    //   <div className="singleColumnText">
+    //     <div className="megaceryleAlcyon">
+    //       <Image filename="community/community_megaceryle_alcyon2x.jpg" alt="Megaceryle alcyon" showCaption="true" />
+    //     </div>
+    //     <Headline
+    //       title="Bioregional regenerators"
+    //       subtitle="People we trust"
+    //     />
+    //     <p>These are some of our collective friends, acqauintances and colleagues who we respect and see actively working on some aspect of regeneration within the bioregion.</p>
+    //
+    //     <ul className="smallWhiteCards">
+    //       <li>
+    //         <h3>Relationship graph item</h3>
+    //       </li>
+    //       <li>
+    //         <h3>Relationship graph item</h3>
+    //       </li>
+    //       <li>
+    //         <h3>Relationship graph item</h3>
+    //       </li>
+    //       <li>
+    //         <h3>Relationship graph item</h3>
+    //       </li>
+    //       <li>
+    //         <h3>Relationship graph item</h3>
+    //       </li>
+    //       <li>
+    //         <h3>Relationship graph item</h3>
+    //       </li>
+    //     </ul>
+    //   </div>
+    // </Panel>
 
 
   </Layout>

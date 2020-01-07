@@ -95,22 +95,22 @@ const WhatIsTerranPage = () => (
             <div>
               <img src={whatIsCore1} alt="Sequoia sempervirens" />
             </div>
-            <h2>Interbeing</h2>
+            <h2>We are interdependent.</h2>
             <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know.</p>
           </li>
           <li>
             <div>
               <img src={whatIsCore2} alt="Vitis californica" />
             </div>
-            <h2>Abundance</h2>
+            <h2>There is abundance.</h2>
             <p>There is enough for all, on this incredible <a href="https://www.bfi.org/" target="_blank">Spaceship Earth</a> we call home. We have all the resources needed for all beings to thrive on this planet, if only we commit ourselves to that goal and reconcile the fact that resources are not currently equitably distributed.</p>
           </li>
           <li>
             <div>
               <img src={whatIsCore3} alt="Buteo jamaicensis" />
             </div>
-            <h2>Agency</h2>
-            <p>Despite the many existential crises we face as a species, there is hope! Connecting individuals with their power and with their purpose is part of what will allow for deep, authentic interbeing. We can create systems and tools that liberate our attention and empower us to choose well, from a position of sovereignty. As a global keystone species, humanity has the ability to choose our story, to design a new path for ourselves, and decide how we want to live together on this planet.</p>
+            <h2>We have a choice.</h2>
+            <p>We can create systems and tools that liberate our attention and empower us to choose well, from a position of sovereignty. As a global keystone species, humanity has agency to choose our story, design a new path, and decide how we want to live together on this planet.</p>
           </li>
         </ul>
     </Panel>
