@@ -1,4 +1,4 @@
-import classnames from "classnames";
+import classnames from "classnames"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
