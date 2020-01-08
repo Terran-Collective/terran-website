@@ -1045,6 +1045,11 @@ footer {
   transform: translateX(-50%);
 }
 
+.container {
+  position: relative;
+  z-index: 10000;
+}
+
 .gatherings ul {
   width: 100%;
   position: relative;
@@ -1054,6 +1059,41 @@ footer {
   list-style: none;
   display: flex;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+@keyframes shadow-pulse
+{
+     0% {
+      opacity: .25;
+      transform: scale(.8) rotate(-45deg);
+     }
+     50% {
+      opacity: 1;
+      transform: scale(1) rotate(-45deg);
+     }
+     100% {
+      opacity: .25;
+      transform: scale(.8) rotate(-45deg);
+     }
+}
+
+.scrollDown {
+  position: absolute;
+  top: -150px;
+  height: 70px;
+  width:  70px;
+  left: 50%;
+  border: none;
+  border-left: 5px solid rgba(43, 128, 240, 1.000);
+  border-bottom: 5px solid rgba(43, 128, 240, 1.000);
+  transform: rotate(-45deg) translateX(-50%);
+  outline: none;
+  animation: shadow-pulse 2s infinite;
+}
+
 
 .gatherings ul li {
   background-color: rgba(255,255,255,1);

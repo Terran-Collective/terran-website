@@ -7,6 +7,9 @@ import Button from "../components/button"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import collinsiaHeterophylla from "../images/home/home_collinsia_heterophylla.jpg"
+import ScrollAnimation from 'react-animate-on-scroll'
+
+let secondPanel = React.createRef()
 
 const IndexPage = () => (
   <Layout>
@@ -34,6 +37,16 @@ const IndexPage = () => (
       <div className="heroPanelBg"></div>
     </div>
     <div>
+      <div className="container">
+        <ScrollAnimation animateIn="fadeOut" initiallyVisible={true}>
+          <button className="scrollDown" onClick={() => {
+            window.scrollTo({
+              top: window.innerHeight,
+              behavior: 'smooth',
+            })
+          }}></button>
+        </ScrollAnimation>
+      </div>
       <Panel justification="center">
         <div className="twoColumnsLeftImage">
           <Image filename="home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" showCaption="true" />
@@ -104,7 +117,7 @@ const IndexPage = () => (
           </div>
         </div>
       </Panel>
-      <WatershedPanel/>
+      <WatershedPanel></WatershedPanel>
     </div>
   </Layout>
 )
