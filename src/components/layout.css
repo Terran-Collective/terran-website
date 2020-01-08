@@ -1167,6 +1167,11 @@ button:hover {
   padding-bottom: 150px;
 }
 
+.whatWereDoing .threeColumnsCenterText {
+  width: 100%;
+  max-width: 1024px;
+}
+
 .singleColumnText h3, .singleColumnText p, .singleColumnText h1 {
   max-width: 480px;
   text-align: center;
@@ -1186,6 +1191,36 @@ button:hover {
 
 .resourceGoals .centerText {
   padding: 30px 0;
+}
+
+ul.cardList {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.cardList li {
+  width: 100%;
+  min-width: 290px;
+  max-width: 360px;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.06);
+  border-radius: 5px;
+  margin: 0 10px 20px 10px;
+  transition: all .25s ease;
+  padding: 25px;
+}
+
+.cardList li strong {
+  text-align: center;
+  display: block;
+  font-family: "Quattrocento";
+  font-size: 24px;
+  padding-bottom: 25px;
 }
 
 ul.smallWhiteCards {
@@ -1611,6 +1646,8 @@ ul.team_members {
   margin: 0 auto 100px auto;
   display: block;
 }
+
+
 @media only screen and (max-width: 900px) {
   .leftImage, .rightImage {
     opacity: 0.5;

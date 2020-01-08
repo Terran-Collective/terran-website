@@ -57,7 +57,7 @@ const IndexPage = () => (
             titleAccent="a living system"
             titleAccentColor="#0ad066"
             subtitle="What is Terran?" />
-          <p>Terran Collective is a community of people who are committed to the work of healing and transformation necessary for all beings in our bioregion to thrive.</p>
+          <p>Terran Collective is a community of people who are committed to the work of healing and transformation necessary for all beings in our bioregion to have what the need to thrive.</p>
           <p>As a <strong>community of care</strong>, we support each other on our paths of personal healing and growth. As a <strong>community of practice</strong>, we help each other find our purpose and share our gifts with the world, while collaborating on projects aligned with our mission. As <strong>a commons</strong>, we collectively govern and share resources.</p>
           <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
           <div style={{textAlign: `center`}}>
@@ -73,11 +73,13 @@ const IndexPage = () => (
               title="Building systems and tools that foster trust and collaboration"
               subtitle="What are we doing?"
               justification="center" />
-            <p><strong>Community Weaving:</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, and cultural crises we face today.</p>
-            <p><strong>Technology:</strong> We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making and group coordination.</p>
-            <p><strong>Collaborative Ecosystem Mapping:</strong> We believe mapping resource flows our communities can deepen relationships and help us collectively manage these resources. The maps we create will be transparent and publicly available, revealing important information that is often held privately by companies and the state.</p>
-            <p><strong>Systems design for cooperative coordination:</strong> We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank">gift economics</a> and the creation of modern guilds.</p>
-            <p><strong>Movement building and culture creation:</strong> It's time to tell new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.</p>
+            <ul className="cardList">
+              <li><strong>Community Weaving</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, and cultural crises we face today.</li>
+              <li><strong>Technology</strong> We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making and group coordination.</li>
+              <li><strong>Collaborative Ecosystem Mapping</strong> We believe mapping resource flows our communities can deepen relationships and help us collectively manage these resources. The maps we create will be transparent and publicly available, revealing important information that is often held privately by companies and the state.</li>
+              <li><strong>Systems design for cooperative coordination</strong> We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank">gift economics</a> and the creation of modern guilds.</li>
+              <li><strong>Movement building and culture creation</strong> It's time to tell new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.</li>
+            </ul>
             <div style={{textAlign: `center`}}>
               <Button label="Go Deeper" link="/what-are-we-doing/"/>
             </div>
@@ -92,7 +94,7 @@ const IndexPage = () => (
             subtitle="Where do we practice?"
             justification="left" />
           <p>A bioregion is a geographical and cultural area defined by the emergent boundaries expressed by nature. This is the scale at which we work; building systems and tools that are grounded in place. The economic, ecological and social landscapes that we seek to improve are those of the land we inhabit, the San Francisco Bay Area bioregion.</p>
-          <p>In the initial phase of our work, we will identify the variables and components of a thriving bioregion. Once we outline these components, we will create a handbook on bioregional collective intelligence for bioregions all around the planet. By sharing our findings, we hope to activate bioregions around the globe, create a coherent network of place-based collaborators, and actualize a thriving biosphere.</p>
+          <p>In the initial phase of our work, we are identifying the variables and components of a thriving bioregion. We are using what we learn to build tools that enable collective intelligence for bioregions everywhere. By sharing our findings, we hope to activate bioregions around the globe, create a coherent network of place-based collaborators, and actualize a thriving biosphere.</p>
           <div style={{textAlign: `center`}}>
             <Button label="Why the bioregion?" link="/bioregion/"/>
           </div>
@@ -110,7 +112,7 @@ const IndexPage = () => (
             title="Community & Resources"
             subtitle="What inspires us?"
             justification="left" />
-          <p>Our work happens with, by and for community. We are focused locally in the Bay Area, but as we discover new systems, tools, and practices, we share them with the world. Likewise, we want to be in relationship with anyone who is engaged in the type of work we are attempting. Please join the conversation, and check out the resources we’ve compiled.</p>
+          <p>Our work happens with, by and for community. We are focused locally in the Bay Area, but as we discover new systems, tools, and practices, we share them with the world. We are in relationship with a very wide range of people who are engaged in this type of work. Are you working on similar things? Please join the conversation, and check out the resources we’ve compiled.</p>
           <div style={{textAlign: `center`}}>
             <Button label="Our Community" link="/community/"/>
             <Button label="Library of Resources" link="/resources/"/>
