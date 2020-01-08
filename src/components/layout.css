@@ -1629,6 +1629,10 @@ ul.team_members {
     transition: all .25s ease;
   }
 
+  .scrollDown {
+    display: none;
+  }
+
   .headline {
     font-size: 24px;
   }
