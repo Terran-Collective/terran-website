@@ -1203,6 +1203,11 @@ ul.cardList {
   list-style: none;
 }
 
+.guildSeed {
+  text-decoration: italic;
+  font-weight: bold;
+}
+
 .cardList li {
   width: 100%;
   min-width: 290px;
@@ -1213,6 +1218,15 @@ ul.cardList {
   margin: 0 10px 20px 10px;
   transition: all .25s ease;
   padding: 25px;
+}
+
+.guildTooltip {
+  width: 100%;
+  max-width: 300px;
+}
+
+.guildTooltip a {
+  color: white;
 }
 
 .cardList li strong {

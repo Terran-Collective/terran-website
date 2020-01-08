@@ -1,4 +1,5 @@
 import React from "react"
+import ReactTooltip from 'react-tooltip'
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
@@ -129,7 +130,8 @@ const WhatAreWeDoingPage = () => (
                 <p><span>Researching collective governance models:</span> One of the most important changes required right now is for us to learn how to make effective decisions together through collaboration and cooperation instead of competition and dominance. We are exploring governance models like Sociocracy that are dynamic, decentralized and empowering. </p>
               </li>
               <li>
-                <p><span>Seeding bioregional Guilds for across many regenerative sectors:</span> We see creating modern Guilds as an important way to help those already doing regenerative work in our bioregion to coordinate more effectively. These guilds will bring together everyone working in a particular field, for example agriculture, education, technology, governance, etc. into an organizational structure designed to foster collaboration amongst existing projects. Guilds will help make sure work isn’t being duplicated, information and knowledge is being shared, and resources are flowing where they are needed at the right time. We are just beginning the project of helping these guilds form, and see this as an important medium term project we can help steward. </p>
+                <p><span><span data-html="true" clickable="string" data-class="guildTooltip" data-tip="A guild is usually defined as an association of people working toward a common goal. In Permaculture, a guild is a grouping a plants, trees, animals, insects, and other components that work together to help ensure their health and productivity." className="guildSeed">Seeding bioregional <a href='http://www.neverendingfood.org/b-what-is-permaculture/permaculture-guilds/' target='_blank'>Guilds</a></span> for across many regenerative sectors:</span> We see creating modern Guilds as an important way to help those already doing regenerative work in our bioregion to coordinate more effectively. These guilds will bring together everyone working in a particular field, for example agriculture, education, technology, governance, etc. into an organizational structure designed to foster collaboration amongst existing projects. Guilds will help make sure work isn’t being duplicated, information and knowledge is being shared, and resources are flowing where they are needed at the right time. We are just beginning the project of helping these guilds form, and see this as an important medium term project we can help steward. </p>
+                <ReactTooltip />
               </li>
             </ul>
           <h3>Current Inquiry</h3>
@@ -156,10 +158,10 @@ const WhatAreWeDoingPage = () => (
           <h3>Current Focus</h3>
             <ul>
               <li>
-                <p>Sharing our ideas through <a href="https://medium.com/terran-collective">writing</a>.</p>
+                <p>Sharing our ideas through <a href="https://medium.com/terran-collective" target="_blank" rel="noopener noreferrer">writing</a>.</p>
               </li>
               <li>
-                <p>Creating new holidays that help people envision what is possible and find their role in the work needed to get there. Our first version of this is <a href="https://docs.google.com/document/u/1/d/1gVs2NTvp9M34Ioe6dqMPDt9BffEn2NIBL0X9Eq65-6M/edit">Inheritance Day</a>, a holiday every December 12 where we imagine that we are living 150 years in the future when humanity has created paradise on earth, and we are honoring all the ancestors for the hard work they did to get us there. It’s a future seeing mix of Thanksgiving and Passover and has been really impactful since we started celebrating it in 2015. </p>
+                <p>Creating new holidays that help people envision what is possible and find their role in the work needed to get there. Our first version of this is <a href="https://docs.google.com/document/u/1/d/1gVs2NTvp9M34Ioe6dqMPDt9BffEn2NIBL0X9Eq65-6M/edit" target="_blank" rel="noopener noreferrer">Inheritance Day</a>, a holiday every December 12 where we imagine that we are living 150 years in the future when humanity has created paradise on earth, and we are honoring all the ancestors for the hard work they did to get us there. It’s a future seeing mix of Thanksgiving and Passover and has been really impactful since we started celebrating it in 2015. </p>
               </li>
             </ul>
           <h3>Current Inquiry</h3>
