@@ -71,7 +71,7 @@ const Menu = ({ siteTitle }) => (
     <div className="acknowledgments">
       <p>Terran Collective is based in <a href="http://www.ramaytush.com/" target="_blank" rel="noopener noreferrer">Ramaytush Ohlone territory, in Yelamu</a>, which is called San Francisco</p>
       <p>The illustrations on this site are public domain drawings of the flora and fauna of <Link to="/bioregion">this bioregion</Link></p>
-      <p>Photography by <a href="https://www.instagram.com/metapattern/" target="_blank" rel="noopener noreferrer">Carson Linforth-Bowley</a>, <a href="http://www.raines.com/" target="_blank">Raines Cohen</a> and <a href="https://www.facebook.com/neha.sharma.bookface" target="_blank" rel="noopener noreferrer">Neha Sharma</a></p>
+      <p>Photography by <a href="https://www.instagram.com/metapattern/" target="_blank" rel="noopener noreferrer">Carson Linforth-Bowley</a>, <a href="http://www.raines.com/" target="_blank">Raines Cohen</a> and <a href="mailto:neha@terran.io">Neha Sharma</a></p>
       <p>Artwork for <Link to="/watershed/">Watershed</Link> and the map of the bioregion by <a href="http://www.caseycripe.com/" target="_blank" rel="noopener noreferrer">Casey Cripe</a></p>
     </div>
   </div>
