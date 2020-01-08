@@ -8,6 +8,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import collinsiaHeterophylla from "../images/home/home_collinsia_heterophylla.jpg"
 import ScrollAnimation from 'react-animate-on-scroll'
+import TextLoop from "react-text-loop";
 
 let secondPanel = React.createRef()
 
@@ -52,11 +53,18 @@ const IndexPage = () => (
           <Image filename="home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" showCaption="true" />
         </div>
         <div className="twoColumnsRightText">
-          <Headline
-            title="Terran Collective is"
-            titleAccent="a living system"
-            titleAccentColor="#0ad066"
-            subtitle="What is Terran?" />
+          <h3 className="superHeadline">what is Terran?</h3>
+          <h1 className="headline whatIsTerran">Terran Collective is
+            <div>
+              <TextLoop>
+                <span>a living system</span>
+                <span>an experiment</span>
+                <span>a community of care</span>
+                <span>a community of practice</span>
+                <span>a commons engine</span>
+              </TextLoop>
+            </div>
+          </h1>
           <p>Terran Collective is a community of people who are committed to the work of healing and transformation necessary for all beings in our bioregion to have what the need to thrive.</p>
           <p>As a <strong>community of care</strong>, we support each other on our paths of personal healing and growth. As a <strong>community of practice</strong>, we help each other find our purpose and share our gifts with the world, while collaborating on projects aligned with our mission. As <strong>a commons</strong>, we collectively govern and share resources.</p>
           <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>

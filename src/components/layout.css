@@ -1082,6 +1082,7 @@ button:hover {
 
 .scrollDown {
   position: absolute;
+  background: transparent;
   top: -150px;
   height: 70px;
   width:  70px;
@@ -1365,6 +1366,18 @@ ul.smallWhiteCards {
 
 .headline {
   font-size: 36px;
+}
+
+.superHeadline {
+  color: rgba(119, 119, 116, 1.000);
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 0 0 11px;
+  text-transform: uppercase;
+}
+
+.headline .whatIsTerran div, .x0,.x1,.x2 {
+  color: #0ad066;
 }
 
 .resourceHeadline {
