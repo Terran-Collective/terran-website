@@ -931,6 +931,10 @@ footer {
   flex-wrap: wrap;
 }
 
+.flexPanel.centerJustify {
+  justify-content: center;
+}
+
 .threeColumns {
   width: 100%;
   max-width: 1024px;
@@ -1068,18 +1072,22 @@ footer {
 
 .rubusSpectabilis.leftImage, .collinsiaHeterophylla.leftImage, .leftImage {
   left: -65%;
+  z-index: 0;
 }
 
 .rubusSpectabilis.rightImage, .collinsiaHeterophylla.rightImage, .rightImage {
   right: -65%;
+  z-index: 0;
 }
 
 .rightImage.vacciniumOvatum {
   right: -65%;
+  z-index: 0;
 }
 
 .leftImage.vacciniumOvatum {
   left: -65%;
+  z-index: 0;
 }
 
 .gatherings ul li p {
@@ -1112,6 +1120,7 @@ footer {
   max-width: 1024px;
   z-index: 100;
   margin: 0 auto;
+  position: relative;
 }
 
 .nativeLand, .threeColumns.whatWereDoing {
@@ -1265,6 +1274,10 @@ ul.smallWhiteCards {
   margin-bottom: 25px;
 }
 
+.headline {
+  font-size: 36px;
+}
+
 .resourceHeadline {
   width: 100%;
 }
@@ -1404,6 +1417,7 @@ ul.smallWhiteCards {
 
 .visionDiagram img {
   width: 100%;
+  max-width: 1024px;
 }
 
 .missionDiagram img {
@@ -1463,6 +1477,7 @@ ul.triad {
   font-family: 'DINPro-Bold';
   font-size: 16px;
   font-weight: bold;
+  margin: 0 10px;
 }
 
 .team {
@@ -1568,6 +1583,25 @@ ul.team_members {
 }
 
 @media only screen and (max-width: 600px) {
+  .headerContribute {
+    opacity: 0;
+    top: -100px;
+    transition: all .25s ease;
+  }
+
+  .headline {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+
+  .twoColumnsRightText, .twoColumnsLeftText, .threeColumnsCenterText, .heroPanel .pageHero {
+    width: 80%;
+    max-width: 80%;
+  }
 
   .gatherings ul li {
     width: 100%;

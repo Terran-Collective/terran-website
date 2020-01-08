@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
+import WatershedPanel from "../components/watershedPanel"
 import Headline from "../components/headline"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -66,6 +67,7 @@ const bioregion = () => (
         </div>
         <img className="rubusSpectabilis rightImage" src={rubusSpectabilis} alt="Rubus spectabilis" />
       </Panel>
+      <WatershedPanel/>
     </div>
   </Layout>
 

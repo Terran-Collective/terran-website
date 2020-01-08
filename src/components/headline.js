@@ -18,10 +18,9 @@ const Headline = ({ title, titleAccent, titleAccentColor, subtitle, subtitleColo
     }}>
         {subtitle}
     </h3>
-    <h1 style={{
-      fontSize: size === `normal` ? `36px` : `64px`,
-      margin: 0,
-      lineHeight: `46px`,
+    <h1 className="headline"
+    style={{
+      fontSize: size === `normal` ? `` : `64px`,
     }}>
         {title} <span style={{color: titleAccentColor}}>{titleAccent}</span>
     </h1>

@@ -117,10 +117,12 @@ const WhatIsTerranPage = () => (
     <Panel justification="center">
       <div className="terran_feature_image visionDiagram">
         <div>
-        <Headline
-          title="Principles, Values and Vision"
-        />
-        <p>Terran Collective’s values & principles are a set of living agreements that will evolve over time to accommodate the diversity of voices we welcome into relationship with us. All of our efforts are informed and guided by these values.</p>
+          <Headline
+            title="Principles and values"
+          />
+          <p>The principles we have identified are related to how we act in the world. Our principles come from the relationships, dynamics and tensions in our values. The values we have identified come from the core beliefs we collectively share.
+          <br/><br/>
+          Our beliefs, values and principles are alive, and will evolve over time to accommodate the diversity of voices we welcome into relationship with us and as our collective view of the world changes. </p>
         </div>
         <img src={visionDiagram} alt="vision diagram"/>
       </div>
