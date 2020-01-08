@@ -77,7 +77,7 @@ const IndexPage = () => (
               <li><strong>Community Weaving</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, and cultural crises we face today.</li>
               <li><strong>Technology</strong> We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making and group coordination.</li>
               <li><strong>Collaborative Ecosystem Mapping</strong> We believe mapping resource flows our communities can deepen relationships and help us collectively manage these resources. The maps we create will be transparent and publicly available, revealing important information that is often held privately by companies and the state.</li>
-              <li><strong>Systems design for cooperative coordination</strong> We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank">gift economics</a> and the creation of modern guilds.</li>
+              <li><strong>Systems design for cooperative coordination</strong> We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> and the creation of modern guilds.</li>
               <li><strong>Movement building and culture creation</strong> It's time to tell new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.</li>
             </ul>
             <div style={{textAlign: `center`}}>

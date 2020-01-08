@@ -18,7 +18,7 @@ const WhatAreWeDoingPage = () => (
             title="We are building infrastructure for the future we wish to inhabit"
             subtitle="WHAT ARE WE DOING?"
           />
-          <p>Terran Collective’s work is creating tools, systems and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to All Beings Thriving?  We want to create free and open-source software, for everyone, to advance the transition to a sacred and regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
+          <p>Terran Collective’s work is creating tools, systems, and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to the greatest good of all beings?  We want to create free and open-source software for everyone, to advance the transition to a sacred and regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
           <Button link="/what-are-we-doing/#scope-of-practice" label="Scopes of practice" />
           <Button link="/what-are-we-doing/#roadmap" label="Roadmap" />
         </div>
@@ -36,8 +36,8 @@ const WhatAreWeDoingPage = () => (
           subtitle="SCOPE OF PRACTICE"
         />
         <p>We are community builders and weavers, and believe that the best way to coordinate is within the context of healthy relationships. We know that we can only move at the speed of trust, and that building trust takes consistent connection and showing up for each other over time.</p>
-        <p>We host gatherings that foster trust and collaboration, and that allow participants to imagine a more beautiful future, as well as campouts to build community, and bigger convenings like our recent <a href="http://terrancospiracy.com">Terran Cospiracy</a> to grow our collective intelligence and step into collective action is a bioregional community. </p>
-        <p>We also participate in and experiment with all kinds of group processes, incorporating tools from practices like the <a href="https://waysofcouncil.net/what-is-council/">Way of Council</a> and the <a href="https://workthatreconnects.org/">Work that Reconnects</a> for facilitating gatherings, deepening relationships, and resolving conflicts without violence.</p>
+        <p>We host gatherings that foster trust and collaboration and allow participants to imagine a more beautiful future. These include campouts, dinners, trainings and councils to build community as well as bigger convenings like our recent <a href="http://terrancospiracy.com" target="_blank" rel="noopener noreferrer">Terran Cospiracy</a> to grow our collective intelligence.</p>
+        <p>We also participate in and experiment with group processes, including the <a href="https://waysofcouncil.net/what-is-council/" target="_blank" rel="noopener noreferrer">Way of Council</a> and the <a href="https://workthatreconnects.org/" target="_blank" rel="noopener noreferrer">Work that Reconnects</a> for facilitating gatherings, deepening relationships, and resolving conflicts without violence. </p>
         <div>
           <h3>Current Focus</h3>
             <ul>
@@ -52,7 +52,7 @@ const WhatAreWeDoingPage = () => (
               </li>
             </ul>
           <h3>Current Inquiry</h3>
-          <p>How to we build bridges to the many diverse communities living in the Bay Area, to ensure that every voice as a seat at the table, and that our work is informed by a diverse and inclusive group of people and ideas?</p>
+          <p>How do we build bridges to the many diverse communities living in the Bay Area? How do we ensure that every voice as a seat at the table? How do we ensure that our work is informed by a diverse and inclusive group of people and ideas?</p>
         </div>
       </div>
     </Panel>
@@ -77,7 +77,7 @@ const WhatAreWeDoingPage = () => (
               </li>
             </ul>
           <h3>Current Inquiry</h3>
-          <p>How can technology bring us closer together, into real, trust-based, local community, and support individual and group thriving, instead of driving us apart, distracting us and being used primarily to steal our attention and sell us things?</p>
+          <p>How can technology bring us closer together, into real, trust-based, local community? How can it  support individual and group thriving, instead of driving us apart, distracting us and being used primarily to steal our attention and sell us things?</p>
         </div>
       </div>
       <div className="twoColumnsRightImage">
@@ -100,7 +100,7 @@ const WhatAreWeDoingPage = () => (
           <h3>Current Focus</h3>
             <ul>
               <li>
-                <p><span>Researching our bioregion:</span> We are studying the ecological and social factors relevant to our Bay Area bioregion. This includes examining the carrying capacity of local watersheds based on food production and water sources, understanding the history of the original people’s of this land and connecting with the indigenous communities still present here, and determining what is needed to bring the most health and resilience to this place. </p>
+                <p><span>Researching our <Link to="/bioregion/">bioregion</Link>:</span> We are studying the ecological and social factors relevant to our Bay Area bioregion. This includes examining the carrying capacity of local watersheds based on food production and water sources, understanding the history of the original peoples of this land and connecting with the indigenous communities still present here, and determining what is needed to bring the most health and resilience to this place. </p>
               </li>
               <li>
                 <p><span>Identifying Regenerative Players:</span> We seek the key regenerators in our bioregion to build relationships and partnerships with, and to understand their needs. We have a plan for the tools we believe are needed, but we’ll start building those that are most important to our partners in this bioregion.</p>
