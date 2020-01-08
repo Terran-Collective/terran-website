@@ -1201,6 +1201,7 @@ ul.cardList {
   justify-content: center;
   margin: 0;
   flex-wrap: wrap;
+  padding-top: 100px;
   list-style: none;
 }
 
