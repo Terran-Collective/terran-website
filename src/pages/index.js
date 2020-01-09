@@ -65,7 +65,7 @@ const IndexPage = () => (
               </TextLoop>
             </div>
           </h1>
-          <p>Terran Collective is a community of people who are committed to the work of healing and transformation necessary for all beings in our bioregion to have what the need to thrive.</p>
+          <p>Terran Collective is a community of people who are committed to the work of healing and transformation necessary for all beings in our bioregion to have what they need to thrive.</p>
           <p>As a <strong>community of care</strong>, we support each other on our paths of personal healing and growth. As a <strong>community of practice</strong>, we help each other find our purpose and share our gifts with the world, while collaborating on projects aligned with our mission. As <strong>a commons</strong>, we collectively govern and share resources.</p>
           <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
           <div style={{textAlign: `center`}}>

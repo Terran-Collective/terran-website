@@ -31,7 +31,7 @@ const WhatAreWeDoingPage = () => (
       <div className="twoColumnsRightImage">
         <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
-      <div className="twoColumnsLeftText">
+      <div id="scope-of-practice" className="twoColumnsLeftText">
         <Headline
           title="Community Weaving"
           subtitle="SCOPE OF PRACTICE"
@@ -59,7 +59,7 @@ const WhatAreWeDoingPage = () => (
     </Panel>
 
     <Panel justification="center">
-      <div id="scope-of-practice" className="twoColumnsLeftText">
+      <div className="twoColumnsLeftText">
         <Headline
           title="Technology for thriving"
           subtitle="SCOPE OF PRACTICE"
