@@ -28,6 +28,33 @@ const WhatAreWeDoingPage = () => (
     </div>
 
     <Panel justification="center">
+      <div id="movement-building" className="twoColumnsRightText">
+        <Headline
+          title="Storytelling for cultural evolution"
+          subtitle="SCOPE OF PRACTICE"
+        />
+        <p>We are storytellers, artists and writers, who know that we will not be able to accomplish our goals without deep cultural shifts. For example, mitigating climate change will require wholesale changes to our economic systems, and that will require new stories about what we value and why. </p>
+        <p>Learning how to tell these stories of interbeing and abundance in a way that creates a movement and spreads far and wide is a big project. Even though we believe that at the core we need to find deep alignment, different communities will respond to different ways of expressing the same fundamental values. So we are experimenting with various messages and mediums of storytelling through blog posts, meme creation, and events of all kinds.</p>
+        <div>
+          <h3>Current Focus</h3>
+            <ul>
+              <li>
+                <p>Sharing our ideas through <a href="https://medium.com/terran-collective" target="_blank" rel="noopener noreferrer">writing</a>.</p>
+              </li>
+              <li>
+                <p>Creating new holidays that help people envision what is possible and find their role in the work needed to get there. Our first version of this is <a href="https://docs.google.com/document/u/1/d/1gVs2NTvp9M34Ioe6dqMPDt9BffEn2NIBL0X9Eq65-6M/edit" target="_blank" rel="noopener noreferrer">Inheritance Day</a>, a holiday every December 12 where we imagine that we are living 150 years in the future when humanity has created paradise on earth, and we are honoring all the ancestors for the hard work they did to get us there. It’s a future seeing mix of Thanksgiving and Passover and has been really impactful since we started celebrating it in 2015. </p>
+              </li>
+            </ul>
+          <h3>Current Inquiry</h3>
+          <p>Is All Beings Thriving a story that will resonate with others enough? Is it too utopian? How can we tell stories that are inclusive and inspiring and unifying all at the same time?</p>
+        </div>
+      </div>
+      <div className="twoColumnsRightImage">
+        <Image filename="what_do/what_do_castor_canadensis.jpg" alt="Castor canadensis" showCaption="true" />
+      </div>
+    </Panel>
+
+    <Panel justification="center">
       <div id="scope-of-practice" className="twoColumnsRightImage">
         <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
@@ -119,7 +146,7 @@ const WhatAreWeDoingPage = () => (
     <Panel justification="center">
       <div id="cooperative-coordination" className="twoColumnsLeftText">
         <Headline
-          title="Systems design for cooperative coordination"
+          title="Regenerating the commons"
           subtitle="SCOPE OF PRACTICE"
         />
         <p>We are systems thinkers, architects, and experienced leaders, designing and experimenting with new and remembered ways of working together, sharing resources, group decision making and how to steward commons.</p>
@@ -140,33 +167,6 @@ const WhatAreWeDoingPage = () => (
       </div>
       <div className="twoColumnsRightImage">
         <Image filename="what_do/what_do_meleagris_gallopavo2x.jpg" alt="Meleagris gallopavo" showCaption="true" />
-      </div>
-    </Panel>
-
-    <Panel justification="center">
-      <div className="twoColumnsLeftImage">
-        <Image filename="what_do/what_do_castor_canadensis.jpg" alt="Castor canadensis" showCaption="true" />
-      </div>
-      <div id="movement-building" className="twoColumnsRightText">
-        <Headline
-          title="Movement building and culture creation"
-          subtitle="SCOPE OF PRACTICE"
-        />
-        <p>We are storytellers, artists and writers, who know that we will not be able to accomplish our goals without deep cultural shifts. For example, mitigating climate change will require wholesale changes to our economic systems, and that will require new stories about what we value and why. </p>
-        <p>Learning how to tell these stories of interbeing and abundance in a way that creates a movement and spreads far and wide is a big project. Even though we believe that at the core we need to find deep alignment, different communities will respond to different ways of expressing the same fundamental values. So we are experimenting with various messages and mediums of storytelling through blog posts, meme creation, and events of all kinds.</p>
-        <div>
-          <h3>Current Focus</h3>
-            <ul>
-              <li>
-                <p>Sharing our ideas through <a href="https://medium.com/terran-collective" target="_blank" rel="noopener noreferrer">writing</a>.</p>
-              </li>
-              <li>
-                <p>Creating new holidays that help people envision what is possible and find their role in the work needed to get there. Our first version of this is <a href="https://docs.google.com/document/u/1/d/1gVs2NTvp9M34Ioe6dqMPDt9BffEn2NIBL0X9Eq65-6M/edit" target="_blank" rel="noopener noreferrer">Inheritance Day</a>, a holiday every December 12 where we imagine that we are living 150 years in the future when humanity has created paradise on earth, and we are honoring all the ancestors for the hard work they did to get us there. It’s a future seeing mix of Thanksgiving and Passover and has been really impactful since we started celebrating it in 2015. </p>
-              </li>
-            </ul>
-          <h3>Current Inquiry</h3>
-          <p>Is All Beings Thriving a story that will resonate with others enough? Is it too utopian? How can we tell stories that are inclusive and inspiring and unifying all at the same time?</p>
-        </div>
       </div>
     </Panel>
 
