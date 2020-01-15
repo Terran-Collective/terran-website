@@ -59,7 +59,7 @@ const Menu = ({ siteTitle }) => (
       </li>
       <li>
         <h3>
-          <Link to="/resources/">Library of Resources</Link>
+          <Link to="/resources/">Library of resources</Link>
         </h3>
         <ul>
           <li><Link to="/resources/#peers-and-allies">Peers &amp; Allies</Link></li>
