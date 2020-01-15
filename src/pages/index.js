@@ -113,7 +113,7 @@ const IndexPage = () => (
       </Panel>
       <Panel justification="center">
         <div className="twoColumnsLeftImage">
-          <Image filename="home/home_nemophila_menziesii.jpg" alt="Nemophila menziesii" showCaption="true" />
+          <Image filename="home/community_and_resources.png" alt="Photos from Cospiracy" showCaption="true" />
         </div>
         <div className="twoColumnsRightText">
           <Headline
