@@ -73,16 +73,6 @@ const WhatIsTerranPage = () => (
       </Panel>
     </div>
     <Panel justification="center">
-      <div className="threeColumnsCenterText">
-        <Headline
-          title="Bioregional Collective Intelligence"
-          subtitle="What We Mean"
-          subtitleColor="#0080f8" />
-        <p>Collective intelligence refers to how groups of people working collaboratively together make better sense of the world and smarter decisions than any one person. We live embedded in many structures for collective intelligence, for example our our governments and economic systems, that are no longer serving the needs of our species or our planet. Terran is designing and practicing new and remembered models of collective intelligence that will allow us to make both smarter and wiser decisions for the whole. We fit our vision for collective intelligence to the scale of the bioregion, which is an ecologically-created polity that naturally aligns the interests of the people sharing that landscape. The bioregion is the level at which it is imperative we learn to coordinate action and collectively govern ourselves.</p>
-        <p>We also believe it is imperative that we bring all forms of intelligence to the table to make truly wise decisions. This means including diverse viewpoints, incorporating not just knowledge and mental intelligence but also integrating the intelligence of our hearts and bodies, our feelings and our intuitions. And we must listen to the wisdom of the living Earth and the more-than-human community with whom we share the biosphere. The more voices we hear the better our decisions as a planetary whole will be.</p>
-      </div>
-    </Panel>
-    <Panel justification="center">
         <div id="core-beliefs" style={{marginTop: `25px`}}>
           <Headline
             title="Our Core Beliefs"
@@ -250,6 +240,240 @@ const WhatIsTerranPage = () => (
           </li>
         </ul>
     </Panel>
+    <Panel justification="center">
+      <div id="authors-artists-teachers" className="ourTeachers resourceHeadline">
+        <Headline
+          title="Authors, Leaders, Artists and Teachers"
+        />
+        <p>These are people whose work has in some way deeply informed our collective understanding of the world.</p>
+        <ul>
+          <li>
+            <a href="https://charleseisenstein.org/">
+            <h3>Charles Eisenstein</h3>
+            <span>Author, Speaker</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.joannamacy.net/">
+            <h3>Joanna Macy</h3>
+            <span>Author, Speaker, Practitioner</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@designforsustainability">
+            <h3>Daniel Christian Wahl</h3>
+            <span>Author, Biologist</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://adriennemareebrown.net/">
+            <h3>adrienne marie brown</h3>
+            <span>Author, Activist, Artist</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/David_Abram">
+            <h3>David Abram</h3>
+            <span>Philosopher, Ecologist</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Gary_Snyder">
+            <h3>Gary Snyder</h3>
+            <span>Poet, essayist, environmental activist</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Elinor_Ostrom">
+            <h3>Elinor Ostrom</h3>
+            <span>Political Scientist, Economist, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@bonnittaroy">
+            <h3>Bonnitta Roy</h3>
+            <span>Author, teacher, insight guide &amp; trainer</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Octavia_E._Butler">
+            <h3>Octavia Butler</h3>
+            <span>Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Buckminster_Fuller">
+            <h3>Buckminster Fuller</h3>
+            <span>Philosopher, Inventor</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Hunter_Lovins">
+            <h3>Hunter Lovins</h3>
+            <span>Environmentalist, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Kim_Stanley_Robinson">
+            <h3>Kim Stanley Robinson</h3>
+            <span>Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Starhawk">
+            <h3>Starhawk</h3>
+            <span>Author, Practitioner</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Ursula_K._Le_Guin">
+            <h3>Ursula K. Le Guin</h3>
+            <span>Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Douglas_Hofstadter">
+            <h3>Douglas Hofstadter</h3>
+            <span>Professor, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://civilizationemerging.com/about/">
+            <h3>Daniel Schmachtenberger</h3>
+            <span>Entrepreneur, Author, Speaker</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://ronininstitute.org/research-scholars/forrest-landry/">
+            <h3>Forrest Landry</h3>
+            <span>Transcendental Designer, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@jordangreenhall">
+            <h3>Jordan Hall</h3>
+            <span>Entrepreneur, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.caseycripe.com/">
+            <h3>Casey Cripe</h3>
+            <span>Artist</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Daniel_Kahneman">
+            <h3>Daniel Kahneman</h3>
+            <span>Professor, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Daniel_Quinn">
+            <h3>Daniel Quinn</h3>
+            <span>Author, Cultural critic</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@joe_brewer">
+            <h3>Joe Brewer</h3>
+            <span>Author, Teacher</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.edazavalalopez.com/">
+            <h3>Eda Zavala Lopez</h3>
+            <span>Healer, Wisdom Keeper</span>
+            </a>
+          </li>
+          <li>
+            <a href="http://donellameadows.org/">
+            <h3>Donella Meadows</h3>
+            <span>Environmental scientist, Teacher, Writer</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://biomimicry.org/janine-benyus/">
+            <h3>Janine Benyus</h3>
+            <span>Biologist, Innovation consultant, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/E._O._Wilson">
+            <h3>EO Wilson</h3>
+            <span>Biologist, Naturalist, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Robin_Wall_Kimmerer">
+            <h3>Robin Wall Kimmerer</h3>
+            <span>Mother, Plant ecologist, Writer</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Paul_Stamets">
+            <h3>Paul Stamets</h3>
+            <span>Mycologist, Speaker</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.martinprechtel.com/">
+            <h3>Martin Prechtel</h3>
+            <span>Author, Musician, Artist, Educator</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://animas.org/about-us/our-founder/">
+            <h3>Bill Plotkin</h3>
+            <span>Cultural visionary, Wilderness guide</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Tom_Robbins">
+            <h3>Tom Robbins</h3>
+            <span>Author, Novelist</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Fyodor_Dostoevsky">
+            <h3>Fyodor Dostoevsky</h3>
+            <span>Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Hermann_Hesse">
+            <h3>Herman Hesse</h3>
+            <span>Poet, Novelist, Painter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Laozi">
+            <h3>Lao Tzu</h3>
+            <span>Philosopher</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Ken_Wilber">
+            <h3>Ken Wilber</h3>
+            <span>Philosopher, Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/hfreinacht">
+            <h3>Hanzi Freinacht</h3>
+            <span>Author</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.markhensonart.com/">
+            <h3>Mark Henson</h3>
+            <span>Artist</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </Panel>
+
+
   </Layout>
 )
 

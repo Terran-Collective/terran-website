@@ -67,6 +67,19 @@ const bioregion = () => (
         </div>
         <img className="rubusSpectabilis rightImage" src={rubusSpectabilis} alt="Rubus spectabilis" />
       </Panel>
+      <Panel justification="center">
+        <div className="twoColumnsLeftImage">
+          <Image filename="home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" showCaption="true" />
+        </div>
+        <div className="twoColumnsRightText">
+          <Headline
+            title="Bioregional Collective Intelligence"
+            subtitle="What We Mean"
+            subtitleColor="#0080f8" />
+          <p>Collective intelligence refers to how groups of people working collaboratively together make better sense of the world and smarter decisions than any one person. We live embedded in many structures for collective intelligence, for example our our governments and economic systems, that are no longer serving the needs of our species or our planet. Terran is designing and practicing new and remembered models of collective intelligence that will allow us to make both smarter and wiser decisions for the whole. We fit our vision for collective intelligence to the scale of the bioregion, which is an ecologically-created polity that naturally aligns the interests of the people sharing that landscape. The bioregion is the level at which it is imperative we learn to coordinate action and collectively govern ourselves.</p>
+          <p>We also believe it is imperative that we bring all forms of intelligence to the table to make truly wise decisions. This means including diverse viewpoints, incorporating not just knowledge and mental intelligence but also integrating the intelligence of our hearts and bodies, our feelings and our intuitions. And we must listen to the wisdom of the living Earth and the more-than-human community with whom we share the biosphere. The more voices we hear the better our decisions as a planetary whole will be.</p>
+        </div>
+      </Panel>
       <WatershedPanel/>
     </div>
   </Layout>
