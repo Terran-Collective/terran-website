@@ -82,14 +82,34 @@ const IndexPage = () => (
               subtitle="What are we doing?"
               justification="center" />
             <ul className="cardList">
-              <li><strong>Community Weaving</strong> Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, and cultural crises we face today.</li>
-              <li><strong>Technology</strong> We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making and group coordination.</li>
-              <li><strong>Collaborative Ecosystem Mapping</strong> We believe mapping resource flows our communities can deepen relationships and help us collectively manage these resources. The maps we create will be transparent and publicly available, revealing important information that is often held privately by companies and the state.</li>
-              <li><strong>Systems design for cooperative coordination</strong> We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> and the creation of modern guilds.</li>
-              <li><strong>Movement building and culture creation</strong> It's time to tell new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.</li>
+              <li>
+                <strong>Community Weaving</strong>
+                Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, and cultural crises we face today.
+                <div className="centerText"><Button link="/what-are-we-doing/#community-weaving" label="How we weave community" /></div>
+              </li>
+              <li>
+                <strong>Technology</strong>
+                We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making and group coordination.
+                <div className="centerText"><Button link="/what-are-we-doing/#technology-for-thriving" label="Technology in service to life" /></div>
+              </li>
+              <li>
+                <strong>Collaborative Ecosystem Mapping</strong>
+                We believe mapping resource flows our communities can deepen relationships and help us collectively manage these resources. The maps we create will be transparent and publicly available, revealing important information that is often held privately by companies and the state.
+                <div className="centerText"><Button link="/what-are-we-doing/#collaborative-ecosystem-mapping" label="What we're mapping" /></div>
+              </li>
+              <li>
+                <strong>Systems design for cooperative coordination</strong>
+                We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> and the creation of modern guilds.
+                <div className="centerText"><Button link="/what-are-we-doing/#cooperative-coordination" label="Our approach to coordination" /></div>
+              </li>
+              <li>
+                <strong>Movement building and culture creation</strong>
+                It's time to tell new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.
+                <div className="centerText"><Button link="/what-are-we-doing/#movement-building" label="How we build movements" /></div>
+              </li>
             </ul>
-            <div style={{textAlign: `center`}}>
-              <Button label="Go Deeper" link="/what-are-we-doing/"/>
+            <div className="centerText whatWeDoBtn">
+              <Button label="More about what we do" link="/what-are-we-doing/"/>
             </div>
           </div>
           <img className="collinsiaHeterophylla rightImage" src={collinsiaHeterophylla} alt="Collinsia heterophylla" />

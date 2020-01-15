@@ -28,10 +28,10 @@ const WhatAreWeDoingPage = () => (
     </div>
 
     <Panel justification="center">
-      <div className="twoColumnsRightImage">
+      <div id="scope-of-practice" className="twoColumnsRightImage">
         <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
-      <div id="scope-of-practice" className="twoColumnsLeftText">
+      <div id="community-weaving" className="twoColumnsLeftText">
         <Headline
           title="Community Weaving"
           subtitle="SCOPE OF PRACTICE"
@@ -59,7 +59,7 @@ const WhatAreWeDoingPage = () => (
     </Panel>
 
     <Panel justification="center">
-      <div className="twoColumnsLeftText">
+      <div id="technology-for-thriving" className="twoColumnsLeftText">
         <Headline
           title="Technology for thriving"
           subtitle="SCOPE OF PRACTICE"
@@ -90,7 +90,7 @@ const WhatAreWeDoingPage = () => (
       <div className="twoColumnsLeftImage">
         <Image filename="what_do/what_do_calypte_anna2x.jpg" alt="Calypte anna" showCaption="true" />
       </div>
-      <div className="twoColumnsRightText">
+      <div id="collaborative-ecosystem-mapping" className="twoColumnsRightText">
         <Headline
           title="Collaborative ecosystem mapping"
           subtitle="SCOPE OF PRACTICE"
@@ -117,7 +117,7 @@ const WhatAreWeDoingPage = () => (
     </Panel>
 
     <Panel justification="center">
-      <div id="scope-of-practice" className="twoColumnsLeftText">
+      <div id="cooperative-coordination" className="twoColumnsLeftText">
         <Headline
           title="Systems design for cooperative coordination"
           subtitle="SCOPE OF PRACTICE"
@@ -147,7 +147,7 @@ const WhatAreWeDoingPage = () => (
       <div className="twoColumnsLeftImage">
         <Image filename="what_do/what_do_castor_canadensis.jpg" alt="Castor canadensis" showCaption="true" />
       </div>
-      <div className="twoColumnsRightText">
+      <div id="movement-building" className="twoColumnsRightText">
         <Headline
           title="Movement building and culture creation"
           subtitle="SCOPE OF PRACTICE"

@@ -1205,12 +1205,26 @@ ul.cardList {
   list-style: none;
 }
 
+.whatWeDoBtn {
+  padding-top: 50px;
+}
+
+.cardList .centerText {
+  padding-top: 25px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
 .guildSeed {
   text-decoration: italic;
   font-weight: bold;
 }
 
 .cardList li {
+  position: relative;
   width: 100%;
   min-width: 290px;
   max-width: 360px;
@@ -1219,7 +1233,7 @@ ul.cardList {
   border-radius: 5px;
   margin: 0 10px 20px 10px;
   transition: all .25s ease;
-  padding: 25px;
+  padding: 60px 25px 170px 25px;
 }
 
 .guildTooltip {
