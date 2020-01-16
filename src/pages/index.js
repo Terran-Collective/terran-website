@@ -53,7 +53,7 @@ const IndexPage = () => (
           <Image filename="home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" showCaption="true" />
         </div>
         <div className="twoColumnsRightText">
-          <h3 className="superHeadline">what is Terran?</h3>
+          <h3 className="superHeadline">What is Terran?</h3>
           <h1 className="headline whatIsTerran">Terran Collective is
             <div>
               <TextLoop>
@@ -84,8 +84,8 @@ const IndexPage = () => (
             <ul className="cardList">
               <li>
                 <strong>Storytelling for cultural evolution</strong>
-                It's time to tell new stories of interbeing and abundance, to align us around a shared purpose for human civilization and create a world that works for all.
-                <div className="centerText"><Button link="/what-are-we-doing/#movement-building" label="How we build movements" /></div>
+                It’s time to tell new stories of interdependence and abundance, to align us around a new shared purpose for human civilization &emdash; creating a world that works for all.
+                <div className="centerText"><Button link="/what-are-we-doing/#storytelling" label="How we build movements" /></div>
               </li>
               <li>
                 <strong>Community weaving</strong>
@@ -105,7 +105,7 @@ const IndexPage = () => (
               <li>
                 <strong>Regenerating the commons</strong>
                 We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> and the creation of modern guilds.
-                <div className="centerText"><Button link="/what-are-we-doing/#cooperative-coordination" label="Our approach to coordination" /></div>
+                <div className="centerText"><Button link="/what-are-we-doing/#regenerating-the-commons" label="Our approach to coordination" /></div>
               </li>
             </ul>
             <div className="centerText whatWeDoBtn">
@@ -137,7 +137,7 @@ const IndexPage = () => (
         </div>
         <div className="twoColumnsRightText">
           <Headline
-            title="Community & Resources"
+            title="Community &amp; Resources"
             subtitle="What inspires us?"
             justification="left" />
           <p>Our work happens with, by and for community. We are focused locally in the Bay Area, but as we discover new systems, tools, and practices, we share them with the world. We are in relationship with a very wide range of people who are engaged in this type of work. Are you working on similar things? Please join the conversation, and check out the resources we’ve compiled.</p>

@@ -25,9 +25,9 @@ const community = () => (
           />
           <p>Community is at the heart of what we are building. In order to bring about new systems for cooperation and coordination, we need new ways of being in relationship. We see community and relationships as the place to experiment with these new ways of being.</p>
           <p>You are invited to join our community, to participate in our gatherings and to collaborate in realizing a vision of a better world.</p>
-          <Button to="/community/#joincommunity" label="Join our community" />
-          <Button to="/community/#gatherings" label="Gather with us"/>
-          <Button to="/community/#trust" label="People and Organizations we trust" />
+          <Button link="/community/#joincommunity" label="Join our community" />
+          <Button link="/community/#gatherings" label="Gather with us"/>
+          <Button link="/community/#trust" label="People and Organizations we trust" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>

@@ -10,17 +10,17 @@ import { Link } from "gatsby"
 
 const WhatAreWeDoingPage = () => (
   <Layout>
-    <SEO title="What are we doing" />
+    <SEO title="What we do" />
 
     <div className="heroPanel whatWeDoHero">
       <Panel justification="center">
         <div className="pageHero">
           <Headline
             title="We are building infrastructure for the future we wish to inhabit"
-            subtitle="WHAT ARE WE DOING?"
+            subtitle="What we do"
           />
-          <p>Terran Collective’s work is creating tools, systems, and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to the greatest good of all beings?  We want to create free and open-source software for everyone, to advance the transition to a sacred and regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
-          <Button link="/what-are-we-doing/#scope-of-practice" label="Scopes of practice" />
+          <p>Terran Collective’s work is creating tools, systems, and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to the greatest good of all beings?  We want to create free and open-source software for everyone, to advance the transition to a regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
+          <Button link="/what-are-we-doing/#scopes-of-practice" label="Scopes of practice" />
           <Button link="/what-are-we-doing/#roadmap" label="Roadmap" />
         </div>
       </Panel>
@@ -28,7 +28,7 @@ const WhatAreWeDoingPage = () => (
     </div>
 
     <Panel justification="center">
-      <div id="movement-building" className="twoColumnsRightText">
+      <div id="scopes-of-practice" className="twoColumnsRightText">
         <Headline
           title="Storytelling for cultural evolution"
           subtitle="SCOPE OF PRACTICE"
@@ -55,7 +55,7 @@ const WhatAreWeDoingPage = () => (
     </Panel>
 
     <Panel justification="center">
-      <div id="scope-of-practice" className="twoColumnsRightImage">
+      <div className="twoColumnsRightImage">
         <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
       <div id="community-weaving" className="twoColumnsLeftText">
@@ -144,7 +144,7 @@ const WhatAreWeDoingPage = () => (
     </Panel>
 
     <Panel justification="center">
-      <div id="cooperative-coordination" className="twoColumnsLeftText">
+      <div id="regenerating-the-commons" className="twoColumnsLeftText">
         <Headline
           title="Regenerating the commons"
           subtitle="SCOPE OF PRACTICE"
