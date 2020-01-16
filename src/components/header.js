@@ -38,12 +38,12 @@ const Header = ({ siteTitle }) => {
         <div className={classnames({ "menuWrapper" : true, "open" : isOpen })}>
           <Link className="headerContribute" to="/watershed/">Contribute</Link>
           <button className="menuToggle" onClick={() => setOpen(!isOpen)}>
-              <img src={menuToggleHamburger} alt="Open menu icon" className="openMenu" />
-              <img src={menuToggleX} alt="Close menu icon"className="closeMenu" />
+            <img src={menuToggleHamburger} alt="Open menu icon" className="openMenu" />
+            <img src={menuToggleX} alt="Close menu icon"className="closeMenu" />
           </button>
           <div className="menuBg" onClick={() => setOpen(false)}></div>
           <div className="menuContainer">
-            <Menu/>
+            <Menu closeMenu={() => setOpen(false)} />
           </div>
         </div>
       </div>
