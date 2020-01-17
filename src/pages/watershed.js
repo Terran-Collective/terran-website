@@ -43,10 +43,13 @@ const watershed = () => (
         <Headline
           title="We need your help to fill the watershed"
         />
-        <p>We have structured our organization in a way that represents our values, creating a diversity of options for how we can fill our wells, and to allow supporters and partners to contribute resources to our mission. Currently we manage a for-profit entity called the Terran Collective LLC, which mostly does mostly contract software development work with aligned partners like DAOstack as our primary source of income. Moving forward we want to move our work more and more into the gift, and this is where the Terran Watershed comes in as the source of life that will allow us to more fully pursue our purpose and share our gifts with the world. </p>
-        <p>Terran Watershed is a non-profit 501c3, fiscally sponsored by our friends and allies at <a href="https://www.empowermentworks.org/">Empowerment Works</a>. We are asking for contributions to our Watershed in form of tax deductible donations.  </p>
-        <p>Over the past three years we have built a software platform for matching needs and offers, hosted many community events, mapped important relationship and energy landscapes within our bioregion and researched and developed systems for distributed collective governance and ownership. We have been able to do this without funding, and are looking to evolve into the next level of our stewardship of this work.</p>
-        <p>Our work of software development, community building, supporting fellow players in regeneration work, organizing action days, and sharing tools is in the form of a gift. In order to bestow this gift, your donations will provide resources for the Core team to thrive and do their life’s work. Your donations into The Watershed allow for a continuation of our research, development, education, community building, service and tools.</p>
+        <p>We have structured our organization in a way that represents our values, creating diverse options for how we fill our wells, and allow supporters and partners to contribute resources to our mission. Currently, we manage Terran Collective LLC, a software development and consulting agency that works with aligned partners like DAOstack. Our agency is our primary source of income, which funds our pro bono work to care for our bioregion.</p>
+        <p>Moving forward, we want to offer more and more in the spirit of the gift. Thus, we are birthing Terran Watershed as the source of life that will allow us to more fully pursue our purpose and share our gifts with the world.</p>
+        <p>Terran Watershed is a non-profit 501c3, fiscally sponsored by our friends and allies at <a href="https://www.empowermentworks.org/">Empowerment Works</a>. We are asking for contributions to our Watershed in the form of tax deductible donations.</p>
+        <p>Our work in five comprehensive scopes of practice - storytelling, community, technology, mapping, and commoning - is in the form of a gift. Your donations to Terran Watershed will provide resources for our core team to thrive and do our life’s work, nourishing our ability to offer these gifts to the world.</p>
+        <div className="centerText">
+          <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" target="_blank" rel="noopener noreferrer" className="button">Donate Now</a>
+        </div>
       </div>
     </Panel>
 
@@ -57,40 +60,70 @@ const watershed = () => (
         />
         <ul>
           <li>
-            <img src={resourceUse1} alt="Mapping & Network building"/>
-            <h2>Collaborative ecosystem mapping</h2>
-            <div>
-              <p>In order to transition from an extractive system to a closed-loop, regenerative system, our landscape needs to be mapped and new networks must be built. The rise of ridesharing and homesharing marketplace technologies are a hint of what is possible if we are able to map needs, offers, abilities, untapped resources and knowledge.</p>
-              <p>During 2020 we will continue to map the landscape of regenerative projects in the San Francisco Bay Area. With this community as our first audience, our research seeks to uncover ways of surfacing the hidden landscape of the human and natural world, and build networks so that resources, energy and knowledge can flow freely outside of the market.</p>
+            <img src={resourceUse1} alt="Storytelling for cultural evolution"/>
+            <h2>Storytelling for cultural evolution</h2>
+            <div className="resourceUseText">
+              <p>Achieving our goals will require major shifts in our cultural narratives, to evolve deep-rooted  beliefs of fear, scarcity and separation to agency, abundance and interdependence. Terran creates hopeful and inspiring content, memes, events, and more, in order to build a movement which aligns us around a new shared purpose for civilization - creating a world that works for all.</p>
+              <div>
+                <h3>2020 Outcomes</h3>
+                <p>Publishing monthly articles on our work in the five scopes of practice</p>
+              </div>
             </div>
           </li>
           <li>
-            <img src={resourceUse2} alt="Tools and technology"/>
-            <h2>Technology for thriving</h2>
-            <div>
-              <p>Our research and the knowledge generated by countless others throughout the world will directly inform our creation of tools and technology that will foster new commons, strengthen communities and nurture healthy individuals, disintermediating human economic activity and human relationships with the land.</p>
-              <p>The tools are built from the ground up to operate as public utilities and protocols, for the use of all in perpetuity, where the costs of maintenance and the wealth generated are distributed among the community.</p>
-            </div>
-          </li>
-          <li>
-            <img src={resourceUse3} alt="Community and Relationships"/>
+            <img src={resourceUse3} alt="Community weaving"/>
             <h2>Community weaving</h2>
-            <div>
-              <p>Our research &amp; technology is intended to create new culture. At the heart of the culture we see as necessary for a thriving world is one where tools and economic systems produce deeper community and healthy relationships.</p>
-              <p>When communities and relationships are healthy, the current global market system can be disintermediated. In addition to public utilities and protocols, we are searching for social and technological tools that empower and engage people within their communities, relationships and workplaces.</p>
+            <div className="resourceUseText">
+              <p>Through community, we can develop resilience amidst rapid change, heal and regenerate the land we live on, and step into solidarity, equity and abundance together. All our work is ultimately about building deeper, stronger, relationships based on trust.</p>
+              <div>
+                <h3>2020 Outcomes</h3>
+                <p>Coordinate 1 Action Day per quarter in 2020 that results in 5+ high quality connections per participant</p>
+                <p>Convene 1 community gathering per month to deepen existing relationships.</p>
+                <p>Host our annual events: Terran Camp, Cospiracy, and Inheritance Day</p>
+              </div>
             </div>
           </li>
           <li>
-            <img src={resourceUse4} alt="Governance and Ownership"/>
+            <img src={resourceUse2} alt="Technology for thriving"/>
+            <h2>Technology for thriving</h2>
+            <div className="resourceUseText">
+              <p>We envision technology that will foster new commons, strengthen communities and nurture healthy individuals. Our tools are built from the ground up to operate as public utilities and protocols, for the use of all in perpetuity, where governance, maintenance costs, and abundance generated are distributed among the community.</p>
+              <div>
+                <h3>2020 Outcomes</h3>
+                <p>Conduct user interviews with 10 communities, and create MOUs with each to build a tool they will use</p>
+                <p>Develop & release technological roadmap in partnership with allied bioregional communities</p>
+                <p>Build and release our core platform for collaboration and prototype a relationship graph</p>
+                <p>Onboard 10 communities onto our platform and conduct rigorous UX testing</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src={resourceUse1} alt="Collaborative ecosystem mapping"/>
+            <h2>Collaborative ecosystem mapping</h2>
+            <div className="resourceUseText">
+              <p>In order to transition from an extractive system to a closed-loop, regenerative system, we must map resource flows and share the findings transparently. During 2020, we will map the ecosystem of regenerative projects in the San Francisco Bay Area. Our research examines the hidden landscape of the human and natural world, and how we can build networks so that resources, energy and knowledge flow freely outside of the market.</p>
+              <div>
+                <h3>2020 Outcomes</h3>
+                <p>Interview 5-10 organizations in the bioregion to understand their context, needs, and offerings, and how we can best collaborate</p>
+                <p>Map resource flows of the Bay Area regenerative community, prioritizing interoperability with existing mapping efforts</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src={resourceUse4} alt="Regenerating the commons"/>
             <h2>Regenerating the commons</h2>
-            <div>
-              <p>With new maps, tools, and a culture that has learned how to rely on community and relationships, a new cooperative landscape is opened. Cooperating within this landscape will only be possible with new systems for collective ownership, decision-making and governance.</p>
-              <p>We have worked at the bleeding edge of distributed governance, ownership and resource sharing, and seek to build and release models that allow for communities to steward commons in ways that are more efficient and more empowering than current corporate, non-profit or governmental platforms.</p>
+            <div className="resourceUseText">
+              <p>With new maps, technology, and a culture that has learned how to rely on community and relationships, a new cooperative landscape opens up. Stewarding this rebirthed commons will only be possible with evolved systems for collective ownership, decision-making and governance. We seek to build models that allow for communities to steward commons in ways that are more efficient and more empowering than current corporate, non-profit or governmental platforms.</p>
+              <div>
+                <h3>2020 Outcomes</h3>
+                <p>Nurture development of 3 initial bioregional guilds & identify tools needed to help them</p>
+                <p>Experiment in collective governance and financial solidarity within Terran</p>
+              </div>
             </div>
           </li>
         </ul>
         <div className="centerText">
-          <Button link="/what-we-do/" label="More about what we do" />
+          <Button link="/what-we-do/" label="More About Our Scopes of Practice" />
         </div>
       </div>
     </Panel>
@@ -123,7 +156,7 @@ const watershed = () => (
           <p>We are doing this work for the people and the Earth, not to enrich ourselves or investors. We don’t expect traditional investment structures such as venture capital to understand the value of this work, so we are asking you, our community, to join with us in creating a better world. Please consider giving a monthly donation of time or money. We believe that the community patronage model could be an example of how we can fund the transformative work that is required at this time. We are also of course happy to accept larger one time donations  to give us a big rocket boost as we leap into this work whole-heartedly.</p>
           <p>We are asking you to trust us and join us in this radical experiment, to see if we can give ourselves over completely to be of service to our bioregion and the world. Now is the time for to put our energy and resources into radical experimentation and change. The world is calling for a transition from the extractive economy into the regenerative economy, so we can liberate our communities, ecosystems, and align with our true value systems. And stop us from destroying ourselves and the planet. Help us begin right now, right here, with us.</p>
           <div className="centerText">
-            <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" target="_blank" rel="noopener noreferrer" className="button">Become a divestor</a>
+            <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" target="_blank" rel="noopener noreferrer" className="button">Become a Divestor</a>
           </div>
         </div>
         <img className="rubusSpectabilis rightImage" src={aesculusCalifornica} alt="Aesculus Californica" />

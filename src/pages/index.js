@@ -28,11 +28,6 @@ const IndexPage = () => (
             margin: `30px 0 50px`,
             width: `100%`,
           }}>We are technologists,  community organizers, entrepreneurs, activists, and artists working for the greatest good of all beings. We amplify cooperation among people working to regenerate our communities and our planet. We do this by building systems and tools that foster trust and collaboration, starting in the Bay Area bioregion.</p>
-          <div style={{textAlign: `center`}}>
-            <Button label="What is Terran?" link="/what-is-terran/"/>
-            <Button label="What are we doing?" link="/what-are-we-doing/"/>
-            <Button label="Participate" link="/watershed/"/>
-          </div>
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -84,33 +79,30 @@ const IndexPage = () => (
             <ul className="cardList">
               <li>
                 <strong>Storytelling for cultural evolution</strong>
-                Achieving our goals will require major shifts in our core cultural beliefs and stories. Terran creates hopeful and inspiring content, memes, media, and events, in order to build a movement which aligns us around a new shared purpose for human civilization -- creating a world that works for all.
+                How do we shift cultural narratives and share a new story in a way that resonates with different communities? Terran creates hopeful and inspiring content, memes, media, and events, in order to build a movement which aligns us around a new shared purpose for human civilization -- creating a world that works for all.
                 <div className="centerText"><Button link="/what-are-we-doing/#storytelling" label="How we build movements" /></div>
               </li>
               <li>
                 <strong>Community weaving</strong>
-                Rebuilding community is the core of our theory of change. Strong communities can develop resilience amidst rapid change, heal and regenerate the land we live on, and step into solidarity, equity and abundance together. Terran builds community by hosting many regular gatherings both small and large throughout the year, as well as weaving connections between aligned people and organizations. All to create deeper, stronger, relationships based on trust.
+                Strong communities can develop resilience amidst rapid change, heal and regenerate the land we live on, and step into solidarity, equity and abundance together. Terran builds community by hosting regular gatherings both small and large throughout the year, as well as weaving connections between aligned people and organizations. All to create deeper, stronger, relationships based on trust.
                 <div className="centerText"><Button link="/what-are-we-doing/#community-weaving" label="How we weave community" /></div>
               </li>
               <li>
                 <strong>Technology for thriving</strong>
-                We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making, and group coordination.
+                The tools to coordinate at scale, without coercion or rent-seeking, do not yet exist. We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making, and group coordination.
                 <div className="centerText"><Button link="/what-are-we-doing/#technology-for-thriving" label="Technology in service to life" /></div>
               </li>
               <li>
                 <strong>Collaborative ecosystem mapping</strong>
-                We believe that mapping resource flows will allow our communities to deepen relationships and allow stakeholders make more informed and equitable collective decisions. These maps will be collaboratively developed and shared publicly so that we can experiment with more transparent ways of being and rebuild the commons.
+                We believe that mapping resource flows will allow our communities to deepen relationships and allow stakeholders make more informed and equitable collective decisions. These maps will be collaboratively developed and shared publicly so that we can experiment with more transparent ways of coordination.
                 <div className="centerText"><Button link="/what-are-we-doing/#collaborative-ecosystem-mapping" label="What we're mapping" /></div>
               </li>
               <li>
                 <strong>Regenerating the commons</strong>
-                We are designing, developing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> and the creation of modern guilds.
+                Our land, our resources, and our communities are a commons. Rebuilding the commons worldview and our ability to collectively govern is the core of our theory of change. We are designing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> and the creation of modern guilds.
                 <div className="centerText"><Button link="/what-are-we-doing/#regenerating-the-commons" label="Our approach to coordination" /></div>
               </li>
             </ul>
-            <div className="centerText whatWeDoBtn">
-              <Button label="More about what we do" link="/what-are-we-doing/"/>
-            </div>
           </div>
           <img className="collinsiaHeterophylla rightImage" src={collinsiaHeterophylla} alt="Collinsia heterophylla" />
         </Panel>
@@ -154,3 +146,14 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+
+// <div style={{textAlign: `center`}}>
+//   <Button label="What is Terran?" link="/what-is-terran/"/>
+//   <Button label="What are we doing?" link="/what-are-we-doing/"/>
+//   <Button label="Participate" link="/watershed/"/>
+// </div>
+
+// <div className="centerText whatWeDoBtn">
+//   <Button label="More about what we do" link="/what-are-we-doing/"/>
+// </div>

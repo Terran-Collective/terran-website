@@ -1025,6 +1025,10 @@ footer {
   padding-bottom: 50px;
 }
 
+.resourceUseText {
+  text-align: left;
+}
+
 .resourceUse h1 {
   text-align: center;
 }
@@ -1754,6 +1758,10 @@ ul.team_members {
     margin: 0 2.5%;
     text-align: center;
     padding-bottom: 50px;
+  }
+
+  .resourceUseText {
+    text-align: left;
   }
 
   .twoColumnsTimelineLeft h3, .twoColumnsTimelineLeft h1 {

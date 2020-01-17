@@ -63,7 +63,7 @@ const WhatAreWeDoingPage = () => (
           title="Community Weaving"
           subtitle="SCOPE OF PRACTICE"
         />
-        <p>We are community builders and weavers, and believe that the best way to coordinate is within the context of healthy relationships. We know that we can only move at the speed of trust, and that building trust takes consistent connection and showing up for each other over time.</p>
+        <p>We are community builders and weavers, and believe that the best way to coordinate is within the context of healthy relationships. We know that we can only move at the speed of trust, and believe that building trust takes consistent connection and showing up for each other over time.</p>
         <p>We host gatherings that foster trust and collaboration and allow participants to imagine a more beautiful future. These include campouts, dinners, trainings and councils to build community as well as bigger convenings like our recent <a href="http://terrancospiracy.com" target="_blank" rel="noopener noreferrer">Terran Cospiracy</a> to grow our collective intelligence.</p>
         <p>We also participate in and experiment with group processes, including the <a href="https://waysofcouncil.net/what-is-council/" target="_blank" rel="noopener noreferrer">Way of Council</a> and the <a href="https://workthatreconnects.org/" target="_blank" rel="noopener noreferrer">Work that Reconnects</a> for facilitating gatherings, deepening relationships, and resolving conflicts without violence. </p>
         <div>
@@ -80,7 +80,7 @@ const WhatAreWeDoingPage = () => (
               </li>
             </ul>
           <h3>Current Inquiry</h3>
-          <p>How do we build bridges to the many diverse communities living in the Bay Area? How do we ensure that every voice as a seat at the table? How do we ensure that our work is informed by a diverse and inclusive group of people and ideas?</p>
+          <p>How do we build bridges to the many diverse communities living in the Bay Area? How do we ensure that every voice has a seat at the table? How do we ensure that our work is informed by a diverse and inclusive group of people and ideas?</p>
         </div>
       </div>
     </Panel>
@@ -149,7 +149,8 @@ const WhatAreWeDoingPage = () => (
           title="Regenerating the commons"
           subtitle="SCOPE OF PRACTICE"
         />
-        <p>We are systems thinkers, architects, and experienced leaders, designing and experimenting with new and remembered ways of working together, sharing resources, group decision making and how to steward commons.</p>
+        <p>Our land, our resources, and our communities are a commons. How can we return to an understanding that governing our shared resources is a shared responsibility? Rebuilding the commons worldview and our ability to collectively govern is the core of our theory of change.</p>
+        <p>To refresh our ideas of ownership and governance, we are designing and experimenting with new and remembered ways of working together, sharing resources, group decision making and how to steward commons and common pool resources.</p>
         <div>
           <h3>Current Focus</h3>
             <ul>
@@ -157,7 +158,7 @@ const WhatAreWeDoingPage = () => (
                 <p><span>Researching collective governance models:</span> One of the most important changes required right now is for us to learn how to make effective decisions together through collaboration and cooperation instead of competition and dominance. We are exploring governance models like Sociocracy that are dynamic, decentralized and empowering. </p>
               </li>
               <li>
-                <p><span><span data-html="true" data-class="guildTooltip" data-tip="A guild is usually defined as an association of people working toward a common goal. In Permaculture, a guild is a grouping a plants, trees, animals, insects, and other components that work together to help ensure their health and productivity." className="guildSeed">Seeding bioregional <a href='http://www.neverendingfood.org/b-what-is-permaculture/permaculture-guilds/' target='_blank'>Guilds</a></span> for across many regenerative sectors:</span> We see creating modern Guilds as an important way to help those already doing regenerative work in our bioregion to coordinate more effectively. These guilds will bring together everyone working in a particular field, for example agriculture, education, technology, governance, etc. into an organizational structure designed to foster collaboration amongst existing projects. Guilds will help make sure work isn’t being duplicated, information and knowledge is being shared, and resources are flowing where they are needed at the right time. We are just beginning the project of helping these guilds form, and see this as an important medium term project we can help steward. </p>
+                <p><span><span data-html="true" data-class="guildTooltip" data-tip="A guild is usually defined as an association of people working toward a common goal. In permaculture, a guild is a grouping of plants, trees, animals, insects, and other components that work together to help ensure their health and productivity." className="guildSeed">Seeding bioregional <a href='http://www.neverendingfood.org/b-what-is-permaculture/permaculture-guilds/' target='_blank'>guilds</a></span> across many sectors:</span> We see creating modern guilds as an important way to help those already doing regenerative work in our bioregion to coordinate more effectively. These guilds will bring together everyone working in a particular field, for example agriculture, education, technology, governance, etc. into an organizational structure designed to foster collaboration amongst existing projects. Guilds will help make sure work isn’t being duplicated, information and knowledge is being shared, and resources are flowing where they are needed at the right time. We are just beginning the project of helping these guilds form, and see this as an important medium term project we can help steward. </p>
                 <ReactTooltip />
               </li>
             </ul>
