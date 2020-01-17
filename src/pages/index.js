@@ -67,9 +67,9 @@ const IndexPage = () => (
           </h1>
           <p>Terran Collective is a community of people who are committed to the work of healing and transformation necessary for all beings in our bioregion to have what they need to thrive.</p>
           <p>As a <strong>community of care</strong>, we support each other on our paths of personal healing and growth. As a <strong>community of practice</strong>, we help each other find our purpose and share our gifts with the world, while collaborating on projects aligned with our mission. As <strong>a commons</strong>, we collectively govern and share resources.</p>
-          <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of emergent strategy - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
+          <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet.  To get there, we must re-design how humans relate to each other and the planet, learning from nature and applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a> - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
           <div style={{textAlign: `center`}}>
-            <Button label="Learn More" link="/what-is-terran/"/>
+            <Button label="About Terran" link="/what-is-terran/"/>
           </div>
         </div>
       </Panel>
@@ -84,22 +84,22 @@ const IndexPage = () => (
             <ul className="cardList">
               <li>
                 <strong>Storytelling for cultural evolution</strong>
-                It’s time to tell new stories of interdependence and abundance, to align us around a new shared purpose for human civilization &emdash; creating a world that works for all.
+                Achieving our goals will require major shifts in our core cultural beliefs and stories. Terran creates hopeful and inspiring content, memes, media, and events, in order to build a movement which aligns us around a new shared purpose for human civilization -- creating a world that works for all.
                 <div className="centerText"><Button link="/what-are-we-doing/#storytelling" label="How we build movements" /></div>
               </li>
               <li>
                 <strong>Community weaving</strong>
-                Rebuilding community is the core of our theory of change. Through community we can develop resilience amidst rapid change, allowing us to navigate the ecological, political, and cultural crises we face today.
+                Rebuilding community is the core of our theory of change. Strong communities can develop resilience amidst rapid change, heal and regenerate the land we live on, and step into solidarity, equity and abundance together. Terran builds community by hosting many regular gatherings both small and large throughout the year, as well as weaving connections between aligned people and organizations. All to create deeper, stronger, relationships based on trust.
                 <div className="centerText"><Button link="/what-are-we-doing/#community-weaving" label="How we weave community" /></div>
               </li>
               <li>
                 <strong>Technology for thriving</strong>
-                We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making and group coordination.
+                We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making, and group coordination.
                 <div className="centerText"><Button link="/what-are-we-doing/#technology-for-thriving" label="Technology in service to life" /></div>
               </li>
               <li>
                 <strong>Collaborative ecosystem mapping</strong>
-                We believe mapping resource flows our communities can deepen relationships and help us collectively manage these resources. The maps we create will be transparent and publicly available, revealing important information that is often held privately by companies and the state.
+                We believe that mapping resource flows will allow our communities to deepen relationships and allow stakeholders make more informed and equitable collective decisions. These maps will be collaboratively developed and shared publicly so that we can experiment with more transparent ways of being and rebuild the commons.
                 <div className="centerText"><Button link="/what-are-we-doing/#collaborative-ecosystem-mapping" label="What we're mapping" /></div>
               </li>
               <li>
@@ -137,10 +137,11 @@ const IndexPage = () => (
         </div>
         <div className="twoColumnsRightText">
           <Headline
-            title="Community &amp; Resources"
+            title="Our Community"
             subtitle="What inspires us?"
             justification="left" />
-          <p>Our work happens with, by and for community. We are focused locally in the Bay Area, but as we discover new systems, tools, and practices, we share them with the world. We are in relationship with a very wide range of people who are engaged in this type of work. Are you working on similar things? Please join the conversation, and check out the resources we’ve compiled.</p>
+          <p>Core to everything we believe and do is the importance of rebuilding community. In community we truly experience our interdependence, abundance and the agency to choose the world we want to live in. We are committed to the work of weaving together our Bay Area regenerative communities, deepening trust, building bridges, healing relationships and creating a strong, resilient network of interconnection.</p>
+          <p>Our Terran community here in the Bay Area is incredible, and growing every day. We are always looking for more allies! Please join the conversation and subscribe to our calendar of events. While we are currently focused on building community  locally in the Bay Area, we want to connect with and learn from allies across the globe, and as we discover new systems, tools, and practices, we will share them with the world.</p>
           <div style={{textAlign: `center`}}>
             <Button label="Our Community" link="/community/"/>
             <Button label="Library of Resources" link="/resources/"/>

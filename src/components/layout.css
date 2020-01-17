@@ -1597,6 +1597,14 @@ ul.triad {
   margin: 0 10px;
 }
 
+.button.menuButton {
+  border-color: rgba(255,255,255,1);
+}
+
+.menuButtonWrapper {
+  text-align: center;
+}
+
 .team {
   text-align: center;
 }

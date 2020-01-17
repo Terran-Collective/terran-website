@@ -69,6 +69,15 @@ const Menu = ({ closeMenu }) => (
           <li><Link to="/resources/#authors-artists-teachers" onClick={closeMenu}>Authors, artists and teachers</Link></li>
         </ul>
       </li>
+      <li className="menuButtonWrapper">
+        <a className="button menuButton" target="_blank" rel="noopener noreferrer" href="https://medium.com/terran-collective">Writings</a>
+      </li>
+      <li className="menuButtonWrapper">
+        <a className="button menuButton" target="_blank" rel="noopener noreferrer" href="https://medium.com/terran-collective">Facebook Community</a>
+      </li>
+      <li className="menuButtonWrapper">
+        <a className="button menuButton" target="_blank" rel="noopener noreferrer" href="https://medium.com/terran-collective">Newsletter</a>
+      </li>
     </ul>
     <div className="acknowledgments">
       <p>Terran Collective is based in <a href="http://www.ramaytush.com/" target="_blank" rel="noopener noreferrer">Ramaytush Ohlone territory, in Yelamu</a>, which is called San Francisco</p>
