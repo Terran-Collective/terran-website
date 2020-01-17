@@ -73,10 +73,10 @@ const Menu = ({ closeMenu }) => (
         <a className="button menuButton" target="_blank" rel="noopener noreferrer" href="https://medium.com/terran-collective">Writings</a>
       </li>
       <li className="menuButtonWrapper">
-        <a className="button menuButton" target="_blank" rel="noopener noreferrer" href="https://medium.com/terran-collective">Facebook Community</a>
+        <a className="button menuButton" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/TerranCollective/">Facebook Community</a>
       </li>
       <li className="menuButtonWrapper">
-        <a className="button menuButton" target="_blank" rel="noopener noreferrer" href="https://medium.com/terran-collective">Newsletter</a>
+        <a className="button menuButton" target="_blank" rel="noopener noreferrer" href="http://eepurl.com/cWIga1">Newsletter</a>
       </li>
     </ul>
     <div className="acknowledgments">
