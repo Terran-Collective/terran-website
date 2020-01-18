@@ -94,12 +94,12 @@ const IndexPage = () => (
               </li>
               <li>
                 <strong>Collaborative ecosystem mapping</strong>
-                We believe that mapping resource flows will allow our communities to deepen relationships and allow stakeholders make more informed and equitable collective decisions. These maps will be collaboratively developed and shared publicly so that we can experiment with more transparent ways of coordination.
+                We believe that mapping resource flows will allow our communities to deepen relationships and make more informed and equitable collective decisions. These maps will be collaboratively developed and shared publicly so that we can experiment with more transparent ways of coordination.
                 <div className="centerText"><Button link="/what-are-we-doing/#collaborative-ecosystem-mapping" label="What we're mapping" /></div>
               </li>
               <li>
                 <strong>Regenerating the commons</strong>
-                Our land, our resources, and our communities are a commons. Rebuilding the commons worldview and our ability to collectively govern is the core of our theory of change. We are designing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> and the creation of modern guilds.
+                Our land, our resources, and our communities are a commons. Rebuilding this worldview and our ability to collectively govern the commons is the core of our theory of change. To move us in this direction we are designing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> , and the creation of modern guilds to steward shared areas of collective responsibility.
                 <div className="centerText"><Button link="/what-are-we-doing/#regenerating-the-commons" label="Our approach to coordination" /></div>
               </li>
             </ul>
@@ -133,7 +133,7 @@ const IndexPage = () => (
             subtitle="What inspires us?"
             justification="left" />
           <p>Core to everything we believe and do is the importance of rebuilding community. In community we truly experience our interdependence, abundance and the agency to choose the world we want to live in. We are committed to the work of weaving together our Bay Area regenerative communities, deepening trust, building bridges, healing relationships and creating a strong, resilient network of interconnection.</p>
-          <p>Our Terran community here in the Bay Area is incredible, and growing every day. We are always looking for more allies! Please join the conversation and subscribe to our calendar of events. While we are currently focused on building community  locally in the Bay Area, we want to connect with and learn from allies across the globe, and as we discover new systems, tools, and practices, we will share them with the world.</p>
+          <p>Our Terran community here in the Bay Area is incredible, and growing every day. We are always looking for more allies! Please join the conversation and subscribe to our calendar of events. While we are currently focused on building community locally in the Bay Area, we want to connect with and learn from allies across the globe, and as we discover new systems, tools, and practices, we will share them with the world.</p>
           <div style={{textAlign: `center`}}>
             <Button label="Our Community" link="/community/"/>
             <Button label="Library of Resources" link="/resources/"/>
