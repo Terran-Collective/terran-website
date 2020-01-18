@@ -442,7 +442,7 @@ const resources = () => (
           </li>
           <li>
             <a href="http://adriennemareebrown.net/">
-            <h3>adrienne marie brown</h3>
+            <h3>Adrienne Maree Brown</h3>
             <span>Author, Activist, Artist</span>
             </a>
           </li>
