@@ -1016,6 +1016,7 @@ footer {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .resourceUse ul li {
@@ -1023,6 +1024,23 @@ footer {
   margin: 0 2.5%;
   text-align: center;
   padding-bottom: 50px;
+}
+
+.resourceUse li div div p {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,0.06);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all .25s ease;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.resourceUse li div div h3 {
+  text-align: center;
 }
 
 .resourceUseText {

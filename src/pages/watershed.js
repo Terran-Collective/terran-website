@@ -93,7 +93,7 @@ const watershed = () => (
                 <p>Conduct user interviews with 10 communities, and create MOUs with each to build a tool they will use</p>
                 <p>Develop & release technological roadmap in partnership with allied bioregional communities</p>
                 <p>Build and release our core platform for collaboration and prototype a relationship graph</p>
-                <p>Onboard 10 communities onto our platform and conduct rigorous UX testing</p>
+                <p>Welcome 10 communities onto our platform and work together to test the tools</p>
               </div>
             </div>
           </li>
