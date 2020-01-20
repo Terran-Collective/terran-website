@@ -67,6 +67,8 @@ const watershed = () => (
               <div>
                 <h3>2020 Outcomes</h3>
                 <p>Publishing monthly articles on our work in the five scopes of practice</p>
+                <p>Speaking at gatherings and conferences, and leading workshops</p>
+                <p>Sharing new narratives through Inheritance Day</p>
               </div>
             </div>
           </li>
@@ -79,7 +81,7 @@ const watershed = () => (
                 <h3>2020 Outcomes</h3>
                 <p>Coordinate 1 Action Day per quarter in 2020 that results in 5+ high quality connections per participant</p>
                 <p>Convene 1 community gathering per month to deepen existing relationships.</p>
-                <p>Host our annual events: Terran Camp, Cospiracy, and Inheritance Day</p>
+                <p>Host our annual events: Terran Camp and Terran Cospiracy</p>
               </div>
             </div>
           </li>
