@@ -1593,7 +1593,7 @@ ul.triad {
   opacity: .75;
 }
 
-.what-is-terran, .team {
+.about, .team {
   margin: 25px auto;
   width: 40%;
 }
@@ -1816,7 +1816,7 @@ ul.team_members {
     width: 100%;
   }
 
-  .what-is-terran, .team, .team_photo, .team_members li {
+  .about, .team, .team_photo, .team_members li {
     padding: 15px;
     width: 100%;
   }

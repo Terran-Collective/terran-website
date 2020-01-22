@@ -9,14 +9,14 @@ const Menu = ({ closeMenu }) => (
     <ul>
       <li>
         <h3>
-          <Link to="/what-is-terran/" onClick={closeMenu}>About Terran Collective</Link>
+          <Link to="/about/" onClick={closeMenu}>About Terran Collective</Link>
         </h3>
         <ul>
-          <li><Link to="/what-is-terran/#vision" onClick={closeMenu}>Vision &amp; mission</Link></li>
-          <li><Link to="/what-is-terran/#core-beliefs" onClick={closeMenu}>Core beliefs, values &amp; principles</Link></li>
-          <li><Link to="/what-is-terran/#how-we-relate" onClick={closeMenu}>How we relate</Link></li>
-          <li><Link to="/what-is-terran/#team" onClick={closeMenu}>Core stewardship team</Link></li>
-          <li><Link to="/what-is-terran/#our-teachers" onClick={closeMenu}>Our teachers</Link></li>
+          <li><Link to="/about/#vision" onClick={closeMenu}>Vision &amp; mission</Link></li>
+          <li><Link to="/about/#core-beliefs" onClick={closeMenu}>Core beliefs, values &amp; principles</Link></li>
+          <li><Link to="/about/#how-we-relate" onClick={closeMenu}>How we relate</Link></li>
+          <li><Link to="/about/#team" onClick={closeMenu}>Core stewardship team</Link></li>
+          <li><Link to="/about/#our-teachers" onClick={closeMenu}>Our teachers</Link></li>
         </ul>
       </li>
       <li>
@@ -41,12 +41,12 @@ const Menu = ({ closeMenu }) => (
       </li>
       <li>
         <h3>
-          <Link to="/what-are-we-doing/" onClick={closeMenu}>What we do</Link>
+          <Link to="/what-we-do/" onClick={closeMenu}>What we do</Link>
         </h3>
         <ul>
-          <li><Link to="/what-are-we-doing/#scopes-of-practice" onClick={closeMenu}>Scopes of practice</Link></li>
-          <li><Link to="/what-are-we-doing/#roadmap" onClick={closeMenu}>Roadmap</Link></li>
-          <li><Link to="/what-are-we-doing/#how-we-work" onClick={closeMenu}>How we work (TODO)</Link></li>
+          <li><Link to="/what-we-do/#scopes-of-practice" onClick={closeMenu}>Scopes of practice</Link></li>
+          <li><Link to="/what-we-do/#roadmap" onClick={closeMenu}>Roadmap</Link></li>
+          <li><Link to="/what-we-do/#how-we-work" onClick={closeMenu}>How we work (TODO)</Link></li>
         </ul>
       </li>
       <li>

@@ -64,7 +64,7 @@ const IndexPage = () => (
           <p>As a <strong>community of care</strong>, we support each other on our paths of personal healing and growth. As a <strong>community of practice</strong>, we help each other find our purpose and share our gifts with the world, while collaborating on projects aligned with our mission. As <strong>a commons</strong>, we collectively govern and share resources.</p>
           <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet.  To get there, we must re-design how humans relate to each other and the planet, learning from nature and applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a> - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
           <div style={{textAlign: `center`}}>
-            <Button label="About Terran" link="/what-is-terran/"/>
+            <Button label="About Terran" link="/about/"/>
           </div>
         </div>
       </Panel>
@@ -80,27 +80,27 @@ const IndexPage = () => (
               <li>
                 <strong>Storytelling for cultural evolution</strong>
                 How do we shift cultural narratives and share a new story in a way that resonates with different communities? Terran creates hopeful and inspiring content, memes, media, and events, in order to build a movement which aligns us around a new shared purpose for human civilization -- creating a world that works for all.
-                <div className="centerText"><Button link="/what-are-we-doing/#storytelling" label="How we build movements" /></div>
+                <div className="centerText"><Button link="/what-we-do/#storytelling" label="How we build movements" /></div>
               </li>
               <li>
                 <strong>Community weaving</strong>
                 Strong communities can develop resilience amidst rapid change, heal and regenerate the land we live on, and step into solidarity, equity and abundance together. Terran builds community by hosting regular gatherings both small and large throughout the year, as well as weaving connections between aligned people and organizations. All to create deeper, stronger, relationships based on trust.
-                <div className="centerText"><Button link="/what-are-we-doing/#community-weaving" label="How we weave community" /></div>
+                <div className="centerText"><Button link="/what-we-do/#community-weaving" label="How we weave community" /></div>
               </li>
               <li>
                 <strong>Technology for thriving</strong>
                 The tools to coordinate at scale, without coercion or rent-seeking, do not yet exist. We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making, and group coordination.
-                <div className="centerText"><Button link="/what-are-we-doing/#technology-for-thriving" label="Technology in service to life" /></div>
+                <div className="centerText"><Button link="/what-we-do/#technology-for-thriving" label="Technology in service to life" /></div>
               </li>
               <li>
                 <strong>Collaborative ecosystem mapping</strong>
                 We believe that mapping resource flows will allow our communities to deepen relationships and make more informed and equitable collective decisions. These maps will be collaboratively developed and shared publicly so that we can experiment with more transparent ways of coordination.
-                <div className="centerText"><Button link="/what-are-we-doing/#collaborative-ecosystem-mapping" label="What we're mapping" /></div>
+                <div className="centerText"><Button link="/what-we-do/#collaborative-ecosystem-mapping" label="What we're mapping" /></div>
               </li>
               <li>
                 <strong>Regenerating the commons</strong>
                 Our land, our resources, and our communities are a commons. Rebuilding this worldview and our ability to collectively govern the commons is the core of our theory of change. To move us in this direction we are designing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> , and the creation of modern guilds to steward shared areas of collective responsibility.
-                <div className="centerText"><Button link="/what-are-we-doing/#regenerating-the-commons" label="Our approach to coordination" /></div>
+                <div className="centerText"><Button link="/what-we-do/#regenerating-the-commons" label="Our approach to coordination" /></div>
               </li>
             </ul>
           </div>
@@ -149,11 +149,11 @@ export default IndexPage
 
 
 // <div style={{textAlign: `center`}}>
-//   <Button label="What is Terran?" link="/what-is-terran/"/>
-//   <Button label="What are we doing?" link="/what-are-we-doing/"/>
+//   <Button label="What is Terran?" link="/about/"/>
+//   <Button label="What are we doing?" link="/what-we-do/"/>
 //   <Button label="Participate" link="/watershed/"/>
 // </div>
 
 // <div className="centerText whatWeDoBtn">
-//   <Button label="More about what we do" link="/what-are-we-doing/"/>
+//   <Button label="More about what we do" link="/what-we-do/"/>
 // </div>

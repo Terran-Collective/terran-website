@@ -34,11 +34,11 @@ const WhatIsTerranPage = () => (
               width: `100%`,
             }}>We are a small band of humans based in the Bay Area navigating towards a way of life in balance with all people and all of nature. Our collective work is to design and practice this way of life as a necessary step to bring about <a href="https://charleseisenstein.org/books/the-more-beautiful-world-our-hearts-know-is-possible/" target="_blank" rel="noopener noreferrer">the more beautiful world our hearts know is possible.</a></p>
             <div style={{textAlign: `center`}}>
-              <Button label="Vision &amp; Mission" link="/what-is-terran/#vision" color="#0080f8" />
-              <Button label="Core Beliefs, Values &amp; Principles" link="/what-is-terran/#core-beliefs" color="#0080f8" />
-              <Button label="How We Relate" link="/what-is-terran/#how-we-relate" color="#0080f8" />
-              <Button label="Stewards of the Collective" link="/what-is-terran/#team" color="#0080f8" />
-              <Button label="Our Teachers" link="/what-is-terran/#our-teachers" color="#0080f8" />
+              <Button label="Vision &amp; Mission" link="/about/#vision" color="#0080f8" />
+              <Button label="Core Beliefs, Values &amp; Principles" link="/about/#core-beliefs" color="#0080f8" />
+              <Button label="How We Relate" link="/about/#how-we-relate" color="#0080f8" />
+              <Button label="Stewards of the Collective" link="/about/#team" color="#0080f8" />
+              <Button label="Our Teachers" link="/about/#our-teachers" color="#0080f8" />
             </div>
         </div>
       </Panel>
@@ -79,7 +79,7 @@ const WhatIsTerranPage = () => (
           <Headline
             title="Our Core Beliefs"
             justification="center" />
-          <p className="what-is-terran">We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
+          <p className="about">We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
         </div>
         <ul className="triad">
           <li>
@@ -124,7 +124,7 @@ const WhatIsTerranPage = () => (
       </div>
     </Panel>
     <Panel justification="center">
-      <div id="mission" className="what-is-terran">
+      <div id="mission" className="about">
         <Headline
           title="We are building tools to reinforce healthy relationships at every level"
           subtitle="WHOLE & HEALTHY SYSTEMS"
@@ -139,7 +139,7 @@ const WhatIsTerranPage = () => (
         <Headline
           title="How we relate"
           justification="center" />
-        <p className="what-is-terran">We practice and experiment with community technologies and individual/group techniques that foster healing, trust and collaboration.</p>
+        <p className="about">We practice and experiment with community technologies and individual/group techniques that foster healing, trust and collaboration.</p>
       </div>
       <ul className="triad">
         <li>
