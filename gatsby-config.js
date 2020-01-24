@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Terran Collective`,
     description: `Amplifying cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons`,
-    author: `@TerranCollectiv`,
+    author: `Terran Collective`,
+    ogImage: `http://terran.io/public/share_thumbnail.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
