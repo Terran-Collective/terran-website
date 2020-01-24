@@ -52,7 +52,7 @@ function SEO({ description, lang, meta, title, ogImage }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.ogImage,
+          content: `${siteURL}${site.siteMetadata.ogImage}`,
         },
         {
           property: `og:type`,

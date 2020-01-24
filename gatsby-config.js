@@ -3,7 +3,7 @@ module.exports = {
     title: `Terran Collective`,
     description: `Amplifying cooperation in service to regeneration in the Bay Area bioregion through technology, collective action and rebuilding the commons`,
     author: `Terran Collective`,
-    ogImage: `http://terran.io/share_thumbnail.jpg`
+    ogImage: `/share_thumbnail.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
