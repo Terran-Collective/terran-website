@@ -1719,10 +1719,39 @@ ul.team_members {
   display: block;
 }
 
+.homeMenu {
+  margin: 0 220px 0 160px;
+  position: absolute;
+  top: 37px;
+  left: 0;
+  z-index: 100000000000;
+}
+
+.homeMenu ul {
+  list-style: none;
+  margin: none;
+  display: flex;
+  justify-content: center;
+}
+
+.homeMenu ul a {
+  color: rgba(43, 128, 240, 1.000);
+  text-decoration: none;
+}
+
+.homeMenu ul li {
+  text-align: center;
+  margin: 0 10px;
+}
+
 
 @media only screen and (max-width: 900px) {
   .leftImage, .rightImage {
     opacity: 0.5;
+  }
+
+  .homeMenu {
+    display: none;
   }
 
   .twoColumnsRightText, .twoColumnsLeftText, .threeColumnsCenterText, .heroPanel .pageHero {
