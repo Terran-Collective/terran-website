@@ -779,6 +779,10 @@ footer {
   height: auto;
 }
 
+.homeHeroPanel p {
+  line-height: 36px;
+}
+
 .menuToggle {
   width: 40px;
   height: 40px;
@@ -1946,6 +1950,11 @@ ul.team_members {
   .homeHeroPanel p, .homeHeroPanel h1 {
     padding-left: 25px;
     padding-right: 25px;
+  }
+
+  .homeHeroPanel p {
+    font-weight: bold;
+    line-height: 24px;
   }
 
   .twoColumnsLeftImage, .twoColumnsRightImage {

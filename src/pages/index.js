@@ -59,7 +59,6 @@ const IndexPage = () => (
             titleAccentColor="#2b80f0" />
           <p style={{
             fontFamily: 'DINPro-Light',
-            lineHeight: `40px`,
             margin: `30px 0 50px`,
             width: `100%`,
           }}>We are technologists,  community organizers, entrepreneurs, activists, and artists working for the greatest good of all beings. We amplify cooperation among people working to regenerate our communities and our planet. We do this by building systems and tools that foster trust and collaboration, starting in the Bay Area bioregion.</p>
