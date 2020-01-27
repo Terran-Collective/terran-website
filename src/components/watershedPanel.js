@@ -4,7 +4,6 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import ScrollAnimation from 'react-animate-on-scroll'
-import classnames from "classnames"
 
 const Panel = ({ children, justification, bleed }) => {
 

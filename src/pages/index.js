@@ -11,8 +11,6 @@ import collinsiaHeterophylla from "../images/home/home_collinsia_heterophylla.jp
 import ScrollAnimation from 'react-animate-on-scroll'
 import TextLoop from "react-text-loop";
 
-let secondPanel = React.createRef()
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />

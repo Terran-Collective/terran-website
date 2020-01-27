@@ -27,7 +27,7 @@ const community = () => (
           <p>You are invited to join our community, to participate in our gatherings and to collaborate in realizing a vision of a better world.</p>
           <Button link="/community/#joincommunity" label="Join our community" />
           <Button link="/community/#gatherings" label="Gather with us"/>
-          <Button link="/community/#trust" label="People and Organizations we trust" />
+          <Button link="/community/#bioregional-allies" label="People and Organizations we trust" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -97,7 +97,7 @@ const community = () => (
       </div>
     </Panel>
     <Panel>
-      <div className="singleColumnText">
+      <div className="singleColumnText" id="bioregional-allies">
         <Headline
           title="ORGANIZATIONS WE TRUST"
           subtitle="Bioregional Allies"
