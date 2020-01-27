@@ -55,6 +55,14 @@ module.exports = {
         cookieDomain: "example.com",
       }
     },
+    {
+      resolve: 'gatsby-source-google-sheets',
+      options: {
+        spreadsheetId: '1mruYms6WYpH5Du6TgnyGnHSbs5C9yfTazBsu185d0k8',
+        worksheetTitle: 'Teachers',
+        credentials: require('./google-credentials.json')
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
