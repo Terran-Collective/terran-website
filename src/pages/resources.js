@@ -18,11 +18,11 @@ const ResourcesPage = ({ data }) => (
             title="Books, sources of information and teachers that have helped shape our understanding of the world"
             subtitle="LIBRARY OF RESOURCES"
           />
-          <Button link="/resources/#peers-and-allies" label="Peers &amp; allies" />
+          <Button link="/resources/#peers-and-allies" label="Peers &amp; Allies" />
           <Button link="/resources/#books" label="Books" />
           <Button link="/resources/#articles" label="Articles" />
           <Button link="/resources/#podcasts" label="Podcasts" />
-          <Button link="/resources/#authors-artists-teachers" label="Authors &amp; artists" />
+          <Button link="/resources/#authors-artists-teachers" label="Authors &amp; Artists" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>

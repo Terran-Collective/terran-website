@@ -20,7 +20,7 @@ const WhatAreWeDoingPage = () => (
             subtitle="What we do"
           />
           <p>Terran Collective’s work is creating tools, systems, and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to the greatest good of all beings?  We want to create free and open-source software for everyone, to advance the transition to a regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
-          <Button link="/what-we-do/#scopes-of-practice" label="Scopes of practice" />
+          <Button link="/what-we-do/#scopes-of-practice" label="Scopes of Practice" />
           <Button link="/what-we-do/#roadmap" label="Roadmap" />
         </div>
       </Panel>

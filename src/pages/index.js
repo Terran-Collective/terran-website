@@ -15,40 +15,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="homeHeroPanel">
-      <div className="homeMenu">
-        <ul>
-          <li>
-            <h3>
-              <Link to="/about/">About</Link>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <Link to="/community/">Community</Link>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <Link to="/watershed/">Terran Watershed</Link>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <Link to="/what-we-do/">What we do</Link>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <Link to="/bioregion/">The Bioregion</Link>
-            </h3>
-          </li>
-          <li>
-            <h3>
-              <Link to="/resources/">Library of resources</Link>
-            </h3>
-          </li>
-        </ul>
-      </div>
       <Panel>
         <div className="homeHero">
           <Headline

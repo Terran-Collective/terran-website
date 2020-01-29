@@ -29,7 +29,7 @@ const watershed = () => (
           <p>The tools we make and the experiments we perform are for the benefit of all. The Watershed is the primary container where we receive and steward resources in support of our efforts to bring about systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
           <Button link="/watershed/#goals" label="2020 Resource Goals" />
           <Button link="/watershed/#stewardship" label="How will resources be used?" />
-          <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" className="button">Support us financially</a>
+          <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" className="button" rel="noopener noreferrer">Support Us Financially</a>
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
