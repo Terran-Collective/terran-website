@@ -25,7 +25,7 @@ const community = () => (
           />
           <p>Community is at the heart of what we are building. In order to bring about new systems for cooperation and coordination, we need new ways of being in relationship. We see community and relationships as the place to experiment with these new ways of being.</p>
           <p>You are invited to join our community, to participate in our gatherings and to collaborate in realizing a vision of a better world.</p>
-          <Button link="/community/#joincommunity" label="Join Our Community" />
+          <Button link="/community/#join" label="Join Our Community" />
           <Button link="/community/#gatherings" label="Gather With Us"/>
           <Button link="/community/#bioregional-allies" label="People and Organizations We Trust" />
         </div>
@@ -34,7 +34,7 @@ const community = () => (
     </div>
 
     <Panel justification="center">
-      <div className="twoColumnsLeftImage">
+      <div className="twoColumnsLeftImage" id="join">
         <Image filename="community/community_charadrius_vociferus2x.jpg" alt="Charadrius vociferus" showCaption="true" />
       </div>
       <div className="twoColumnsRightText">
@@ -57,7 +57,7 @@ const community = () => (
     </Panel>
 
     <Panel>
-      <div className="gatherings">
+      <div id='gatherings' className="gatherings">
         <img src={aquilegiaFormosa} alt="Aquilegia formosa"/>
         <ul>
           <li>
