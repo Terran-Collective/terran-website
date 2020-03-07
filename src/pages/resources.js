@@ -262,7 +262,7 @@ const ResourcesPage = ({ data }) => (
           <Headline
             title="Reading list"
           />
-          <p>This is an incomplete list of some of the books we’ve read that are important to our work. If you know of books that we should read in order to do our best work, please send your recommandations to <a href="info@terran.io">info@terran.io</a></p>
+          <p>This is an incomplete list of some of the books we’ve read that are important to our work. If you know of books that we should read in order to do our best work, please send your recommendations to <a href="info@terran.io">info@terran.io</a></p>
         </div>
         <div className="library">
         <div>

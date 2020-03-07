@@ -75,11 +75,7 @@ const IndexPage = () => (
               subtitle="What are we doing?"
               justification="center" />
             <ul className="cardList">
-              <li>
-                <strong>Storytelling for cultural evolution</strong>
-                How do we shift cultural narratives and share a new story in a way that resonates with different communities? Terran creates hopeful and inspiring content, memes, media, and events, in order to build a movement which aligns us around a new shared purpose for human civilization -- creating a world that works for all.
-                <div className="centerText"><Button link="/what-we-do/#storytelling" label="How we build movements" /></div>
-              </li>
+
               <li>
                 <strong>Community weaving</strong>
                 Strong communities can develop resilience amidst rapid change, heal and regenerate the land we live on, and step into solidarity, equity and abundance together. Terran builds community by hosting regular gatherings both small and large throughout the year, as well as weaving connections between aligned people and organizations. All to create deeper, stronger, relationships based on trust.
@@ -99,6 +95,11 @@ const IndexPage = () => (
                 <strong>Regenerating the commons</strong>
                 Our land, our resources, and our communities are a commons. Rebuilding this worldview and our ability to collectively govern the commons is the core of our theory of change. To move us in this direction we are designing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> , and the creation of modern guilds to steward shared areas of collective responsibility.
                 <div className="centerText"><Button link="/what-we-do/#regenerating-the-commons" label="Our approach to coordination" /></div>
+              </li>
+              <li>
+                <strong>Storytelling for cultural evolution</strong>
+                How do we shift cultural narratives and share a new story in a way that resonates with different communities? Terran creates hopeful and inspiring content, memes, media, and events, in order to build a movement which aligns us around a new shared purpose for human civilization -- creating a world that works for all.
+                <div className="centerText"><Button link="/what-we-do/#storytelling" label="How we build movements" /></div>
               </li>
             </ul>
           </div>
