@@ -27,34 +27,7 @@ const WhatAreWeDoingPage = () => (
       <div className="heroPanelBg"></div>
     </div>
 
-    <Panel justification="center">
-      <div id="scopes-of-practice" className="twoColumnsRightText">
-        <Headline
-          title="Storytelling for cultural evolution"
-          subtitle="SCOPE OF PRACTICE"
-        />
-        <p>We are storytellers, artists and writers, who know that we will not be able to accomplish our goals without deep cultural shifts. For example, mitigating climate change will require wholesale changes to our economic systems, and that will require new stories about what we value and why. </p>
-        <p>Learning how to tell these stories of interbeing and abundance in a way that creates a movement and spreads far and wide is a big project. Even though we believe that at the core we need to find deep alignment, different communities will respond to different ways of expressing the same fundamental values. So we are experimenting with various messages and mediums of storytelling through blog posts, meme creation, and events of all kinds.</p>
-        <div>
-          <h3>Current Focus</h3>
-            <ul>
-              <li>
-                <p>Sharing our ideas through <a href="https://medium.com/terran-collective" target="_blank" rel="noopener noreferrer">writing</a>.</p>
-              </li>
-              <li>
-                <p>Creating new holidays that help people envision what is possible and find their role in the work needed to get there. Our first version of this is <a href="https://docs.google.com/document/u/1/d/1gVs2NTvp9M34Ioe6dqMPDt9BffEn2NIBL0X9Eq65-6M/edit" target="_blank" rel="noopener noreferrer">Inheritance Day</a>, a holiday every December 12 where we imagine that we are living 150 years in the future when humanity has created paradise on earth, and we are honoring all the ancestors for the hard work they did to get us there. It’s a future seeing mix of Thanksgiving and Passover and has been really impactful since we started celebrating it in 2015. </p>
-              </li>
-            </ul>
-          <h3>Current Inquiry</h3>
-          <p>Is All Beings Thriving a story that will resonate with others enough? Is it too utopian? How can we tell stories that are inclusive and inspiring and unifying all at the same time?</p>
-        </div>
-      </div>
-      <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_castor_canadensis.jpg" alt="Castor canadensis" showCaption="true" />
-      </div>
-    </Panel>
-
-    <Panel justification="center">
+    <Panel justification="center" id="scopes-of-practice">
       <div className="twoColumnsRightImage">
         <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
       </div>
@@ -85,8 +58,8 @@ const WhatAreWeDoingPage = () => (
       </div>
     </Panel>
 
-    <Panel justification="center">
-      <div id="technology-for-thriving" className="twoColumnsLeftText">
+    <Panel justification="center" id="technology-for-thriving">
+      <div className="twoColumnsLeftText">
         <Headline
           title="Technology for thriving"
           subtitle="SCOPE OF PRACTICE"
@@ -113,11 +86,36 @@ const WhatAreWeDoingPage = () => (
       </div>
     </Panel>
 
-    <Panel justification="center">
+    <Panel justification="center" id="regenerating-the-commons">
       <div className="twoColumnsLeftImage">
-        <Image filename="what_do/what_do_calypte_anna2x.jpg" alt="Calypte anna" showCaption="true" />
+        <Image filename="what_do/what_do_meleagris_gallopavo2x.jpg" alt="Meleagris gallopavo" showCaption="true" />
       </div>
-      <div id="collaborative-ecosystem-mapping" className="twoColumnsRightText">
+      <div className="twoColumnsRightText">
+        <Headline
+          title="Regenerating the commons"
+          subtitle="SCOPE OF PRACTICE"
+        />
+        <p>Our land, our resources, and our communities are a commons. How can we return to an understanding that governing our shared resources is a shared responsibility? Rebuilding the commons worldview and our ability to collectively govern is the core of our theory of change.</p>
+        <p>To refresh our ideas of ownership and governance, we are designing and experimenting with new and remembered ways of working together, sharing resources, group decision making and how to steward commons and common pool resources.</p>
+        <div>
+          <h3>Current Focus</h3>
+            <ul>
+              <li>
+                <p><span>Researching collective governance models:</span> One of the most important changes required right now is for us to learn how to make effective decisions together through collaboration and cooperation instead of competition and dominance. We are exploring governance models like Sociocracy that are dynamic, decentralized and empowering. </p>
+              </li>
+              <li>
+                <p><span><span data-html="true" data-class="guildTooltip" data-tip="A guild is usually defined as an association of people working toward a common goal. In permaculture, a guild is a grouping of plants, trees, animals, insects, and other components that work together to help ensure their health and productivity." className="guildSeed">Seeding bioregional <a href='http://www.neverendingfood.org/b-what-is-permaculture/permaculture-guilds/' target='_blank' rel="noopener noreferrer">guilds</a></span> across many sectors:</span> We see creating modern guilds as an important way to help those already doing regenerative work in our bioregion to coordinate more effectively. These guilds will bring together everyone working in a particular field, for example agriculture, education, technology, governance, etc. into an organizational structure designed to foster collaboration amongst existing projects. Guilds will help make sure work isn’t being duplicated, information and knowledge is being shared, and resources are flowing where they are needed at the right time. We are just beginning the project of helping these guilds form, and see this as an important medium term project we can help steward. </p>
+                <ReactTooltip />
+              </li>
+            </ul>
+          <h3>Current Inquiry</h3>
+          <p>How can we create models of leadership, governance and ownership that are effective and can outcompete the market, while enabling each contributor to offer their gifts fully and feel included, supported, empowered, and energized to do the work required? </p>
+        </div>
+      </div>
+    </Panel>
+
+    <Panel justification="center" id="collaborative-ecosystem-mapping">
+      <div className="twoColumnsLeftText">
         <Headline
           title="Collaborative ecosystem mapping"
           subtitle="SCOPE OF PRACTICE"
@@ -141,33 +139,35 @@ const WhatAreWeDoingPage = () => (
           <p>How can transparently mapping resources and relationships across a bioregion generate stronger bonds, build accountability, and accelerate regeneration?</p>
         </div>
       </div>
+      <div className="twoColumnsRightImage">
+        <Image filename="what_do/what_do_calypte_anna2x.jpg" alt="Calypte anna" showCaption="true" />
+      </div>
     </Panel>
 
-    <Panel justification="center">
-      <div id="regenerating-the-commons" className="twoColumnsLeftText">
+    <Panel justification="center" id="storytelling" >
+      <div className="twoColumnsLeftImage">
+        <Image filename="what_do/what_do_castor_canadensis.jpg" alt="Castor canadensis" showCaption="true" />
+      </div>
+      <div className="twoColumnsRightText">
         <Headline
-          title="Regenerating the commons"
+          title="Storytelling for cultural evolution"
           subtitle="SCOPE OF PRACTICE"
         />
-        <p>Our land, our resources, and our communities are a commons. How can we return to an understanding that governing our shared resources is a shared responsibility? Rebuilding the commons worldview and our ability to collectively govern is the core of our theory of change.</p>
-        <p>To refresh our ideas of ownership and governance, we are designing and experimenting with new and remembered ways of working together, sharing resources, group decision making and how to steward commons and common pool resources.</p>
+        <p>We are storytellers, artists and writers, who know that we will not be able to accomplish our goals without deep cultural shifts. For example, mitigating climate change will require wholesale changes to our economic systems, and that will require new stories about what we value and why. </p>
+        <p>Learning how to tell these stories of interbeing and abundance in a way that creates a movement and spreads far and wide is a big project. Even though we believe that at the core we need to find deep alignment, different communities will respond to different ways of expressing the same fundamental values. So we are experimenting with various messages and mediums of storytelling through blog posts, meme creation, and events of all kinds.</p>
         <div>
           <h3>Current Focus</h3>
             <ul>
               <li>
-                <p><span>Researching collective governance models:</span> One of the most important changes required right now is for us to learn how to make effective decisions together through collaboration and cooperation instead of competition and dominance. We are exploring governance models like Sociocracy that are dynamic, decentralized and empowering. </p>
+                <p>Sharing our ideas through <a href="https://medium.com/terran-collective" target="_blank" rel="noopener noreferrer">writing</a>.</p>
               </li>
               <li>
-                <p><span><span data-html="true" data-class="guildTooltip" data-tip="A guild is usually defined as an association of people working toward a common goal. In permaculture, a guild is a grouping of plants, trees, animals, insects, and other components that work together to help ensure their health and productivity." className="guildSeed">Seeding bioregional <a href='http://www.neverendingfood.org/b-what-is-permaculture/permaculture-guilds/' target='_blank' rel="noopener noreferrer">guilds</a></span> across many sectors:</span> We see creating modern guilds as an important way to help those already doing regenerative work in our bioregion to coordinate more effectively. These guilds will bring together everyone working in a particular field, for example agriculture, education, technology, governance, etc. into an organizational structure designed to foster collaboration amongst existing projects. Guilds will help make sure work isn’t being duplicated, information and knowledge is being shared, and resources are flowing where they are needed at the right time. We are just beginning the project of helping these guilds form, and see this as an important medium term project we can help steward. </p>
-                <ReactTooltip />
+                <p>Creating new holidays that help people envision what is possible and find their role in the work needed to get there. Our first version of this is <a href="https://docs.google.com/document/u/1/d/1gVs2NTvp9M34Ioe6dqMPDt9BffEn2NIBL0X9Eq65-6M/edit" target="_blank" rel="noopener noreferrer">Inheritance Day</a>, a holiday every December 12 where we imagine that we are living 150 years in the future when humanity has created paradise on earth, and we are honoring all the ancestors for the hard work they did to get us there. It’s a future seeing mix of Thanksgiving and Passover and has been really impactful since we started celebrating it in 2015. </p>
               </li>
             </ul>
           <h3>Current Inquiry</h3>
-          <p>How can we create models of leadership, governance and ownership that are effective and can outcompete the market, while enabling each contributor to offer their gifts fully and feel included, supported, empowered, and energized to do the work required? </p>
+          <p>Is All Beings Thriving a story that will resonate with others enough? Is it too utopian? How can we tell stories that are inclusive and inspiring and unifying all at the same time?</p>
         </div>
-      </div>
-      <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_meleagris_gallopavo2x.jpg" alt="Meleagris gallopavo" showCaption="true" />
       </div>
     </Panel>
 

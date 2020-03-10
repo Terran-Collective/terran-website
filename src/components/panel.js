@@ -7,11 +7,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import ScrollAnimation from 'react-animate-on-scroll'
 
-const Panel = ({ children, justification, bleed }) => {
+const Panel = ({ children, justification, bleed, id }) => {
 
   return (
     <ScrollAnimation animateIn="fadeIn">
-      <div className="flexPanel" style={{
+      <div className="flexPanel" id={id} style={{
         justifyContent: justification,
       }}>
           {children}
@@ -24,6 +24,7 @@ Panel.propTypes = {
   children: PropTypes.node.isRequired,
   justification: PropTypes.string,
   bleed: PropTypes.string,
+  id: PropTypes.string,
 }
 
 Panel.defaultProps = {

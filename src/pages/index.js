@@ -83,18 +83,18 @@ const IndexPage = () => (
               </li>
               <li>
                 <strong>Technology for thriving</strong>
-                The tools to coordinate at scale, without coercion or rent-seeking, do not yet exist. We design software that serves human thriving by supporting community building, collaborative sensemaking, cooperative decision making, and group coordination.
+                The tools to coordinate at scale, without coercion or rent-seeking, do not yet exist. We design software that serves human thriving by supporting community building, collective sensemaking, collaborative decision making, and group coordination.
                 <div className="centerText"><Button link="/what-we-do/#technology-for-thriving" label="Technology in service to life" /></div>
+              </li>
+              <li>
+                <strong>Regenerating the commons</strong>
+                Our land, our resources, and our communities are a commons. Rebuilding this worldview and our ability to collectively govern the commons is the core of our theory of change. To move us in this direction we are designing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a>, and the creation of modern guilds to steward shared areas of collective responsibility.
+                <div className="centerText"><Button link="/what-we-do/#regenerating-the-commons" label="Our approach to coordination" /></div>
               </li>
               <li>
                 <strong>Collaborative ecosystem mapping</strong>
                 We believe that mapping resource flows will allow our communities to deepen relationships and make more informed and equitable collective decisions. These maps will be collaboratively developed and shared publicly so that we can experiment with more transparent ways of coordination.
                 <div className="centerText"><Button link="/what-we-do/#collaborative-ecosystem-mapping" label="What we're mapping" /></div>
-              </li>
-              <li>
-                <strong>Regenerating the commons</strong>
-                Our land, our resources, and our communities are a commons. Rebuilding this worldview and our ability to collectively govern the commons is the core of our theory of change. To move us in this direction we are designing and experimenting with decentralized governance structures, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a> , and the creation of modern guilds to steward shared areas of collective responsibility.
-                <div className="centerText"><Button link="/what-we-do/#regenerating-the-commons" label="Our approach to coordination" /></div>
               </li>
               <li>
                 <strong>Storytelling for cultural evolution</strong>
