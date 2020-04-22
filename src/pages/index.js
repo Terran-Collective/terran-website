@@ -83,7 +83,7 @@ const IndexPage = () => (
               </li>
               <li>
                 <strong>Technology for thriving</strong>
-                The tools to coordinate at scale, without coercion or rent-seeking, do not yet exist. We design software that serves human thriving by supporting community building, collective sensemaking, collaborative decision making, and group coordination.
+                The tools to coordinate at scale, without coercion or rent-seeking, do not yet exist. We design software that serves human thriving by supporting community building, collective sensemaking, collaborative decision making, and group coordination. We're building this platform for the regenerative future on Hylo.
                 <div className="centerText"><Button link="/what-we-do/#technology-for-thriving" label="Technology in service to life" /></div>
               </li>
               <li>

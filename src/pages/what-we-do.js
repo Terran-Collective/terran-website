@@ -19,7 +19,7 @@ const WhatAreWeDoingPage = () => (
             title="We are building infrastructure for the future we wish to inhabit"
             subtitle="What we do"
           />
-          <p>Terran Collective’s work is creating tools, systems, and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to the greatest good of all beings?  We want to create free and open-source software for everyone, to advance the transition to a regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
+          <p>Terran Collective's work is creating tools, systems, and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to the greatest good of all beings?  We want to create free and open-source software for everyone, to advance the transition to a regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
           <Button link="/what-we-do/#scopes-of-practice" label="Scopes of Practice" />
           <Button link="/what-we-do/#roadmap" label="Roadmap" />
         </div>
@@ -43,10 +43,10 @@ const WhatAreWeDoingPage = () => (
           <h3>Current Focus</h3>
             <ul>
               <li>
-                <p>We are working to establish a regular rhythm of Terran gatherings, both simple and small community ones like potlucks and larger convenings like our recent <a href="http://terrancospiracy.com">Terran Cospiracy</a>, along with regular community Zoom calls. </p>
+                <p>We host a regular rhythm of Terran gatherings, both simple and small community ones like potlucks and larger convenings like our recent <a href="http://terrancospiracy.com">Terran Cospiracy</a>, along with regular community Zoom calls. </p>
               </li>
               <li>
-                <p>We are also committed to participating in as many gatherings and days of action hosted by our bioregional partners and friends as we can. </p>
+                <p>We are also committed to participating in as many gatherings and days of action hosted by our bioregional partners and friends as we can.</p>
               </li>
               <li>
                 <p>Find our event calendar and all the ways you can join our community and stay connected on our <Link to="/community">Community page</Link>.</p>
@@ -64,21 +64,27 @@ const WhatAreWeDoingPage = () => (
           title="Technology for thriving"
           subtitle="SCOPE OF PRACTICE"
         />
-        <p>We are technologists, software developers and designers with decades of experience.   We see an opportunity for technology to increase interdependence, collaboration and cooperation without coercion or manipulation.</p>
+        <p>As technologists, software developers and designers with decades of experience, we see an opportunity for technology to increase interdependence and cooperation without coercion or manipulation.</p>
         <p>We create software tools that map relationships, resources, needs, skills and offerings, and that allow people to coordinate collective action, activating them to participate in the regeneration of the world.</p>
-        <p>We aim to create tech commons and software utilities for all, not just products for those who can afford them.</p>
+        <p>We're building these tools on <a href="https://www.hylo.com/" target="_blank" rel="noopener noreferrer">Hylo</a>, a coordination platform that we steward in partnership with <a href="https://holo.host/" target="_blank" rel="noopener noreferrer">Holo</a>, the makers of Holochain.</p>
         <div>
           <h3>Current Focus</h3>
             <ul>
               <li>
-                <p><span>Launching our core platform:</span> Announcement about this soon</p>
+                <p><span>Launching new coordination features on Hylo in partnership with regenerative communities using the platform</span></p>
+              </li>
+              <li>
+                <p><span><a href="https://medium.com/terran-collective/in-partnership-with-holo-terran-collective-is-building-hylo-the-collaboration-platform-for-a-224dd6d1be1e" target="_blank" rel="noopener noreferrer">Read the announcement about Hylo</a></span></p>
               </li>
               <li>
                 <p><span>Developing our technology roadmap</span></p>
               </li>
+              <li>
+                <p><span>Transition Hylo to a platform cooperative, to experiment with tech commons and software utilities for all</span></p>
+              </li>
             </ul>
           <h3>Current Inquiry</h3>
-          <p>How can technology bring us closer together, into real, trust-based, local community? How can it  support individual and group thriving, instead of driving us apart, distracting us and being used primarily to steal our attention and sell us things?</p>
+          <p>How can technology bring us closer together, into resilient, trust-based, land-based community? How can it  support individual and group thriving, instead of driving us apart, distracting us and extracting our attention?</p>
         </div>
       </div>
       <div className="twoColumnsRightImage">
@@ -100,6 +106,9 @@ const WhatAreWeDoingPage = () => (
         <div>
           <h3>Current Focus</h3>
             <ul>
+              <li>
+                <p><span>Doing the tough but rewarding relational work required to be in deep coherence as a team</span></p>
+              </li>
               <li>
                 <p><span>Researching collective governance models:</span> One of the most important changes required right now is for us to learn how to make effective decisions together through collaboration and cooperation instead of competition and dominance. We are exploring governance models like Sociocracy that are dynamic, decentralized and empowering. </p>
               </li>
