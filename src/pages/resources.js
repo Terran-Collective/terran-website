@@ -320,6 +320,16 @@ const ResourcesPage = ({ data }) => (
             <Image filename="resources/books/the_tao_of_democracy2x.jpg" alt="The Tao of Democracy by Tom Atlee"/>
           </a>
         </div>
+        <div>
+          <a href="https://www.prosocial.world">
+            <Image filename="resources/books/prosocial.jpg" alt="Prosocial: Using Evolutionary Science to Build Productive, Equitable, and Collaborative Groups by Paul W.B. Atkins PhD, David Sloan Wilson PhD, Steven C. Hayes PhD,"/>
+          </a>
+        </div>
+        <div>
+          <a href="https://newsociety.com/books/f/free-fair-and-alive">
+            <Image filename="resources/books/free_fair_and_alive.jpg" alt="Free, Fair, and Alive: The Insurgent Power of the Commons by by David Bollier and Silke Helfrich"/>
+          </a>
+        </div>
         </div>
       </div>
     </Panel>
