@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
@@ -6,14 +5,14 @@ import WatershedPanel from "../components/watershedPanel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import collinsiaHeterophylla from "../images/home/home_collinsia_heterophylla.jpg"
 import ScrollAnimation from 'react-animate-on-scroll'
 import TextLoop from "react-text-loop";
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <Seo title="Home" />
     <div className="homeHeroPanel">
       <Panel>
         <div className="homeHero">
@@ -38,7 +37,8 @@ const IndexPage = () => (
               top: window.innerHeight,
               behavior: 'smooth',
             })
-          }}></button>
+          }}
+          aria-label="Scroll Down"></button>
         </ScrollAnimation>
       </div>
       <Panel justification="center">

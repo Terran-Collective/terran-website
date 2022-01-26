@@ -1,15 +1,14 @@
-import { graphql } from 'gatsby'
 import React from "react"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const ResourcesPage = ({ data }) => (
   <Layout>
-    <SEO title="Resource Library" />
+    <Seo title="Resource Library" />
 
     <div className="heroPanel resourcesHero">
       <Panel justification="center">
@@ -266,67 +265,67 @@ const ResourcesPage = ({ data }) => (
         </div>
         <div className="library">
         <div>
-          <a href="https://duckduckgo.com/?q=a+finer+future+hunter+lovins" target='_blank'>
+          <a href="https://duckduckgo.com/?q=a+finer+future+hunter+lovins" target="_blank" rel="noreferrer">
             <Image filename="resources/books/a_finer_future2x.jpg" alt="A Finer Future by Hunter Lovins"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=becoming+animal+david+abram" target='_blank'>
+          <a href="https://duckduckgo.com/?q=becoming+animal+david+abram" target="_blank" rel="noreferrer">
             <Image filename="resources/books/becoming_animal2x.jpg" alt="Becoming Animal by David Abram"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=emergent+strategy+adrienne+marie+brown" target='_blank'>
+          <a href="https://duckduckgo.com/?q=emergent+strategy+adrienne+marie+brown" target="_blank" rel="noreferrer">
             <Image filename="resources/books/emergent_strategy2x.jpg" alt="Emergent Strategy by adrienne marie brown"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=finite+and+infinite+games+james+carse" target='_blank'>
+          <a href="https://duckduckgo.com/?q=finite+and+infinite+games+james+carse" target="_blank" rel="noreferrer">
             <Image filename="resources/books/finite_and_infinite_games2x.jpg" alt="Finite and Infinite Games by James P. Carse"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=governing+the+commons+elinor+ostrom" target='_blank'>
+          <a href="https://duckduckgo.com/?q=governing+the+commons+elinor+ostrom" target="_blank" rel="noreferrer">
             <Image filename="resources/books/governing_the_commons2x.jpg" alt="Governing the Commons by Elinor Ostrom"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=ishmael+daniel+quinn" target='_blank'>
+          <a href="https://duckduckgo.com/?q=ishmael+daniel+quinn" target="_blank" rel="noreferrer">
             <Image filename="resources/books/ishmael2x.jpg" alt="Ishmael by Daniel Quinn"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=reinventing+organizations+frederic+laloux" target='_blank'>
+          <a href="https://duckduckgo.com/?q=reinventing+organizations+frederic+laloux" target="_blank" rel="noreferrer">
             <Image filename="resources/books/reinventing_organizations2x.jpg" alt="Reinventing Organizations by Frederic Laloux"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=sacred+economics+charles+eisenstein" target='_blank'>
+          <a href="https://duckduckgo.com/?q=sacred+economics+charles+eisenstein" target="_blank" rel="noreferrer">
             <Image filename="resources/books/sacred_economics2x.jpg" alt="Sacred Economics by Charles Eisenstein"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=fifth+sacred+thing+starhawk" target='_blank'>
+          <a href="https://duckduckgo.com/?q=fifth+sacred+thing+starhawk" target="_blank" rel="noreferrer">
             <Image filename="resources/books/the_fifth_sacred_thing2x.jpg" alt="The Fifth Sacred Thing by Starhawk"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=practice+of+the+wild+gary+snyder" target='_blank'>
+          <a href="https://duckduckgo.com/?q=practice+of+the+wild+gary+snyder" target="_blank" rel="noreferrer">
             <Image filename="resources/books/the_practice_of_the_wild2x.jpg" alt="The Practice of the Wild by Gary Snyder"/>
           </a>
         </div>
         <div>
-          <a href="https://duckduckgo.com/?q=tao+of+democracy+tom+atlee" target='_blank'>
+          <a href="https://duckduckgo.com/?q=tao+of+democracy+tom+atlee" target="_blank" rel="noreferrer">
             <Image filename="resources/books/the_tao_of_democracy2x.jpg" alt="The Tao of Democracy by Tom Atlee"/>
           </a>
         </div>
         <div>
-          <a href="https://www.prosocial.world" target='_blank'>
+          <a href="https://www.prosocial.world" target="_blank" rel="noreferrer">
             <Image filename="resources/books/prosocial.jpg" alt="Prosocial: Using Evolutionary Science to Build Productive, Equitable, and Collaborative Groups by Paul W.B. Atkins PhD, David Sloan Wilson PhD, Steven C. Hayes PhD,"/>
           </a>
         </div>
         <div>
-          <a href="https://newsociety.com/books/f/free-fair-and-alive" target='_blank'>
+          <a href="https://newsociety.com/books/f/free-fair-and-alive" target="_blank" rel="noreferrer">
             <Image filename="resources/books/free_fair_and_alive.jpg" alt="Free, Fair, and Alive: The Insurgent Power of the Commons by by David Bollier and Silke Helfrich"/>
           </a>
         </div>
@@ -433,14 +432,7 @@ const ResourcesPage = ({ data }) => (
         />
         <p>These are people whose work has in some way deeply informed our collective understanding of the world.</p>
         <ul>
-          { data.allGoogleSheetTeachersRow.nodes.map((row) => (
-            <li>
-              <a href={row.url} target='_blank' rel="noopener noreferrer">
-              <h3>{row.name}</h3>
-              <span>{row.title}</span>
-              </a>
-            </li>
-          ))}
+          <li>TEACHERS</li>
         </ul>
       </div>
     </Panel>
@@ -448,17 +440,27 @@ const ResourcesPage = ({ data }) => (
 
 )
 
-export const query = graphql`
-  query ResourcesPageQuery {
-    allGoogleSheetTeachersRow {
-      nodes {
-        id
-        name
-        title
-        url
-      }
-    }
-  }
-`
-
 export default ResourcesPage
+
+
+// { data.allGoogleSheetTeachersRow.nodes.map((row) => (
+//   <li>
+//     <a href={row.url} target="_blank" rel="noreferrer" rel="noopener noreferrer">
+//     <h3>{row.name}</h3>
+//     <span>{row.title}</span>
+//     </a>
+//   </li>
+// ))}
+
+// export const query = graphql`
+//   query ResourcesPageQuery {
+//     allGoogleSheetTeachersRow {
+//       nodes {
+//         id
+//         name
+//         title
+//         url
+//       }
+//     }
+//   }
+// `

@@ -1,11 +1,10 @@
-import { graphql } from 'gatsby'
 import React from "react"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import missionDiagram from "../images/what_is/what_is_mission_diagram.svg"
 import visionDiagram from "../images/what_is/what_is_vision_diagram.svg"
 import whatIsScope1 from "../images/what_is/what_is_scope_12x.png"
@@ -19,7 +18,7 @@ import vacciniumOvatum from "../images/what_is/what_is_vaccinium_ovatum.jpg"
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <SEO title="What Is Terran - Who We Are" />
+    <Seo title="What Is Terran - Who We Are" />
     <div className="heroPanel whatIsTerranHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -243,40 +242,7 @@ const AboutPage = ({ data }) => (
           </li>
         </ul>
     </Panel>
-    <Panel justification="center">
-      <div id="our-teachers" className="ourTeachers resourceHeadline">
-        <Headline
-          title="Our Teachers"
-        />
-        <p>These are the authors, artists, scientists, organizers and leaders of all kinds whose work has in some way deeply informed our collective understanding of the world.</p>
-        <ul>
-          { data.allGoogleSheetTeachersRow.nodes.map((row) => (
-            <li>
-              <a href={row.url} target='_blank' rel="noopener noreferrer">
-              <h3>{row.name}</h3>
-              <span>{row.title}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </Panel>
-
-
   </Layout>
 )
-
-export const query = graphql`
-  query AboutPageQuery {
-    allGoogleSheetTeachersRow {
-      nodes {
-        id
-        name
-        title
-        url
-      }
-    }
-  }
-`
 
 export default AboutPage

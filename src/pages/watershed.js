@@ -5,7 +5,7 @@ import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import watershedLogo from "../images/logos/terran_watershed_logo_2x.png"
 import resourceUse1 from "../images/watershed/watershed_resource_use_1.png"
@@ -17,7 +17,7 @@ import aesculusCalifornica from "../images/watershed/watershed_aesculus_californ
 
 const watershed = () => (
   <Layout>
-    <SEO title="Terran Watershed" />
+    <Seo title="Terran Watershed" />
 
     <div className="heroPanel watershedHero">
       <Panel justification="center">

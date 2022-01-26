@@ -9,16 +9,16 @@ import rubusSpectabilis from "../images/bioregion/bioregion_rubus_spectabilis.jp
 
 const bioregion = () => (
   <Layout>
-    <Seo title="Bioregion" />
+    <Seo title="Inheritance Day" />
 
     <div className="heroPanel bioregionHero">
       <Panel justification="center">
         <div className="pageHero">
           <Headline
-            title="Bioregions are the emergent boundaries expressed by nature"
-            subtitle="Why focus on a bioregion?"
+            title="Inheritance Day"
+            subtitle="Storytelling for cultural evolution"
           />
-          <p>We embrace the frame of the bioregion: that we are inhabitants of a more-than-human community in partnership with the landscape we live on. We are inspired by the indigenous communities who identify themselves by their local mountain, the nearest river, and the animals and plants they count as kin. We bow in gratitude to the visionaries of the bioregionalism movement, including Peter Berg and Gary Snyder. Remembering the bioregion reminds us that we do this work with all our relations.</p>
+          <p>It's time to once again come together to celebrate our ancestors for all that they've given us, all the hard work they put in to create the world we live in today. And by today, I mean December 12th, 2171</p>
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -30,10 +30,28 @@ const bioregion = () => (
       </div>
       <div className="twoColumnsRightText">
         <Headline
-          title="We belong to the land we inhabit"
+          title="What are we inheriting?"
         />
-        <p>Bioregionalism invites us to remember our ecological identity, grounded in the functional landscape that the Earth herself expresses. The landscape is our partner-a living, intelligent participant in regeneration-and the gift and invitation is to listen to the Earth and re-organize human society in a way that includes the more-than-human world.</p>
-        <p>We belong to the land. We are called to know the plants and animals that make their home alongside us. This is the land that is ours to heal. The world is alive and is always speaking to us. Only by nurturing our personal familiarity with our own bioregion can we hear what the land is asking for. </p>
+        <p>We celebrate Inheritance Day annually on December 12th. On this day, we envision
+          we are 150 years in the future, and humans have learned to live
+         in harmony with each other and the planet. War is a thing of the past.
+         The global community eliminated poverty and ensured that every person has food,
+         shelter, and healthcare by focusing on thriving and abundance for all. We have learned
+         how to live lightly and sustainably with the planet, there is renewable energy for all,
+          and the earth's systems have been restored to a healthy balance. Women, LGBTQIA folx,
+          and people of all cultures, colors and religious beliefs have equal rights and freedoms worldwide.</p>
+          <p>So we sit down to dinner with our families, both birth and chosen, and celebrate these
+          incredible achievements that our ancestors worked so hard for! The meal
+          has a special set of courses, similar to Passover (with a dash of Thanksgiving),
+          and each one honors the important historical milestones that we achieved.
+          We ring a special bell at the start of each course, so we name them Bell 1,
+          Bell 2, etc. and each bell has associated activities/ritual. We also use this
+          dinner to reflect on our own ancestral lineage and cultural heritage that
+          lead to us being alive today on this incredible mother earth.</p>
+        <p>We invite you to adopt this holiday as your own. Below you will
+        find our suggested plan for the ritual, including a sample menu, but feel
+        free to adapt as desired! Below that is a sample invitation you could send
+        out to your friends and family.</p>
       </div>
     </Panel>
 

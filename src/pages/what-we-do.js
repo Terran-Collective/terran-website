@@ -5,12 +5,12 @@ import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link } from "gatsby"
 
 const WhatAreWeDoingPage = () => (
   <Layout>
-    <SEO title="What we do" />
+    <Seo title="What we do" />
 
     <div className="heroPanel whatWeDoHero">
       <Panel justification="center">

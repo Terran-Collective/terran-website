@@ -5,7 +5,7 @@ import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Image from "../components/image"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 import aquilegiaFormosa from "../images/community/community_aquilegia_formosa.jpg"
 import fbImg from "../images/icon/icon_fb.svg"
@@ -14,7 +14,7 @@ import emailImg from "../images/icon/icon_email.svg"
 
 const community = () => (
   <Layout>
-    <SEO title="Community" />
+    <Seo title="Community" />
 
     <div className="heroPanel communityHero">
       <Panel justification="center">
@@ -362,15 +362,15 @@ const community = () => (
           </li>
           <li>
             <div>
-              <a>
-                <h3>Heartland</h3>
+              <a href="https://heartlandcollective.org/">
+                <h3>Heartland Collective</h3>
                 <span></span>
               </a>
             </div>
           </li>
           <li>
             <div>
-              <a>
+              <a href="https://cassandraferrera.net/projects/landwell-community/">
                 <h3>Landwell</h3>
                 <span></span>
               </a>
@@ -397,14 +397,6 @@ const community = () => (
               <a href="https://www.aletheiasprings.com/">
                 <h3>Aletheia</h3>
                 <span>We are Aletheia Springs, a multigenerational community stewarding and working to regenerate the land and waters of a historic 20-acre geothermal mineral springs in the heart of Sonoma Valley, Northern California </span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a>
-                <h3>Wyldflower</h3>
-                <span></span>
               </a>
             </div>
           </li>
