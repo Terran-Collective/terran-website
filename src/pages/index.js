@@ -1,10 +1,10 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import WatershedPanel from "../components/watershedPanel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Image from "../components/image"
 import Seo from "../components/seo"
 import collinsiaHeterophylla from "../images/home/home_collinsia_heterophylla.jpg"
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -43,7 +43,10 @@ const IndexPage = () => (
       </div>
       <Panel justification="center">
         <div className="twoColumnsLeftImage">
-          <Image filename="home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" showCaption="true" />
+          <figure>
+            <StaticImage src="../images/home/home_erysimum_franciscanum2x.jpg" alt="Erysimum franciscanum" />
+            <figcaption>Erysimum franciscanum</figcaption>
+          </figure>
         </div>
         <div className="twoColumnsRightText">
           <h3 className="superHeadline">What is Terran?</h3>
@@ -71,8 +74,8 @@ const IndexPage = () => (
           <img className="collinsiaHeterophylla leftImage" src={collinsiaHeterophylla} alt="Collinsia heterophylla" />
           <div className="threeColumnsCenterText">
             <Headline
-              title="Building systems and tools that foster trust and collaboration"
-              subtitle="What are we doing?"
+              title="We build systems and tools that foster trust and collaboration"
+              subtitle="What We Do"
               justification="center" />
             <ul className="cardList">
 
@@ -119,12 +122,18 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="twoColumnsRightImage">
-          <Image filename="home/home_sylvagus_bachmani2x.jpg" alt="Sylvagus bachmani" showCaption="true" />
+          <figure>
+            <StaticImage src="../images/home/home_sylvagus_bachmani2x.jpg" alt="Sylvagus bachmani" />
+            <figcaption>Sylvagus bachmani</figcaption>
+          </figure>
         </div>
       </Panel>
       <Panel justification="center">
         <div className="twoColumnsLeftImage">
-          <Image filename="home/community_and_resources.png" alt="Photos from Cospiracy" showCaption="true" />
+          <figure>
+            <StaticImage src="../images/home/community_and_resources.png" alt="Photos from Cospiracy" />
+            <figcaption>Photos from Cospiracy</figcaption>
+          </figure>
         </div>
         <div className="twoColumnsRightText">
           <Headline

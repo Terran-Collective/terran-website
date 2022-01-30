@@ -115,6 +115,13 @@ samp {
 }
 figure {
   margin: 1em 40px;
+  text-align: center;
+}
+figcaption {
+  margin: 0 auto;
+  opacity: .75;
+  font-style: italic;
+  font-size: 16px;
 }
 hr {
   box-sizing: content-box;
