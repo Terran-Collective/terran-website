@@ -1,6 +1,6 @@
 import React from "react"
 // import { graphql, useStaticQuery } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -13,7 +13,6 @@ import { StaticImage } from "gatsby-plugin-image"
 
     return (
       <figure>
-        <StaticImage src={filename} alt={alt} />
         <figcaption>{showCaption ? alt : ``}</figcaption>
       </figure>
     );
@@ -22,7 +21,7 @@ import { StaticImage } from "gatsby-plugin-image"
 export default Image
 
 
-//
+// <StaticImage src={filename} alt={alt} />
 // const data = useStaticQuery(graphql`
 //     query {
 //       images: allFile {
