@@ -1,14 +1,13 @@
 import React from "react"
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Image from "../components/image"
 import Seo from "../components/seo"
 
 import aquilegiaFormosa from "../images/community/community_aquilegia_formosa.jpg"
-import fbImg from "../images/icon/icon_fb.svg"
+import hyImg from "../images/icon/icon_hylo.svg"
 import igImg from "../images/icon/icon_ig.svg"
 import emailImg from "../images/icon/icon_email.svg"
 
@@ -35,16 +34,19 @@ const community = () => (
 
     <Panel justification="center">
       <div className="twoColumnsLeftImage" id="join">
-        <Image filename="community/community_charadrius_vociferus2x.jpg" alt="Charadrius vociferus" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/community/community_charadrius_vociferus2x.jpg" alt="Charadrius vociferus" />
+          <figcaption>Charadrius vociferus</figcaption>
+        </figure>
       </div>
       <div className="twoColumnsRightText">
         <Headline
           title="Join the conversation"
         />
-        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank" rel="noopener noreferrer">join us on Facebook</a> and say hello. Join our email list for more in depth updates.</p>
+        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank" rel="noopener noreferrer">join us on Hylo</a> and say hello. Join our email list for monthly updates.</p>
         <div className="centerText communityLinks">
-          <a href="https://www.facebook.com/TerranCollective/" target="_blank" rel="noopener noreferrer">
-            <img src={fbImg} alt="Facebook" />
+          <a href="https://www.hylo.com/groups/terran-collective/join/a4bn6oVK3X" target="_blank" rel="noopener noreferrer">
+            <img src={hyImg} alt="Hylo" />
           </a>
           <a href="https://www.instagram.com/terrancollective/" target="_blank" rel="noopener noreferrer">
             <img src={igImg} alt="Instagram" />
@@ -93,7 +95,10 @@ const community = () => (
     </Panel>
     <Panel>
       <div className="singleColumnImage">
-        <Image filename="community/community_canis_latrans2x.jpg" alt="Canis latrans" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/community/community_canis_latrans2x.jpg" alt="Canis latrans" />
+          <figcaption>Canis latrans</figcaption>
+        </figure>
       </div>
     </Panel>
     <Panel>
@@ -102,7 +107,7 @@ const community = () => (
           title="ORGANIZATIONS WE TRUST"
           subtitle="Bioregional Allies"
         />
-        <p>The following is an incomplete list of organizations we see working on, experimenting with or practicing regeneration in the San Francisco Bay Area bioregion. If you are engaged in this work and not on this list, we would love to connect and understand how to amplify your work.</p>
+        <p>The following is an incomplete list of organizations we see practicing regeneration in the San Francisco Bay Area bioregion. If you are engaged in this work and not on this list, we would love to connect and understand how to amplify your work.</p>
 
         <ul className="smallWhiteCards">
           <li>
@@ -303,7 +308,10 @@ const community = () => (
     <Panel>
       <div className="singleColumnText">
         <div className="hygrocybeCoccinea">
-          <Image filename="community/community_hygrocybe_coccinea2x.jpg" alt="Hygrocybe coccinea" showCaption="true" />
+          <figure>
+            <StaticImage src="../images/community/community_hygrocybe_coccinea2x.jpg" alt="Hygrocybe coccinea" />
+            <figcaption>Hygrocybe coccinea</figcaption>
+          </figure>
         </div>
         <Headline
           title="Land-based communities and farms"
@@ -312,14 +320,6 @@ const community = () => (
         <p>Here are a number of communities we know about practicing regeneration in big ways and small. If you have a land-based community practicing regeneration in the Bay Area, reach out to us: We want to meet you and support your work.</p>
 
         <ul className="smallWhiteCards">
-          <li>
-            <div>
-              <a href="https://www.themushroom.farm/">
-                <h3>The Mushroom Farm</h3>
-                <span>The Mushroom Farm is a ~750 acre dream regeneration project on the California coastline.</span>
-              </a>
-            </div>
-          </li>
           <li>
             <div>
               <a href="https://www.agapolis.org/">
@@ -379,7 +379,7 @@ const community = () => (
           <li>
             <div>
               <a href="https://www.place.community/">
-                <h3>PLACE for sustainable living</h3>
+                <h3>PLACE for Sustainable Living</h3>
                 <span>A volunteer-run community hub that fosters regenerative living practices through People Linking Art, Community &amp Ecology</span>
               </a>
             </div>
@@ -396,7 +396,7 @@ const community = () => (
             <div>
               <a href="https://www.aletheiasprings.com/">
                 <h3>Aletheia</h3>
-                <span>We are Aletheia Springs, a multigenerational community stewarding and working to regenerate the land and waters of a historic 20-acre geothermal mineral springs in the heart of Sonoma Valley, Northern California </span>
+                <span>Aletheia Springs is a multigenerational community stewarding and working to regenerate the land and waters of a historic 20-acre geothermal mineral springs in the heart of Sonoma Valley, Northern California </span>
               </a>
             </div>
           </li>
