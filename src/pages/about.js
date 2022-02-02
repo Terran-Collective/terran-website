@@ -38,7 +38,6 @@ const AboutPage = ({ data }) => (
               <Button label="Core Beliefs, Values &amp; Principles" link="/about/#core-beliefs" color="#0080f8" />
               <Button label="How We Relate" link="/about/#how-we-relate" color="#0080f8" />
               <Button label="Stewards of the Collective" link="/about/#team" color="#0080f8" />
-              <Button label="Our Teachers" link="/about/#our-teachers" color="#0080f8" />
             </div>
         </div>
       </Panel>

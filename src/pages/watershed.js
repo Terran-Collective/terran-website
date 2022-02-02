@@ -26,9 +26,8 @@ const watershed = () => (
             title="A foundation for thriving bioregions"
           />
           <p>The tools we make and the experiments we perform are for the benefit of all. The Watershed is the primary container where we receive and steward resources in support of our efforts to bring about systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
-          <Button link="/watershed/#goals" label="2020 Resource Goals" />
-          <Button link="/watershed/#stewardship" label="How will resources be used?" />
-          <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" className="button" rel="noopener noreferrer">Support Us Financially</a>
+          <Button link="/watershed/#stewardship" label="How we channel resources" />
+          <a href="https://opencollective.com/terrancollective" className="button" rel="noopener noreferrer">Support Us Financially</a>
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -50,7 +49,7 @@ const watershed = () => (
         <p>Terran Watershed is a non-profit 501c3, fiscally sponsored by our friends and allies at <a href="https://www.empowermentworks.org/">Empowerment Works</a>. We are asking for contributions to our Watershed in the form of tax deductible donations.</p>
         <p>Our work in five comprehensive scopes of practice - storytelling, community, technology, mapping, and commoning - is in the form of a gift. Your donations to Terran Watershed will provide resources for our core team to thrive and do our life’s work, nourishing our ability to offer these gifts to the world.</p>
         <div className="centerText">
-          <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" target="_blank" rel="noopener noreferrer" className="button">Donate Now</a>
+          <a href="https://opencollective.com/terrancollective" target="_blank" rel="noopener noreferrer" className="button">Donate Now</a>
         </div>
       </div>
     </Panel>
@@ -151,19 +150,11 @@ const watershed = () => (
       <Panel justification="center">
         <img className="rubusSpectabilis leftImage" src={aesculusCalifornica} alt="Aesculus Californica" />
         <div className="resourceGoals singleColumnText">
-          <Headline
-            title="$500,000"
-            subtitle="Our 2020 resource goals"
-          />
-          <p>We practice full transparency in finances and invite you to take a look at a draft of our operating budget.</p>
-          <div className="centerText">
-            <a className="button" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1mR8-mcoVtm0OhIcpRs1e1jP305WNHSMG3K1Uh9Hi81I/">Our 2020 Budget Goals</a>
-          </div>
           <p>For the last three years we have contributed our extra time and energy, and have supported each other financially to work on this vision. We are committed to building a way of life that realizes the hopes in our hearts, and we see this as a lifetime project. Any resources we receive, any help we receive, will help us to accomplish our goals sooner, and be able to share our research, tools and systems with the world more rapidly</p>
           <p>We are doing this work for the people and the Earth, not to enrich ourselves or investors. We don’t expect traditional investment structures such as venture capital to understand the value of this work, so we are asking you, our community, to join with us in creating a better world. Please consider giving a monthly donation of time or money. We believe that the community patronage model could be an example of how we can fund the transformative work that is required at this time. We are also of course happy to accept larger one time donations  to give us a big rocket boost as we leap into this work whole-heartedly.</p>
           <p>We are asking you to trust us and join us in this radical experiment, to see if we can give ourselves over completely to be of service to our bioregion and the world. Now is the time for to put our energy and resources into radical experimentation and change. The world is calling for a transition from the extractive economy into the regenerative economy, so we can liberate our communities, ecosystems, and align with our true value systems. And stop us from destroying ourselves and the planet. Help us begin right now, right here, with us.</p>
           <div className="centerText">
-            <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" target="_blank" rel="noopener noreferrer" className="button">Become a Divestor</a>
+            <a href="https://opencollective.com/terrancollective" target="_blank" rel="noopener noreferrer" className="button">Become a Divestor</a>
           </div>
         </div>
         <img className="rubusSpectabilis rightImage" src={aesculusCalifornica} alt="Aesculus Californica" />
@@ -184,3 +175,12 @@ const watershed = () => (
 )
 
 export default watershed
+
+// <Headline
+//   title="$500,000"
+//   subtitle="Our 2022 resource goal"
+// />
+// <p>We practice full transparency in finances and invite you to take a look at a draft of our operating budget.</p>
+// <div className="centerText">
+//   <a className="button" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1mR8-mcoVtm0OhIcpRs1e1jP305WNHSMG3K1Uh9Hi81I/">Our 2020 Budget Goals</a>
+// </div>
