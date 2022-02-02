@@ -7,6 +7,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -53,14 +54,6 @@ module.exports = {
         pageTransitionDelay: 0,
         siteSpeedSampleRate: 10,
         cookieDomain: "example.com",
-      }
-    },
-    {
-      resolve: 'gatsby-source-google-sheets',
-      options: {
-        spreadsheetId: '1mruYms6WYpH5Du6TgnyGnHSbs5C9yfTazBsu185d0k8',
-        worksheetTitle: 'Teachers',
-        credentials: require('./google-credentials.json')
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

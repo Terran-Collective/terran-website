@@ -5,7 +5,11 @@ import logoWhite from "../images/logos/terran_collective_logo_white.svg"
 
 const Menu = ({ closeMenu }) => (
   <div className="menu">
-    <Link to="/"><img src={logoWhite} alt="Terran Collective" onClick={closeMenu}/></Link>
+    <Link to="/">
+      <div onClick={closeMenu} onKeyPress={(e) => e.key === "Enter" ? closeMenu : ''} role="button" tabIndex="0" aria-label="Close Menu">
+        <img src={logoWhite} alt="Terran Collective" />
+      </div>
+    </Link>
     <ul>
       <li>
         <h3>

@@ -75,7 +75,12 @@ const Header = ({ siteTitle }) => {
             <img src={menuToggleHamburger} alt="Open menu icon" className="openMenu" />
             <img src={menuToggleX} alt="Close menu icon"className="closeMenu" />
           </button>
-          <div className="menuBg" onClick={() => setOpen(false)}></div>
+          <div className="menuBg"
+            onClick={() => setOpen(false)}
+            onKeyPress={(e) => e.key === "Enter" ? setOpen(false) : ''}
+            role="button"
+            tabIndex={0}
+            aria-label="Close Menu"></div>
           <div className="menuContainer">
             <Menu closeMenu={() => setOpen(false)} />
           </div>

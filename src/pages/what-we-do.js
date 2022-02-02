@@ -1,16 +1,16 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import ReactTooltip from 'react-tooltip'
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Image from "../components/image"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link } from "gatsby"
 
 const WhatAreWeDoingPage = () => (
   <Layout>
-    <SEO title="What we do" />
+    <Seo title="What we do" />
 
     <div className="heroPanel whatWeDoHero">
       <Panel justification="center">
@@ -29,7 +29,10 @@ const WhatAreWeDoingPage = () => (
 
     <Panel justification="center" id="scopes-of-practice">
       <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/what_do/what_do_calypso_bulbosa2x.jpg" alt="Aquilegia formosa" />
+          <figcaption>Aquilegia formosa</figcaption>
+        </figure>
       </div>
       <div id="community-weaving" className="twoColumnsLeftText">
         <Headline
@@ -88,13 +91,19 @@ const WhatAreWeDoingPage = () => (
         </div>
       </div>
       <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia formosa" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/what_do/what_do_aquilegia_formosa2x.jpg" alt="Aquilegia formosa" />
+          <figcaption>Aquilegia formosa</figcaption>
+        </figure>
       </div>
     </Panel>
 
     <Panel justification="center" id="regenerating-the-commons">
       <div className="twoColumnsLeftImage">
-        <Image filename="what_do/what_do_meleagris_gallopavo2x.jpg" alt="Meleagris gallopavo" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/what_do/what_do_meleagris_gallopavo2x.jpg" alt="Meleagris gallopavo" />
+          <figcaption>Meleagris gallopavo</figcaption>
+        </figure>
       </div>
       <div className="twoColumnsRightText">
         <Headline
@@ -149,13 +158,19 @@ const WhatAreWeDoingPage = () => (
         </div>
       </div>
       <div className="twoColumnsRightImage">
-        <Image filename="what_do/what_do_calypte_anna2x.jpg" alt="Calypte anna" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/what_do/what_do_calypte_anna2x.jpg" alt="Calypte anna" />
+          <figcaption>Calypte anna</figcaption>
+        </figure>
       </div>
     </Panel>
 
     <Panel justification="center" id="storytelling" >
       <div className="twoColumnsLeftImage">
-        <Image filename="what_do/what_do_castor_canadensis.jpg" alt="Castor canadensis" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/what_do/what_do_castor_canadensis.jpg" alt="Castor canadensis" />
+          <figcaption>Castor canadensis</figcaption>
+        </figure>
       </div>
       <div className="twoColumnsRightText">
         <Headline
@@ -197,7 +212,10 @@ const WhatAreWeDoingPage = () => (
               title="Gathering resources, mapping the bioregion and building our network of collaborators"
               subtitle="WINTER 2020"
             />
-            <Image filename="what_do/what_do_adrea_alba.jpg" alt="Adrea alba" showCaption="true" />
+            <figure>
+              <StaticImage src="../images/what_do/what_do_adrea_alba.jpg" alt="Adrea alba" />
+              <figcaption>Adrea alba</figcaption>
+            </figure>
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -317,7 +335,10 @@ const WhatAreWeDoingPage = () => (
               title="Grow the team, conduct research, develop technology and nurture our community, implement collective membership agreements"
               subtitle="SPRING 2020"
             />
-            <Image filename="what_do/what_do_falco_sparverius.jpg" alt="Falco sparverius" showCaption="true" />
+            <figure>
+              <StaticImage src="../images/what_do/what_do_falco_sparverius.jpg" alt="Falco sparverius" />
+              <figcaption>Falco sparverius</figcaption>
+            </figure>
           </div>
         </div>
 
@@ -330,7 +351,10 @@ const WhatAreWeDoingPage = () => (
               title="Implement the first iteration of our collective ownership, governance and resource sharing systems, grow the ecosystem"
               subtitle="SUMMER 2020"
             />
-            <Image filename="what_do/what_do_lontra_canadensis.jpg" alt="Lontra canadensis" showCaption="true" />
+            <figure>
+              <StaticImage src="../images/what_do/what_do_lontra_canadensis.jpg" alt="Lontra canadensis" />
+              <figcaption>Lontra canadensis</figcaption>
+            </figure>
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -416,7 +440,10 @@ const WhatAreWeDoingPage = () => (
               title="Develop tools for bioregional meta-organizational collaboration via guilds and start looking for other bioregions to release our tools to"
               subtitle="FALL 2020"
             />
-            <Image filename="what_do/what_do_pelicanus_occidentalis.jpg" alt="Pelicanus occidentalis" showCaption="true" />
+            <figure>
+              <StaticImage src="../images/what_do/what_do_pelicanus_occidentalis.jpg" alt="Pelicanus occidentalis" />
+              <figcaption>Pelicanus occidentalis</figcaption>
+            </figure>
           </div>
         </div>
 
@@ -429,7 +456,10 @@ const WhatAreWeDoingPage = () => (
               title="Building tools that create commons, make tools that make it possible for anyone to create a collective, deepening community in the bay"
               subtitle="2021"
             />
-            <Image filename="what_do/what_do_pleurotus_ostreatus.jpg" alt="Pleurotus ostreatus" showCaption="true" />
+            <figure>
+              <StaticImage src="../images/what_do/what_do_pleurotus_ostreatus.jpg" alt="Pleurotus ostreatus" />
+              <figcaption>Pleurotus ostreatus</figcaption>
+            </figure>
           </div>
           <div className="twoColumnsTimelineRight">
             <div className="timelineItem">
@@ -514,7 +544,10 @@ const WhatAreWeDoingPage = () => (
               title="Find and secure land for collective stewardship and governance, nurture the commons we have created and release tools for local meta-communities"
               subtitle="2022"
             />
-            <Image filename="what_do/what_do_sciurus_griseus.jpg" alt="Sciurus griseus" showCaption="true" />
+            <figure>
+              <StaticImage src="../images/what_do/what_do_sciurus_griseus.jpg" alt="Sciurus griseus" />
+              <figcaption>Sciurus griseus</figcaption>
+            </figure>
           </div>
         </div>
 

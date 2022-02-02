@@ -1,11 +1,10 @@
-import { graphql } from 'gatsby'
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import missionDiagram from "../images/what_is/what_is_mission_diagram.svg"
 import visionDiagram from "../images/what_is/what_is_vision_diagram.svg"
 import whatIsScope1 from "../images/what_is/what_is_scope_12x.png"
@@ -19,7 +18,7 @@ import vacciniumOvatum from "../images/what_is/what_is_vaccinium_ovatum.jpg"
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <SEO title="What Is Terran - Who We Are" />
+    <Seo title="What Is Terran - Who We Are" />
     <div className="heroPanel whatIsTerranHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -39,7 +38,6 @@ const AboutPage = ({ data }) => (
               <Button label="Core Beliefs, Values &amp; Principles" link="/about/#core-beliefs" color="#0080f8" />
               <Button label="How We Relate" link="/about/#how-we-relate" color="#0080f8" />
               <Button label="Stewards of the Collective" link="/about/#team" color="#0080f8" />
-              <Button label="Our Teachers" link="/about/#our-teachers" color="#0080f8" />
             </div>
         </div>
       </Panel>
@@ -47,15 +45,18 @@ const AboutPage = ({ data }) => (
     </div>
     <Panel justification="center">
       <div className="twoColumnsLeftImage">
-        <Image filename="what_is/what_is_eschscholzia_californica.jpg" alt="Eschscholzia californica" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/what_is/what_is_eschscholzia_californica.jpg" alt="Eschscholzia californica" />
+          <figcaption>Eschscholzia californica</figcaption>
+        </figure>
       </div>
       <div id='vision' className="twoColumnsRightText">
         <Headline
           title="We learn from nature"
           subtitle="OVERVIEW"
           subtitleColor="#0080f8" />
-          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a>: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
-          <p style={{opacity: `.7`, lineHeight: `1.5`, color: `#171615`}}>We aim to help people coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis. The current economic systems have divided us from each other and the more-than-human community, systematically turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money. Our theory of change is that a regenerative civilization requires bringing trust back to our relationships, removing the corrosive power of the market from our personal lives, and embracing community as a way to be in solidarity and care for each other.</p>
+          <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a>: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
+          <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We aim to help people coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis. The current economic systems have divided us from each other and the more-than-human community, systematically turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money. Our theory of change is that a regenerative civilization requires bringing trust back to our relationships, removing the corrosive power of the market from our personal lives, and embracing community as a way to be in solidarity and care for each other.</p>
       </div>
     </Panel>
     <div className="threeColumns">
@@ -121,7 +122,10 @@ const AboutPage = ({ data }) => (
     </Panel>
     <Panel justification="center">
       <div style={{ maxWidth: `95%`, width: `600px`, margin: `0` }}>
-        <Image filename="what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus americanus californiensis" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/what_is/what_is_ursus_americanus_californiensis2x.jpg" alt="Ursus americanus californiensis" />
+          <figcaption>Ursus americanus californiensis</figcaption>
+        </figure>
       </div>
     </Panel>
     <Panel justification="center">
@@ -193,7 +197,7 @@ const AboutPage = ({ data }) => (
         <ul className="team_members">
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_kelly_erhart2x.png" alt="Kelly Erhart" />
+              <StaticImage src="../images/what_is/what_is_kelly_erhart2x.png" alt="Kelly Erhart" />
             </div>
             <div className="team_details">
               <h2>Kelly Erhart</h2>
@@ -203,7 +207,7 @@ const AboutPage = ({ data }) => (
           </li>
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_clare_politano2x.png" alt="Clare Politano" />
+              <StaticImage src="../images/what_is/what_is_clare_politano2x.png" alt="Clare Politano" />
             </div>
             <div className="team_details">
               <h2>Clare Politano</h2>
@@ -213,7 +217,7 @@ const AboutPage = ({ data }) => (
           </li>
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_tibet_sprague2x.png" alt="Tibet Sprague" />
+              <StaticImage src="../images/what_is/what_is_tibet_sprague2x.png" alt="Tibet Sprague" />
             </div>
             <div className="team_details">
               <h2>Tibet Sprague</h2>
@@ -223,7 +227,7 @@ const AboutPage = ({ data }) => (
           </li>
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_neha_sharma2x.png" alt="Neha Sharma" />
+              <StaticImage src="../images/what_is/what_is_neha_sharma2x.png" alt="Neha Sharma" />
             </div>
             <div className="team_details">
               <h2>Neha Sharma</h2>
@@ -233,7 +237,7 @@ const AboutPage = ({ data }) => (
           </li>
           <li>
             <div className="team_photo">
-              <Image filename="what_is/what_is_aaron_brodeur2x.png" alt="Aaron Brodeur" />
+              <StaticImage src="../images/what_is/what_is_aaron_brodeur2x.png" alt="Aaron Brodeur" />
             </div>
             <div className="team_details">
               <h2>Aaron Brodeur</h2>
@@ -243,40 +247,7 @@ const AboutPage = ({ data }) => (
           </li>
         </ul>
     </Panel>
-    <Panel justification="center">
-      <div id="our-teachers" className="ourTeachers resourceHeadline">
-        <Headline
-          title="Our Teachers"
-        />
-        <p>These are the authors, artists, scientists, organizers and leaders of all kinds whose work has in some way deeply informed our collective understanding of the world.</p>
-        <ul>
-          { data.allGoogleSheetTeachersRow.nodes.map((row) => (
-            <li>
-              <a href={row.url} target='_blank' rel="noopener noreferrer">
-              <h3>{row.name}</h3>
-              <span>{row.title}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </Panel>
-
-
   </Layout>
 )
-
-export const query = graphql`
-  query AboutPageQuery {
-    allGoogleSheetTeachersRow {
-      nodes {
-        id
-        name
-        title
-        url
-      }
-    }
-  }
-`
 
 export default AboutPage

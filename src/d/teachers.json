@@ -1,0 +1,204 @@
+{
+  "teachers": [
+    {
+      "Name": "Adrienne Maree Brown",
+      "Title": "Author, Activist, Artist",
+      "URL": "http://adriennemareebrown.net/"
+    },
+    {
+      "Name": "Bill Plotkin",
+      "Title": "Cultural Visionary, Wilderness Guide",
+      "URL": "https://animas.org/about-us/our-founder/"
+    },
+    {
+      "Name": "Bonnitta Roy",
+      "Title": "Author, Teacher",
+      "URL": "https://medium.com/@bonnittaroy"
+    },
+    {
+      "Name": "Buckminster Fuller",
+      "Title": "Philosopher, Inventor",
+      "URL": "https://en.wikipedia.org/wiki/Buckminster_Fuller"
+    },
+    {
+      "Name": "Casey Cripe",
+      "Title": "Artist",
+      "URL": "http://www.caseycripe.com/"
+    },
+    {
+      "Name": "Charles Eisenstein",
+      "Title": "Author",
+      "URL": "https://charleseisenstein.org/"
+    },
+    {
+      "Name": "Daniel Christian Wahl",
+      "Title": "Author, Biologist",
+      "URL": "https://medium.com/@designforsustainability"
+    },
+    {
+      "Name": "Daniel Kahneman",
+      "Title": "Professor, Author",
+      "URL": "https://en.wikipedia.org/wiki/Daniel_Kahneman"
+    },
+    {
+      "Name": "Daniel Quinn",
+      "Title": "Author, Cultural Critic",
+      "URL": "https://en.wikipedia.org/wiki/Daniel_Quinn"
+    },
+    {
+      "Name": "Daniel Schmachtenberger",
+      "Title": "Entrepreneur, Author, Speaker",
+      "URL": "https://civilizationemerging.com/about/"
+    },
+    {
+      "Name": "David Abram",
+      "Title": "Philosopher, Ecologist",
+      "URL": "https://en.wikipedia.org/wiki/David_Abram"
+    },
+    {
+      "Name": "Donella Meadows",
+      "Title": "Environmental Scientist, Teacher, Writer",
+      "URL": "http://donellameadows.org/"
+    },
+    {
+      "Name": "Douglas Hofstadter",
+      "Title": "Professor, Author",
+      "URL": "https://en.wikipedia.org/wiki/Douglas_Hofstadter"
+    },
+    {
+      "Name": "Douglas Rushkoff",
+      "Title": "Author, Teacher, Speaker",
+      "URL": "https://rushkoff.com/"
+    },
+    {
+      "Name": "Eda Zavala Lopez",
+      "Title": "Healer, Wisdom Keeper",
+      "URL": "http://www.edazavalalopez.com/"
+    },
+    {
+      "Name": "Elinor Ostrom",
+      "Title": "Political Scientist, Economist, Author",
+      "URL": "https://en.wikipedia.org/wiki/Elinor_Ostrom"
+    },
+    {
+      "Name": "EO Wilson",
+      "Title": "Biologist, Naturalist, Author",
+      "URL": "https://en.wikipedia.org/wiki/E._O._Wilson"
+    },
+    {
+      "Name": "Forrest Landry",
+      "Title": "Transcendental Designer, Author",
+      "URL": "http://ronininstitute.org/research-scholars/forrest-landry/"
+    },
+    {
+      "Name": "Fyodor Dostoevsky",
+      "Title": "Author",
+      "URL": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+    },
+    {
+      "Name": "Gary Snyder",
+      "Title": "Poet, Bioregionalist",
+      "URL": "https://en.wikipedia.org/wiki/Gary_Snyder"
+    },
+    {
+      "Name": "Hanzi Freinacht",
+      "Title": "Author",
+      "URL": "https://twitter.com/hfreinacht"
+    },
+    {
+      "Name": "Herman Hesse",
+      "Title": "Poet, Novelist, Painter",
+      "URL": "https://en.wikipedia.org/wiki/Hermann_Hesse"
+    },
+    {
+      "Name": "Hunter Lovins",
+      "Title": "Environmentalist, Author",
+      "URL": "https://en.wikipedia.org/wiki/Hunter_Lovins"
+    },
+    {
+      "Name": "Janine Benyus",
+      "Title": "Biologist, Author",
+      "URL": "https://biomimicry.org/janine-benyus/"
+    },
+    {
+      "Name": "Joanna Macy",
+      "Title": "Author, Teacher",
+      "URL": "https://www.joannamacy.net/"
+    },
+    {
+      "Name": "Joe Brewer",
+      "Title": "Author, Teacher",
+      "URL": "https://medium.com/@joe_brewer"
+    },
+    {
+      "Name": "Jonathon Miller Weisberger",
+      "Title": "Ethnobotanist, Healer, Author",
+      "URL": "https://rainforestmedicine.net/about-jonathon-miller-weisberger/"
+    },
+    {
+      "Name": "Jordan Hall",
+      "Title": "Entrepreneur, Author",
+      "URL": "https://medium.com/@jordangreenhall"
+    },
+    {
+      "Name": "Ken Wilber",
+      "Title": "Philosopher, Author",
+      "URL": "https://en.wikipedia.org/wiki/Ken_Wilber"
+    },
+    {
+      "Name": "Kim Stanley Robinson",
+      "Title": "Author",
+      "URL": "https://en.wikipedia.org/wiki/Kim_Stanley_Robinson"
+    },
+    {
+      "Name": "Lao Tzu",
+      "Title": "Philosopher",
+      "URL": "https://en.wikipedia.org/wiki/Laozi"
+    },
+    {
+      "Name": "Mark Henson",
+      "Title": "Artist",
+      "URL": "https://www.markhensonart.com/"
+    },
+    {
+      "Name": "Martin Prechtel",
+      "Title": "Author, Musician, Artist, Educator",
+      "URL": "https://www.martinprechtel.com/"
+    },
+    {
+      "Name": "Octavia Butler",
+      "Title": "Author",
+      "URL": "https://en.wikipedia.org/wiki/Octavia_E._Butler"
+    },
+    {
+      "Name": "Paul Stamets",
+      "Title": "Mycologist, Speaker",
+      "URL": "https://en.wikipedia.org/wiki/Paul_Stamets"
+    },
+    {
+      "Name": "Peter Berg",
+      "Title": "Writer, Bioregionalist",
+      "URL": "https://www.planetdrum.org/"
+    },
+    {
+      "Name": "Robin Wall Kimmerer",
+      "Title": "Wisdom Keeper, Ecologist, Writer",
+      "URL": "https://en.wikipedia.org/wiki/Robin_Wall_Kimmerer"
+    },
+    {
+      "Name": "Starhawk",
+      "Title": "Author, Teacher, Activist",
+      "URL": "https://en.wikipedia.org/wiki/Starhawk"
+    },
+    {
+      "Name": "Tom Robbins",
+      "Title": "Author, Novelist",
+      "URL": "https://en.wikipedia.org/wiki/Tom_Robbins"
+    },
+    {
+      "Name": "Ursula K. Le Guin",
+      "Title": "Author",
+      "URL": "https://en.wikipedia.org/wiki/Ursula_K._Le_Guin"
+    }
+  ]
+}
