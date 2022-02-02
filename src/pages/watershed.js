@@ -1,10 +1,9 @@
 import React from "react"
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Image from "../components/image"
 import Seo from "../components/seo"
 
 import watershedLogo from "../images/logos/terran_watershed_logo_2x.png"
@@ -37,7 +36,10 @@ const watershed = () => (
 
     <Panel justification="center">
       <div className="twoColumnsLeftImage">
-        <Image filename="watershed/watershed_seqouia_sempervirens.jpg" alt="Seqouia sempervirens" showCaption="true"/>
+        <figure>
+          <StaticImage src="../images/watershed/watershed_seqouia_sempervirens.jpg" alt="Seqouia sempervirens" />
+          <figcaption>Seqouia sempervirens</figcaption>
+        </figure>
       </div>
       <div className="twoColumnsRightText">
         <Headline
@@ -139,7 +141,10 @@ const watershed = () => (
         <p>Investment looks for returns for the investor, usually within a time-horizon that causes investors to think in very short terms. Our plan for economic and ecologic thriving is long-term: We are developing systems, tools and communities that work for the seven generations yet to come. When you divest into this collective, you are seeking returns for your grandchildren and the bioregional communities within which they will thrive.</p>
       </div>
       <div className="twoColumnsRightImage">
-        <Image filename="watershed/watershed_meleagris_gallopavo2x.jpg" alt="Meleagris Gallopavo" showCaption="true" />
+        <figure>
+          <StaticImage src="../images/watershed/watershed_meleagris_gallopavo2x.jpg" alt="Meleagris gallopavo" />
+          <figcaption>Meleagris gallopavo</figcaption>
+        </figure>
       </div>
     </Panel>
     <div id="goals" className="threeColumns">
@@ -167,7 +172,10 @@ const watershed = () => (
 
     <Panel>
       <div className="singleColumnImage">
-        <Image filename="watershed/watershed_sylvilagus_bachmani2x.jpg" alt="Sylvilagus bachmani" showCaption="true"/>
+        <figure>
+          <StaticImage src="../images/watershed/watershed_sylvilagus_bachmani2x.jpg" alt="Sylvilagus bachmani" />
+          <figcaption>Sylvilagus bachmani</figcaption>
+        </figure>
       </div>
     </Panel>
 
