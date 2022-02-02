@@ -175,12 +175,3 @@ const watershed = () => (
 )
 
 export default watershed
-
-// <Headline
-//   title="$500,000"
-//   subtitle="Our 2022 resource goal"
-// />
-// <p>We practice full transparency in finances and invite you to take a look at a draft of our operating budget.</p>
-// <div className="centerText">
-//   <a className="button" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1mR8-mcoVtm0OhIcpRs1e1jP305WNHSMG3K1Uh9Hi81I/">Our 2020 Budget Goals</a>
-// </div>
