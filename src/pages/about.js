@@ -231,7 +231,7 @@ const AboutPage = ({ data }) => (
             </div>
             <div className="team_details">
               <h2>Neha Sharma</h2>
-              <span><a href="neha@terran.io">neha@terran.io</a></span>
+              <span><a href="mailto:neha@terran.io">neha@terran.io</a></span>
             </div>
             <p>Neha is committed to tapping into collective insight and foresight in order to restore and regenerate our relationship with the planet. She does this through strategy work and impactful partnerships. Currently, she is focused on improving energy efficiency and intelligence in the built environment, exercising facilitation for group alignment, and bridge-building between disparate networks & nodes. She involves herself in many side projects and shticks to ensure that her soul is always activated. Inquiries of this season include: What will allow beings to cooperate harmoniously across scales? How do we ensure all voices and stakeholders are represented in conversations about building the future?</p>
           </li>
