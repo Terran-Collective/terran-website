@@ -16,12 +16,13 @@ const WhatAreWeDoingPage = () => (
       <Panel justification="center">
         <div className="pageHero">
           <Headline
-            title="We are building infrastructure for the future we wish to inhabit"
+            title="We build infrastructure for the future we wish to inhabit"
             subtitle="What we do"
           />
-          <p>Terran Collective's work is creating tools, systems, and practices that bring us closer together, build trust, and allow us to coordinate bioregional decision making and collective action effectively. All technology encodes the worldview of its authors. What happens if we create technology in service to the greatest good of all beings?  We want to create free and open-source software for everyone, to advance the transition to a regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
-          <Button link="/what-we-do/#scopes-of-practice" label="Scopes of Practice" />
-          <Button link="/what-we-do/#roadmap" label="Roadmap" />
+          <p>Terran Collective's work is creating tools, systems, and practices that bring us closer together, build trust, and allow us to coordinate to care for our world. All technology encodes the worldview of its creators. What happens if we create technology in service to life?  We want to create free and open-source software for everyone, to advance the transition to a regenerative economy. We are also experimenting with cooperative human practices of coordination like decentralized governance and gift economics.</p>
+          <Button link="/what-we-do/#scopes-of-practice" label="Scopes of practice" />
+          <Button link="/what-we-do/#work-with-us" label="Work with us" />
+          <Button link="/what-we-do/#roadmap" label="Our goals" />
         </div>
       </Panel>
       <div className="heroPanelBg"></div>
@@ -56,7 +57,7 @@ const WhatAreWeDoingPage = () => (
               </li>
             </ul>
           <h3>Current Inquiry</h3>
-          <p>How do we build bridges to the many diverse communities living in the Bay Area? How do we ensure that every voice has a seat at the table? How do we ensure that our work is informed by a diverse and inclusive group of people and ideas?</p>
+          <p>How do we build bridges between the many diverse communities living in the Bay Area? How do we ensure that a plurality of voices have a seat at the table?</p>
         </div>
       </div>
     </Panel>
@@ -87,7 +88,7 @@ const WhatAreWeDoingPage = () => (
               </li>
             </ul>
           <h3>Current Inquiry</h3>
-          <p>How can technology bring us closer together, into resilient, trust-based, land-based community? How can it  support individual and group thriving, instead of driving us apart, distracting us and extracting our attention?</p>
+          <p>How can technology bring us closer together--into resilient, trust-based, land-based community? How can it support individual and group thriving, instead of driving us apart, distracting us and extracting our attention?</p>
         </div>
       </div>
       <div className="twoColumnsRightImage">
@@ -196,11 +197,22 @@ const WhatAreWeDoingPage = () => (
     </Panel>
 
     <Panel justification="center">
+      <div id="work-with-us" className="workwithus">
+        <div className="centerText">
+            <Headline
+              title="Work with us"
+              subtitle="Terran Consulting"
+            />
+        </div>
+      </div>
+    </Panel>
+
+    <Panel justification="center">
       <div id="roadmap" className="roadmap">
         <div className="centerText">
           <Headline
-            title="How we want to grow"
-            subtitle="2020-2022"
+            title="Our goals for the future"
+            subtitle="2023-2024"
           />
         </div>
         <div className="timelineGroup">
