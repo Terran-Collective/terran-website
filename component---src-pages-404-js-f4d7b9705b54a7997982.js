@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkterran_collective_website=self.webpackChunkterran_collective_website||[]).push([[883],{429:function(e,t,l){l.r(t);var n=l(7294),o=l(5604),a=l(8183);t.default=()=>n.createElement(o.Z,null,n.createElement(a.Z,{title:"404: Not found"}),n.createElement("div",{style:{position:"relative",top:"86px",left:"27px",height:"225px"}},n.createElement("h1",null,"Page not found"),n.createElement("p",null,"You seem to be lost! Check out all the cool pages in the footer below")))}}]);
+//# sourceMappingURL=component---src-pages-404-js-f4d7b9705b54a7997982.js.map
