@@ -1,12 +1,8 @@
 import React from "react"
-
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
-
     <div style={{ position: "relative", top: "86px", left: "27px", height: "225px" }}>
       <h1>Page not found</h1>
       <p>You seem to be lost! Check out all the cool pages in the footer below</p>
@@ -15,3 +11,4 @@ const NotFoundPage = () => (
 )
 
 export default NotFoundPage
+export { Head } from "../components/page-head"

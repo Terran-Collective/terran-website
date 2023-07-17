@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Seo from "../components/seo"
 
 import watershedLogo from "../images/logos/terran_watershed_logo_2x.png"
 import resourceUse1 from "../images/watershed/watershed_resource_use_1.png"
@@ -14,10 +13,8 @@ import resourceUse4 from "../images/watershed/watershed_resource_use_4.png"
 import aesculusCalifornica from "../images/watershed/watershed_aesculus_californica.jpg"
 
 
-const watershed = () => (
+const WatershedPage = () => (
   <Layout>
-    <Seo title="Terran Watershed" />
-
     <div className="heroPanel watershedHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -174,4 +171,5 @@ const watershed = () => (
 
 )
 
-export default watershed
+export default WatershedPage
+export { Head } from "../components/page-head"

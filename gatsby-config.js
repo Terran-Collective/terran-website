@@ -6,7 +6,6 @@ module.exports = {
     ogImage: `http://terran.io/share_thumbnail.jpg`
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

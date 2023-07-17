@@ -3,13 +3,10 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
-import Seo from "../components/seo"
-import rubusSpectabilis from "../images/bioregion/bioregion_rubus_spectabilis.jpg"
+//import rubusSpectabilis from "../images/bioregion/bioregion_rubus_spectabilis.jpg"
 
-const bioregion = () => (
+const InheritanceDayPage = () => (
   <Layout>
-    <Seo title="Inheritance Day" />
-
     <div className="heroPanel bioregionHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -61,4 +58,5 @@ const bioregion = () => (
 
 )
 
-export default bioregion
+export default InheritanceDayPage
+export { Head } from "../components/page-head"

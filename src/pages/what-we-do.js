@@ -5,13 +5,10 @@ import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
 import { Link } from "gatsby"
 
 const WhatAreWeDoingPage = () => (
   <Layout>
-    <Seo title="What we do" />
-
     <div className="heroPanel whatWeDoHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -570,3 +567,4 @@ const WhatAreWeDoingPage = () => (
 )
 
 export default WhatAreWeDoingPage
+export { Head } from "../components/page-head"

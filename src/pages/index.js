@@ -5,14 +5,12 @@ import Panel from "../components/panel"
 import WatershedPanel from "../components/watershedPanel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Seo from "../components/seo"
 import collinsiaHeterophylla from "../images/home/home_collinsia_heterophylla.jpg"
 import ScrollAnimation from 'react-animate-on-scroll'
 import TextLoop from "react-text-loop";
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
     <div className="homeHeroPanel">
       <Panel>
         <div className="homeHero">
@@ -161,14 +159,4 @@ const IndexPage = () => (
 )
 
 export default IndexPage
-
-
-// <div style={{textAlign: `center`}}>
-//   <Button label="What is Terran?" link="/about/"/>
-//   <Button label="What are we doing?" link="/what-we-do/"/>
-//   <Button label="Participate" link="/watershed/"/>
-// </div>
-
-// <div className="centerText whatWeDoBtn">
-//   <Button label="More about what we do" link="/what-we-do/"/>
-// </div>
+export { Head } from "../components/page-head"

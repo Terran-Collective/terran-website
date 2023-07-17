@@ -4,7 +4,6 @@ import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Seo from "../components/seo"
 import missionDiagram from "../images/what_is/what_is_mission_diagram.svg"
 import visionDiagram from "../images/what_is/what_is_vision_diagram.svg"
 import whatIsScope1 from "../images/what_is/what_is_scope_12x.png"
@@ -18,7 +17,6 @@ import vacciniumOvatum from "../images/what_is/what_is_vaccinium_ovatum.jpg"
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <Seo title="What Is Terran - Who We Are" />
     <div className="heroPanel whatIsTerranHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -251,3 +249,4 @@ const AboutPage = ({ data }) => (
 )
 
 export default AboutPage
+export { Head } from "../components/page-head"

@@ -4,13 +4,10 @@ import Layout from "../components/layout"
 import Panel from "../components/panel"
 import WatershedPanel from "../components/watershedPanel"
 import Headline from "../components/headline"
-import Seo from "../components/seo"
 import rubusSpectabilis from "../images/bioregion/bioregion_rubus_spectabilis.jpg"
 
-const bioregion = () => (
+const BioregionPage = () => (
   <Layout>
-    <Seo title="Bioregion" />
-
     <div className="heroPanel bioregionHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -98,4 +95,5 @@ const bioregion = () => (
 
 )
 
-export default bioregion
+export default BioregionPage
+export { Head } from "../components/page-head"

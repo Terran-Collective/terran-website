@@ -4,13 +4,10 @@ import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Seo from "../components/seo"
 import JSONData from "../d/teachers.json"
 
 const ResourcesPage = ({ data }) => (
   <Layout>
-    <Seo title="Resource Library" />
-
     <div className="heroPanel resourcesHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -440,3 +437,4 @@ const ResourcesPage = ({ data }) => (
 )
 
 export default ResourcesPage
+export { Head } from "../components/page-head"

@@ -4,17 +4,13 @@ import Layout from "../components/layout"
 import Panel from "../components/panel"
 import Headline from "../components/headline"
 import Button from "../components/button"
-import Seo from "../components/seo"
-
 import aquilegiaFormosa from "../images/community/community_aquilegia_formosa.jpg"
 import hyImg from "../images/icon/icon_hylo.svg"
 import igImg from "../images/icon/icon_ig.svg"
 import emailImg from "../images/icon/icon_email.svg"
 
-const community = () => (
+const CommunityPage = () => (
   <Layout>
-    <Seo title="Community" />
-
     <div className="heroPanel communityHero">
       <Panel justification="center">
         <div className="pageHero">
@@ -407,8 +403,8 @@ const community = () => (
 
 )
 
-export default community
-
+export default CommunityPage
+export { Head } from "../components/page-head"
 
 //
 // <Panel justification="center">
