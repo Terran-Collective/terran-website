@@ -57,13 +57,20 @@ const IndexPage = () => (
                 <span>an experiment</span>
                 <span>a community of care</span>
                 <span>a community of practice</span>
-                <span>a commons engine</span>
+                <span>a commons</span>
               </TextLoop>
             </div>
           </h1>
           <p>Terran Collective is a community of friends working toward the vision of all beings thriving.</p>
-          <p>As a <strong>community of care</strong>, we practice mutual support and encourage each other on our paths of personal growth. As a <strong>community of practice</strong>, we collaborate to share our gifts with the world. As <strong>a commons</strong>, we collectively steward and share resources.</p>
-          <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design and remember how humans relate to each other and the planet, learning from the more-than-human world, listening to our ancestors, and applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a> - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
+          <p>As a <strong>community of care</strong>, we practice mutual support and encourage each other on our paths of personal growth. 
+          As a <strong>community of practice</strong>, we collaborate to share our gifts with the world. 
+          As <strong>a commons</strong>, we collectively steward and share resources.</p>
+          <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, 
+          and believe that there is abundance for all on this beautiful Spaceship Earth. 
+          To get there, we must re-design and remember how humans relate to each other and the planet, 
+          learning from the more-than-human world, listening to our ancestors, and applying the lessons of 
+          <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a> 
+          - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
           <div style={{textAlign: `center`}}>
             <Button label="About Terran" link="/about/"/>
           </div>
@@ -81,7 +88,7 @@ const IndexPage = () => (
 
               <li>
                 <strong>Community weaving</strong>
-                Strong communities are resilient amidst rapid change, and are able to regenerate the land, and step into solidarity, equity, and abundance together. Terran builds community by hosting regular gatherings, as well as weaving connections between aligned people and organizations. All to create deeper relationships based on trust.
+                Strong communities are resilient amidst rapid change. Terran builds community by hosting regular gatherings, as well as weaving connections between aligned people and organizations. All to create deeper relationships based on trust.
                 <div className="centerText"><Button link="/what-we-do/#community-weaving" label="How we weave community" /></div>
               </li>
               <li>
@@ -96,17 +103,17 @@ const IndexPage = () => (
               </li>
               <li>
                 <strong>Regenerating the commons</strong>
-                Our land, our resources, and our communities are a commons. Rebuilding this worldview and the competencies to collectively govern the commons is the core of our theory of change. Our work here includes designing, experimenting with, and participating in systems of decentralized governance.
+                Our land, our resources, and our communities are a commons. Nurturing this worldview, and the competencies to collectively govern the commons, is the core of our theory of change. We design, experiment with, and participate in decentralized governance with various ecosystems.
                 <div className="centerText"><Button link="/what-we-do/#regenerating-the-commons" label="Our approach to coordination" /></div>
               </li>
               <li>
                 <strong>Systems of solidarity</strong>
-                Our land, our resources, and our communities are a commons. Rebuilding this worldview and the competencies to collectively govern the commons is the core of our theory of change. Our work here includes designing, experimenting with, and participating in systems of decentralized governance, <a href="https://sacred-economics.com/" target="_blank" rel="noopener noreferrer">gift economics</a>.
+                We experiment with sharing resources, such as through our income-sharing prototype, Financial Solidarity. 
                 <div className="centerText"><Button link="/what-we-do/#systems-of-solidarity" label="Our practice of mutual support" /></div>
               </li>
               <li>
                 <strong>Storytelling for cultural evolution</strong>
-                How do we shift cultural narratives and share a new story in a way that resonates with diverse communities? We create inspiring media and events to nurture a movement around a new shared purpose for human civilization -- creating a world that works for all.
+                Stories have the power to shift cultural narratives. We create inspiring media and events to nurture a movement around a new shared purpose for human civilization -- creating a world that works for all.
                 <div className="centerText"><Button link="/what-we-do/#storytelling" label="How we build movements" /></div>
               </li>
             </ul>
