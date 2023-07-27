@@ -12,7 +12,7 @@ const ResourcesPage = ({ data }) => (
       <Panel justification="center">
         <div className="pageHero">
           <Headline
-            title="Books, sources of information and teachers that have helped shape our understanding of the world"
+            title="Books, sources, and teachers that have shaped our understanding of the world"
             subtitle="LIBRARY OF RESOURCES"
           />
           <Button link="/resources/#peers-and-allies" label="Peers &amp; Allies" />

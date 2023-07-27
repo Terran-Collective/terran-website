@@ -16,7 +16,7 @@ const Menu = ({ closeMenu }) => (
           <Link to="/about/" onClick={closeMenu}>About Terran Collective</Link>
         </h3>
         <ul>
-          <li><Link to="/about/#vision" onClick={closeMenu}>Vision &amp; mission</Link></li>
+          <li><Link to="/about/#vision" onClick={closeMenu}>Vision &amp; purpose</Link></li>
           <li><Link to="/about/#core-beliefs" onClick={closeMenu}>Core beliefs, values &amp; principles</Link></li>
           <li><Link to="/about/#how-we-relate" onClick={closeMenu}>How we relate</Link></li>
           <li><Link to="/about/#team" onClick={closeMenu}>Core stewardship team</Link></li>
@@ -48,9 +48,8 @@ const Menu = ({ closeMenu }) => (
           <Link to="/what-we-do/" onClick={closeMenu}>What we do</Link>
         </h3>
         <ul>
+          <li><Link to="/what-we-do/#work-with-us" onClick={closeMenu}>Work with us</Link></li>
           <li><Link to="/what-we-do/#scopes-of-practice" onClick={closeMenu}>Scopes of practice</Link></li>
-          <li><Link to="/what-we-do/#roadmap" onClick={closeMenu}>Roadmap</Link></li>
-          <li><Link to="/what-we-do/#how-we-work" onClick={closeMenu}>How we work (TODO)</Link></li>
         </ul>
       </li>
       <li>

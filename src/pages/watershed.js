@@ -22,7 +22,8 @@ const WatershedPage = () => (
           <Headline
             title="A foundation for thriving bioregions"
           />
-          <p>The tools we make and the experiments we perform are for the benefit of all. The Watershed is the primary container where we receive and steward resources in support of our efforts to bring about systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
+          <p>The tools we make and the experiments we conduct are for the benefit of all.<br/>
+          The Watershed is the container where we receive and steward resources in support of our efforts to nurture systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
           <Button link="/watershed/#stewardship" label="How we channel resources" />
           <a href="https://opencollective.com/terrancollective" className="button" rel="noopener noreferrer">Support Us Financially</a>
         </div>
@@ -41,10 +42,10 @@ const WatershedPage = () => (
         <Headline
           title="We need your help to fill the watershed"
         />
-        <p>We have structured our organization in a way that represents our values, creating diverse options for how we fill our wells, and allow supporters and partners to contribute resources to our mission. Currently, we manage Terran Collective LLC, a software development and consulting agency that works with aligned partners like DAOstack. Our agency is our primary source of income, which funds our pro bono work to care for our bioregion.</p>
+        <p>We have structured our organization in a way that represents our values, creating diverse options for how we fill our wells, and allow supporters and partners to contribute resources to our mission. Currently, we manage Terran Collective LLC, a software development and consulting agency that works with aligned partners and focuses on the development of Hylo. Our agency is our primary source of income, which funds our pro bono work to care for our bioregion.</p>
         <p>Moving forward, we want to offer more and more in the spirit of the gift. Thus, we are birthing Terran Watershed as the source of life that will allow us to more fully pursue our purpose and share our gifts with the world.</p>
         <p>Terran Watershed is a non-profit 501c3, fiscally sponsored by our friends and allies at <a href="https://www.empowermentworks.org/">Empowerment Works</a>. We are asking for contributions to our Watershed in the form of tax deductible donations.</p>
-        <p>Our work in five comprehensive scopes of practice - storytelling, community, technology, mapping, and commoning - is in the form of a gift. Your donations to Terran Watershed will provide resources for our core team to thrive and do our life’s work, nourishing our ability to offer these gifts to the world.</p>
+        <p>Our work in six scopes of practice - storytelling, community, technology, bioregions, commoning, and solidarity - is in the form of a gift. Your donations to Terran Watershed support our ability to offer those gifts to the world.</p>
         <div className="centerText">
           <a href="https://opencollective.com/terrancollective" target="_blank" rel="noopener noreferrer" className="button">Donate Now</a>
         </div>
@@ -63,8 +64,8 @@ const WatershedPage = () => (
             <div className="resourceUseText">
               <p>Achieving our goals will require major shifts in our cultural narratives, to evolve deep-rooted  beliefs of fear, scarcity and separation to agency, abundance and interdependence. Terran creates hopeful and inspiring content, memes, events, and more, in order to build a movement which aligns us around a new shared purpose for civilization - creating a world that works for all.</p>
               <div>
-                <h3>2020 Outcomes</h3>
-                <p>Publishing monthly articles on our work in the five scopes of practice</p>
+                <h3>2023 Outcomes</h3>
+                <p>Publishing monthly articles on our work in the six scopes of practice</p>
                 <p>Speaking at gatherings and conferences, and leading workshops</p>
                 <p>Sharing new narratives through Inheritance Day</p>
               </div>
@@ -76,10 +77,9 @@ const WatershedPage = () => (
             <div className="resourceUseText">
               <p>Through community, we can develop resilience amidst rapid change, heal and regenerate the land we live on, and step into solidarity, equity and abundance together. All our work is ultimately about building deeper, stronger, relationships based on trust.</p>
               <div>
-                <h3>2020 Outcomes</h3>
+                <h3>2023 Outcomes</h3>
                 <p>Coordinate 1 Action Day per quarter in 2020 that results in 5+ high quality connections per participant</p>
                 <p>Convene 1 community gathering per month to deepen existing relationships.</p>
-                <p>Host our annual events: Terran Camp and Terran Cospiracy</p>
               </div>
             </div>
           </li>
@@ -89,11 +89,9 @@ const WatershedPage = () => (
             <div className="resourceUseText">
               <p>We envision technology that will foster new commons, strengthen communities and nurture healthy individuals. Our tools are built from the ground up to operate as public utilities and protocols, for the use of all in perpetuity, where governance, maintenance costs, and abundance generated are distributed among the community.</p>
               <div>
-                <h3>2020 Outcomes</h3>
-                <p>Conduct user interviews with 10 communities, and create MOUs with each to build a tool they will use</p>
+                <h3>2023 Outcomes</h3>
                 <p>Develop & release technological roadmap in partnership with allied bioregional communities</p>
                 <p>Build and release our core platform for collaboration and prototype a relationship graph</p>
-                <p>Welcome 10 communities onto our platform and work together to test the tools</p>
               </div>
             </div>
           </li>
@@ -103,7 +101,7 @@ const WatershedPage = () => (
             <div className="resourceUseText">
               <p>In order to transition from an extractive system to a closed-loop, regenerative system, we must map resource flows and share the findings transparently. During 2020, we will map the ecosystem of regenerative projects in the San Francisco Bay Area. Our research examines the hidden landscape of the human and natural world, and how we can build networks so that resources, energy and knowledge flow freely outside of the market.</p>
               <div>
-                <h3>2020 Outcomes</h3>
+                <h3>2023 Outcomes</h3>
                 <p>Interview 5-10 organizations in the bioregion to understand their context, needs, and offerings, and how we can best collaborate</p>
                 <p>Map resource flows of the Bay Area regenerative community, prioritizing interoperability with existing mapping efforts</p>
               </div>
@@ -115,7 +113,7 @@ const WatershedPage = () => (
             <div className="resourceUseText">
               <p>With new maps, technology, and a culture that has learned how to rely on community and relationships, a new cooperative landscape opens up. Stewarding this rebirthed commons will only be possible with evolved systems for collective ownership, decision-making and governance. We seek to build models that allow for communities to steward commons in ways that are more efficient and more empowering than current corporate, non-profit or governmental platforms.</p>
               <div>
-                <h3>2020 Outcomes</h3>
+                <h3>2023 Outcomes</h3>
                 <p>Nurture development of 3 initial bioregional guilds & identify tools needed to help them</p>
                 <p>Experiment in collective governance and financial solidarity within Terran</p>
               </div>

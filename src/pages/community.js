@@ -15,10 +15,11 @@ const CommunityPage = () => (
       <Panel justification="center">
         <div className="pageHero">
           <Headline
-            title="Collaboration and coordination work better in community"
-            subtitle="WHY DO WE FOCUS ON COMMUNITY?"
+            title="Coordination works better in the context of healthy relationships"
+            subtitle="OUR FOCUS ON COMMUNITY"
           />
-          <p>Community is at the heart of what we are building. In order to bring about new systems for cooperation and coordination, we need new ways of being in relationship. We see community and relationships as the place to experiment with these new ways of being.</p>
+          <p>Community is at the heart of our work. In order to bring about new systems, we need new ways of being in relationship. 
+            We see community as the place to experiment with these new ways of being.</p>
           <p>You are invited to join our community, to participate in our gatherings and to collaborate in realizing a vision of a better world.</p>
           <Button link="/community/#join" label="Join Our Community" />
           <Button link="/community/#gatherings" label="Gather With Us"/>
@@ -39,7 +40,7 @@ const CommunityPage = () => (
         <Headline
           title="Join the conversation"
         />
-        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank" rel="noopener noreferrer">join us on Hylo</a> and say hello. Join our email list for monthly updates.</p>
+        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank" rel="noopener noreferrer">join us on Hylo</a> and say hello. Join our email list for seasonal updates.</p>
         <div className="centerText communityLinks">
           <a href="https://www.hylo.com/groups/terran-collective/join/a4bn6oVK3X" target="_blank" rel="noopener noreferrer">
             <img src={hyImg} alt="Hylo" />
@@ -63,12 +64,12 @@ const CommunityPage = () => (
             <div>
               <p>We meet monthly in person in the Bay Area. The components of our gatherings are:</p>
               <ul>
-                <li>Time to gather around a theme</li>
-                <li>Time to share needs &amp; offers</li>
-                <li>Time to share food and connect</li>
+                <li>Gathering around a theme</li>
+                <li>Sharing needs, offers, and updates</li>
+                <li>Sharing food and connection</li>
               </ul>
-              <p>Our gatherings are open to all. We ask you to come with an open heart and sharp mind.</p>
-              <p>If you are working towards a more beautiful world, we invite you to join us. We have prepared a seat for you at our table.</p>
+              <p>Our gatherings are open to all. If you are working towards a more beautiful world, we invite you to join us. 
+                We have prepared a seat for you at our table.</p>
             </div>
           </li>
           <li>
@@ -80,7 +81,7 @@ const CommunityPage = () => (
                 <li>Break out into groups to focus on emergent opportunities and areas of interest.</li>
                 <li>Discuss a topic or theme</li>
               </ul>
-              <p>All are invited, structure will change according to how many people attend.</p>
+              <p>All are invited; structure is dynamic according to how many people attend.</p>
             </div>
           </li>
         </ul>
@@ -172,14 +173,6 @@ const CommunityPage = () => (
           </li>
           <li>
             <div>
-              <a href="https://civana.org/">
-                <h3>Civana</h3>
-                <span>A global community committed to working together on humanity's greatest challenges.</span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div>
               <a href="https://info.comakery.com/">
                 <h3>Comakery</h3>
                 <span>We envision a future of distributed individuals pooling their talents to accelerate development of digital projects, while being fairly paid for their efforts. This is the foundation CoMakery is built from.</span>
@@ -213,7 +206,7 @@ const CommunityPage = () => (
           <li>
             <div>
               <a href="https://www.lifteconomy.com/">
-                <h3>LIFT economy</h3>
+                <h3>LIFT Economy</h3>
                 <span>LIFT Economy is an impact consulting firm, worker-owned cooperative, and Certified B Corporation.</span>
               </a>
             </div>

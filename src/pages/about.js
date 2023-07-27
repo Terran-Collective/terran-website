@@ -32,7 +32,7 @@ const AboutPage = ({ data }) => (
               width: `100%`,
             }}>We are a small band of humans based in the Bay Area navigating towards a way of life in balance with all people and all of nature. Our collective work is to design and practice this way of life as a necessary step to bring about <a href="https://charleseisenstein.org/books/the-more-beautiful-world-our-hearts-know-is-possible/" target="_blank" rel="noopener noreferrer">the more beautiful world our hearts know is possible.</a></p>
             <div style={{textAlign: `center`}}>
-              <Button label="Vision &amp; Mission" link="/about/#vision" color="#0080f8" />
+              <Button label="Vision &amp; Purpose" link="/about/#vision" color="#0080f8" />
               <Button label="Core Beliefs, Values &amp; Principles" link="/about/#core-beliefs" color="#0080f8" />
               <Button label="How We Relate" link="/about/#how-we-relate" color="#0080f8" />
               <Button label="Stewards of the Collective" link="/about/#team" color="#0080f8" />
@@ -51,10 +51,10 @@ const AboutPage = ({ data }) => (
       <div id='vision' className="twoColumnsRightText">
         <Headline
           title="We learn from nature"
-          subtitle="OVERVIEW"
+          subtitle="Our Approach"
           subtitleColor="#0080f8" />
           <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a>: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
-          <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We aim to help people coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis. The current economic systems have divided us from each other and the more-than-human community, systematically turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money. Our theory of change is that a regenerative civilization requires bringing trust back to our relationships, removing the corrosive power of the market from our personal lives, and embracing community as a way to be in solidarity and care for each other.</p>
+          <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We aim to help humans coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis. The current economic systems have divided us from each other and the more-than-human community, systematically turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money. Our theory of change is that a regenerative civilization requires bringing trust back to our relationships, removing the corrosive power of the market from our personal lives, and embracing community as a way to be in solidarity and care for each other.</p>
       </div>
     </Panel>
     <div className="threeColumns">
@@ -63,13 +63,13 @@ const AboutPage = ({ data }) => (
         <div className="threeColumnsCenterText">
           <Headline
             title="All Beings Thriving"
-            subtitle="WORKING TOWARDS"
+            subtitle="Our Vision"
             subtitleColor="#0080f8"
             justification="center"
             size="jumbo" />
-          <p>Humanity is on the brink of disaster. If we continue along our current path of extracting resources from the planet to feed infinite economic growth, we will destroy the ecosystems that support life on earth and most of humanity will perish. To avoid this total collapse we must unify around a shared purpose: Recognizing our interdependence with the web of life and creating a world that works for all. This vision can be articulated in many ways: the Great Turning, the More Beautiful World our Hearts Know is Possible, Game B, Omni-Win, All Win… <strong>All Beings Thriving</strong> is the articulation we like best right now.</p>
-          <p><strong>Why thriving?</strong> Our vision is of a world in which all beings have what they need to thrive. Not a world free of suffering or lack or death, but a world where each of us has the opportunity to live our best lives, where the abundant resources of this planet are used regeneratively and shared equitably, where every community has the tools for resilience that enable people to bounce back from hardship, and a world where the purpose of human society is to create the most health and wellbeing possible for every person, plant, animal and being on this planet.</p>
-          <p>We use the phrase <strong>all beings</strong> because we believe achieving this goal requires a shift towards interdependence and away from the anthropocentric view of the current era of civilization. This view that sees humans as separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot and collapse and potentially the end of human life. It is time for us to once again see our place as a part of the whole web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with.</p>
+          <p>Collapse is already here. If we continue along our current path of extracting resources from the planet to feed infinite economic growth, we will destroy the ecosystems that support life on Earth. To avoid crossing this boundary, we must unify around a shared purpose: Recognizing our interdependence with the web of life and creating a world that works for all.</p>
+          <p><strong>Why thriving?</strong> Our vision is of a world in which all beings have what they need to thrive--where each of us has the opportunity to live our best lives, where the abundant resources of this planet are distributed equitably, where every community has the tools for resilience, and where the purpose of human society is to cultivate wellbeing for every human, plant, animal, and being on this planet.</p>
+          <p>We use the phrase <strong>all beings</strong> because we believe achieving this goal requires a shift towards interdependence and away from the anthropocentrism. The view that humans are separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot. It is time for us to once again remember our place as a part of the web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with.</p>
         </div>
         <img className="rightImage" src={vacciniumOvatum} alt="Vaccinium ovatum"/>
       </Panel>
@@ -79,7 +79,6 @@ const AboutPage = ({ data }) => (
           <Headline
             title="Our Core Beliefs"
             justification="center" />
-          <p className="about">We are a small group of people, and our core beliefs will change as we grow and include new perspectives. Some of our foundational beliefs are:</p>
         </div>
         <ul className="triad">
           <li>
@@ -87,7 +86,7 @@ const AboutPage = ({ data }) => (
               <img src={whatIsCore1} alt="Sequoia sempervirens" />
             </div>
             <h2>We are interdependent.</h2>
-            <p>We are all interconnected. Everything we do impacts the people, animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions, health and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know.</p>
+            <p>We are all interconnected. Everything we do impacts humans, other animals, plants, and the whole ecosystem around us, and likewise we are affected by the actions and wellbeing of every part of the planetary whole, in infinite ways we can and cannot know.</p>
           </li>
           <li>
             <div>
