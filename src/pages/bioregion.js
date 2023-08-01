@@ -13,10 +13,10 @@ const BioregionPage = () => (
         <div className="pageHero">
           <Headline
             title="Bioregions are the emergent membranes expressed by nature"
-            subtitle="Why focus on a bioregion?"
+            subtitle="Place-based organizing"
           />
-          <p>We embrace the frame of the bioregion: that we are inhabitants of a more-than-human community in partnership with the landscape we live on. 
-            We are inspired by the indigenous communities who identify themselves by their local mountain, the nearest river, and the animals and plants they count as kin. 
+          <p>We are inhabitants of a more-than-human community in partnership with the landscape we live on: our bioregion.</p> 
+          <p>We are inspired by the indigenous communities who identify themselves by their local mountain, the nearest river, and the animals and plants they count as kin. 
             We bow in gratitude to the visionaries of the modern bioregionalism movement, including Peter Berg and Gary Snyder. 
             Remembering the bioregion reminds us that we do this work with all our relations.</p>
         </div>
