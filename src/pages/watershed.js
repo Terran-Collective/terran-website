@@ -24,8 +24,8 @@ const WatershedPage = () => (
           />
           <p>The tools we make and the experiments we conduct are for the benefit of all.<br/>
           The Watershed is the container where we receive and steward resources in support of our efforts to nurture systems, tools, and infrastructure for the more beautiful world our hearts know is possible.</p>
+          <a href="https://opencollective.com/terrancollective" className="button" rel="noopener noreferrer">Support our work</a>
           <Button link="/watershed/#stewardship" label="How we channel resources" />
-          <a href="https://opencollective.com/terrancollective" className="button" rel="noopener noreferrer">Support Us Financially</a>
         </div>
       </Panel>
       <div className="heroPanelBg"></div>

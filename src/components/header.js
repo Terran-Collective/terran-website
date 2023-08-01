@@ -49,28 +49,22 @@ const Header = ({ siteTitle }) => {
             </li>
             <li>
               <h3>
-                <Link to="/watershed/">Terran Watershed</Link>
+                <Link to="/what-we-do/">Projects</Link>
               </h3>
             </li>
             <li>
               <h3>
-                <Link to="/what-we-do/">What We Do</Link>
+                <Link to="/bioregion/">Bioregion</Link>
               </h3>
             </li>
             <li>
               <h3>
-                <Link to="/bioregion/">The Bioregion</Link>
-              </h3>
-            </li>
-            <li>
-              <h3>
-                <Link to="/resources/">Resources</Link>
+                <a href="https://medium.com/terran-collective" className="headerContribute" target="_blank" rel="noopener noreferrer">Writing</a>
               </h3>
             </li>
           </ul>
         </div>
         <div className={classnames({ "menuWrapper" : true, "open" : isOpen })}>
-          <a href="https://www.flipcause.com/secure/cause_pdetails/NzAxODE=" className="headerContribute" target="_blank" rel="noopener noreferrer">Contribute</a>
           <button className="menuToggle" onClick={() => setOpen(!isOpen)}>
             <img src={menuToggleHamburger} alt="Open menu icon" className="openMenu" />
             <img src={menuToggleX} alt="Close menu icon"className="closeMenu" />

@@ -13,9 +13,9 @@ const WhatAreWeDoingPage = () => (
         <div className="pageHero">
           <Headline
             title="We build infrastructure for the future we wish to inhabit"
-            subtitle="What we do"
+            subtitle="Our Work"
           />
-          <p>Terran Collective's work is creating tools, systems, and practices that bring us closer together, 
+          <p>We collaborate with purpose-driven communities to create tools and systems that bring us closer together, 
             build trust, and allow us to coordinate to care for our world.</p>
           <p>All technology encodes the worldview of its creators.<br/> 
             What happens if we create technology in service to life?</p>

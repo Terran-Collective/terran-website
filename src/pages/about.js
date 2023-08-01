@@ -21,8 +21,8 @@ const AboutPage = ({ data }) => (
       <Panel justification="center">
         <div className="pageHero">
           <Headline
-            title="We are a collective of people with a common vision of a world in balance"
-            subtitle="WHAT IS TERRAN?"
+            title="We are a collective with a common vision of a world in balance"
+            subtitle="Terran Collective"
             subtitleColor="#0080f8"
             justification="center" />
             <p style={{
@@ -30,7 +30,7 @@ const AboutPage = ({ data }) => (
               lineHeight: `40px`,
               margin: `30px 0`,
               width: `100%`,
-            }}>We are a small band of humans based in the Bay Area navigating towards a way of life in balance with all people and all of nature. Our collective work is to design and practice this way of life as a necessary step to bring about <a href="https://charleseisenstein.org/books/the-more-beautiful-world-our-hearts-know-is-possible/" target="_blank" rel="noopener noreferrer">the more beautiful world our hearts know is possible.</a></p>
+            }}>We are a small band of humans based in the California Bay Area navigating towards a way of life in service to life. We are committed to living our values and agreements in order to to bring about <a href="https://charleseisenstein.org/books/the-more-beautiful-world-our-hearts-know-is-possible/" target="_blank" rel="noopener noreferrer">the more beautiful world our hearts know is possible.</a></p>
             <div style={{textAlign: `center`}}>
               <Button label="Vision &amp; Purpose" link="/about/#vision" color="#0080f8" />
               <Button label="Core Beliefs, Values &amp; Principles" link="/about/#core-beliefs" color="#0080f8" />
@@ -53,8 +53,9 @@ const AboutPage = ({ data }) => (
           title="We learn from nature"
           subtitle="Our Approach"
           subtitleColor="#0080f8" />
-          <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We learn from nature. We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a>: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
-          <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We aim to help humans coordinate effectively outside of the current market/state system that is extractive, corrupt and leading our civilization to existential crisis. The current economic systems have divided us from each other and the more-than-human community, systematically turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money. Our theory of change is that a regenerative civilization requires bringing trust back to our relationships, removing the corrosive power of the market from our personal lives, and embracing community as a way to be in solidarity and care for each other.</p>
+          <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We embrace our interdependence with the web of life, and believe that there is abundance for all on this beautiful planet. To get there, we must re-design how humans relate to each other and the planet, applying the lessons of <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a>: adaptation, decentralization, fractal awareness, resilience, and iterative change to our work.</p>
+          <p style={{opacity: `.75`, lineHeight: `1.5`, color: `#171615`}}>We aim to help humans coordinate effectively outside of the current market/state system that is leading our civilization to existential crisis. These systems have divided us from each other and our more-than-human kin, turning the ways we care for each other into transactions, commodifying nature, and decimating our ability to coordinate without the coercive power of money.</p>
+          <p>Our theory of change is that birthing a regenerative civilization requires bringing trust back to our relationships, removing the corrosive power of the market from our personal lives, and embracing community as a way to be in solidarity and care for each other.</p>
       </div>
     </Panel>
     <div className="threeColumns">
@@ -69,7 +70,7 @@ const AboutPage = ({ data }) => (
             size="jumbo" />
           <p>Collapse is already here. If we continue along our current path of extracting resources from the planet to feed infinite economic growth, we will destroy the ecosystems that support life on Earth. To avoid crossing this boundary, we must unify around a shared purpose: Recognizing our interdependence with the web of life and creating a world that works for all.</p>
           <p><strong>Why thriving?</strong> Our vision is of a world in which all beings have what they need to thrive--where each of us has the opportunity to live our best lives, where the abundant resources of this planet are distributed equitably, where every community has the tools for resilience, and where the purpose of human society is to cultivate wellbeing for every human, plant, animal, and being on this planet.</p>
-          <p>We use the phrase <strong>all beings</strong> because we believe achieving this goal requires a shift towards interdependence and away from the anthropocentrism. The view that humans are separate from nature has allowed us to create extractive and life-destroying systems leading to ecological overshoot. It is time for us to once again remember our place as a part of the web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with.</p>
+          <p>We use the phrase <strong>all beings</strong> because we believe achieving this goal requires a shift towards interdependence and away from anthropocentrism. The view that humans are separate from nature is what has led to the extractive systems and ecological overshoot. It is time for us to once again remember our place as a part of the web of life, and to become responsible stewards of the land we inhabit. Thus we must offer our care to every being we are in relationship with - all beings.</p>
         </div>
         <img className="rightImage" src={vacciniumOvatum} alt="Vaccinium ovatum"/>
       </Panel>

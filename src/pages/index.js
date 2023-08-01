@@ -67,10 +67,8 @@ const IndexPage = () => (
           As <strong>a commons</strong>, we collectively steward and share resources.</p>
           <p>Terran is <strong>a living system</strong>. We embrace our interdependence with the web of life, 
           and believe that there is abundance for all on this beautiful Spaceship Earth. 
-          To get there, we must re-design and remember how humans relate to each other and the planet, 
-          learning from the more-than-human world, listening to our ancestors, and applying the lessons of 
-          <a href="https://www.akpress.org/emergentstrategy.html" target="_blank" rel="noopener noreferrer">emergent strategy</a> 
-          - adaptation, decentralization, fractal awareness, resilience, and iterative change - to our work.</p>
+          To get there, we must re-design and remember how humans can live in reciprocity with each other and the planet: 
+          learning from the more-than-human world, listening to our ancestors, and rediscovering a culture of stewardship in which all can participate in caring for our world.</p>
           <div style={{textAlign: `center`}}>
             <Button label="About Terran" link="/about/"/>
           </div>
@@ -81,7 +79,7 @@ const IndexPage = () => (
           <img className="collinsiaHeterophylla leftImage" src={collinsiaHeterophylla} alt="Collinsia heterophylla" />
           <div className="threeColumnsCenterText">
             <Headline
-              title="We build systems and tools to foster trust and collaboration"
+              title="Our scopes of practice"
               subtitle="What We Do"
               justification="center" />
             <ul className="cardList">

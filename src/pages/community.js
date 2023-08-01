@@ -109,30 +109,6 @@ const CommunityPage = () => (
         <ul className="smallWhiteCards">
           <li>
             <div>
-              <a href="https://www.norcalresilience.org/">
-                <h3>NorCal Resilience Network</h3>
-                <span>The mission of the NorCal Resilience Network is to catalyze a Just Transition to an equitable and regenerative region by supporting and activating community-based and ecological solutions in Northern California.</span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a href="https://www.permacultureaction.org/">
-                <h3>Permaculture Action Network</h3>
-                <span>Permaculture Action Network is an organization that mobilizes concert-goers and festival-attendees to come out to "Permaculture Action Days," one day events where participants take direct action to build permaculture systems in the cities where they live.</span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a href="https://www.upisf.com/">
-                <h3>Urban Permaculture Institute</h3>
-                <span>Helping make permaculture design relevant and accessible to people living in cities for individual and community resilience.</span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div>
               <a href="http://www.bfi.org">
                 <h3>BFI</h3>
                 <span>The Buckminster Fuller Institute (BFI) is dedicated to catalyzing transformative solutions to complex global problems through design thinking education.</span>
@@ -152,6 +128,22 @@ const CommunityPage = () => (
               <a href="https://blackmountaincircle.org/">
                 <h3>Black Mountain Circle</h3>
                 <span>Black Mountain Circle cultivates resilience, community, and earth stewardship in perilous times. Through inspiring events and insightful conversations, we reclaim our personal and collective stories about nature and spirit.</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://www.burnerswithoutborders.org/mission">
+                <h3>Burners Without Borders</h3>
+                <span>Burners Without Borders (BWB) is a grassroots, volunteer-driven, community leadership organization whose goal is to unlock the creativity of local communities to solve problems that bring about meaningful change.</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://centerelt.org/">
+                <h3>Center for Ethical Land Transition</h3>
+                <span>A non-profit organization committed to deepening our relationship to land. Drawing on the experiences of working in conventional real estate, land justice, and living and working in community, our team explores ways to decommodify, rematriate, and increase accessibility to land for BIPOC communities.</span>
               </a>
             </div>
           </li>
@@ -181,14 +173,6 @@ const CommunityPage = () => (
           </li>
           <li>
             <div>
-              <a href="https://www.burnerswithoutborders.org/mission">
-                <h3>Burners Without Borders</h3>
-                <span>Burners Without Borders (BWB) is a grassroots, volunteer-driven, community leadership organization whose goal is to unlock the creativity of local communities to solve problems that bring about meaningful change.</span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div>
               <a href="https://www.gilltractfarm.org/">
                 <h3>Gill Tract Farm</h3>
                 <span>Collaborative community-driven research, education, and extension focused on ecological farming and food justice. UC Gill Tract Community Farm.</span>
@@ -213,9 +197,25 @@ const CommunityPage = () => (
           </li>
           <li>
             <div>
+              <a href="https://www.norcalresilience.org/">
+                <h3>NorCal Resilience Network</h3>
+                <span>The mission of the NorCal Resilience Network is to catalyze a Just Transition to an equitable and regenerative region by supporting and activating community-based and ecological solutions in Northern California.</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
               <a href="https://www.pachamama.org/">
                 <h3>Pachamama Alliance</h3>
                 <span>The Pachamama Alliance is a not-for-profit organization that was born out of a relationship between a group of people from the modern world and the leaders of remote indigenous groups in the Amazon region of Ecuador.</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://www.permacultureaction.org/">
+                <h3>Permaculture Action Network</h3>
+                <span>Permaculture Action Network is an organization that mobilizes concert-goers and festival-attendees to come out to "Permaculture Action Days," one day events where participants take direct action to build permaculture systems in the cities where they live.</span>
               </a>
             </div>
           </li>
@@ -264,6 +264,14 @@ const CommunityPage = () => (
               <a href="https://uptimabootcamp.com/">
                 <h3>Uptima Business Bootcamp</h3>
                 <span>Uptima Business Bootcamp is an innovative member-owned business accelerator dedicated to providing entrepreneurs with greater access to hands-on education, resources and community to create thriving businesses.</span>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="https://www.upisf.com/">
+                <h3>Urban Permaculture Institute</h3>
+                <span>Helping make permaculture design relevant and accessible to people living in cities for individual and community resilience.</span>
               </a>
             </div>
           </li>

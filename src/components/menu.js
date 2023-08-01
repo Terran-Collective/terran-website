@@ -39,7 +39,7 @@ const Menu = ({ closeMenu }) => (
         </h3>
         <ul>
           <li><Link to="/watershed/#goals" onClick={closeMenu}>Fundraising goals</Link></li>
-          <li><Link to="/watershed/#stewardship" onClick={closeMenu}>How will resources be stewarded?</Link></li>
+          <li><Link to="/watershed/#stewardship" onClick={closeMenu}>How we steward resources</Link></li>
           <li><Link to="/watershed/#donate" onClick={closeMenu}>Support the Collective</Link></li>
         </ul>
       </li>
