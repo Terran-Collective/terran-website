@@ -20,7 +20,6 @@ const Menu = ({ closeMenu }) => (
           <li><Link to="/about/#core-beliefs" onClick={closeMenu}>Core beliefs, values &amp; principles</Link></li>
           <li><Link to="/about/#how-we-relate" onClick={closeMenu}>How we relate</Link></li>
           <li><Link to="/about/#team" onClick={closeMenu}>Core stewardship team</Link></li>
-          <li><Link to="/about/#our-teachers" onClick={closeMenu}>Our teachers</Link></li>
         </ul>
       </li>
       <li>
