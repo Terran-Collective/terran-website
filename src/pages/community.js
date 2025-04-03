@@ -43,7 +43,7 @@ const community = () => (
         <Headline
           title="Join the conversation"
         />
-        <p>If you’d like to chat with us, please <a href="https://www.facebook.com/TerranCollective/" target="_blank" rel="noopener noreferrer">join us on Hylo</a> and say hello. Join our email list for monthly updates.</p>
+        <p>If you’d like to chat with us, please <a href="https://www.hylo.com/groups/terran-collective/join/a4bn6oVK3X" target="_blank" rel="noopener noreferrer">join us on Hylo</a> and say hello. Join our email list for monthly updates.</p>
         <div className="centerText communityLinks">
           <a href="https://www.hylo.com/groups/terran-collective/join/a4bn6oVK3X" target="_blank" rel="noopener noreferrer">
             <img src={hyImg} alt="Hylo" />
